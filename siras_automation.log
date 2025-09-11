@@ -1,0 +1,2292 @@
+2025-09-11 16:03:44,874 - INFO - ====== WebDriver manager ======
+2025-09-11 16:03:47,097 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-11 16:03:47,932 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-11 16:03:48,586 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.82\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-11 16:03:51,852 - INFO - Driver configurado exitosamente
+2025-09-11 16:03:51,852 - INFO - Iniciando login...
+2025-09-11 16:04:08,124 - INFO - Login exitoso
+2025-09-11 16:04:08,124 - INFO - Configurando opciones...
+2025-09-11 16:04:31,592 - INFO - Opciones configuradas exitosamente
+2025-09-11 16:04:36,619 - INFO - Texto paginación: Página 1 de 6 (55 elementos)
+2025-09-11 16:04:36,619 - INFO - Iniciando procesamiento: 55 elementos en 6 páginas
+2025-09-11 16:04:36,619 - INFO - === PROCESANDO PÁGINA 1 DE 6 ===
+2025-09-11 16:04:39,699 - INFO - Extraído: MARIA ARCOS - ID: 34594183
+2025-09-11 16:04:39,778 - INFO - Extraído: ERIKA MAPALLO - ID: 1144073861
+2025-09-11 16:04:39,850 - INFO - Extraído: LEYDI PEREZ - ID: 1144186684
+2025-09-11 16:04:39,917 - INFO - Extraído: ERIKA TORO - ID: 1004694741
+2025-09-11 16:04:40,001 - INFO - Extraído: CATALINA BETANCUR - ID: 32242201
+2025-09-11 16:04:40,065 - INFO - Extraído: JOSE SANCHEZ - ID: 7093188
+2025-09-11 16:04:40,198 - INFO - Extraído: EDWIN HURTADO - ID: 1006071027
+2025-09-11 16:04:40,267 - INFO - Extraído: KATHERINE HURTADO - ID: 1114884172
+2025-09-11 16:04:40,333 - INFO - Extraído: JHOSUETH CARDONA - ID: 1006099149
+2025-09-11 16:04:40,415 - INFO - Extraído: SARA GUERRERO - ID: 1006101711
+2025-09-11 16:04:40,415 - INFO - Total elementos encontrados: 10
+2025-09-11 16:04:40,415 - INFO - Procesando: MARIA ARCOS - ID: 34594183
+2025-09-11 16:04:41,508 - INFO - Clic exitoso en VER REPORTE para 34594183
+2025-09-11 16:04:41,508 - INFO - Procesando reporte para 34594183
+2025-09-11 16:04:46,509 - ERROR - Error procesando reporte: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744bd3]
+	(No symbol) [0x0x734070]
+	(No symbol) [0x0x75277b]
+	(No symbol) [0x0x7b7a45]
+	(No symbol) [0x0x7d21b9]
+	(No symbol) [0x0x7b0e16]
+	(No symbol) [0x0x7825ce]
+	(No symbol) [0x0x7834a4]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	GetHandleVerifier [0x0x9755f8+100040]
+	GetHandleVerifier [0x0x975792+100450]
+	GetHandleVerifier [0x0x95f74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,581 - INFO - Procesando: ERIKA MAPALLO - ID: 1144073861
+2025-09-11 16:04:46,583 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,584 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,586 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,588 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,588 - ERROR - No se pudo hacer clic en VER REPORTE para 1144073861
+2025-09-11 16:04:46,590 - INFO - Procesando: LEYDI PEREZ - ID: 1144186684
+2025-09-11 16:04:46,591 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,593 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,595 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,596 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,597 - ERROR - No se pudo hacer clic en VER REPORTE para 1144186684
+2025-09-11 16:04:46,600 - INFO - Procesando: ERIKA TORO - ID: 1004694741
+2025-09-11 16:04:46,601 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,603 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,604 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,606 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,607 - ERROR - No se pudo hacer clic en VER REPORTE para 1004694741
+2025-09-11 16:04:46,609 - INFO - Procesando: CATALINA BETANCUR - ID: 32242201
+2025-09-11 16:04:46,610 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,612 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,614 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,616 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,617 - ERROR - No se pudo hacer clic en VER REPORTE para 32242201
+2025-09-11 16:04:46,620 - INFO - Procesando: JOSE SANCHEZ - ID: 7093188
+2025-09-11 16:04:46,621 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,623 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,625 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,627 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,628 - ERROR - No se pudo hacer clic en VER REPORTE para 7093188
+2025-09-11 16:04:46,631 - INFO - Procesando: EDWIN HURTADO - ID: 1006071027
+2025-09-11 16:04:46,632 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,634 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,637 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,639 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,640 - ERROR - No se pudo hacer clic en VER REPORTE para 1006071027
+2025-09-11 16:04:46,643 - INFO - Procesando: KATHERINE HURTADO - ID: 1114884172
+2025-09-11 16:04:46,644 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,646 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,648 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,650 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,651 - ERROR - No se pudo hacer clic en VER REPORTE para 1114884172
+2025-09-11 16:04:46,655 - INFO - Procesando: JHOSUETH CARDONA - ID: 1006099149
+2025-09-11 16:04:46,657 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,659 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,661 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,664 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,665 - ERROR - No se pudo hacer clic en VER REPORTE para 1006099149
+2025-09-11 16:04:46,669 - INFO - Procesando: SARA GUERRERO - ID: 1006101711
+2025-09-11 16:04:46,671 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,673 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,677 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,679 - WARNING - Error en estrategia: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,680 - ERROR - No se pudo hacer clic en VER REPORTE para 1006101711
+2025-09-11 16:04:46,686 - ERROR - Error navegando a página 2: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744a20]
+	(No symbol) [0x0x7818a3]
+	(No symbol) [0x0x7b0ed6]
+	(No symbol) [0x0x7ac7bb]
+	(No symbol) [0x0x7abd43]
+	(No symbol) [0x0x7159ed]
+	(No symbol) [0x0x715f6e]
+	(No symbol) [0x0x71640d]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	(No symbol) [0x0x7156a2]
+	(No symbol) [0x0x714eb9]
+	GetHandleVerifier [0x0xce0fdc+3686572]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:04:46,687 - INFO - Procesamiento de todas las páginas completado
+2025-09-11 16:04:46,687 - INFO - Proceso completado. Total archivos descargados: 3
+2025-09-11 16:04:46,688 - INFO - Archivos guardados en: c:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\src\descargasPDF
+2025-09-11 16:04:51,758 - INFO - Driver cerrado
+2025-09-11 16:04:55,852 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014E7E733770>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/364c877b4c8f18b8e89557a04592f1de
+2025-09-11 16:04:59,924 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014E7E733410>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/364c877b4c8f18b8e89557a04592f1de
+2025-09-11 16:05:04,003 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000014E7E732E10>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/364c877b4c8f18b8e89557a04592f1de
+2025-09-11 16:05:45,642 - INFO - ====== WebDriver manager ======
+2025-09-11 16:05:47,708 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-11 16:05:48,396 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-11 16:05:49,005 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.82\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-11 16:05:51,392 - INFO - Driver configurado exitosamente
+2025-09-11 16:05:51,393 - INFO - Iniciando login...
+2025-09-11 16:06:07,694 - INFO - Login exitoso
+2025-09-11 16:06:07,694 - INFO - Configurando opciones...
+2025-09-11 16:06:32,056 - INFO - Opciones configuradas exitosamente
+2025-09-11 16:06:37,075 - INFO - Texto paginación: Página 1 de 6 (55 elementos)
+2025-09-11 16:06:37,075 - INFO - Iniciando procesamiento: 55 elementos en 6 páginas
+2025-09-11 16:06:37,075 - INFO - === PROCESANDO PÁGINA 1 DE 6 ===
+2025-09-11 16:07:21,482 - WARNING - Error procesando fila 0: Message: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744bd3]
+	(No symbol) [0x0x756b91]
+	(No symbol) [0x0x755c70]
+	(No symbol) [0x0x74c092]
+	(No symbol) [0x0x74a588]
+	(No symbol) [0x0x74d974]
+	(No symbol) [0x0x74da08]
+	(No symbol) [0x0x78951e]
+	(No symbol) [0x0x7b101c]
+	(No symbol) [0x0x783e24]
+	(No symbol) [0x0x7b11d4]
+	(No symbol) [0x0x7d28a1]
+	(No symbol) [0x0x7b0e16]
+	(No symbol) [0x0x7825ce]
+	(No symbol) [0x0x7834a4]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	GetHandleVerifier [0x0x9755f8+100040]
+	GetHandleVerifier [0x0x975792+100450]
+	GetHandleVerifier [0x0x95f74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:07:21,487 - WARNING - Error procesando fila 1: Message: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744bd3]
+	(No symbol) [0x0x756b91]
+	(No symbol) [0x0x755c70]
+	(No symbol) [0x0x74c092]
+	(No symbol) [0x0x74a588]
+	(No symbol) [0x0x74d974]
+	(No symbol) [0x0x74da08]
+	(No symbol) [0x0x78e1e4]
+	(No symbol) [0x0x78ecfb]
+	(No symbol) [0x0x7842e1]
+	(No symbol) [0x0x7b1064]
+	(No symbol) [0x0x783e24]
+	(No symbol) [0x0x7b11d4]
+	(No symbol) [0x0x7d28a1]
+	(No symbol) [0x0x7b0e16]
+	(No symbol) [0x0x7825ce]
+	(No symbol) [0x0x7834a4]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	GetHandleVerifier [0x0x9755f8+100040]
+	GetHandleVerifier [0x0x975792+100450]
+	GetHandleVerifier [0x0x95f74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:07:21,493 - WARNING - Error procesando fila 2: Message: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744bd3]
+	(No symbol) [0x0x756b91]
+	(No symbol) [0x0x755c70]
+	(No symbol) [0x0x74c092]
+	(No symbol) [0x0x74a588]
+	(No symbol) [0x0x74d974]
+	(No symbol) [0x0x74da08]
+	(No symbol) [0x0x78e1e4]
+	(No symbol) [0x0x78ecfb]
+	(No symbol) [0x0x7842e1]
+	(No symbol) [0x0x7b1064]
+	(No symbol) [0x0x783e24]
+	(No symbol) [0x0x7b11d4]
+	(No symbol) [0x0x7d28a1]
+	(No symbol) [0x0x7b0e16]
+	(No symbol) [0x0x7825ce]
+	(No symbol) [0x0x7834a4]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	GetHandleVerifier [0x0x9755f8+100040]
+	GetHandleVerifier [0x0x975792+100450]
+	GetHandleVerifier [0x0x95f74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:07:21,499 - WARNING - Error procesando fila 3: Message: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744bd3]
+	(No symbol) [0x0x756b91]
+	(No symbol) [0x0x755c70]
+	(No symbol) [0x0x74c092]
+	(No symbol) [0x0x74a588]
+	(No symbol) [0x0x74d974]
+	(No symbol) [0x0x74da08]
+	(No symbol) [0x0x78e1e4]
+	(No symbol) [0x0x78ecfb]
+	(No symbol) [0x0x7842e1]
+	(No symbol) [0x0x7b1064]
+	(No symbol) [0x0x783e24]
+	(No symbol) [0x0x7b11d4]
+	(No symbol) [0x0x7d28a1]
+	(No symbol) [0x0x7b0e16]
+	(No symbol) [0x0x7825ce]
+	(No symbol) [0x0x7834a4]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	GetHandleVerifier [0x0x9755f8+100040]
+	GetHandleVerifier [0x0x975792+100450]
+	GetHandleVerifier [0x0x95f74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:07:21,506 - WARNING - Error procesando fila 4: Message: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744bd3]
+	(No symbol) [0x0x756b91]
+	(No symbol) [0x0x755c70]
+	(No symbol) [0x0x74c092]
+	(No symbol) [0x0x74a588]
+	(No symbol) [0x0x74d974]
+	(No symbol) [0x0x74da08]
+	(No symbol) [0x0x78e1e4]
+	(No symbol) [0x0x78ecfb]
+	(No symbol) [0x0x7842e1]
+	(No symbol) [0x0x7b1064]
+	(No symbol) [0x0x783e24]
+	(No symbol) [0x0x7b11d4]
+	(No symbol) [0x0x7d28a1]
+	(No symbol) [0x0x7b0e16]
+	(No symbol) [0x0x7825ce]
+	(No symbol) [0x0x7834a4]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	GetHandleVerifier [0x0x9755f8+100040]
+	GetHandleVerifier [0x0x975792+100450]
+	GetHandleVerifier [0x0x95f74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:07:21,514 - WARNING - Error procesando fila 5: Message: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744bd3]
+	(No symbol) [0x0x756b91]
+	(No symbol) [0x0x755c70]
+	(No symbol) [0x0x74c092]
+	(No symbol) [0x0x74a588]
+	(No symbol) [0x0x74d974]
+	(No symbol) [0x0x74da08]
+	(No symbol) [0x0x78e1e4]
+	(No symbol) [0x0x78ecfb]
+	(No symbol) [0x0x7842e1]
+	(No symbol) [0x0x7b1064]
+	(No symbol) [0x0x783e24]
+	(No symbol) [0x0x7b11d4]
+	(No symbol) [0x0x7d28a1]
+	(No symbol) [0x0x7b0e16]
+	(No symbol) [0x0x7825ce]
+	(No symbol) [0x0x7834a4]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	GetHandleVerifier [0x0x9755f8+100040]
+	GetHandleVerifier [0x0x975792+100450]
+	GetHandleVerifier [0x0x95f74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:07:21,518 - WARNING - Error procesando fila 6: Message: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744bd3]
+	(No symbol) [0x0x756b91]
+	(No symbol) [0x0x755c70]
+	(No symbol) [0x0x74c092]
+	(No symbol) [0x0x74a588]
+	(No symbol) [0x0x74d974]
+	(No symbol) [0x0x74da08]
+	(No symbol) [0x0x78e1e4]
+	(No symbol) [0x0x78ecfb]
+	(No symbol) [0x0x7842e1]
+	(No symbol) [0x0x7b1064]
+	(No symbol) [0x0x783e24]
+	(No symbol) [0x0x7b11d4]
+	(No symbol) [0x0x7d28a1]
+	(No symbol) [0x0x7b0e16]
+	(No symbol) [0x0x7825ce]
+	(No symbol) [0x0x7834a4]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	GetHandleVerifier [0x0x9755f8+100040]
+	GetHandleVerifier [0x0x975792+100450]
+	GetHandleVerifier [0x0x95f74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:07:21,526 - WARNING - Error procesando fila 7: Message: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744bd3]
+	(No symbol) [0x0x756b91]
+	(No symbol) [0x0x755c70]
+	(No symbol) [0x0x74c092]
+	(No symbol) [0x0x74a588]
+	(No symbol) [0x0x74d974]
+	(No symbol) [0x0x74da08]
+	(No symbol) [0x0x78e1e4]
+	(No symbol) [0x0x78ecfb]
+	(No symbol) [0x0x7842e1]
+	(No symbol) [0x0x7b1064]
+	(No symbol) [0x0x783e24]
+	(No symbol) [0x0x7b11d4]
+	(No symbol) [0x0x7d28a1]
+	(No symbol) [0x0x7b0e16]
+	(No symbol) [0x0x7825ce]
+	(No symbol) [0x0x7834a4]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	GetHandleVerifier [0x0x9755f8+100040]
+	GetHandleVerifier [0x0x975792+100450]
+	GetHandleVerifier [0x0x95f74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:07:21,531 - WARNING - Error procesando fila 8: Message: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744bd3]
+	(No symbol) [0x0x756b91]
+	(No symbol) [0x0x755c70]
+	(No symbol) [0x0x74c092]
+	(No symbol) [0x0x74a588]
+	(No symbol) [0x0x74d974]
+	(No symbol) [0x0x74da08]
+	(No symbol) [0x0x78e1e4]
+	(No symbol) [0x0x78ecfb]
+	(No symbol) [0x0x7842e1]
+	(No symbol) [0x0x7b1064]
+	(No symbol) [0x0x783e24]
+	(No symbol) [0x0x7b11d4]
+	(No symbol) [0x0x7d28a1]
+	(No symbol) [0x0x7b0e16]
+	(No symbol) [0x0x7825ce]
+	(No symbol) [0x0x7834a4]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	GetHandleVerifier [0x0x9755f8+100040]
+	GetHandleVerifier [0x0x975792+100450]
+	GetHandleVerifier [0x0x95f74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:07:21,538 - WARNING - Error procesando fila 9: Message: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744bd3]
+	(No symbol) [0x0x756b91]
+	(No symbol) [0x0x755c70]
+	(No symbol) [0x0x74c092]
+	(No symbol) [0x0x74a588]
+	(No symbol) [0x0x74d974]
+	(No symbol) [0x0x74da08]
+	(No symbol) [0x0x78e1e4]
+	(No symbol) [0x0x78ecfb]
+	(No symbol) [0x0x7842e1]
+	(No symbol) [0x0x7b1064]
+	(No symbol) [0x0x783e24]
+	(No symbol) [0x0x7b11d4]
+	(No symbol) [0x0x7d28a1]
+	(No symbol) [0x0x7b0e16]
+	(No symbol) [0x0x7825ce]
+	(No symbol) [0x0x7834a4]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	GetHandleVerifier [0x0x9755f8+100040]
+	GetHandleVerifier [0x0x975792+100450]
+	GetHandleVerifier [0x0x95f74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:07:21,539 - INFO - Total elementos encontrados: 0
+2025-09-11 16:07:21,539 - WARNING - No se encontraron elementos en esta página
+2025-09-11 16:07:21,540 - INFO - === PROCESANDO PÁGINA 2 DE 6 ===
+2025-09-11 16:07:30,321 - INFO - Extraído: MARIA ARCOS - ID: 34594183
+2025-09-11 16:07:30,481 - INFO - Extraído: ERIKA MAPALLO - ID: 1144073861
+2025-09-11 16:07:30,575 - INFO - Extraído: LEYDI PEREZ - ID: 1144186684
+2025-09-11 16:07:30,718 - WARNING - Error procesando fila 3: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744bd3]
+	(No symbol) [0x0x74b597]
+	(No symbol) [0x0x74d974]
+	(No symbol) [0x0x74da08]
+	(No symbol) [0x0x78951e]
+	(No symbol) [0x0x7b101c]
+	(No symbol) [0x0x783e24]
+	(No symbol) [0x0x7b11d4]
+	(No symbol) [0x0x7d28a1]
+	(No symbol) [0x0x7b0e16]
+	(No symbol) [0x0x7825ce]
+	(No symbol) [0x0x7834a4]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	GetHandleVerifier [0x0x9755f8+100040]
+	GetHandleVerifier [0x0x975792+100450]
+	GetHandleVerifier [0x0x95f74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:07:30,737 - WARNING - Error procesando fila 4: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744bd3]
+	(No symbol) [0x0x74b597]
+	(No symbol) [0x0x74d974]
+	(No symbol) [0x0x74da08]
+	(No symbol) [0x0x78e1e4]
+	(No symbol) [0x0x78ecfb]
+	(No symbol) [0x0x7842e1]
+	(No symbol) [0x0x7b1064]
+	(No symbol) [0x0x783e24]
+	(No symbol) [0x0x7b11d4]
+	(No symbol) [0x0x7d28a1]
+	(No symbol) [0x0x7b0e16]
+	(No symbol) [0x0x7825ce]
+	(No symbol) [0x0x7834a4]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	GetHandleVerifier [0x0x9755f8+100040]
+	GetHandleVerifier [0x0x975792+100450]
+	GetHandleVerifier [0x0x95f74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:07:30,744 - WARNING - Error procesando fila 5: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744bd3]
+	(No symbol) [0x0x74b597]
+	(No symbol) [0x0x74d974]
+	(No symbol) [0x0x74da08]
+	(No symbol) [0x0x78e1e4]
+	(No symbol) [0x0x78ecfb]
+	(No symbol) [0x0x7842e1]
+	(No symbol) [0x0x7b1064]
+	(No symbol) [0x0x783e24]
+	(No symbol) [0x0x7b11d4]
+	(No symbol) [0x0x7d28a1]
+	(No symbol) [0x0x7b0e16]
+	(No symbol) [0x0x7825ce]
+	(No symbol) [0x0x7834a4]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	GetHandleVerifier [0x0x9755f8+100040]
+	GetHandleVerifier [0x0x975792+100450]
+	GetHandleVerifier [0x0x95f74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:07:30,758 - WARNING - Error procesando fila 6: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744bd3]
+	(No symbol) [0x0x74b597]
+	(No symbol) [0x0x74d974]
+	(No symbol) [0x0x74da08]
+	(No symbol) [0x0x78e1e4]
+	(No symbol) [0x0x78ecfb]
+	(No symbol) [0x0x7842e1]
+	(No symbol) [0x0x7b1064]
+	(No symbol) [0x0x783e24]
+	(No symbol) [0x0x7b11d4]
+	(No symbol) [0x0x7d28a1]
+	(No symbol) [0x0x7b0e16]
+	(No symbol) [0x0x7825ce]
+	(No symbol) [0x0x7834a4]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	GetHandleVerifier [0x0x9755f8+100040]
+	GetHandleVerifier [0x0x975792+100450]
+	GetHandleVerifier [0x0x95f74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:07:30,770 - WARNING - Error procesando fila 7: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744bd3]
+	(No symbol) [0x0x74b597]
+	(No symbol) [0x0x74d974]
+	(No symbol) [0x0x74da08]
+	(No symbol) [0x0x78e1e4]
+	(No symbol) [0x0x78ecfb]
+	(No symbol) [0x0x7842e1]
+	(No symbol) [0x0x7b1064]
+	(No symbol) [0x0x783e24]
+	(No symbol) [0x0x7b11d4]
+	(No symbol) [0x0x7d28a1]
+	(No symbol) [0x0x7b0e16]
+	(No symbol) [0x0x7825ce]
+	(No symbol) [0x0x7834a4]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	GetHandleVerifier [0x0x9755f8+100040]
+	GetHandleVerifier [0x0x975792+100450]
+	GetHandleVerifier [0x0x95f74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:07:30,778 - WARNING - Error procesando fila 8: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744bd3]
+	(No symbol) [0x0x74b597]
+	(No symbol) [0x0x74d974]
+	(No symbol) [0x0x74da08]
+	(No symbol) [0x0x78e1e4]
+	(No symbol) [0x0x78ecfb]
+	(No symbol) [0x0x7842e1]
+	(No symbol) [0x0x7b1064]
+	(No symbol) [0x0x783e24]
+	(No symbol) [0x0x7b11d4]
+	(No symbol) [0x0x7d28a1]
+	(No symbol) [0x0x7b0e16]
+	(No symbol) [0x0x7825ce]
+	(No symbol) [0x0x7834a4]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	GetHandleVerifier [0x0x9755f8+100040]
+	GetHandleVerifier [0x0x975792+100450]
+	GetHandleVerifier [0x0x95f74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:07:30,789 - WARNING - Error procesando fila 9: Message: stale element reference: stale element not found in the current frame
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744bd3]
+	(No symbol) [0x0x74b597]
+	(No symbol) [0x0x74d974]
+	(No symbol) [0x0x74da08]
+	(No symbol) [0x0x78e1e4]
+	(No symbol) [0x0x78ecfb]
+	(No symbol) [0x0x7842e1]
+	(No symbol) [0x0x7b1064]
+	(No symbol) [0x0x783e24]
+	(No symbol) [0x0x7b11d4]
+	(No symbol) [0x0x7d28a1]
+	(No symbol) [0x0x7b0e16]
+	(No symbol) [0x0x7825ce]
+	(No symbol) [0x0x7834a4]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	GetHandleVerifier [0x0x9755f8+100040]
+	GetHandleVerifier [0x0x975792+100450]
+	GetHandleVerifier [0x0x95f74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:07:30,790 - INFO - Total elementos encontrados: 3
+2025-09-11 16:07:30,791 - INFO - Procesando: MARIA ARCOS - ID: 34594183
+2025-09-11 16:08:20,446 - INFO - ====== WebDriver manager ======
+2025-09-11 16:08:22,382 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-11 16:08:23,103 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-11 16:08:23,716 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.82\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-11 16:08:26,193 - INFO - Driver configurado exitosamente
+2025-09-11 16:08:26,193 - INFO - Iniciando login...
+2025-09-11 16:08:42,632 - INFO - Login exitoso
+2025-09-11 16:08:42,632 - INFO - Configurando opciones...
+2025-09-11 16:10:29,556 - INFO - ====== WebDriver manager ======
+2025-09-11 16:10:31,997 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-11 16:10:32,773 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-11 16:10:33,446 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.82\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-11 16:10:36,071 - INFO - Driver configurado exitosamente
+2025-09-11 16:10:36,071 - INFO - Iniciando login...
+2025-09-11 16:10:48,673 - INFO - Login exitoso
+2025-09-11 16:10:48,673 - INFO - Configurando opciones...
+2025-09-11 16:11:15,805 - INFO - Opciones configuradas exitosamente
+2025-09-11 16:11:20,828 - INFO - Texto paginación: Página 1 de 6 (55 elementos)
+2025-09-11 16:11:20,828 - INFO - Iniciando procesamiento: 55 elementos en 6 páginas
+2025-09-11 16:11:20,828 - INFO - === PROCESANDO PÁGINA 1 DE 6 ===
+2025-09-11 16:11:23,918 - INFO - Extraído: MARIA ARCOS - ID: 34594183
+2025-09-11 16:11:24,008 - INFO - Extraído: ERIKA MAPALLO - ID: 1144073861
+2025-09-11 16:11:24,088 - INFO - Extraído: LEYDI PEREZ - ID: 1144186684
+2025-09-11 16:11:24,180 - INFO - Extraído: ERIKA TORO - ID: 1004694741
+2025-09-11 16:11:24,264 - INFO - Extraído: CATALINA BETANCUR - ID: 32242201
+2025-09-11 16:11:24,357 - INFO - Extraído: JOSE SANCHEZ - ID: 7093188
+2025-09-11 16:11:24,447 - INFO - Extraído: EDWIN HURTADO - ID: 1006071027
+2025-09-11 16:11:24,532 - INFO - Extraído: KATHERINE HURTADO - ID: 1114884172
+2025-09-11 16:11:24,674 - INFO - Extraído: JHOSUETH CARDONA - ID: 1006099149
+2025-09-11 16:11:24,756 - INFO - Extraído: SARA GUERRERO - ID: 1006101711
+2025-09-11 16:11:24,756 - INFO - Total elementos encontrados: 10
+2025-09-11 16:11:24,756 - INFO - Procesando: MARIA ARCOS - ID: 34594183
+2025-09-11 16:11:25,876 - INFO - Clic exitoso en VER REPORTE para 34594183
+2025-09-11 16:11:25,876 - INFO - Procesando reporte para 34594183
+2025-09-11 16:11:31,462 - INFO - Descarga iniciada
+2025-09-11 16:11:33,463 - INFO - Descarga completada: XtraReportAtencionIPS (3).pdf
+2025-09-11 16:11:33,463 - INFO - PDF descargado: XtraReportAtencionIPS (3).pdf
+2025-09-11 16:11:43,861 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:16:30,540 - INFO - ====== WebDriver manager ======
+2025-09-11 16:16:34,340 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-11 16:16:35,617 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-11 16:16:36,750 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.82\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-11 16:16:41,293 - INFO - Driver configurado exitosamente
+2025-09-11 16:16:41,293 - INFO - Iniciando login...
+2025-09-11 16:16:53,989 - INFO - Login exitoso
+2025-09-11 16:16:53,989 - INFO - Configurando opciones...
+2025-09-11 16:17:15,160 - ERROR - Elemento no encontrado: //span[contains(text(), 'LISTA RESUMIDA DE ATENCIONES')]
+2025-09-11 16:17:15,160 - ERROR - Error configurando opciones: Message: 
+
+2025-09-11 16:17:15,160 - ERROR - Error en automatización: Message: 
+
+2025-09-11 16:17:21,053 - INFO - Driver cerrado
+2025-09-11 16:17:21,054 - ERROR - Error fatal: Message: 
+
+2025-09-11 16:17:25,116 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2FBB6EEA0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/4e3417e20a525a476d1fde5bf0b28006
+2025-09-11 16:17:29,203 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2FBB6F980>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/4e3417e20a525a476d1fde5bf0b28006
+2025-09-11 16:17:33,267 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001F2FBB6FBC0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/4e3417e20a525a476d1fde5bf0b28006
+2025-09-11 16:20:32,555 - INFO - ====== WebDriver manager ======
+2025-09-11 16:20:34,501 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-11 16:20:35,260 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-11 16:20:35,843 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.82\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-11 16:20:38,273 - INFO - Driver configurado exitosamente
+2025-09-11 16:20:38,273 - INFO - Iniciando login...
+2025-09-11 16:20:50,141 - INFO - Login exitoso
+2025-09-11 16:20:50,141 - INFO - Configurando opciones...
+2025-09-11 16:21:07,763 - WARNING - Error en intento 1: Message: element click intercepted: Element <span class="dx-vam">...</span> is not clickable at point (517, 311). Other element would receive the click: <td class="dxeCalendarDayHeader_Moderno" id="FechaInicialFiltro_DDD_C_AUX_0_0_4">...</td>
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x0x96d2a3+66419]
+	GetHandleVerifier [0x0x96d2e4+66484]
+	(No symbol) [0x0x744bd3]
+	(No symbol) [0x0x794e40]
+	(No symbol) [0x0x7931a3]
+	(No symbol) [0x0x790c57]
+	(No symbol) [0x0x78fedd]
+	(No symbol) [0x0x7843c5]
+	(No symbol) [0x0x7b101c]
+	(No symbol) [0x0x783e24]
+	(No symbol) [0x0x7b11d4]
+	(No symbol) [0x0x7d28a1]
+	(No symbol) [0x0x7b0e16]
+	(No symbol) [0x0x7825ce]
+	(No symbol) [0x0x7834a4]
+	GetHandleVerifier [0x0xbb5ee3+2461619]
+	GetHandleVerifier [0x0xbb0f66+2441270]
+	GetHandleVerifier [0x0x996242+234258]
+	GetHandleVerifier [0x0x986208+168664]
+	GetHandleVerifier [0x0x98d1ad+197245]
+	GetHandleVerifier [0x0x9755f8+100040]
+	GetHandleVerifier [0x0x975792+100450]
+	GetHandleVerifier [0x0x95f74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-11 16:21:19,588 - INFO - Opciones configuradas exitosamente
+2025-09-11 16:21:24,615 - INFO - Texto paginación: Página 1 de 6 (55 elementos)
+2025-09-11 16:21:24,616 - INFO - Iniciando procesamiento: 55 elementos en 6 páginas
+2025-09-11 16:21:24,616 - INFO - === PROCESANDO PÁGINA 1 DE 6 ===
+2025-09-11 16:21:27,704 - INFO - Extraído: MARIA ARCOS - ID: 34594183
+2025-09-11 16:21:27,771 - INFO - Extraído: ERIKA MAPALLO - ID: 1144073861
+2025-09-11 16:21:27,843 - INFO - Extraído: LEYDI PEREZ - ID: 1144186684
+2025-09-11 16:21:27,920 - INFO - Extraído: ERIKA TORO - ID: 1004694741
+2025-09-11 16:21:27,996 - INFO - Extraído: CATALINA BETANCUR - ID: 32242201
+2025-09-11 16:21:28,070 - INFO - Extraído: JOSE SANCHEZ - ID: 7093188
+2025-09-11 16:21:28,141 - INFO - Extraído: EDWIN HURTADO - ID: 1006071027
+2025-09-11 16:21:28,267 - INFO - Extraído: KATHERINE HURTADO - ID: 1114884172
+2025-09-11 16:21:28,335 - INFO - Extraído: JHOSUETH CARDONA - ID: 1006099149
+2025-09-11 16:21:28,408 - INFO - Extraído: SARA GUERRERO - ID: 1006101711
+2025-09-11 16:21:28,409 - INFO - Total elementos encontrados: 10
+2025-09-11 16:21:28,409 - INFO - Procesando: MARIA ARCOS - ID: 34594183
+2025-09-11 16:21:29,755 - INFO - Clic exitoso en VER REPORTE para 34594183
+2025-09-11 16:21:29,755 - INFO - Procesando reporte para 34594183
+2025-09-11 16:21:35,343 - INFO - Descarga iniciada
+2025-09-11 16:21:37,345 - INFO - Descarga completada: XtraReportAtencionIPS (4).pdf
+2025-09-11 16:21:37,345 - INFO - PDF descargado: XtraReportAtencionIPS (4).pdf
+2025-09-11 16:21:42,579 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:21:47,781 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:21:48,796 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:21:56,817 - INFO - Procesando: ERIKA MAPALLO - ID: 1144073861
+2025-09-11 16:21:58,032 - INFO - Clic exitoso en VER REPORTE para 1144073861
+2025-09-11 16:21:58,033 - INFO - Procesando reporte para 1144073861
+2025-09-11 16:22:03,616 - INFO - Descarga iniciada
+2025-09-11 16:22:05,618 - INFO - Descarga completada: XtraReportAtencionIPS (5).pdf
+2025-09-11 16:22:05,629 - INFO - PDF descargado: XtraReportAtencionIPS (5).pdf
+2025-09-11 16:22:10,868 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:22:16,058 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:22:17,840 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:22:25,858 - INFO - Procesando: LEYDI PEREZ - ID: 1144186684
+2025-09-11 16:22:27,036 - INFO - Clic exitoso en VER REPORTE para 1144186684
+2025-09-11 16:22:27,038 - INFO - Procesando reporte para 1144186684
+2025-09-11 16:22:32,618 - INFO - Descarga iniciada
+2025-09-11 16:22:34,621 - INFO - Descarga completada: XtraReportAtencionIPS (6).pdf
+2025-09-11 16:22:34,621 - INFO - PDF descargado: XtraReportAtencionIPS (6).pdf
+2025-09-11 16:22:39,817 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:22:45,022 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:22:46,602 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:22:54,620 - INFO - Procesando: ERIKA TORO - ID: 1004694741
+2025-09-11 16:22:55,766 - INFO - Clic exitoso en VER REPORTE para 1004694741
+2025-09-11 16:22:55,766 - INFO - Procesando reporte para 1004694741
+2025-09-11 16:23:01,350 - INFO - Descarga iniciada
+2025-09-11 16:23:03,352 - INFO - Descarga completada: XtraReportAtencionIPS (7).pdf
+2025-09-11 16:23:03,352 - INFO - PDF descargado: XtraReportAtencionIPS (7).pdf
+2025-09-11 16:23:08,560 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:23:13,769 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:23:15,135 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:23:23,152 - INFO - Procesando: CATALINA BETANCUR - ID: 32242201
+2025-09-11 16:23:24,198 - INFO - Clic exitoso en VER REPORTE para 32242201
+2025-09-11 16:23:24,198 - INFO - Procesando reporte para 32242201
+2025-09-11 16:23:29,782 - INFO - Descarga iniciada
+2025-09-11 16:23:31,783 - INFO - Descarga completada: XtraReportAtencionIPS (8).pdf
+2025-09-11 16:23:31,783 - INFO - PDF descargado: XtraReportAtencionIPS (8).pdf
+2025-09-11 16:23:36,977 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:23:42,215 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:23:43,241 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:23:51,263 - INFO - Procesando: JOSE SANCHEZ - ID: 7093188
+2025-09-11 16:23:52,349 - INFO - Clic exitoso en VER REPORTE para 7093188
+2025-09-11 16:23:52,349 - INFO - Procesando reporte para 7093188
+2025-09-11 16:23:57,940 - INFO - Descarga iniciada
+2025-09-11 16:23:59,942 - INFO - Descarga completada: XtraReportAtencionIPS (9).pdf
+2025-09-11 16:23:59,942 - INFO - PDF descargado: XtraReportAtencionIPS (9).pdf
+2025-09-11 16:24:05,157 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:24:10,364 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:24:11,407 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:24:19,424 - INFO - Procesando: EDWIN HURTADO - ID: 1006071027
+2025-09-11 16:24:20,481 - INFO - Clic exitoso en VER REPORTE para 1006071027
+2025-09-11 16:24:20,481 - INFO - Procesando reporte para 1006071027
+2025-09-11 16:24:26,088 - INFO - Descarga iniciada
+2025-09-11 16:24:28,090 - INFO - Descarga completada: XtraReportAtencionIPS (10).pdf
+2025-09-11 16:24:28,090 - INFO - PDF descargado: XtraReportAtencionIPS (10).pdf
+2025-09-11 16:24:33,322 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:24:38,561 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:24:39,625 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:24:47,644 - INFO - Procesando: KATHERINE HURTADO - ID: 1114884172
+2025-09-11 16:24:48,841 - INFO - Clic exitoso en VER REPORTE para 1114884172
+2025-09-11 16:24:48,841 - INFO - Procesando reporte para 1114884172
+2025-09-11 16:24:54,432 - INFO - Descarga iniciada
+2025-09-11 16:24:56,433 - INFO - Descarga completada: XtraReportAtencionIPS (11).pdf
+2025-09-11 16:24:56,433 - INFO - PDF descargado: XtraReportAtencionIPS (11).pdf
+2025-09-11 16:25:01,646 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:25:06,837 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:25:07,831 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:25:15,849 - INFO - Procesando: JHOSUETH CARDONA - ID: 1006099149
+2025-09-11 16:25:16,930 - INFO - Clic exitoso en VER REPORTE para 1006099149
+2025-09-11 16:25:16,930 - INFO - Procesando reporte para 1006099149
+2025-09-11 16:25:22,515 - INFO - Descarga iniciada
+2025-09-11 16:25:24,517 - INFO - Descarga completada: XtraReportAtencionIPS (12).pdf
+2025-09-11 16:25:24,517 - INFO - PDF descargado: XtraReportAtencionIPS (12).pdf
+2025-09-11 16:25:29,729 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:25:34,922 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:25:35,917 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:25:43,933 - INFO - Procesando: SARA GUERRERO - ID: 1006101711
+2025-09-11 16:25:45,008 - INFO - Clic exitoso en VER REPORTE para 1006101711
+2025-09-11 16:25:45,008 - INFO - Procesando reporte para 1006101711
+2025-09-11 16:25:50,587 - INFO - Descarga iniciada
+2025-09-11 16:25:52,589 - INFO - Descarga completada: XtraReportAtencionIPS (13).pdf
+2025-09-11 16:25:52,590 - INFO - PDF descargado: XtraReportAtencionIPS (13).pdf
+2025-09-11 16:25:57,792 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:26:32,466 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:26:33,556 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:26:47,934 - INFO - Texto paginación: Página 2 de 6 (55 elementos)
+2025-09-11 16:26:47,935 - INFO - === PROCESANDO PÁGINA 2 DE 6 ===
+2025-09-11 16:26:51,423 - INFO - Extraído: HENRY SANCHEZ - ID: 1113701157
+2025-09-11 16:26:51,738 - INFO - Extraído: JUAN PEJENDINO - ID: 1104805866
+2025-09-11 16:26:52,070 - INFO - Extraído: YURI GONZALEZ - ID: 1143986470
+2025-09-11 16:26:52,408 - INFO - Extraído: FELICIANO JUANILLO - ID: 76268072
+2025-09-11 16:26:52,748 - INFO - Extraído: CARLOS RESTREPO - ID: 16591889
+2025-09-11 16:26:53,229 - INFO - Extraído: DORA GUEVARA - ID: 36380389
+2025-09-11 16:26:53,628 - INFO - Extraído: BRAYAN CORTES - ID: 1005873473
+2025-09-11 16:26:53,958 - INFO - Extraído: FELIX SALDARRIAGA - ID: 14999112
+2025-09-11 16:26:54,593 - INFO - Extraído: FERNANDO AYALA - ID: 16269004
+2025-09-11 16:26:54,982 - INFO - Extraído: PAOLA SANTANA - ID: 1144077549
+2025-09-11 16:26:54,987 - INFO - Total elementos encontrados: 10
+2025-09-11 16:26:54,988 - INFO - Procesando: HENRY SANCHEZ - ID: 1113701157
+2025-09-11 16:27:00,412 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:27:06,203 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:27:10,842 - INFO - Clic exitoso en VER REPORTE para 1113701157
+2025-09-11 16:27:10,859 - INFO - Procesando reporte para 1113701157
+2025-09-11 16:27:20,665 - INFO - Descarga iniciada
+2025-09-11 16:27:22,679 - INFO - Descarga completada: XtraReportAtencionIPS (14).pdf
+2025-09-11 16:27:22,756 - INFO - PDF descargado: XtraReportAtencionIPS (14).pdf
+2025-09-11 16:27:28,851 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:27:34,254 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:27:36,380 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:27:44,417 - INFO - Procesando: JUAN PEJENDINO - ID: 1104805866
+2025-09-11 16:27:45,580 - INFO - Clic exitoso en VER REPORTE para 1104805866
+2025-09-11 16:27:45,581 - INFO - Procesando reporte para 1104805866
+2025-09-11 16:27:51,157 - INFO - Descarga iniciada
+2025-09-11 16:27:53,158 - INFO - Descarga completada: XtraReportAtencionIPS (15).pdf
+2025-09-11 16:27:53,158 - INFO - PDF descargado: XtraReportAtencionIPS (15).pdf
+2025-09-11 16:27:58,360 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:28:03,539 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:28:04,141 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:28:12,158 - INFO - Procesando: YURI GONZALEZ - ID: 1143986470
+2025-09-11 16:28:17,309 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:28:22,445 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:28:23,682 - INFO - Clic exitoso en VER REPORTE para 1143986470
+2025-09-11 16:28:23,682 - INFO - Procesando reporte para 1143986470
+2025-09-11 16:28:29,409 - INFO - Descarga iniciada
+2025-09-11 16:28:31,411 - INFO - Descarga completada: XtraReportAtencionIPS (16).pdf
+2025-09-11 16:28:31,412 - INFO - PDF descargado: XtraReportAtencionIPS (16).pdf
+2025-09-11 16:28:36,851 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:28:41,940 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:28:42,911 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:29:06,954 - INFO - Procesando: FELICIANO JUANILLO - ID: 76268072
+2025-09-11 16:29:12,049 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:29:17,269 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:29:18,816 - INFO - Clic exitoso en VER REPORTE para 76268072
+2025-09-11 16:29:18,816 - INFO - Procesando reporte para 76268072
+2025-09-11 16:29:24,453 - INFO - Descarga iniciada
+2025-09-11 16:29:26,455 - INFO - Descarga completada: XtraReportAtencionIPS (17).pdf
+2025-09-11 16:29:26,456 - INFO - PDF descargado: XtraReportAtencionIPS (17).pdf
+2025-09-11 16:29:31,670 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:29:36,917 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:29:37,503 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:29:45,530 - INFO - Procesando: CARLOS RESTREPO - ID: 16591889
+2025-09-11 16:29:50,706 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:29:55,842 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:29:57,061 - INFO - Clic exitoso en VER REPORTE para 16591889
+2025-09-11 16:29:57,061 - INFO - Procesando reporte para 16591889
+2025-09-11 16:30:02,686 - INFO - Descarga iniciada
+2025-09-11 16:30:04,696 - INFO - Descarga completada: XtraReportAtencionIPS (18).pdf
+2025-09-11 16:30:04,696 - INFO - PDF descargado: XtraReportAtencionIPS (18).pdf
+2025-09-11 16:30:09,902 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:30:15,104 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:30:15,685 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:30:23,711 - INFO - Procesando: DORA GUEVARA - ID: 36380389
+2025-09-11 16:30:28,848 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:30:33,983 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:30:36,266 - INFO - Clic exitoso en VER REPORTE para 36380389
+2025-09-11 16:30:36,266 - INFO - Procesando reporte para 36380389
+2025-09-11 16:30:41,895 - INFO - Descarga iniciada
+2025-09-11 16:30:43,897 - INFO - Descarga completada: XtraReportAtencionIPS (19).pdf
+2025-09-11 16:30:43,898 - INFO - PDF descargado: XtraReportAtencionIPS (19).pdf
+2025-09-11 16:30:49,122 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:30:54,356 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:30:55,406 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:31:03,425 - INFO - Procesando: BRAYAN CORTES - ID: 1005873473
+2025-09-11 16:31:08,559 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:31:13,696 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:31:15,031 - INFO - Clic exitoso en VER REPORTE para 1005873473
+2025-09-11 16:31:15,031 - INFO - Procesando reporte para 1005873473
+2025-09-11 16:31:20,652 - INFO - Descarga iniciada
+2025-09-11 16:31:22,654 - INFO - Descarga completada: XtraReportAtencionIPS (20).pdf
+2025-09-11 16:31:22,654 - INFO - PDF descargado: XtraReportAtencionIPS (20).pdf
+2025-09-11 16:31:27,837 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:31:33,042 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:31:36,576 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:31:44,589 - INFO - Procesando: FELIX SALDARRIAGA - ID: 14999112
+2025-09-11 16:31:49,755 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:31:54,890 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:31:55,991 - INFO - Clic exitoso en VER REPORTE para 14999112
+2025-09-11 16:31:55,991 - INFO - Procesando reporte para 14999112
+2025-09-11 16:32:01,613 - INFO - Descarga iniciada
+2025-09-11 16:32:03,615 - INFO - Descarga completada: XtraReportAtencionIPS (21).pdf
+2025-09-11 16:32:03,615 - INFO - PDF descargado: XtraReportAtencionIPS (21).pdf
+2025-09-11 16:32:08,828 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:32:14,017 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:32:15,069 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:32:23,086 - INFO - Procesando: FERNANDO AYALA - ID: 16269004
+2025-09-11 16:32:28,226 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:32:33,385 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:32:34,556 - INFO - Clic exitoso en VER REPORTE para 16269004
+2025-09-11 16:32:34,556 - INFO - Procesando reporte para 16269004
+2025-09-11 16:32:40,173 - INFO - Descarga iniciada
+2025-09-11 16:32:42,175 - INFO - Descarga completada: XtraReportAtencionIPS (22).pdf
+2025-09-11 16:32:42,175 - INFO - PDF descargado: XtraReportAtencionIPS (22).pdf
+2025-09-11 16:32:47,388 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:32:52,596 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:32:53,573 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:33:01,587 - INFO - Procesando: PAOLA SANTANA - ID: 1144077549
+2025-09-11 16:33:06,772 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:33:11,901 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:33:12,945 - INFO - Clic exitoso en VER REPORTE para 1144077549
+2025-09-11 16:33:12,945 - INFO - Procesando reporte para 1144077549
+2025-09-11 16:33:18,586 - INFO - Descarga iniciada
+2025-09-11 16:33:20,589 - INFO - Descarga completada: XtraReportAtencionIPS (23).pdf
+2025-09-11 16:33:20,589 - INFO - PDF descargado: XtraReportAtencionIPS (23).pdf
+2025-09-11 16:33:25,790 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:33:30,988 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:33:31,999 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:33:45,624 - INFO - Texto paginación: Página 3 de 6 (55 elementos)
+2025-09-11 16:33:45,624 - INFO - === PROCESANDO PÁGINA 3 DE 6 ===
+2025-09-11 16:33:48,706 - INFO - Extraído: LEIDY CAYCEDO - ID: 1005705615
+2025-09-11 16:33:48,775 - INFO - Extraído: DAIRO CANCHALA - ID: 14703232
+2025-09-11 16:33:48,843 - INFO - Extraído: VICTOR ROJAS - ID: 1120380802
+2025-09-11 16:33:48,910 - INFO - Extraído: JUAN VALVERDE - ID: 1006036003
+2025-09-11 16:33:48,993 - INFO - Extraído: HAROLD MUÑOZ - ID: 16654025
+2025-09-11 16:33:49,059 - INFO - Extraído: YULY MONTAÑO - ID: 1192727031
+2025-09-11 16:33:49,126 - INFO - Extraído: LAURA MURILLO - ID: 1107513424
+2025-09-11 16:33:49,193 - INFO - Extraído: JUAN HERNANDEZ - ID: 1111548620
+2025-09-11 16:33:49,260 - INFO - Extraído: DERLY SALAS - ID: 1143832932
+2025-09-11 16:33:49,408 - INFO - Extraído: KILBERT TRUJILLO - ID: 16944299
+2025-09-11 16:33:49,408 - INFO - Total elementos encontrados: 10
+2025-09-11 16:33:49,408 - INFO - Procesando: LEIDY CAYCEDO - ID: 1005705615
+2025-09-11 16:33:54,540 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:33:59,671 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:34:00,733 - INFO - Clic exitoso en VER REPORTE para 1005705615
+2025-09-11 16:34:00,733 - INFO - Procesando reporte para 1005705615
+2025-09-11 16:34:06,359 - INFO - Descarga iniciada
+2025-09-11 16:34:08,362 - INFO - Descarga completada: XtraReportAtencionIPS (24).pdf
+2025-09-11 16:34:08,362 - INFO - PDF descargado: XtraReportAtencionIPS (24).pdf
+2025-09-11 16:34:13,560 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:34:18,769 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:34:19,830 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:34:27,848 - INFO - Procesando: DAIRO CANCHALA - ID: 14703232
+2025-09-11 16:34:32,991 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:34:38,131 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:34:39,357 - INFO - Clic exitoso en VER REPORTE para 14703232
+2025-09-11 16:34:39,357 - INFO - Procesando reporte para 14703232
+2025-09-11 16:34:44,939 - INFO - Descarga iniciada
+2025-09-11 16:34:46,942 - INFO - Descarga completada: XtraReportAtencionIPS (25).pdf
+2025-09-11 16:34:46,943 - INFO - PDF descargado: XtraReportAtencionIPS (25).pdf
+2025-09-11 16:34:52,151 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:34:57,349 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:34:58,360 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:35:06,376 - INFO - Procesando: VICTOR ROJAS - ID: 1120380802
+2025-09-11 16:35:07,498 - INFO - Clic exitoso en VER REPORTE para 1120380802
+2025-09-11 16:35:07,499 - INFO - Procesando reporte para 1120380802
+2025-09-11 16:35:13,079 - INFO - Descarga iniciada
+2025-09-11 16:35:15,082 - INFO - Descarga completada: XtraReportAtencionIPS (26).pdf
+2025-09-11 16:35:15,082 - INFO - PDF descargado: XtraReportAtencionIPS (26).pdf
+2025-09-11 16:35:20,283 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:35:25,465 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:35:26,477 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:35:34,497 - INFO - Procesando: JUAN VALVERDE - ID: 1006036003
+2025-09-11 16:35:39,642 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:35:44,781 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:35:45,924 - INFO - Clic exitoso en VER REPORTE para 1006036003
+2025-09-11 16:35:45,924 - INFO - Procesando reporte para 1006036003
+2025-09-11 16:35:51,506 - INFO - Descarga iniciada
+2025-09-11 16:35:53,508 - INFO - Descarga completada: XtraReportAtencionIPS (27).pdf
+2025-09-11 16:35:53,509 - INFO - PDF descargado: XtraReportAtencionIPS (27).pdf
+2025-09-11 16:35:58,707 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:36:03,905 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:36:04,860 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:36:12,878 - INFO - Procesando: HAROLD MUÑOZ - ID: 16654025
+2025-09-11 16:36:18,018 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:36:23,155 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:36:24,234 - INFO - Clic exitoso en VER REPORTE para 16654025
+2025-09-11 16:36:24,234 - INFO - Procesando reporte para 16654025
+2025-09-11 16:36:29,919 - INFO - Descarga iniciada
+2025-09-11 16:36:31,921 - INFO - Descarga completada: XtraReportAtencionIPS (28).pdf
+2025-09-11 16:36:31,921 - INFO - PDF descargado: XtraReportAtencionIPS (28).pdf
+2025-09-11 16:36:37,177 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:36:42,368 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:36:43,376 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:36:51,392 - INFO - Procesando: YULY MONTAÑO - ID: 1192727031
+2025-09-11 16:36:56,535 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:37:01,672 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:37:02,789 - INFO - Clic exitoso en VER REPORTE para 1192727031
+2025-09-11 16:37:02,789 - INFO - Procesando reporte para 1192727031
+2025-09-11 16:37:08,376 - INFO - Descarga iniciada
+2025-09-11 16:37:10,378 - INFO - Descarga completada: XtraReportAtencionIPS (29).pdf
+2025-09-11 16:37:10,378 - INFO - PDF descargado: XtraReportAtencionIPS (29).pdf
+2025-09-11 16:37:15,581 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:37:20,770 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:37:22,436 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:37:30,452 - INFO - Procesando: LAURA MURILLO - ID: 1107513424
+2025-09-11 16:37:35,593 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:37:40,738 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:37:41,819 - INFO - Clic exitoso en VER REPORTE para 1107513424
+2025-09-11 16:37:41,819 - INFO - Procesando reporte para 1107513424
+2025-09-11 16:37:47,403 - INFO - Descarga iniciada
+2025-09-11 16:37:49,405 - INFO - Descarga completada: XtraReportAtencionIPS (30).pdf
+2025-09-11 16:37:49,405 - INFO - PDF descargado: XtraReportAtencionIPS (30).pdf
+2025-09-11 16:37:54,600 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:37:59,794 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:38:01,999 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:38:10,015 - INFO - Procesando: JUAN HERNANDEZ - ID: 1111548620
+2025-09-11 16:38:15,157 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:38:20,298 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:38:21,377 - INFO - Clic exitoso en VER REPORTE para 1111548620
+2025-09-11 16:38:21,377 - INFO - Procesando reporte para 1111548620
+2025-09-11 16:38:26,956 - INFO - Descarga iniciada
+2025-09-11 16:38:28,958 - INFO - Descarga completada: XtraReportAtencionIPS (31).pdf
+2025-09-11 16:38:28,959 - INFO - PDF descargado: XtraReportAtencionIPS (31).pdf
+2025-09-11 16:38:34,150 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:38:39,341 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:38:40,445 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:38:48,462 - INFO - Procesando: DERLY SALAS - ID: 1143832932
+2025-09-11 16:38:53,602 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:38:58,748 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:38:59,838 - INFO - Clic exitoso en VER REPORTE para 1143832932
+2025-09-11 16:38:59,838 - INFO - Procesando reporte para 1143832932
+2025-09-11 16:39:05,417 - INFO - Descarga iniciada
+2025-09-11 16:39:07,420 - INFO - Descarga completada: XtraReportAtencionIPS (32).pdf
+2025-09-11 16:39:07,420 - INFO - PDF descargado: XtraReportAtencionIPS (32).pdf
+2025-09-11 16:39:12,606 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:39:17,797 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:39:18,884 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:39:26,899 - INFO - Procesando: KILBERT TRUJILLO - ID: 16944299
+2025-09-11 16:39:32,038 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:39:37,180 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:39:38,219 - INFO - Clic exitoso en VER REPORTE para 16944299
+2025-09-11 16:39:38,220 - INFO - Procesando reporte para 16944299
+2025-09-11 16:39:43,796 - INFO - Descarga iniciada
+2025-09-11 16:39:45,798 - INFO - Descarga completada: XtraReportAtencionIPS (33).pdf
+2025-09-11 16:39:45,798 - INFO - PDF descargado: XtraReportAtencionIPS (33).pdf
+2025-09-11 16:39:51,019 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:39:56,218 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:39:57,220 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:40:10,840 - INFO - Texto paginación: Página 4 de 6 (55 elementos)
+2025-09-11 16:40:10,840 - INFO - === PROCESANDO PÁGINA 4 DE 6 ===
+2025-09-11 16:40:13,913 - INFO - Extraído: MICHAEL ORDOÑEZ - ID: 1114480017
+2025-09-11 16:40:13,986 - INFO - Extraído: CARLOS ROZO - ID: 94516677
+2025-09-11 16:40:14,132 - INFO - Extraído: SANTIAGO RIVERA - ID: 1010147428
+2025-09-11 16:40:14,185 - INFO - Extraído: NATHALIA CORTES - ID: 1151961469
+2025-09-11 16:40:14,267 - INFO - Extraído: DIANA VELEZ - ID: 31486646
+2025-09-11 16:40:14,334 - INFO - Extraído: STEPHANIA ALARCON - ID: 1113693094
+2025-09-11 16:40:14,400 - INFO - Extraído: ALEJANDRA LUJAN - ID: 1005980422
+2025-09-11 16:40:14,467 - INFO - Extraído: RUBEN PERLAZA - ID: 1118306394
+2025-09-11 16:40:14,550 - INFO - Extraído: CARMEN LLANOS - ID: 66819730
+2025-09-11 16:40:14,617 - INFO - Extraído: CHARLES CAICEDO - ID: 16847435
+2025-09-11 16:40:14,617 - INFO - Total elementos encontrados: 10
+2025-09-11 16:40:14,617 - INFO - Procesando: MICHAEL ORDOÑEZ - ID: 1114480017
+2025-09-11 16:40:19,761 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:40:24,909 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:40:25,997 - INFO - Clic exitoso en VER REPORTE para 1114480017
+2025-09-11 16:40:25,997 - INFO - Procesando reporte para 1114480017
+2025-09-11 16:40:31,579 - INFO - Descarga iniciada
+2025-09-11 16:40:33,582 - INFO - Descarga completada: XtraReportAtencionIPS (34).pdf
+2025-09-11 16:40:33,582 - INFO - PDF descargado: XtraReportAtencionIPS (34).pdf
+2025-09-11 16:40:38,774 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:40:43,979 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:40:46,233 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:40:54,245 - INFO - Procesando: CARLOS ROZO - ID: 94516677
+2025-09-11 16:40:59,389 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:41:04,533 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:41:05,783 - INFO - Clic exitoso en VER REPORTE para 94516677
+2025-09-11 16:41:05,784 - INFO - Procesando reporte para 94516677
+2025-09-11 16:41:11,365 - INFO - Descarga iniciada
+2025-09-11 16:41:13,367 - INFO - Descarga completada: XtraReportAtencionIPS (35).pdf
+2025-09-11 16:41:13,367 - INFO - PDF descargado: XtraReportAtencionIPS (35).pdf
+2025-09-11 16:41:18,561 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:41:23,758 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:41:24,729 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:41:32,741 - INFO - Procesando: SANTIAGO RIVERA - ID: 1010147428
+2025-09-11 16:41:37,877 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:41:43,063 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:41:44,409 - INFO - Clic exitoso en VER REPORTE para 1010147428
+2025-09-11 16:41:44,409 - INFO - Procesando reporte para 1010147428
+2025-09-11 16:41:50,011 - INFO - Descarga iniciada
+2025-09-11 16:41:52,014 - INFO - Descarga completada: XtraReportAtencionIPS (36).pdf
+2025-09-11 16:41:52,014 - INFO - PDF descargado: XtraReportAtencionIPS (36).pdf
+2025-09-11 16:41:57,232 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:42:02,427 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:42:03,472 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:42:11,489 - INFO - Procesando: NATHALIA CORTES - ID: 1151961469
+2025-09-11 16:42:12,663 - INFO - Clic exitoso en VER REPORTE para 1151961469
+2025-09-11 16:42:12,664 - INFO - Procesando reporte para 1151961469
+2025-09-11 16:42:18,248 - INFO - Descarga iniciada
+2025-09-11 16:42:20,250 - INFO - Descarga completada: XtraReportAtencionIPS (37).pdf
+2025-09-11 16:42:20,250 - INFO - PDF descargado: XtraReportAtencionIPS (37).pdf
+2025-09-11 16:42:25,472 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:42:30,654 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:42:31,659 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:42:39,677 - INFO - Procesando: DIANA VELEZ - ID: 31486646
+2025-09-11 16:42:44,850 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:42:49,962 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:42:51,116 - INFO - Clic exitoso en VER REPORTE para 31486646
+2025-09-11 16:42:51,117 - INFO - Procesando reporte para 31486646
+2025-09-11 16:42:56,697 - INFO - Descarga iniciada
+2025-09-11 16:42:58,699 - INFO - Descarga completada: XtraReportAtencionIPS (38).pdf
+2025-09-11 16:42:58,699 - INFO - PDF descargado: XtraReportAtencionIPS (38).pdf
+2025-09-11 16:43:03,895 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:43:09,104 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:43:10,073 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:43:18,092 - INFO - Procesando: STEPHANIA ALARCON - ID: 1113693094
+2025-09-11 16:43:23,242 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:43:28,385 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:43:29,389 - INFO - Clic exitoso en VER REPORTE para 1113693094
+2025-09-11 16:43:29,389 - INFO - Procesando reporte para 1113693094
+2025-09-11 16:43:34,977 - INFO - Descarga iniciada
+2025-09-11 16:43:36,980 - INFO - Descarga completada: XtraReportAtencionIPS (39).pdf
+2025-09-11 16:43:36,980 - INFO - PDF descargado: XtraReportAtencionIPS (39).pdf
+2025-09-11 16:43:42,180 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:43:47,387 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:43:49,626 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:43:57,642 - INFO - Procesando: ALEJANDRA LUJAN - ID: 1005980422
+2025-09-11 16:44:02,776 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:44:07,932 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:44:08,995 - INFO - Clic exitoso en VER REPORTE para 1005980422
+2025-09-11 16:44:08,996 - INFO - Procesando reporte para 1005980422
+2025-09-11 16:44:14,575 - INFO - Descarga iniciada
+2025-09-11 16:44:16,576 - INFO - Descarga completada: XtraReportAtencionIPS (40).pdf
+2025-09-11 16:44:16,576 - INFO - PDF descargado: XtraReportAtencionIPS (40).pdf
+2025-09-11 16:44:21,784 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:44:26,976 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:44:27,965 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:44:35,980 - INFO - Procesando: RUBEN PERLAZA - ID: 1118306394
+2025-09-11 16:44:41,122 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:44:46,255 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:44:47,285 - INFO - Clic exitoso en VER REPORTE para 1118306394
+2025-09-11 16:44:47,285 - INFO - Procesando reporte para 1118306394
+2025-09-11 16:44:52,926 - INFO - Descarga iniciada
+2025-09-11 16:44:54,929 - INFO - Descarga completada: XtraReportAtencionIPS (41).pdf
+2025-09-11 16:44:54,929 - INFO - PDF descargado: XtraReportAtencionIPS (41).pdf
+2025-09-11 16:45:00,131 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:45:05,323 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:45:06,290 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:45:14,306 - INFO - Procesando: CARMEN LLANOS - ID: 66819730
+2025-09-11 16:45:19,450 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:45:24,571 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:45:25,699 - INFO - Clic exitoso en VER REPORTE para 66819730
+2025-09-11 16:45:25,699 - INFO - Procesando reporte para 66819730
+2025-09-11 16:45:31,312 - INFO - Descarga iniciada
+2025-09-11 16:45:33,315 - INFO - Descarga completada: XtraReportAtencionIPS (42).pdf
+2025-09-11 16:45:33,315 - INFO - PDF descargado: XtraReportAtencionIPS (42).pdf
+2025-09-11 16:45:38,496 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:45:43,714 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:45:44,733 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:45:52,753 - INFO - Procesando: CHARLES CAICEDO - ID: 16847435
+2025-09-11 16:45:57,919 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:46:03,069 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:46:04,206 - INFO - Clic exitoso en VER REPORTE para 16847435
+2025-09-11 16:46:04,206 - INFO - Procesando reporte para 16847435
+2025-09-11 16:46:09,789 - INFO - Descarga iniciada
+2025-09-11 16:46:11,792 - INFO - Descarga completada: XtraReportAtencionIPS (43).pdf
+2025-09-11 16:46:11,792 - INFO - PDF descargado: XtraReportAtencionIPS (43).pdf
+2025-09-11 16:46:17,002 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:46:22,196 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:46:23,694 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:46:37,310 - INFO - Texto paginación: Página 5 de 6 (55 elementos)
+2025-09-11 16:46:37,310 - INFO - === PROCESANDO PÁGINA 5 DE 6 ===
+2025-09-11 16:46:40,390 - INFO - Extraído: JOSE CARMONA - ID: 6102562
+2025-09-11 16:46:40,464 - INFO - Extraído: VALENTINA LUCUMI - ID: 1006167622
+2025-09-11 16:46:40,525 - INFO - Extraído: BRAYNER CHAVES - ID: 1107070932
+2025-09-11 16:46:40,608 - INFO - Extraído: DANIELA RIVAS - ID: 1143975211
+2025-09-11 16:46:40,675 - INFO - Extraído: YOLANDA GONZALEZ - ID: 66820999
+2025-09-11 16:46:40,764 - INFO - Extraído: JHONATANN MORENO - ID: 1006110165
+2025-09-11 16:46:40,910 - INFO - Extraído: KATHERINE DELGADO - ID: 1107527821
+2025-09-11 16:46:40,975 - INFO - Extraído: JAMES RODRIGUEZ - ID: 1006184934
+2025-09-11 16:46:41,043 - INFO - Extraído: SINDY MONTILLA - ID: 1006396922
+2025-09-11 16:46:41,125 - INFO - Extraído: WEYMAR VALLEJO - ID: 1112226970
+2025-09-11 16:46:41,125 - INFO - Total elementos encontrados: 10
+2025-09-11 16:46:41,125 - INFO - Procesando: JOSE CARMONA - ID: 6102562
+2025-09-11 16:46:46,256 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:46:51,386 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:46:52,502 - INFO - Clic exitoso en VER REPORTE para 6102562
+2025-09-11 16:46:52,502 - INFO - Procesando reporte para 6102562
+2025-09-11 16:46:58,197 - INFO - Descarga iniciada
+2025-09-11 16:47:00,201 - INFO - Descarga completada: XtraReportAtencionIPS (44).pdf
+2025-09-11 16:47:00,201 - INFO - PDF descargado: XtraReportAtencionIPS (44).pdf
+2025-09-11 16:47:05,647 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:47:10,925 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:47:11,908 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:47:19,928 - INFO - Procesando: VALENTINA LUCUMI - ID: 1006167622
+2025-09-11 16:47:25,089 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:47:30,257 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:47:31,352 - INFO - Clic exitoso en VER REPORTE para 1006167622
+2025-09-11 16:47:31,352 - INFO - Procesando reporte para 1006167622
+2025-09-11 16:47:36,974 - INFO - Descarga iniciada
+2025-09-11 16:47:39,010 - INFO - Descarga completada: XtraReportAtencionIPS (45).pdf
+2025-09-11 16:47:39,010 - INFO - PDF descargado: XtraReportAtencionIPS (45).pdf
+2025-09-11 16:47:44,219 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:47:49,396 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:47:50,392 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:47:58,407 - INFO - Procesando: BRAYNER CHAVES - ID: 1107070932
+2025-09-11 16:48:03,553 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:48:08,702 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:48:09,790 - INFO - Clic exitoso en VER REPORTE para 1107070932
+2025-09-11 16:48:09,790 - INFO - Procesando reporte para 1107070932
+2025-09-11 16:48:15,383 - INFO - Descarga iniciada
+2025-09-11 16:48:17,386 - INFO - Descarga completada: XtraReportAtencionIPS (46).pdf
+2025-09-11 16:48:17,386 - INFO - PDF descargado: XtraReportAtencionIPS (46).pdf
+2025-09-11 16:48:22,625 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:48:27,832 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:48:28,792 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:48:36,807 - INFO - Procesando: DANIELA RIVAS - ID: 1143975211
+2025-09-11 16:48:41,956 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:48:47,093 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:48:48,110 - INFO - Clic exitoso en VER REPORTE para 1143975211
+2025-09-11 16:48:48,110 - INFO - Procesando reporte para 1143975211
+2025-09-11 16:48:53,695 - INFO - Descarga iniciada
+2025-09-11 16:48:55,699 - INFO - Descarga completada: XtraReportAtencionIPS (47).pdf
+2025-09-11 16:48:55,699 - INFO - PDF descargado: XtraReportAtencionIPS (47).pdf
+2025-09-11 16:49:00,916 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:49:06,117 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:49:07,137 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:49:15,154 - INFO - Procesando: YOLANDA GONZALEZ - ID: 66820999
+2025-09-11 16:49:16,472 - INFO - Clic exitoso en VER REPORTE para 66820999
+2025-09-11 16:49:16,472 - INFO - Procesando reporte para 66820999
+2025-09-11 16:49:22,054 - INFO - Descarga iniciada
+2025-09-11 16:49:24,057 - INFO - Descarga completada: XtraReportAtencionIPS (48).pdf
+2025-09-11 16:49:24,057 - INFO - PDF descargado: XtraReportAtencionIPS (48).pdf
+2025-09-11 16:49:29,259 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:49:34,496 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:49:35,402 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:49:43,421 - INFO - Procesando: JHONATANN MORENO - ID: 1006110165
+2025-09-11 16:49:48,550 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:49:53,706 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:49:54,860 - INFO - Clic exitoso en VER REPORTE para 1006110165
+2025-09-11 16:49:54,860 - INFO - Procesando reporte para 1006110165
+2025-09-11 16:50:00,446 - INFO - Descarga iniciada
+2025-09-11 16:50:02,449 - INFO - Descarga completada: XtraReportAtencionIPS (49).pdf
+2025-09-11 16:50:02,449 - INFO - PDF descargado: XtraReportAtencionIPS (49).pdf
+2025-09-11 16:50:07,750 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:50:13,065 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:50:15,878 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:50:23,904 - INFO - Procesando: KATHERINE DELGADO - ID: 1107527821
+2025-09-11 16:50:29,057 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:50:34,199 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:50:36,182 - INFO - Clic exitoso en VER REPORTE para 1107527821
+2025-09-11 16:50:36,188 - INFO - Procesando reporte para 1107527821
+2025-09-11 16:50:41,765 - INFO - Descarga iniciada
+2025-09-11 16:50:43,768 - INFO - Descarga completada: XtraReportAtencionIPS (50).pdf
+2025-09-11 16:50:43,768 - INFO - PDF descargado: XtraReportAtencionIPS (50).pdf
+2025-09-11 16:50:48,961 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:50:54,169 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:50:55,499 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:51:03,516 - INFO - Procesando: JAMES RODRIGUEZ - ID: 1006184934
+2025-09-11 16:51:08,664 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:51:13,804 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:51:15,911 - INFO - Clic exitoso en VER REPORTE para 1006184934
+2025-09-11 16:51:15,911 - INFO - Procesando reporte para 1006184934
+2025-09-11 16:51:21,495 - INFO - Descarga iniciada
+2025-09-11 16:51:23,497 - INFO - Descarga completada: XtraReportAtencionIPS (51).pdf
+2025-09-11 16:51:23,498 - INFO - PDF descargado: XtraReportAtencionIPS (51).pdf
+2025-09-11 16:51:28,713 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:51:33,899 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:51:34,937 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:51:42,955 - INFO - Procesando: SINDY MONTILLA - ID: 1006396922
+2025-09-11 16:51:48,102 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:51:53,243 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:51:54,312 - INFO - Clic exitoso en VER REPORTE para 1006396922
+2025-09-11 16:51:54,313 - INFO - Procesando reporte para 1006396922
+2025-09-11 16:51:59,892 - INFO - Descarga iniciada
+2025-09-11 16:52:01,896 - INFO - Descarga completada: XtraReportAtencionIPS (52).pdf
+2025-09-11 16:52:01,896 - INFO - PDF descargado: XtraReportAtencionIPS (52).pdf
+2025-09-11 16:52:07,091 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:52:12,293 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:52:13,315 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:52:21,335 - INFO - Procesando: WEYMAR VALLEJO - ID: 1112226970
+2025-09-11 16:52:26,479 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:52:31,624 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:52:32,693 - INFO - Clic exitoso en VER REPORTE para 1112226970
+2025-09-11 16:52:32,693 - INFO - Procesando reporte para 1112226970
+2025-09-11 16:52:38,280 - INFO - Descarga iniciada
+2025-09-11 16:52:40,282 - INFO - Descarga completada: XtraReportAtencionIPS (53).pdf
+2025-09-11 16:52:40,282 - INFO - PDF descargado: XtraReportAtencionIPS (53).pdf
+2025-09-11 16:52:45,487 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:52:50,694 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:52:51,681 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:53:05,296 - INFO - Texto paginación: Página 6 de 6 (55 elementos)
+2025-09-11 16:53:05,296 - INFO - === PROCESANDO PÁGINA 6 DE 6 ===
+2025-09-11 16:53:08,411 - INFO - Extraído: JHOSSY ARANA - ID: 1114312510
+2025-09-11 16:53:08,566 - INFO - Extraído: ORIAN VALERIO - ID: 1126909495
+2025-09-11 16:53:08,655 - INFO - Extraído: DANIEL HERNANDEZ - ID: 1112969903
+2025-09-11 16:53:08,739 - INFO - Extraído: ISABEL MORA - ID: 1111667861
+2025-09-11 16:53:08,864 - INFO - Extraído: MERCEDES URBANO - ID: 31226303
+2025-09-11 16:53:08,864 - INFO - Total elementos encontrados: 5
+2025-09-11 16:53:08,864 - INFO - Procesando: JHOSSY ARANA - ID: 1114312510
+2025-09-11 16:53:14,017 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:53:19,153 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:53:20,172 - INFO - Clic exitoso en VER REPORTE para 1114312510
+2025-09-11 16:53:20,172 - INFO - Procesando reporte para 1114312510
+2025-09-11 16:53:25,754 - INFO - Descarga iniciada
+2025-09-11 16:53:27,757 - INFO - Descarga completada: XtraReportAtencionIPS (54).pdf
+2025-09-11 16:53:27,757 - INFO - PDF descargado: XtraReportAtencionIPS (54).pdf
+2025-09-11 16:53:32,953 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:53:38,146 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:53:39,086 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:53:47,101 - INFO - Procesando: ORIAN VALERIO - ID: 1126909495
+2025-09-11 16:53:52,249 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:53:57,389 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:53:58,427 - INFO - Clic exitoso en VER REPORTE para 1126909495
+2025-09-11 16:53:58,427 - INFO - Procesando reporte para 1126909495
+2025-09-11 16:54:04,030 - INFO - Descarga iniciada
+2025-09-11 16:54:06,033 - INFO - Descarga completada: XtraReportAtencionIPS (55).pdf
+2025-09-11 16:54:06,033 - INFO - PDF descargado: XtraReportAtencionIPS (55).pdf
+2025-09-11 16:54:11,238 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:54:16,424 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:54:17,391 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:54:25,408 - INFO - Procesando: DANIEL HERNANDEZ - ID: 1112969903
+2025-09-11 16:54:30,549 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:54:35,686 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:54:36,713 - INFO - Clic exitoso en VER REPORTE para 1112969903
+2025-09-11 16:54:36,713 - INFO - Procesando reporte para 1112969903
+2025-09-11 16:54:42,299 - INFO - Descarga iniciada
+2025-09-11 16:54:44,301 - INFO - Descarga completada: XtraReportAtencionIPS (56).pdf
+2025-09-11 16:54:44,301 - INFO - PDF descargado: XtraReportAtencionIPS (56).pdf
+2025-09-11 16:54:49,510 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:54:54,712 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:54:55,755 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:55:03,770 - INFO - Procesando: ISABEL MORA - ID: 1111667861
+2025-09-11 16:55:08,913 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:55:14,048 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:55:15,184 - INFO - Clic exitoso en VER REPORTE para 1111667861
+2025-09-11 16:55:15,184 - INFO - Procesando reporte para 1111667861
+2025-09-11 16:55:20,767 - INFO - Descarga iniciada
+2025-09-11 16:55:22,770 - INFO - Descarga completada: XtraReportAtencionIPS (57).pdf
+2025-09-11 16:55:22,770 - INFO - PDF descargado: XtraReportAtencionIPS (57).pdf
+2025-09-11 16:55:27,970 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:55:33,174 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:55:34,169 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:55:42,185 - INFO - Procesando: MERCEDES URBANO - ID: 31226303
+2025-09-11 16:55:47,338 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//span[contains(text(), 'Ver Reporte')]
+2025-09-11 16:55:52,470 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//*[contains(@id, 'CBtn1')]
+2025-09-11 16:55:53,513 - INFO - Clic exitoso en VER REPORTE para 31226303
+2025-09-11 16:55:53,514 - INFO - Procesando reporte para 31226303
+2025-09-11 16:55:59,091 - INFO - Descarga iniciada
+2025-09-11 16:56:01,094 - INFO - Descarga completada: XtraReportAtencionIPS (58).pdf
+2025-09-11 16:56:01,094 - INFO - PDF descargado: XtraReportAtencionIPS (58).pdf
+2025-09-11 16:56:06,304 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-11 16:56:11,500 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-11 16:56:12,439 - INFO - Botón volver clickeado exitosamente
+2025-09-11 16:56:20,492 - INFO - Procesamiento de todas las páginas completado
+2025-09-11 16:56:20,492 - INFO - Proceso completado. Total archivos descargados: 59
+2025-09-11 16:56:20,492 - INFO - Archivos guardados en: c:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\src\descargasPDF
+2025-09-11 16:56:26,475 - INFO - Driver cerrado
+2025-09-11 16:56:30,499 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C5C6B3FFB0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/ee9fa88236be09eda4954969d40fef63
+2025-09-11 16:56:34,580 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C5C6B74D70>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/ee9fa88236be09eda4954969d40fef63
+2025-09-11 16:56:38,620 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C5C6B765D0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/ee9fa88236be09eda4954969d40fef63

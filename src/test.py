@@ -235,13 +235,11 @@ class SirasAutomation:
             
             # Configurar fechas
             fecha_inicial = self.wait_for_element(By.ID, "FechaInicialFiltro_I")
-            fecha_inicial.click()
-            time.sleep(1)
+            fecha_inicial.clear()
             self.human_typing(fecha_inicial, credentials["fecha"])
             
             fecha_final = self.wait_for_element(By.ID, "FechaFinalFiltro_I")
-            fecha_final.click()
-            time.sleep(1)
+            fecha_final.clear()
             self.human_typing(fecha_final, credentials["fecha"])
             
             # Consultar
