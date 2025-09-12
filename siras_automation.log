@@ -2290,3 +2290,1672 @@ Stacktrace:
 2025-09-11 16:56:30,499 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C5C6B3FFB0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/ee9fa88236be09eda4954969d40fef63
 2025-09-11 16:56:34,580 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C5C6B74D70>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/ee9fa88236be09eda4954969d40fef63
 2025-09-11 16:56:38,620 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001C5C6B765D0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/ee9fa88236be09eda4954969d40fef63
+2025-09-12 09:54:09,893 - INFO - ====== WebDriver manager ======
+2025-09-12 09:54:12,411 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 09:54:13,267 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 09:54:13,856 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 09:54:15,170 - INFO - WebDriver version 140.0.7339.82 selected
+2025-09-12 09:54:15,175 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.82/win32/chromedriver-win32.zip
+2025-09-12 09:54:15,176 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.82/win32/chromedriver-win32.zip
+2025-09-12 09:54:15,776 - INFO - Driver downloading response is 200
+2025-09-12 09:54:16,158 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 09:54:16,990 - INFO - Driver has been saved in cache [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.82]
+2025-09-12 09:54:20,588 - INFO - Driver configurado exitosamente
+2025-09-12 09:54:20,588 - INFO - Iniciando login...
+2025-09-12 09:54:32,116 - INFO - Login exitoso
+2025-09-12 09:54:32,116 - INFO - Configurando opciones...
+2025-09-12 09:55:00,075 - INFO - Opciones configuradas exitosamente
+2025-09-12 09:55:05,090 - INFO - Texto paginación: Página 1 de 3 (29 elementos)
+2025-09-12 09:55:05,090 - INFO - Iniciando procesamiento: 29 elementos en 3 páginas
+2025-09-12 09:55:05,090 - INFO - === PROCESANDO PÁGINA 1 DE 3 ===
+2025-09-12 09:55:08,187 - INFO - Extraído: JINNEHD JIMENEZ - ID: 1003194349 - Radicado: 228056361800507e
+2025-09-12 09:55:08,247 - INFO - Extraído: ANDRES BEJARANO - ID: 1143866559 - Radicado: b6927ba3ea4aa60e
+2025-09-12 09:55:08,318 - INFO - Extraído: YERSON CHILITO - ID: 1061694000 - Radicado: 6d5beae720722753
+2025-09-12 09:55:08,397 - INFO - Extraído: HARRISON ARAUJO - ID: 1108561972 - Radicado: 88434249b587cac8
+2025-09-12 09:55:08,482 - INFO - Extraído: SANDRA QUIÑONEZ - ID: 67009055 - Radicado: 85a3860d025749c0
+2025-09-12 09:55:08,559 - INFO - Extraído: JUAN RODRIGUEZ - ID: 1151971124 - Radicado: 2d9206694bf1ae82
+2025-09-12 09:55:08,637 - INFO - Extraído: DIEGO MAHECHA - ID: 16931940 - Radicado: c239fb4032c3c34f
+2025-09-12 09:55:08,774 - INFO - Extraído: OLGA PANCHANO - ID: 66916253 - Radicado: 6d6ecd379e0a2b93
+2025-09-12 09:55:08,833 - INFO - Extraído: AMARILDO BANGUERO - ID: 16691115 - Radicado: a6e3b439a0e330c6
+2025-09-12 09:55:08,914 - INFO - Extraído: JUAN RODRIGUEZ - ID: 1151971124 - Radicado: fa91ff8a9713fe5c
+2025-09-12 09:55:08,914 - INFO - Total elementos encontrados: 10
+2025-09-12 09:55:08,914 - INFO - Procesando: JINNEHD JIMENEZ - ID: 1003194349 - Radicado: 228056361800507e
+2025-09-12 09:55:10,029 - INFO - Clic exitoso en VER REPORTE para 1003194349
+2025-09-12 09:55:10,029 - INFO - Procesando reporte para 1003194349 - Radicado: 228056361800507e
+2025-09-12 09:55:15,619 - INFO - Descarga iniciada
+2025-09-12 09:55:17,622 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 09:55:17,623 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 09:55:22,828 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 09:55:28,014 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 09:55:28,942 - INFO - Botón volver clickeado exitosamente
+2025-09-12 09:55:36,962 - INFO - Procesando: ANDRES BEJARANO - ID: 1143866559 - Radicado: b6927ba3ea4aa60e
+2025-09-12 09:55:38,092 - INFO - Clic exitoso en VER REPORTE para 1143866559
+2025-09-12 09:55:38,093 - INFO - Procesando reporte para 1143866559 - Radicado: b6927ba3ea4aa60e
+2025-09-12 09:55:43,707 - INFO - Descarga iniciada
+2025-09-12 09:55:45,713 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 09:55:45,714 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 09:55:50,916 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 09:55:56,126 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 09:55:57,054 - INFO - Botón volver clickeado exitosamente
+2025-09-12 09:56:05,074 - INFO - Procesando: YERSON CHILITO - ID: 1061694000 - Radicado: 6d5beae720722753
+2025-09-12 09:56:06,277 - INFO - Clic exitoso en VER REPORTE para 1061694000
+2025-09-12 09:56:06,277 - INFO - Procesando reporte para 1061694000 - Radicado: 6d5beae720722753
+2025-09-12 09:56:11,995 - INFO - Descarga iniciada
+2025-09-12 09:56:14,005 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 09:56:14,005 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 09:56:19,379 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 09:56:24,730 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 09:56:25,718 - INFO - Botón volver clickeado exitosamente
+2025-09-12 09:56:33,736 - INFO - Procesando: HARRISON ARAUJO - ID: 1108561972 - Radicado: 88434249b587cac8
+2025-09-12 09:56:34,770 - INFO - Clic exitoso en VER REPORTE para 1108561972
+2025-09-12 09:56:34,770 - INFO - Procesando reporte para 1108561972 - Radicado: 88434249b587cac8
+2025-09-12 09:56:40,358 - INFO - Descarga iniciada
+2025-09-12 09:56:42,363 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 09:56:42,364 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 09:56:47,593 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 09:56:52,812 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 09:56:53,756 - INFO - Botón volver clickeado exitosamente
+2025-09-12 09:57:01,772 - INFO - Procesando: SANDRA QUIÑONEZ - ID: 67009055 - Radicado: 85a3860d025749c0
+2025-09-12 09:57:02,847 - INFO - Clic exitoso en VER REPORTE para 67009055
+2025-09-12 09:57:02,848 - INFO - Procesando reporte para 67009055 - Radicado: 85a3860d025749c0
+2025-09-12 09:57:08,486 - INFO - Descarga iniciada
+2025-09-12 09:57:10,489 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 09:57:10,489 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 09:57:15,679 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 09:57:20,873 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 09:57:21,826 - INFO - Botón volver clickeado exitosamente
+2025-09-12 09:57:29,842 - INFO - Procesando: JUAN RODRIGUEZ - ID: 1151971124 - Radicado: 2d9206694bf1ae82
+2025-09-12 09:57:30,897 - INFO - Clic exitoso en VER REPORTE para 1151971124
+2025-09-12 09:57:30,898 - INFO - Procesando reporte para 1151971124 - Radicado: 2d9206694bf1ae82
+2025-09-12 09:57:36,517 - INFO - Descarga iniciada
+2025-09-12 09:57:38,523 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 09:57:38,523 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 09:57:43,816 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 09:57:49,079 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 09:57:50,054 - INFO - Botón volver clickeado exitosamente
+2025-09-12 09:57:58,071 - INFO - Procesando: DIEGO MAHECHA - ID: 16931940 - Radicado: c239fb4032c3c34f
+2025-09-12 09:57:59,133 - INFO - Clic exitoso en VER REPORTE para 16931940
+2025-09-12 09:57:59,134 - INFO - Procesando reporte para 16931940 - Radicado: c239fb4032c3c34f
+2025-09-12 09:58:04,715 - INFO - Descarga iniciada
+2025-09-12 09:58:06,718 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 09:58:06,718 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 09:58:11,924 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 09:58:17,133 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 09:58:18,069 - INFO - Botón volver clickeado exitosamente
+2025-09-12 09:58:26,087 - INFO - Procesando: OLGA PANCHANO - ID: 66916253 - Radicado: 6d6ecd379e0a2b93
+2025-09-12 09:58:27,335 - INFO - Clic exitoso en VER REPORTE para 66916253
+2025-09-12 09:58:27,335 - INFO - Procesando reporte para 66916253 - Radicado: 6d6ecd379e0a2b93
+2025-09-12 09:58:32,955 - INFO - Descarga iniciada
+2025-09-12 09:58:34,960 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 09:58:34,960 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 09:58:40,182 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 09:58:45,427 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 09:58:46,407 - INFO - Botón volver clickeado exitosamente
+2025-09-12 09:58:54,424 - INFO - Procesando: AMARILDO BANGUERO - ID: 16691115 - Radicado: a6e3b439a0e330c6
+2025-09-12 09:58:55,615 - INFO - Clic exitoso en VER REPORTE para 16691115
+2025-09-12 09:58:55,616 - INFO - Procesando reporte para 16691115 - Radicado: a6e3b439a0e330c6
+2025-09-12 09:59:01,217 - INFO - Descarga iniciada
+2025-09-12 09:59:03,221 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 09:59:03,221 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 09:59:08,417 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 09:59:13,639 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 09:59:14,531 - INFO - Botón volver clickeado exitosamente
+2025-09-12 09:59:22,550 - INFO - Procesando: JUAN RODRIGUEZ - ID: 1151971124 - Radicado: fa91ff8a9713fe5c
+2025-09-12 09:59:23,821 - INFO - Clic exitoso en VER REPORTE para 1151971124
+2025-09-12 09:59:23,822 - INFO - Procesando reporte para 1151971124 - Radicado: fa91ff8a9713fe5c
+2025-09-12 09:59:29,405 - INFO - Descarga iniciada
+2025-09-12 09:59:31,409 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 09:59:31,410 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 09:59:36,626 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 09:59:41,813 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 09:59:42,770 - INFO - Botón volver clickeado exitosamente
+2025-09-12 09:59:56,391 - INFO - Texto paginación: Página 2 de 3 (29 elementos)
+2025-09-12 09:59:56,391 - INFO - === PROCESANDO PÁGINA 2 DE 3 ===
+2025-09-12 09:59:59,466 - INFO - Extraído: JUAN MARIN - ID: 1006452050 - Radicado: 1730a51b34399739
+2025-09-12 09:59:59,533 - INFO - Extraído: JOSE DELGADO - ID: 16286617 - Radicado: b15837f2d7ee914e
+2025-09-12 09:59:59,613 - INFO - Extraído: YORLY GOMEZ - ID: 1112490283 - Radicado: ed8e6ec30825df8
+2025-09-12 09:59:59,681 - INFO - Extraído: DANIEL DAZA - ID: 1082850351 - Radicado: b3a89e7f11d7d870
+2025-09-12 09:59:59,785 - INFO - Extraído: ANDRES SANDOVAL - ID: 6103366 - Radicado: b13569e1161d2b65
+2025-09-12 09:59:59,869 - INFO - Extraído: VALERIA CORTES - ID: 1112487776 - Radicado: 383643340bcb75eb
+2025-09-12 10:00:00,032 - INFO - Extraído: MELANY ALPALA - ID: 1107044372 - Radicado: 9070e6fcc393f054
+2025-09-12 10:00:00,114 - INFO - Extraído: SEBASTIAN RIASCOS - ID: 1107096277 - Radicado: ca9d3e1b863f2f41
+2025-09-12 10:00:00,180 - INFO - Extraído: ISABELLA GONZALEZ - ID: 1109663141 - Radicado: eaf58632b3d7c74b
+2025-09-12 10:00:00,246 - INFO - Extraído: WILLIAM SINISTERRA - ID: 94508457 - Radicado: a2ea046a82dcb57d
+2025-09-12 10:00:00,246 - INFO - Total elementos encontrados: 10
+2025-09-12 10:00:00,246 - INFO - Procesando: JUAN MARIN - ID: 1006452050 - Radicado: 1730a51b34399739
+2025-09-12 10:00:05,400 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 10:00:10,626 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//*[contains(@id, 'CBtn1')]
+2025-09-12 10:00:11,953 - INFO - Clic exitoso en VER REPORTE para 1006452050
+2025-09-12 10:00:11,953 - INFO - Procesando reporte para 1006452050 - Radicado: 1730a51b34399739
+2025-09-12 10:00:17,675 - INFO - Descarga iniciada
+2025-09-12 10:00:19,685 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:00:19,686 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:00:25,188 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 10:00:30,472 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 10:00:31,412 - INFO - Botón volver clickeado exitosamente
+2025-09-12 10:00:39,427 - INFO - Procesando: JOSE DELGADO - ID: 16286617 - Radicado: b15837f2d7ee914e
+2025-09-12 10:00:40,525 - INFO - Clic exitoso en VER REPORTE para 16286617
+2025-09-12 10:00:40,525 - INFO - Procesando reporte para 16286617 - Radicado: b15837f2d7ee914e
+2025-09-12 10:00:46,120 - INFO - Descarga iniciada
+2025-09-12 10:00:48,124 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:00:48,124 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:00:53,334 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 10:00:58,529 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 10:00:59,525 - INFO - Botón volver clickeado exitosamente
+2025-09-12 10:01:07,542 - INFO - Procesando: YORLY GOMEZ - ID: 1112490283 - Radicado: ed8e6ec30825df8
+2025-09-12 10:01:12,687 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 10:01:17,815 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//*[contains(@id, 'CBtn1')]
+2025-09-12 10:01:18,857 - INFO - Clic exitoso en VER REPORTE para 1112490283
+2025-09-12 10:01:18,858 - INFO - Procesando reporte para 1112490283 - Radicado: ed8e6ec30825df8
+2025-09-12 10:01:24,479 - INFO - Descarga iniciada
+2025-09-12 10:01:26,483 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:01:26,485 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:01:31,715 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 10:01:36,909 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 10:01:37,911 - INFO - Botón volver clickeado exitosamente
+2025-09-12 10:01:45,928 - INFO - Procesando: DANIEL DAZA - ID: 1082850351 - Radicado: b3a89e7f11d7d870
+2025-09-12 10:01:51,068 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 10:01:56,222 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//*[contains(@id, 'CBtn1')]
+2025-09-12 10:01:57,269 - INFO - Clic exitoso en VER REPORTE para 1082850351
+2025-09-12 10:01:57,270 - INFO - Procesando reporte para 1082850351 - Radicado: b3a89e7f11d7d870
+2025-09-12 10:02:02,849 - INFO - Descarga iniciada
+2025-09-12 10:02:04,853 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:02:04,854 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:02:10,050 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 10:02:15,246 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 10:02:16,279 - INFO - Botón volver clickeado exitosamente
+2025-09-12 10:02:24,293 - INFO - Procesando: ANDRES SANDOVAL - ID: 6103366 - Radicado: b13569e1161d2b65
+2025-09-12 10:02:29,435 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 10:02:34,569 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//*[contains(@id, 'CBtn1')]
+2025-09-12 10:02:35,735 - INFO - Clic exitoso en VER REPORTE para 6103366
+2025-09-12 10:02:35,736 - INFO - Procesando reporte para 6103366 - Radicado: b13569e1161d2b65
+2025-09-12 10:02:41,325 - INFO - Descarga iniciada
+2025-09-12 10:02:43,329 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:02:43,329 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:02:48,546 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 10:02:53,736 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 10:02:54,663 - INFO - Botón volver clickeado exitosamente
+2025-09-12 10:03:02,680 - INFO - Procesando: VALERIA CORTES - ID: 1112487776 - Radicado: 383643340bcb75eb
+2025-09-12 10:03:07,814 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 10:03:12,947 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//*[contains(@id, 'CBtn1')]
+2025-09-12 10:03:13,974 - INFO - Clic exitoso en VER REPORTE para 1112487776
+2025-09-12 10:03:13,975 - INFO - Procesando reporte para 1112487776 - Radicado: 383643340bcb75eb
+2025-09-12 10:03:19,552 - INFO - Descarga iniciada
+2025-09-12 10:03:21,555 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:03:21,556 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:03:26,770 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 10:03:31,970 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 10:03:32,914 - INFO - Botón volver clickeado exitosamente
+2025-09-12 10:03:40,928 - INFO - Procesando: MELANY ALPALA - ID: 1107044372 - Radicado: 9070e6fcc393f054
+2025-09-12 10:03:46,056 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 10:03:51,177 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//*[contains(@id, 'CBtn1')]
+2025-09-12 10:03:52,261 - INFO - Clic exitoso en VER REPORTE para 1107044372
+2025-09-12 10:03:52,261 - INFO - Procesando reporte para 1107044372 - Radicado: 9070e6fcc393f054
+2025-09-12 10:03:57,841 - INFO - Descarga iniciada
+2025-09-12 10:03:59,846 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:03:59,846 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:04:05,051 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 10:04:10,241 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 10:04:11,184 - INFO - Botón volver clickeado exitosamente
+2025-09-12 10:04:19,201 - INFO - Procesando: SEBASTIAN RIASCOS - ID: 1107096277 - Radicado: ca9d3e1b863f2f41
+2025-09-12 10:04:24,347 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 10:04:29,469 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//*[contains(@id, 'CBtn1')]
+2025-09-12 10:04:30,567 - INFO - Clic exitoso en VER REPORTE para 1107096277
+2025-09-12 10:04:30,568 - INFO - Procesando reporte para 1107096277 - Radicado: ca9d3e1b863f2f41
+2025-09-12 10:04:36,182 - INFO - Descarga iniciada
+2025-09-12 10:04:38,186 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:04:38,187 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:04:43,381 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 10:04:48,557 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 10:04:49,525 - INFO - Botón volver clickeado exitosamente
+2025-09-12 10:04:57,544 - INFO - Procesando: ISABELLA GONZALEZ - ID: 1109663141 - Radicado: eaf58632b3d7c74b
+2025-09-12 10:05:02,689 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 10:05:07,825 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//*[contains(@id, 'CBtn1')]
+2025-09-12 10:05:08,854 - INFO - Clic exitoso en VER REPORTE para 1109663141
+2025-09-12 10:05:08,854 - INFO - Procesando reporte para 1109663141 - Radicado: eaf58632b3d7c74b
+2025-09-12 10:05:14,436 - INFO - Descarga iniciada
+2025-09-12 10:05:16,440 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:05:16,440 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:05:21,634 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 10:05:26,813 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 10:05:27,796 - INFO - Botón volver clickeado exitosamente
+2025-09-12 10:05:35,811 - INFO - Procesando: WILLIAM SINISTERRA - ID: 94508457 - Radicado: a2ea046a82dcb57d
+2025-09-12 10:05:41,010 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 10:05:46,150 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//*[contains(@id, 'CBtn1')]
+2025-09-12 10:05:47,127 - INFO - Clic exitoso en VER REPORTE para 94508457
+2025-09-12 10:05:47,128 - INFO - Procesando reporte para 94508457 - Radicado: a2ea046a82dcb57d
+2025-09-12 10:05:52,706 - INFO - Descarga iniciada
+2025-09-12 10:05:54,710 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:05:54,710 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:05:59,902 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 10:06:05,101 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 10:06:06,137 - INFO - Botón volver clickeado exitosamente
+2025-09-12 10:06:19,750 - INFO - Texto paginación: Página 3 de 3 (29 elementos)
+2025-09-12 10:06:19,765 - INFO - === PROCESANDO PÁGINA 3 DE 3 ===
+2025-09-12 10:06:22,855 - INFO - Extraído: GIANCARLO MONTAÑO - ID: 1105367921 - Radicado: efbdb1bb49b1d19c
+2025-09-12 10:06:22,930 - INFO - Extraído: LUIS SOLIS - ID: 1067469432 - Radicado: e7690f855e8c50e8
+2025-09-12 10:06:23,070 - INFO - Extraído: JOSE CASTAÑEDA - ID: 1144204911 - Radicado: 4eadd9b9523b209
+2025-09-12 10:06:23,144 - INFO - Extraído: JHON NIETO - ID: 94409200 - Radicado: 412743b12a691dbb
+2025-09-12 10:06:23,222 - INFO - Extraído: KEVIN ARANA - ID: 1006258418 - Radicado: 19573d2767b6c136
+2025-09-12 10:06:23,288 - INFO - Extraído: FABIO MADRID - ID: 1143830504 - Radicado: 74d971518a1a8b0
+2025-09-12 10:06:23,363 - INFO - Extraído: VICTOR GARCES - ID: 1111480834 - Radicado: 4495e2e3cdc3c2f
+2025-09-12 10:06:23,420 - INFO - Extraído: SANTIAGO MAFLA - ID: 1114886155 - Radicado: 5b9f2bf3150d4d5b
+2025-09-12 10:06:23,504 - INFO - Extraído: DORANGELA PIAMBA - ID: 1143862055 - Radicado: 6ecb3d15b26b660d
+2025-09-12 10:06:23,504 - INFO - Total elementos encontrados: 9
+2025-09-12 10:06:23,504 - INFO - Procesando: GIANCARLO MONTAÑO - ID: 1105367921 - Radicado: efbdb1bb49b1d19c
+2025-09-12 10:06:28,625 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 10:06:33,767 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//*[contains(@id, 'CBtn1')]
+2025-09-12 10:06:34,838 - INFO - Clic exitoso en VER REPORTE para 1105367921
+2025-09-12 10:06:34,838 - INFO - Procesando reporte para 1105367921 - Radicado: efbdb1bb49b1d19c
+2025-09-12 10:06:40,457 - INFO - Descarga iniciada
+2025-09-12 10:06:42,464 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:06:42,464 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:06:47,725 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 10:06:52,921 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 10:06:54,140 - INFO - Botón volver clickeado exitosamente
+2025-09-12 10:07:02,159 - INFO - Procesando: LUIS SOLIS - ID: 1067469432 - Radicado: e7690f855e8c50e8
+2025-09-12 10:07:07,303 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 10:07:12,430 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//*[contains(@id, 'CBtn1')]
+2025-09-12 10:07:13,449 - INFO - Clic exitoso en VER REPORTE para 1067469432
+2025-09-12 10:07:13,449 - INFO - Procesando reporte para 1067469432 - Radicado: e7690f855e8c50e8
+2025-09-12 10:07:19,044 - INFO - Descarga iniciada
+2025-09-12 10:07:21,050 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:07:21,051 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:07:26,256 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 10:07:31,442 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 10:07:32,403 - INFO - Botón volver clickeado exitosamente
+2025-09-12 10:07:40,418 - INFO - Procesando: JOSE CASTAÑEDA - ID: 1144204911 - Radicado: 4eadd9b9523b209
+2025-09-12 10:07:41,673 - INFO - Clic exitoso en VER REPORTE para 1144204911
+2025-09-12 10:07:41,673 - INFO - Procesando reporte para 1144204911 - Radicado: 4eadd9b9523b209
+2025-09-12 10:07:47,325 - INFO - Descarga iniciada
+2025-09-12 10:07:49,330 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:07:49,330 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:07:54,544 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 10:07:59,749 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 10:08:00,661 - INFO - Botón volver clickeado exitosamente
+2025-09-12 10:08:08,678 - INFO - Procesando: JHON NIETO - ID: 94409200 - Radicado: 412743b12a691dbb
+2025-09-12 10:08:13,818 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 10:08:18,966 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//*[contains(@id, 'CBtn1')]
+2025-09-12 10:08:20,163 - INFO - Clic exitoso en VER REPORTE para 94409200
+2025-09-12 10:08:20,163 - INFO - Procesando reporte para 94409200 - Radicado: 412743b12a691dbb
+2025-09-12 10:08:25,746 - INFO - Descarga iniciada
+2025-09-12 10:08:27,749 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:08:27,749 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:08:32,948 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 10:08:38,206 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 10:08:39,191 - INFO - Botón volver clickeado exitosamente
+2025-09-12 10:08:47,215 - INFO - Procesando: KEVIN ARANA - ID: 1006258418 - Radicado: 19573d2767b6c136
+2025-09-12 10:08:52,372 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 10:08:57,505 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//*[contains(@id, 'CBtn1')]
+2025-09-12 10:08:58,563 - INFO - Clic exitoso en VER REPORTE para 1006258418
+2025-09-12 10:08:58,564 - INFO - Procesando reporte para 1006258418 - Radicado: 19573d2767b6c136
+2025-09-12 10:09:04,144 - INFO - Descarga iniciada
+2025-09-12 10:09:06,147 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:09:06,147 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:09:11,345 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 10:09:16,525 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 10:09:17,490 - INFO - Botón volver clickeado exitosamente
+2025-09-12 10:09:25,505 - INFO - Procesando: FABIO MADRID - ID: 1143830504 - Radicado: 74d971518a1a8b0
+2025-09-12 10:09:30,643 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 10:09:35,781 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//*[contains(@id, 'CBtn1')]
+2025-09-12 10:09:37,177 - INFO - Clic exitoso en VER REPORTE para 1143830504
+2025-09-12 10:09:37,177 - INFO - Procesando reporte para 1143830504 - Radicado: 74d971518a1a8b0
+2025-09-12 10:09:43,749 - INFO - Descarga iniciada
+2025-09-12 10:09:45,763 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:09:45,770 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:09:50,930 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 10:09:56,213 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 10:09:57,221 - INFO - Botón volver clickeado exitosamente
+2025-09-12 10:10:05,329 - INFO - Procesando: VICTOR GARCES - ID: 1111480834 - Radicado: 4495e2e3cdc3c2f
+2025-09-12 10:10:10,477 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 10:10:15,610 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//*[contains(@id, 'CBtn1')]
+2025-09-12 10:10:16,668 - INFO - Clic exitoso en VER REPORTE para 1111480834
+2025-09-12 10:10:16,668 - INFO - Procesando reporte para 1111480834 - Radicado: 4495e2e3cdc3c2f
+2025-09-12 10:10:22,256 - INFO - Descarga iniciada
+2025-09-12 10:10:24,260 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:10:24,260 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:10:29,459 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 10:10:34,662 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 10:10:35,717 - INFO - Botón volver clickeado exitosamente
+2025-09-12 10:10:43,733 - INFO - Procesando: SANTIAGO MAFLA - ID: 1114886155 - Radicado: 5b9f2bf3150d4d5b
+2025-09-12 10:10:48,874 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 10:10:54,002 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//*[contains(@id, 'CBtn1')]
+2025-09-12 10:10:55,062 - INFO - Clic exitoso en VER REPORTE para 1114886155
+2025-09-12 10:10:55,062 - INFO - Procesando reporte para 1114886155 - Radicado: 5b9f2bf3150d4d5b
+2025-09-12 10:11:00,641 - INFO - Descarga iniciada
+2025-09-12 10:11:02,645 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:11:02,645 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:11:07,844 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 10:11:13,035 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 10:11:13,984 - INFO - Botón volver clickeado exitosamente
+2025-09-12 10:11:21,998 - INFO - Procesando: DORANGELA PIAMBA - ID: 1143862055 - Radicado: 6ecb3d15b26b660d
+2025-09-12 10:11:27,139 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 10:11:32,283 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//*[contains(@id, 'CBtn1')]
+2025-09-12 10:11:33,275 - INFO - Clic exitoso en VER REPORTE para 1143862055
+2025-09-12 10:11:33,276 - INFO - Procesando reporte para 1143862055 - Radicado: 6ecb3d15b26b660d
+2025-09-12 10:11:38,860 - INFO - Descarga iniciada
+2025-09-12 10:11:40,863 - INFO - Descarga completada: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:11:40,863 - INFO - PDF descargado: XtraReportAtencionIPS (59).pdf
+2025-09-12 10:11:46,076 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 10:11:51,297 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 10:11:52,265 - INFO - Botón volver clickeado exitosamente
+2025-09-12 10:12:00,285 - INFO - Procesamiento de todas las páginas completado
+2025-09-12 10:12:00,285 - INFO - Reporte generado: c:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\src\descargasPDF\reporte_archivos.txt
+2025-09-12 10:12:00,285 - INFO - Proceso completado. Total archivos descargados: 88
+2025-09-12 10:12:00,285 - INFO - Archivos guardados en: c:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\src\descargasPDF
+2025-09-12 10:12:00,293 - INFO -    228056361800507e_1003194349_JINNEHD_JIMENEZ.pdf (ID: 1003194349, Radicado: 228056361800507e)
+2025-09-12 10:12:00,294 - INFO -    b6927ba3ea4aa60e_1143866559_ANDRES_BEJARANO.pdf (ID: 1143866559, Radicado: b6927ba3ea4aa60e)
+2025-09-12 10:12:00,294 - INFO -    6d5beae720722753_1061694000_YERSON_CHILITO.pdf (ID: 1061694000, Radicado: 6d5beae720722753)
+2025-09-12 10:12:00,294 - INFO -    88434249b587cac8_1108561972_HARRISON_ARAUJO.pdf (ID: 1108561972, Radicado: 88434249b587cac8)
+2025-09-12 10:12:00,295 - INFO -    85a3860d025749c0_67009055_SANDRA_QUIÑONEZ.pdf (ID: 67009055, Radicado: 85a3860d025749c0)
+2025-09-12 10:12:00,295 - INFO -    2d9206694bf1ae82_1151971124_JUAN_RODRIGUEZ.pdf (ID: 1151971124, Radicado: 2d9206694bf1ae82)
+2025-09-12 10:12:00,295 - INFO -    c239fb4032c3c34f_16931940_DIEGO_MAHECHA.pdf (ID: 16931940, Radicado: c239fb4032c3c34f)
+2025-09-12 10:12:00,295 - INFO -    6d6ecd379e0a2b93_66916253_OLGA_PANCHANO.pdf (ID: 66916253, Radicado: 6d6ecd379e0a2b93)
+2025-09-12 10:12:00,295 - INFO -    a6e3b439a0e330c6_16691115_AMARILDO_BANGUERO.pdf (ID: 16691115, Radicado: a6e3b439a0e330c6)
+2025-09-12 10:12:00,296 - INFO -    fa91ff8a9713fe5c_1151971124_JUAN_RODRIGUEZ.pdf (ID: 1151971124, Radicado: fa91ff8a9713fe5c)
+2025-09-12 10:12:00,296 - INFO -    1730a51b34399739_1006452050_JUAN_MARIN.pdf (ID: 1006452050, Radicado: 1730a51b34399739)
+2025-09-12 10:12:00,296 - INFO -    b15837f2d7ee914e_16286617_JOSE_DELGADO.pdf (ID: 16286617, Radicado: b15837f2d7ee914e)
+2025-09-12 10:12:00,296 - INFO -    ed8e6ec30825df8_1112490283_YORLY_GOMEZ.pdf (ID: 1112490283, Radicado: ed8e6ec30825df8)
+2025-09-12 10:12:00,296 - INFO -    b3a89e7f11d7d870_1082850351_DANIEL_DAZA.pdf (ID: 1082850351, Radicado: b3a89e7f11d7d870)
+2025-09-12 10:12:00,296 - INFO -    b13569e1161d2b65_6103366_ANDRES_SANDOVAL.pdf (ID: 6103366, Radicado: b13569e1161d2b65)
+2025-09-12 10:12:00,297 - INFO -    383643340bcb75eb_1112487776_VALERIA_CORTES.pdf (ID: 1112487776, Radicado: 383643340bcb75eb)
+2025-09-12 10:12:00,297 - INFO -    9070e6fcc393f054_1107044372_MELANY_ALPALA.pdf (ID: 1107044372, Radicado: 9070e6fcc393f054)
+2025-09-12 10:12:00,297 - INFO -    ca9d3e1b863f2f41_1107096277_SEBASTIAN_RIASCOS.pdf (ID: 1107096277, Radicado: ca9d3e1b863f2f41)
+2025-09-12 10:12:00,297 - INFO -    eaf58632b3d7c74b_1109663141_ISABELLA_GONZALEZ.pdf (ID: 1109663141, Radicado: eaf58632b3d7c74b)
+2025-09-12 10:12:00,298 - INFO -    a2ea046a82dcb57d_94508457_WILLIAM_SINISTERRA.pdf (ID: 94508457, Radicado: a2ea046a82dcb57d)
+2025-09-12 10:12:00,298 - INFO -    efbdb1bb49b1d19c_1105367921_GIANCARLO_MONTAÑO.pdf (ID: 1105367921, Radicado: efbdb1bb49b1d19c)
+2025-09-12 10:12:00,298 - INFO -    e7690f855e8c50e8_1067469432_LUIS_SOLIS.pdf (ID: 1067469432, Radicado: e7690f855e8c50e8)
+2025-09-12 10:12:00,298 - INFO -    4eadd9b9523b209_1144204911_JOSE_CASTAÑEDA.pdf (ID: 1144204911, Radicado: 4eadd9b9523b209)
+2025-09-12 10:12:00,298 - INFO -    412743b12a691dbb_94409200_JHON_NIETO.pdf (ID: 94409200, Radicado: 412743b12a691dbb)
+2025-09-12 10:12:00,298 - INFO -    19573d2767b6c136_1006258418_KEVIN_ARANA.pdf (ID: 1006258418, Radicado: 19573d2767b6c136)
+2025-09-12 10:12:00,298 - INFO -    74d971518a1a8b0_1143830504_FABIO_MADRID.pdf (ID: 1143830504, Radicado: 74d971518a1a8b0)
+2025-09-12 10:12:00,298 - INFO -    4495e2e3cdc3c2f_1111480834_VICTOR_GARCES.pdf (ID: 1111480834, Radicado: 4495e2e3cdc3c2f)
+2025-09-12 10:12:00,298 - INFO -    5b9f2bf3150d4d5b_1114886155_SANTIAGO_MAFLA.pdf (ID: 1114886155, Radicado: 5b9f2bf3150d4d5b)
+2025-09-12 10:12:00,298 - INFO -    6ecb3d15b26b660d_1143862055_DORANGELA_PIAMBA.pdf (ID: 1143862055, Radicado: 6ecb3d15b26b660d)
+2025-09-12 10:12:05,849 - INFO - Driver cerrado
+2025-09-12 10:12:09,927 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028539D72D80>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/a74b2ce388be587debf1e967f1c0d881
+2025-09-12 10:12:13,981 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028539D72B10>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/a74b2ce388be587debf1e967f1c0d881
+2025-09-12 10:12:18,077 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000028539CFC1A0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/a74b2ce388be587debf1e967f1c0d881
+2025-09-12 11:03:23,033 - INFO - ====== WebDriver manager ======
+2025-09-12 11:03:25,742 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 11:03:26,652 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 11:03:27,607 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.82\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-12 11:03:30,632 - INFO - Driver configurado exitosamente
+2025-09-12 11:03:30,632 - INFO - Iniciando login...
+2025-09-12 11:03:43,650 - INFO - Login exitoso
+2025-09-12 11:03:43,650 - INFO - Configurando opciones...
+2025-09-12 11:04:12,916 - INFO - Opciones configuradas exitosamente
+2025-09-12 11:04:17,940 - INFO - Texto paginación: Página 1 de 6 (55 elementos)
+2025-09-12 11:04:17,940 - INFO - Iniciando procesamiento: 55 elementos en 6 páginas
+2025-09-12 11:04:17,940 - INFO - === PROCESANDO PÁGINA 1 DE 6 ===
+2025-09-12 11:04:21,022 - INFO - Extraído: MARIA ARCOS - ID: 34594183 - Radicado: c5ac43ac63e5737f
+2025-09-12 11:04:21,092 - INFO - Extraído: ERIKA MAPALLO - ID: 1144073861 - Radicado: ef597720fa650ad2
+2025-09-12 11:04:21,162 - INFO - Extraído: LEYDI PEREZ - ID: 1144186684 - Radicado: e082258898a635b7
+2025-09-12 11:04:21,232 - INFO - Extraído: ERIKA TORO - ID: 1004694741 - Radicado: 746f128b2a1d3654
+2025-09-12 11:04:21,301 - INFO - Extraído: CATALINA BETANCUR - ID: 32242201 - Radicado: b470f7b5dd13e1a
+2025-09-12 11:04:21,371 - INFO - Extraído: JOSE SANCHEZ - ID: 7093188 - Radicado: 768e3e0a72172179
+2025-09-12 11:04:21,487 - INFO - Extraído: EDWIN HURTADO - ID: 1006071027 - Radicado: 833b7e2b4ed86b54
+2025-09-12 11:04:21,562 - INFO - Extraído: KATHERINE HURTADO - ID: 1114884172 - Radicado: 7e5854058da90f9f
+2025-09-12 11:04:21,624 - INFO - Extraído: JHOSUETH CARDONA - ID: 1006099149 - Radicado: a33c59c1915c2510
+2025-09-12 11:04:21,702 - INFO - Extraído: SARA GUERRERO - ID: 1006101711 - Radicado: 2cc491811b80e76b
+2025-09-12 11:04:21,702 - INFO - Total elementos encontrados: 10
+2025-09-12 11:04:21,702 - INFO - Procesando: MARIA ARCOS - ID: 34594183 - Radicado: c5ac43ac63e5737f
+2025-09-12 11:04:22,782 - INFO - Clic exitoso en VER REPORTE para 34594183
+2025-09-12 11:04:22,782 - INFO - Procesando reporte para 34594183 - Radicado: c5ac43ac63e5737f
+2025-09-12 11:04:28,372 - INFO - Descarga iniciada
+2025-09-12 11:04:30,373 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:04:30,373 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:04:35,572 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:04:40,793 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:04:41,836 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:04:49,852 - INFO - Procesando: ERIKA MAPALLO - ID: 1144073861 - Radicado: ef597720fa650ad2
+2025-09-12 11:04:51,029 - INFO - Clic exitoso en VER REPORTE para 1144073861
+2025-09-12 11:04:51,030 - INFO - Procesando reporte para 1144073861 - Radicado: ef597720fa650ad2
+2025-09-12 11:04:56,602 - INFO - Descarga iniciada
+2025-09-12 11:04:58,611 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:04:58,612 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:05:03,812 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:05:08,997 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:05:09,572 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:05:17,589 - INFO - Procesando: LEYDI PEREZ - ID: 1144186684 - Radicado: e082258898a635b7
+2025-09-12 11:05:18,826 - INFO - Clic exitoso en VER REPORTE para 1144186684
+2025-09-12 11:05:18,827 - INFO - Procesando reporte para 1144186684 - Radicado: e082258898a635b7
+2025-09-12 11:05:24,402 - INFO - Descarga iniciada
+2025-09-12 11:05:26,412 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:05:26,412 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:05:31,609 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:05:36,807 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:05:37,382 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:05:45,401 - INFO - Procesando: ERIKA TORO - ID: 1004694741 - Radicado: 746f128b2a1d3654
+2025-09-12 11:05:46,792 - INFO - Clic exitoso en VER REPORTE para 1004694741
+2025-09-12 11:05:46,792 - INFO - Procesando reporte para 1004694741 - Radicado: 746f128b2a1d3654
+2025-09-12 11:05:52,372 - INFO - Descarga iniciada
+2025-09-12 11:05:54,377 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:05:54,377 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:05:59,576 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:06:04,769 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:06:05,368 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:06:13,386 - INFO - Procesando: CATALINA BETANCUR - ID: 32242201 - Radicado: b470f7b5dd13e1a
+2025-09-12 11:06:14,597 - INFO - Clic exitoso en VER REPORTE para 32242201
+2025-09-12 11:06:14,597 - INFO - Procesando reporte para 32242201 - Radicado: b470f7b5dd13e1a
+2025-09-12 11:06:20,248 - INFO - Descarga iniciada
+2025-09-12 11:06:22,249 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:06:22,249 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:06:27,473 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:06:32,682 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:06:33,262 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:06:41,285 - INFO - Procesando: JOSE SANCHEZ - ID: 7093188 - Radicado: 768e3e0a72172179
+2025-09-12 11:06:42,605 - INFO - Clic exitoso en VER REPORTE para 7093188
+2025-09-12 11:06:42,606 - INFO - Procesando reporte para 7093188 - Radicado: 768e3e0a72172179
+2025-09-12 11:06:48,182 - INFO - Descarga iniciada
+2025-09-12 11:06:50,192 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:06:50,192 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:06:55,408 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:07:00,622 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:07:01,182 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:07:09,213 - INFO - Procesando: EDWIN HURTADO - ID: 1006071027 - Radicado: 833b7e2b4ed86b54
+2025-09-12 11:07:10,541 - INFO - Clic exitoso en VER REPORTE para 1006071027
+2025-09-12 11:07:10,541 - INFO - Procesando reporte para 1006071027 - Radicado: 833b7e2b4ed86b54
+2025-09-12 11:07:16,140 - INFO - Descarga iniciada
+2025-09-12 11:07:18,141 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:07:18,141 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:07:23,383 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:07:28,613 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:07:29,187 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:07:37,211 - INFO - Procesando: KATHERINE HURTADO - ID: 1114884172 - Radicado: 7e5854058da90f9f
+2025-09-12 11:07:38,502 - INFO - Clic exitoso en VER REPORTE para 1114884172
+2025-09-12 11:07:38,502 - INFO - Procesando reporte para 1114884172 - Radicado: 7e5854058da90f9f
+2025-09-12 11:07:44,091 - INFO - Descarga iniciada
+2025-09-12 11:07:46,097 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:07:46,097 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:07:51,311 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:07:56,533 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:07:57,096 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:08:05,122 - INFO - Procesando: JHOSUETH CARDONA - ID: 1006099149 - Radicado: a33c59c1915c2510
+2025-09-12 11:08:06,734 - INFO - Clic exitoso en VER REPORTE para 1006099149
+2025-09-12 11:08:06,735 - INFO - Procesando reporte para 1006099149 - Radicado: a33c59c1915c2510
+2025-09-12 11:08:12,431 - INFO - Descarga iniciada
+2025-09-12 11:08:14,432 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:08:14,432 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:08:19,685 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:08:24,894 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:08:25,469 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:08:33,490 - INFO - Procesando: SARA GUERRERO - ID: 1006101711 - Radicado: 2cc491811b80e76b
+2025-09-12 11:08:34,668 - INFO - Clic exitoso en VER REPORTE para 1006101711
+2025-09-12 11:08:34,669 - INFO - Procesando reporte para 1006101711 - Radicado: 2cc491811b80e76b
+2025-09-12 11:08:40,265 - INFO - Descarga iniciada
+2025-09-12 11:08:42,274 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:08:42,274 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:08:47,477 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:08:52,675 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:08:53,248 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:09:06,875 - INFO - Texto paginación: Página 2 de 6 (55 elementos)
+2025-09-12 11:09:06,875 - INFO - === PROCESANDO PÁGINA 2 DE 6 ===
+2025-09-12 11:09:09,965 - INFO - Extraído: HENRY SANCHEZ - ID: 1113701157 - Radicado: c42603e6839a2faf
+2025-09-12 11:09:10,021 - INFO - Extraído: JUAN PEJENDINO - ID: 1104805866 - Radicado: 319ca76ae114a1a9
+2025-09-12 11:09:10,108 - INFO - Extraído: YURI GONZALEZ - ID: 1143986470 - Radicado: dc29941ccb89f550
+2025-09-12 11:09:10,171 - INFO - Extraído: FELICIANO JUANILLO - ID: 76268072 - Radicado: 792272eadb052580
+2025-09-12 11:09:10,254 - INFO - Extraído: CARLOS RESTREPO - ID: 16591889 - Radicado: b856a873a6cf9d81
+2025-09-12 11:09:10,328 - INFO - Extraído: DORA GUEVARA - ID: 36380389 - Radicado: 2ebd0e495208807
+2025-09-12 11:09:10,431 - INFO - Extraído: BRAYAN CORTES - ID: 1005873473 - Radicado: f070d9652c841005
+2025-09-12 11:09:10,540 - INFO - Extraído: FELIX SALDARRIAGA - ID: 14999112 - Radicado: 8597296f52a5a16
+2025-09-12 11:09:10,632 - INFO - Extraído: FERNANDO AYALA - ID: 16269004 - Radicado: 63540698063974bb
+2025-09-12 11:09:10,719 - INFO - Extraído: PAOLA SANTANA - ID: 1144077549 - Radicado: ef6cc474db064347
+2025-09-12 11:09:10,721 - INFO - Total elementos encontrados: 10
+2025-09-12 11:09:10,721 - INFO - Procesando: HENRY SANCHEZ - ID: 1113701157 - Radicado: c42603e6839a2faf
+2025-09-12 11:09:15,860 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:09:20,999 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:09:22,355 - INFO - Clic exitoso en VER REPORTE para 1113701157
+2025-09-12 11:09:22,355 - INFO - Procesando reporte para 1113701157 - Radicado: c42603e6839a2faf
+2025-09-12 11:09:27,938 - INFO - Descarga iniciada
+2025-09-12 11:09:29,943 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:09:29,943 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:09:35,140 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:09:40,356 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:09:40,959 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:09:48,974 - INFO - Procesando: JUAN PEJENDINO - ID: 1104805866 - Radicado: 319ca76ae114a1a9
+2025-09-12 11:09:50,174 - INFO - Clic exitoso en VER REPORTE para 1104805866
+2025-09-12 11:09:50,174 - INFO - Procesando reporte para 1104805866 - Radicado: 319ca76ae114a1a9
+2025-09-12 11:09:55,750 - INFO - Descarga iniciada
+2025-09-12 11:09:57,755 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:09:57,755 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:10:02,958 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:10:08,153 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:10:08,719 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:10:16,739 - INFO - Procesando: YURI GONZALEZ - ID: 1143986470 - Radicado: dc29941ccb89f550
+2025-09-12 11:10:21,883 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:10:27,017 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:10:28,197 - INFO - Clic exitoso en VER REPORTE para 1143986470
+2025-09-12 11:10:28,197 - INFO - Procesando reporte para 1143986470 - Radicado: dc29941ccb89f550
+2025-09-12 11:10:33,784 - INFO - Descarga iniciada
+2025-09-12 11:10:35,785 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:10:35,785 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:10:40,996 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:10:46,189 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:10:46,760 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:10:54,787 - INFO - Procesando: FELICIANO JUANILLO - ID: 76268072 - Radicado: 792272eadb052580
+2025-09-12 11:10:59,922 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:11:05,063 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:11:06,291 - INFO - Clic exitoso en VER REPORTE para 76268072
+2025-09-12 11:11:06,291 - INFO - Procesando reporte para 76268072 - Radicado: 792272eadb052580
+2025-09-12 11:11:11,876 - INFO - Descarga iniciada
+2025-09-12 11:11:13,878 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:11:13,878 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:11:19,081 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:11:24,275 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:11:24,855 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:11:32,875 - INFO - Procesando: CARLOS RESTREPO - ID: 16591889 - Radicado: b856a873a6cf9d81
+2025-09-12 11:11:38,024 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:11:43,164 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:11:44,371 - INFO - Clic exitoso en VER REPORTE para 16591889
+2025-09-12 11:11:44,371 - INFO - Procesando reporte para 16591889 - Radicado: b856a873a6cf9d81
+2025-09-12 11:11:49,954 - INFO - Descarga iniciada
+2025-09-12 11:11:51,963 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:11:51,963 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:12:23,560 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:12:28,751 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:12:29,357 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:12:37,377 - INFO - Procesando: DORA GUEVARA - ID: 36380389 - Radicado: 2ebd0e495208807
+2025-09-12 11:12:42,520 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:12:47,657 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:12:49,090 - INFO - Clic exitoso en VER REPORTE para 36380389
+2025-09-12 11:12:49,090 - INFO - Procesando reporte para 36380389 - Radicado: 2ebd0e495208807
+2025-09-12 11:12:54,682 - INFO - Descarga iniciada
+2025-09-12 11:12:56,684 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:12:56,686 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:13:01,990 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:13:07,277 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:13:07,929 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:13:15,944 - INFO - Procesando: BRAYAN CORTES - ID: 1005873473 - Radicado: f070d9652c841005
+2025-09-12 11:13:21,095 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:13:26,231 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:13:27,567 - INFO - Clic exitoso en VER REPORTE para 1005873473
+2025-09-12 11:13:27,567 - INFO - Procesando reporte para 1005873473 - Radicado: f070d9652c841005
+2025-09-12 11:13:33,148 - INFO - Descarga iniciada
+2025-09-12 11:13:35,162 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:13:35,162 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:13:40,368 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:13:45,564 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:13:46,143 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:13:54,162 - INFO - Procesando: FELIX SALDARRIAGA - ID: 14999112 - Radicado: 8597296f52a5a16
+2025-09-12 11:13:59,305 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:14:04,446 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:14:05,781 - INFO - Clic exitoso en VER REPORTE para 14999112
+2025-09-12 11:14:05,781 - INFO - Procesando reporte para 14999112 - Radicado: 8597296f52a5a16
+2025-09-12 11:14:11,352 - INFO - Descarga iniciada
+2025-09-12 11:14:13,366 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:14:13,366 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:14:18,627 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:14:23,813 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:14:24,390 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:14:32,408 - INFO - Procesando: FERNANDO AYALA - ID: 16269004 - Radicado: 63540698063974bb
+2025-09-12 11:14:37,540 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:14:42,687 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:14:44,038 - INFO - Clic exitoso en VER REPORTE para 16269004
+2025-09-12 11:14:44,038 - INFO - Procesando reporte para 16269004 - Radicado: 63540698063974bb
+2025-09-12 11:14:49,624 - INFO - Descarga iniciada
+2025-09-12 11:14:51,627 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:14:51,628 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:14:56,895 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:15:02,131 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:15:02,950 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:15:11,107 - INFO - Procesando: PAOLA SANTANA - ID: 1144077549 - Radicado: ef6cc474db064347
+2025-09-12 11:15:16,283 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:15:21,441 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:15:22,466 - INFO - Clic exitoso en VER REPORTE para 1144077549
+2025-09-12 11:15:22,466 - INFO - Procesando reporte para 1144077549 - Radicado: ef6cc474db064347
+2025-09-12 11:15:28,102 - INFO - Descarga iniciada
+2025-09-12 11:15:30,104 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:15:30,105 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:15:35,314 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:15:40,521 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:15:41,107 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:15:54,734 - INFO - Texto paginación: Página 3 de 6 (55 elementos)
+2025-09-12 11:15:54,734 - INFO - === PROCESANDO PÁGINA 3 DE 6 ===
+2025-09-12 11:15:57,833 - INFO - Extraído: LEIDY CAYCEDO - ID: 1005705615 - Radicado: 3a5db0017d8e5f36
+2025-09-12 11:15:57,910 - INFO - Extraído: DAIRO CANCHALA - ID: 14703232 - Radicado: 837fe99452df0b77
+2025-09-12 11:15:57,984 - INFO - Extraído: VICTOR ROJAS - ID: 1120380802 - Radicado: e07dec013f25f09a
+2025-09-12 11:15:58,055 - INFO - Extraído: JUAN VALVERDE - ID: 1006036003 - Radicado: 843d83cf527c011a
+2025-09-12 11:15:58,137 - INFO - Extraído: HAROLD MUÑOZ - ID: 16654025 - Radicado: 4d67796c37676076
+2025-09-12 11:15:58,227 - INFO - Extraído: YULY MONTAÑO - ID: 1192727031 - Radicado: 84e6b97af52cdc1c
+2025-09-12 11:15:58,342 - INFO - Extraído: LAURA MURILLO - ID: 1107513424 - Radicado: cf4fb548839eb08f
+2025-09-12 11:15:58,474 - INFO - Extraído: JUAN HERNANDEZ - ID: 1111548620 - Radicado: 7898c3c6cd45aee0
+2025-09-12 11:15:58,578 - INFO - Extraído: DERLY SALAS - ID: 1143832932 - Radicado: 2f3cf7ca191812f
+2025-09-12 11:15:58,658 - INFO - Extraído: KILBERT TRUJILLO - ID: 16944299 - Radicado: cdbbb58318daabf8
+2025-09-12 11:15:58,658 - INFO - Total elementos encontrados: 10
+2025-09-12 11:15:58,658 - INFO - Procesando: LEIDY CAYCEDO - ID: 1005705615 - Radicado: 3a5db0017d8e5f36
+2025-09-12 11:16:03,797 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:16:08,955 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:16:10,158 - INFO - Clic exitoso en VER REPORTE para 1005705615
+2025-09-12 11:16:10,158 - INFO - Procesando reporte para 1005705615 - Radicado: 3a5db0017d8e5f36
+2025-09-12 11:16:15,752 - INFO - Descarga iniciada
+2025-09-12 11:16:17,753 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:16:17,754 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:16:22,935 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:16:28,115 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:16:28,693 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:16:36,707 - INFO - Procesando: DAIRO CANCHALA - ID: 14703232 - Radicado: 837fe99452df0b77
+2025-09-12 11:16:41,860 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:16:46,986 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:16:48,267 - INFO - Clic exitoso en VER REPORTE para 14703232
+2025-09-12 11:16:48,268 - INFO - Procesando reporte para 14703232 - Radicado: 837fe99452df0b77
+2025-09-12 11:16:53,846 - INFO - Descarga iniciada
+2025-09-12 11:16:55,852 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:16:55,852 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:17:01,049 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:17:06,246 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:17:06,938 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:17:14,974 - INFO - Procesando: VICTOR ROJAS - ID: 1120380802 - Radicado: e07dec013f25f09a
+2025-09-12 11:17:17,017 - INFO - Clic exitoso en VER REPORTE para 1120380802
+2025-09-12 11:17:17,018 - INFO - Procesando reporte para 1120380802 - Radicado: e07dec013f25f09a
+2025-09-12 11:17:22,944 - INFO - Descarga iniciada
+2025-09-12 11:17:24,948 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:17:24,949 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:17:30,632 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:17:37,086 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:17:43,357 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:17:51,457 - INFO - Procesando: JUAN VALVERDE - ID: 1006036003 - Radicado: 843d83cf527c011a
+2025-09-12 11:17:56,922 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:18:02,338 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:18:08,210 - INFO - Clic exitoso en VER REPORTE para 1006036003
+2025-09-12 11:18:08,212 - INFO - Procesando reporte para 1006036003 - Radicado: 843d83cf527c011a
+2025-09-12 11:18:14,400 - INFO - Descarga iniciada
+2025-09-12 11:18:16,404 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:18:16,405 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:18:21,495 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:18:26,835 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:18:28,715 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:18:37,541 - INFO - Procesando: HAROLD MUÑOZ - ID: 16654025 - Radicado: 4d67796c37676076
+2025-09-12 11:18:42,906 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:18:48,358 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:18:50,243 - INFO - Clic exitoso en VER REPORTE para 16654025
+2025-09-12 11:18:50,243 - INFO - Procesando reporte para 16654025 - Radicado: 4d67796c37676076
+2025-09-12 11:18:55,838 - INFO - Descarga iniciada
+2025-09-12 11:18:57,840 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:18:57,841 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:19:03,026 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:19:08,198 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:19:08,809 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:19:16,831 - INFO - Procesando: YULY MONTAÑO - ID: 1192727031 - Radicado: 84e6b97af52cdc1c
+2025-09-12 11:19:22,049 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:19:27,179 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:19:28,420 - INFO - Clic exitoso en VER REPORTE para 1192727031
+2025-09-12 11:19:28,421 - INFO - Procesando reporte para 1192727031 - Radicado: 84e6b97af52cdc1c
+2025-09-12 11:19:34,004 - INFO - Descarga iniciada
+2025-09-12 11:19:36,009 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:19:36,009 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:19:41,213 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:19:46,407 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:19:46,978 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:19:54,996 - INFO - Procesando: LAURA MURILLO - ID: 1107513424 - Radicado: cf4fb548839eb08f
+2025-09-12 11:20:00,141 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:20:05,269 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:20:06,575 - INFO - Clic exitoso en VER REPORTE para 1107513424
+2025-09-12 11:20:06,575 - INFO - Procesando reporte para 1107513424 - Radicado: cf4fb548839eb08f
+2025-09-12 11:20:12,156 - INFO - Descarga iniciada
+2025-09-12 11:20:14,157 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:20:14,158 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:22:14,172 - ERROR - Error regresando: HTTPConnectionPool(host='localhost', port=61276): Read timed out. (read timeout=120)
+2025-09-12 11:23:03,843 - ERROR - Elemento no encontrado: //table[contains(@id, 'gridResumidas')]
+2025-09-12 11:23:03,843 - ERROR - Error con elemento 1107513424: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7dd2a3+66419]
+	GetHandleVerifier [0x0x7dd2e4+66484]
+	(No symbol) [0x0x5b4bd3]
+	(No symbol) [0x0x5fe958]
+	(No symbol) [0x0x5fecfb]
+	(No symbol) [0x0x645152]
+	(No symbol) [0x0x621064]
+	(No symbol) [0x0x6428a1]
+	(No symbol) [0x0x620e16]
+	(No symbol) [0x0x5f25ce]
+	(No symbol) [0x0x5f34a4]
+	GetHandleVerifier [0x0xa25ee3+2461619]
+	GetHandleVerifier [0x0xa20f66+2441270]
+	GetHandleVerifier [0x0x806242+234258]
+	GetHandleVerifier [0x0x7f6208+168664]
+	GetHandleVerifier [0x0x7fd1ad+197245]
+	GetHandleVerifier [0x0x7e55f8+100040]
+	GetHandleVerifier [0x0x7e5792+100450]
+	GetHandleVerifier [0x0x7cf74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-12 11:23:03,843 - INFO - Procesando: JUAN HERNANDEZ - ID: 1111548620 - Radicado: 7898c3c6cd45aee0
+2025-09-12 11:23:08,979 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:23:14,142 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:23:15,206 - INFO - Clic exitoso en VER REPORTE para 1111548620
+2025-09-12 11:23:15,206 - INFO - Procesando reporte para 1111548620 - Radicado: 7898c3c6cd45aee0
+2025-09-12 11:23:20,829 - INFO - Descarga iniciada
+2025-09-12 11:23:22,832 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:23:22,832 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:23:28,032 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:23:33,242 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:23:34,299 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:23:42,317 - INFO - Procesando: DERLY SALAS - ID: 1143832932 - Radicado: 2f3cf7ca191812f
+2025-09-12 11:23:47,456 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:23:52,583 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:23:53,729 - INFO - Clic exitoso en VER REPORTE para 1143832932
+2025-09-12 11:23:53,729 - INFO - Procesando reporte para 1143832932 - Radicado: 2f3cf7ca191812f
+2025-09-12 11:23:59,303 - INFO - Descarga iniciada
+2025-09-12 11:24:01,311 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:24:01,311 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:24:06,528 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:24:11,979 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:24:12,669 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:24:20,689 - INFO - Procesando: KILBERT TRUJILLO - ID: 16944299 - Radicado: cdbbb58318daabf8
+2025-09-12 11:24:25,844 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:24:30,994 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:24:32,197 - INFO - Clic exitoso en VER REPORTE para 16944299
+2025-09-12 11:24:32,198 - INFO - Procesando reporte para 16944299 - Radicado: cdbbb58318daabf8
+2025-09-12 11:24:37,783 - INFO - Descarga iniciada
+2025-09-12 11:24:39,790 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:24:39,790 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:24:44,989 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:24:50,168 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:24:50,754 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:25:04,384 - INFO - Texto paginación: Página 4 de 6 (55 elementos)
+2025-09-12 11:25:04,384 - INFO - === PROCESANDO PÁGINA 4 DE 6 ===
+2025-09-12 11:25:07,482 - INFO - Extraído: MICHAEL ORDOÑEZ - ID: 1114480017 - Radicado: c369e2ce6301e201
+2025-09-12 11:25:07,582 - INFO - Extraído: CARLOS ROZO - ID: 94516677 - Radicado: c00f0b02bbfcaf89
+2025-09-12 11:25:07,784 - INFO - Extraído: SANTIAGO RIVERA - ID: 1010147428 - Radicado: 197e9c58f3e84b5e
+2025-09-12 11:27:07,875 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=61276): Read timed out. (read timeout=120)")': /session/82d43f1d72ae2a8b84982dda9c143bd6/element/f.A34F15300D297DBD9D6859E109223196.d.07BCCD9B42C0DDEBD562CA96940204C5.e.2866/text
+2025-09-12 11:27:33,855 - INFO - Extraído: NATHALIA CORTES - ID: 1151961469 - Radicado: 8b089c6efca65f51
+2025-09-12 11:27:33,965 - INFO - Extraído: DIANA VELEZ - ID: 31486646 - Radicado: ddeb629e2c485ade
+2025-09-12 11:27:34,057 - INFO - Extraído: STEPHANIA ALARCON - ID: 1113693094 - Radicado: e64e03c12b18209a
+2025-09-12 11:27:34,139 - INFO - Extraído: ALEJANDRA LUJAN - ID: 1005980422 - Radicado: db45a5fa00501200
+2025-09-12 11:27:34,223 - INFO - Extraído: RUBEN PERLAZA - ID: 1118306394 - Radicado: 2cdacbd984d41a6d
+2025-09-12 11:27:34,322 - INFO - Extraído: CARMEN LLANOS - ID: 66819730 - Radicado: 10c092a04e7a460d
+2025-09-12 11:27:34,410 - INFO - Extraído: CHARLES CAICEDO - ID: 16847435 - Radicado: 740fb9be1138cfa6
+2025-09-12 11:27:34,410 - INFO - Total elementos encontrados: 10
+2025-09-12 11:27:34,410 - INFO - Procesando: MICHAEL ORDOÑEZ - ID: 1114480017 - Radicado: c369e2ce6301e201
+2025-09-12 11:27:39,555 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:27:44,685 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:27:45,771 - INFO - Clic exitoso en VER REPORTE para 1114480017
+2025-09-12 11:27:45,771 - INFO - Procesando reporte para 1114480017 - Radicado: c369e2ce6301e201
+2025-09-12 11:27:51,358 - INFO - Descarga iniciada
+2025-09-12 11:27:53,360 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:27:53,360 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:27:58,555 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:28:03,755 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:28:04,709 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:28:12,726 - INFO - Procesando: CARLOS ROZO - ID: 94516677 - Radicado: c00f0b02bbfcaf89
+2025-09-12 11:28:17,876 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:28:23,005 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:28:24,033 - INFO - Clic exitoso en VER REPORTE para 94516677
+2025-09-12 11:28:24,034 - INFO - Procesando reporte para 94516677 - Radicado: c00f0b02bbfcaf89
+2025-09-12 11:28:29,649 - INFO - Descarga iniciada
+2025-09-12 11:28:31,651 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:28:31,651 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:28:36,856 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:28:42,122 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:30:42,138 - ERROR - Error regresando: HTTPConnectionPool(host='localhost', port=61276): Read timed out. (read timeout=120)
+2025-09-12 11:32:12,907 - ERROR - Elemento no encontrado: //table[contains(@id, 'gridResumidas')]
+2025-09-12 11:32:12,907 - ERROR - Error con elemento 94516677: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x7dd2a3+66419]
+	GetHandleVerifier [0x0x7dd2e4+66484]
+	(No symbol) [0x0x5b4bd3]
+	(No symbol) [0x0x5fe958]
+	(No symbol) [0x0x5fecfb]
+	(No symbol) [0x0x645152]
+	(No symbol) [0x0x621064]
+	(No symbol) [0x0x6428a1]
+	(No symbol) [0x0x620e16]
+	(No symbol) [0x0x5f25ce]
+	(No symbol) [0x0x5f34a4]
+	GetHandleVerifier [0x0xa25ee3+2461619]
+	GetHandleVerifier [0x0xa20f66+2441270]
+	GetHandleVerifier [0x0x806242+234258]
+	GetHandleVerifier [0x0x7f6208+168664]
+	GetHandleVerifier [0x0x7fd1ad+197245]
+	GetHandleVerifier [0x0x7e55f8+100040]
+	GetHandleVerifier [0x0x7e5792+100450]
+	GetHandleVerifier [0x0x7cf74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-12 11:32:12,907 - INFO - Procesando: SANTIAGO RIVERA - ID: 1010147428 - Radicado: 197e9c58f3e84b5e
+2025-09-12 11:32:18,041 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:32:23,347 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:32:24,385 - INFO - Clic exitoso en VER REPORTE para 1010147428
+2025-09-12 11:32:24,386 - INFO - Procesando reporte para 1010147428 - Radicado: 197e9c58f3e84b5e
+2025-09-12 11:32:30,008 - INFO - Descarga iniciada
+2025-09-12 11:32:32,013 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:32:32,013 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:32:37,217 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:32:42,420 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:32:43,499 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:32:51,515 - INFO - Procesando: NATHALIA CORTES - ID: 1151961469 - Radicado: 8b089c6efca65f51
+2025-09-12 11:32:52,615 - INFO - Clic exitoso en VER REPORTE para 1151961469
+2025-09-12 11:32:52,618 - INFO - Procesando reporte para 1151961469 - Radicado: 8b089c6efca65f51
+2025-09-12 11:32:58,211 - INFO - Descarga iniciada
+2025-09-12 11:33:00,234 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:33:00,234 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:33:05,438 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:33:10,617 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:33:11,553 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:33:22,258 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026819A90110>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/82d43f1d72ae2a8b84982dda9c143bd6
+2025-09-12 11:33:26,335 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026819A912B0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/82d43f1d72ae2a8b84982dda9c143bd6
+2025-09-12 11:33:30,415 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026819A909E0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/82d43f1d72ae2a8b84982dda9c143bd6
+2025-09-12 11:33:34,513 - INFO - Driver cerrado
+2025-09-12 11:33:38,587 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026819A91550>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/82d43f1d72ae2a8b84982dda9c143bd6
+2025-09-12 11:33:42,691 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026819A91730>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/82d43f1d72ae2a8b84982dda9c143bd6
+2025-09-12 11:33:46,759 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000026819A918E0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/82d43f1d72ae2a8b84982dda9c143bd6
+2025-09-12 11:34:12,741 - INFO - ====== WebDriver manager ======
+2025-09-12 11:34:15,028 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 11:34:15,974 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 11:34:16,772 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.82\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-12 11:34:19,618 - INFO - Driver configurado exitosamente
+2025-09-12 11:34:19,618 - INFO - Iniciando login...
+2025-09-12 11:34:31,292 - INFO - Login exitoso
+2025-09-12 11:34:31,292 - INFO - Configurando opciones...
+2025-09-12 11:34:51,050 - WARNING - Error en intento 1: Message: element click intercepted: Element <span class="dx-vam">...</span> is not clickable at point (526, 316). Other element would receive the click: <td class="dxeCalendarDayHeader_Moderno" id="FechaInicialFiltro_DDD_C_AUX_0_0_4">...</td>
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x0x7dd2a3+66419]
+	GetHandleVerifier [0x0x7dd2e4+66484]
+	(No symbol) [0x0x5b4bd3]
+	(No symbol) [0x0x604e40]
+	(No symbol) [0x0x6031a3]
+	(No symbol) [0x0x600c57]
+	(No symbol) [0x0x5ffedd]
+	(No symbol) [0x0x5f43c5]
+	(No symbol) [0x0x62101c]
+	(No symbol) [0x0x5f3e24]
+	(No symbol) [0x0x6211d4]
+	(No symbol) [0x0x6428a1]
+	(No symbol) [0x0x620e16]
+	(No symbol) [0x0x5f25ce]
+	(No symbol) [0x0x5f34a4]
+	GetHandleVerifier [0x0xa25ee3+2461619]
+	GetHandleVerifier [0x0xa20f66+2441270]
+	GetHandleVerifier [0x0x806242+234258]
+	GetHandleVerifier [0x0x7f6208+168664]
+	GetHandleVerifier [0x0x7fd1ad+197245]
+	GetHandleVerifier [0x0x7e55f8+100040]
+	GetHandleVerifier [0x0x7e5792+100450]
+	GetHandleVerifier [0x0x7cf74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-12 11:34:53,640 - WARNING - Error en intento 2: Message: element click intercepted: Element <span class="dx-vam">...</span> is not clickable at point (526, 316). Other element would receive the click: <td class="dxeCalendarDayHeader_Moderno" id="FechaInicialFiltro_DDD_C_AUX_0_0_4">...</td>
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x0x7dd2a3+66419]
+	GetHandleVerifier [0x0x7dd2e4+66484]
+	(No symbol) [0x0x5b4bd3]
+	(No symbol) [0x0x604e40]
+	(No symbol) [0x0x6031a3]
+	(No symbol) [0x0x600c57]
+	(No symbol) [0x0x5ffedd]
+	(No symbol) [0x0x5f43c5]
+	(No symbol) [0x0x62101c]
+	(No symbol) [0x0x5f3e24]
+	(No symbol) [0x0x6211d4]
+	(No symbol) [0x0x6428a1]
+	(No symbol) [0x0x620e16]
+	(No symbol) [0x0x5f25ce]
+	(No symbol) [0x0x5f34a4]
+	GetHandleVerifier [0x0xa25ee3+2461619]
+	GetHandleVerifier [0x0xa20f66+2441270]
+	GetHandleVerifier [0x0x806242+234258]
+	GetHandleVerifier [0x0x7f6208+168664]
+	GetHandleVerifier [0x0x7fd1ad+197245]
+	GetHandleVerifier [0x0x7e55f8+100040]
+	GetHandleVerifier [0x0x7e5792+100450]
+	GetHandleVerifier [0x0x7cf74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-12 11:34:56,228 - WARNING - Error en intento 3: Message: element click intercepted: Element <span class="dx-vam">...</span> is not clickable at point (526, 316). Other element would receive the click: <td class="dxeCalendarDayHeader_Moderno" id="FechaInicialFiltro_DDD_C_AUX_0_0_4">...</td>
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementclickinterceptedexception
+Stacktrace:
+	GetHandleVerifier [0x0x7dd2a3+66419]
+	GetHandleVerifier [0x0x7dd2e4+66484]
+	(No symbol) [0x0x5b4bd3]
+	(No symbol) [0x0x604e40]
+	(No symbol) [0x0x6031a3]
+	(No symbol) [0x0x600c57]
+	(No symbol) [0x0x5ffedd]
+	(No symbol) [0x0x5f43c5]
+	(No symbol) [0x0x62101c]
+	(No symbol) [0x0x5f3e24]
+	(No symbol) [0x0x6211d4]
+	(No symbol) [0x0x6428a1]
+	(No symbol) [0x0x620e16]
+	(No symbol) [0x0x5f25ce]
+	(No symbol) [0x0x5f34a4]
+	GetHandleVerifier [0x0xa25ee3+2461619]
+	GetHandleVerifier [0x0xa20f66+2441270]
+	GetHandleVerifier [0x0x806242+234258]
+	GetHandleVerifier [0x0x7f6208+168664]
+	GetHandleVerifier [0x0x7fd1ad+197245]
+	GetHandleVerifier [0x0x7e55f8+100040]
+	GetHandleVerifier [0x0x7e5792+100450]
+	GetHandleVerifier [0x0x7cf74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-12 11:35:06,247 - INFO - Opciones configuradas exitosamente
+2025-09-12 11:35:11,268 - INFO - Texto paginación: Página 1 de 6 (55 elementos)
+2025-09-12 11:35:11,268 - INFO - Iniciando procesamiento: 55 elementos en 6 páginas
+2025-09-12 11:35:11,268 - INFO - === PROCESANDO PÁGINA 1 DE 6 ===
+2025-09-12 11:35:14,358 - INFO - Extraído: MARIA ARCOS - ID: 34594183 - Radicado: c5ac43ac63e5737f
+2025-09-12 11:35:14,418 - INFO - Extraído: ERIKA MAPALLO - ID: 1144073861 - Radicado: ef597720fa650ad2
+2025-09-12 11:35:14,507 - INFO - Extraído: LEYDI PEREZ - ID: 1144186684 - Radicado: e082258898a635b7
+2025-09-12 11:35:14,658 - INFO - Extraído: ERIKA TORO - ID: 1004694741 - Radicado: 746f128b2a1d3654
+2025-09-12 11:35:14,735 - INFO - Extraído: CATALINA BETANCUR - ID: 32242201 - Radicado: b470f7b5dd13e1a
+2025-09-12 11:35:14,808 - INFO - Extraído: JOSE SANCHEZ - ID: 7093188 - Radicado: 768e3e0a72172179
+2025-09-12 11:35:14,883 - INFO - Extraído: EDWIN HURTADO - ID: 1006071027 - Radicado: 833b7e2b4ed86b54
+2025-09-12 11:35:15,018 - INFO - Extraído: KATHERINE HURTADO - ID: 1114884172 - Radicado: 7e5854058da90f9f
+2025-09-12 11:35:15,104 - INFO - Extraído: JHOSUETH CARDONA - ID: 1006099149 - Radicado: a33c59c1915c2510
+2025-09-12 11:35:15,178 - INFO - Extraído: SARA GUERRERO - ID: 1006101711 - Radicado: 2cc491811b80e76b
+2025-09-12 11:35:15,178 - INFO - Total elementos encontrados: 10
+2025-09-12 11:35:15,178 - INFO - Procesando: MARIA ARCOS - ID: 34594183 - Radicado: c5ac43ac63e5737f
+2025-09-12 11:35:16,248 - INFO - Clic exitoso en VER REPORTE para 34594183
+2025-09-12 11:35:16,248 - INFO - Procesando reporte para 34594183 - Radicado: c5ac43ac63e5737f
+2025-09-12 11:35:21,837 - INFO - Descarga iniciada
+2025-09-12 11:35:23,838 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:35:23,839 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:35:29,058 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:35:34,262 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:35:35,206 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:35:43,221 - INFO - Procesando: ERIKA MAPALLO - ID: 1144073861 - Radicado: ef597720fa650ad2
+2025-09-12 11:35:44,236 - INFO - Clic exitoso en VER REPORTE para 1144073861
+2025-09-12 11:35:44,236 - INFO - Procesando reporte para 1144073861 - Radicado: ef597720fa650ad2
+2025-09-12 11:35:49,814 - INFO - Descarga iniciada
+2025-09-12 11:35:51,816 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:35:51,816 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:35:57,018 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:36:02,205 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:36:03,248 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:36:11,265 - INFO - Procesando: LEYDI PEREZ - ID: 1144186684 - Radicado: e082258898a635b7
+2025-09-12 11:36:12,503 - INFO - Clic exitoso en VER REPORTE para 1144186684
+2025-09-12 11:36:12,503 - INFO - Procesando reporte para 1144186684 - Radicado: e082258898a635b7
+2025-09-12 11:36:18,091 - INFO - Descarga iniciada
+2025-09-12 11:36:20,092 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:36:20,092 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:36:25,288 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:36:30,488 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:36:31,463 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:36:39,479 - INFO - Procesando: ERIKA TORO - ID: 1004694741 - Radicado: 746f128b2a1d3654
+2025-09-12 11:36:40,568 - INFO - Clic exitoso en VER REPORTE para 1004694741
+2025-09-12 11:36:40,568 - INFO - Procesando reporte para 1004694741 - Radicado: 746f128b2a1d3654
+2025-09-12 11:36:46,146 - INFO - Descarga iniciada
+2025-09-12 11:36:48,149 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:36:48,149 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:36:53,359 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:36:58,539 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:36:59,486 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:37:07,503 - INFO - Procesando: CATALINA BETANCUR - ID: 32242201 - Radicado: b470f7b5dd13e1a
+2025-09-12 11:37:08,595 - INFO - Clic exitoso en VER REPORTE para 32242201
+2025-09-12 11:37:08,596 - INFO - Procesando reporte para 32242201 - Radicado: b470f7b5dd13e1a
+2025-09-12 11:37:14,172 - INFO - Descarga iniciada
+2025-09-12 11:37:16,175 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:37:16,175 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:37:21,429 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:37:26,660 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:37:27,575 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:37:35,593 - INFO - Procesando: JOSE SANCHEZ - ID: 7093188 - Radicado: 768e3e0a72172179
+2025-09-12 11:37:36,680 - INFO - Clic exitoso en VER REPORTE para 7093188
+2025-09-12 11:37:36,681 - INFO - Procesando reporte para 7093188 - Radicado: 768e3e0a72172179
+2025-09-12 11:37:42,303 - INFO - Descarga iniciada
+2025-09-12 11:37:44,305 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:37:44,305 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:37:49,521 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:37:54,719 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:37:55,601 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:38:03,614 - INFO - Procesando: EDWIN HURTADO - ID: 1006071027 - Radicado: 833b7e2b4ed86b54
+2025-09-12 11:38:04,667 - INFO - Clic exitoso en VER REPORTE para 1006071027
+2025-09-12 11:38:04,667 - INFO - Procesando reporte para 1006071027 - Radicado: 833b7e2b4ed86b54
+2025-09-12 11:38:10,248 - INFO - Descarga iniciada
+2025-09-12 11:38:12,249 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:38:12,249 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:38:17,459 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:38:22,652 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:38:23,597 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:38:31,613 - INFO - Procesando: KATHERINE HURTADO - ID: 1114884172 - Radicado: 7e5854058da90f9f
+2025-09-12 11:38:32,710 - INFO - Clic exitoso en VER REPORTE para 1114884172
+2025-09-12 11:38:32,710 - INFO - Procesando reporte para 1114884172 - Radicado: 7e5854058da90f9f
+2025-09-12 11:38:38,290 - INFO - Descarga iniciada
+2025-09-12 11:38:40,293 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:38:40,293 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:38:45,499 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:38:50,689 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:38:51,629 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:38:59,645 - INFO - Procesando: JHOSUETH CARDONA - ID: 1006099149 - Radicado: a33c59c1915c2510
+2025-09-12 11:39:00,732 - INFO - Clic exitoso en VER REPORTE para 1006099149
+2025-09-12 11:39:00,732 - INFO - Procesando reporte para 1006099149 - Radicado: a33c59c1915c2510
+2025-09-12 11:39:06,317 - INFO - Descarga iniciada
+2025-09-12 11:39:08,318 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:39:08,319 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:39:13,549 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:39:18,739 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:39:19,660 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:39:27,678 - INFO - Procesando: SARA GUERRERO - ID: 1006101711 - Radicado: 2cc491811b80e76b
+2025-09-12 11:39:28,821 - INFO - Clic exitoso en VER REPORTE para 1006101711
+2025-09-12 11:39:28,821 - INFO - Procesando reporte para 1006101711 - Radicado: 2cc491811b80e76b
+2025-09-12 11:39:34,405 - INFO - Descarga iniciada
+2025-09-12 11:39:36,407 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:39:36,407 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:39:41,629 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:39:46,819 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:39:47,750 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:40:01,374 - INFO - Texto paginación: Página 2 de 6 (55 elementos)
+2025-09-12 11:40:01,374 - INFO - === PROCESANDO PÁGINA 2 DE 6 ===
+2025-09-12 11:40:04,449 - INFO - Extraído: HENRY SANCHEZ - ID: 1113701157 - Radicado: c42603e6839a2faf
+2025-09-12 11:40:04,520 - INFO - Extraído: JUAN PEJENDINO - ID: 1104805866 - Radicado: 319ca76ae114a1a9
+2025-09-12 11:40:04,589 - INFO - Extraído: YURI GONZALEZ - ID: 1143986470 - Radicado: dc29941ccb89f550
+2025-09-12 11:40:04,669 - INFO - Extraído: FELICIANO JUANILLO - ID: 76268072 - Radicado: 792272eadb052580
+2025-09-12 11:40:04,739 - INFO - Extraído: CARLOS RESTREPO - ID: 16591889 - Radicado: b856a873a6cf9d81
+2025-09-12 11:40:04,814 - INFO - Extraído: DORA GUEVARA - ID: 36380389 - Radicado: 2ebd0e495208807
+2025-09-12 11:40:04,881 - INFO - Extraído: BRAYAN CORTES - ID: 1005873473 - Radicado: f070d9652c841005
+2025-09-12 11:40:04,968 - INFO - Extraído: FELIX SALDARRIAGA - ID: 14999112 - Radicado: 8597296f52a5a16
+2025-09-12 11:40:05,109 - INFO - Extraído: FERNANDO AYALA - ID: 16269004 - Radicado: 63540698063974bb
+2025-09-12 11:40:05,181 - INFO - Extraído: PAOLA SANTANA - ID: 1144077549 - Radicado: ef6cc474db064347
+2025-09-12 11:40:05,181 - INFO - Total elementos encontrados: 10
+2025-09-12 11:40:05,181 - INFO - Procesando: HENRY SANCHEZ - ID: 1113701157 - Radicado: c42603e6839a2faf
+2025-09-12 11:40:10,311 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:40:15,449 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:40:16,457 - INFO - Clic exitoso en VER REPORTE para 1113701157
+2025-09-12 11:40:16,457 - INFO - Procesando reporte para 1113701157 - Radicado: c42603e6839a2faf
+2025-09-12 11:40:22,040 - INFO - Descarga iniciada
+2025-09-12 11:40:24,042 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:40:24,042 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:40:29,249 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:40:34,449 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:40:35,449 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:40:43,465 - INFO - Procesando: JUAN PEJENDINO - ID: 1104805866 - Radicado: 319ca76ae114a1a9
+2025-09-12 11:40:44,499 - INFO - Clic exitoso en VER REPORTE para 1104805866
+2025-09-12 11:40:44,500 - INFO - Procesando reporte para 1104805866 - Radicado: 319ca76ae114a1a9
+2025-09-12 11:40:50,076 - INFO - Descarga iniciada
+2025-09-12 11:40:52,078 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:40:52,078 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:40:57,304 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:41:02,489 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:41:03,539 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:41:11,559 - INFO - Procesando: YURI GONZALEZ - ID: 1143986470 - Radicado: dc29941ccb89f550
+2025-09-12 11:41:16,699 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:41:21,840 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:41:22,895 - INFO - Clic exitoso en VER REPORTE para 1143986470
+2025-09-12 11:41:22,895 - INFO - Procesando reporte para 1143986470 - Radicado: dc29941ccb89f550
+2025-09-12 11:41:28,474 - INFO - Descarga iniciada
+2025-09-12 11:41:30,475 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:41:30,475 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:41:35,689 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:41:40,875 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:41:41,801 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:41:49,819 - INFO - Procesando: FELICIANO JUANILLO - ID: 76268072 - Radicado: 792272eadb052580
+2025-09-12 11:41:54,979 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:42:00,135 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:42:01,230 - INFO - Clic exitoso en VER REPORTE para 76268072
+2025-09-12 11:42:01,232 - INFO - Procesando reporte para 76268072 - Radicado: 792272eadb052580
+2025-09-12 11:42:06,815 - INFO - Descarga iniciada
+2025-09-12 11:42:08,816 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:42:08,816 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:42:14,031 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:42:19,227 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:42:20,268 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:42:28,283 - INFO - Procesando: CARLOS RESTREPO - ID: 16591889 - Radicado: b856a873a6cf9d81
+2025-09-12 11:42:33,420 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:42:38,549 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:42:39,534 - INFO - Clic exitoso en VER REPORTE para 16591889
+2025-09-12 11:42:39,534 - INFO - Procesando reporte para 16591889 - Radicado: b856a873a6cf9d81
+2025-09-12 11:42:45,115 - INFO - Descarga iniciada
+2025-09-12 11:42:47,116 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:42:47,116 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:42:52,320 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:42:57,510 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:42:58,481 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:43:06,497 - INFO - Procesando: DORA GUEVARA - ID: 36380389 - Radicado: 2ebd0e495208807
+2025-09-12 11:43:11,644 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:43:16,770 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:43:17,766 - INFO - Clic exitoso en VER REPORTE para 36380389
+2025-09-12 11:43:17,767 - INFO - Procesando reporte para 36380389 - Radicado: 2ebd0e495208807
+2025-09-12 11:43:23,353 - INFO - Descarga iniciada
+2025-09-12 11:43:25,354 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:43:25,354 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:43:30,556 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:43:35,750 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:43:36,693 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:43:44,709 - INFO - Procesando: BRAYAN CORTES - ID: 1005873473 - Radicado: f070d9652c841005
+2025-09-12 11:43:49,850 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:43:54,980 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:43:56,026 - INFO - Clic exitoso en VER REPORTE para 1005873473
+2025-09-12 11:43:56,026 - INFO - Procesando reporte para 1005873473 - Radicado: f070d9652c841005
+2025-09-12 11:44:01,608 - INFO - Descarga iniciada
+2025-09-12 11:44:03,610 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:44:03,610 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:44:08,867 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:44:14,049 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:44:14,998 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:44:23,015 - INFO - Procesando: FELIX SALDARRIAGA - ID: 14999112 - Radicado: 8597296f52a5a16
+2025-09-12 11:44:28,161 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:44:33,302 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:44:34,290 - INFO - Clic exitoso en VER REPORTE para 14999112
+2025-09-12 11:44:34,291 - INFO - Procesando reporte para 14999112 - Radicado: 8597296f52a5a16
+2025-09-12 11:44:39,868 - INFO - Descarga iniciada
+2025-09-12 11:44:41,869 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:44:41,870 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:44:47,090 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:44:52,303 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:44:53,320 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:45:01,336 - INFO - Procesando: FERNANDO AYALA - ID: 16269004 - Radicado: 63540698063974bb
+2025-09-12 11:45:06,479 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:45:11,631 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:45:12,657 - INFO - Clic exitoso en VER REPORTE para 16269004
+2025-09-12 11:45:12,657 - INFO - Procesando reporte para 16269004 - Radicado: 63540698063974bb
+2025-09-12 11:45:18,237 - INFO - Descarga iniciada
+2025-09-12 11:45:20,240 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:45:20,240 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:45:25,440 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:45:30,650 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:45:31,587 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:45:39,605 - INFO - Procesando: PAOLA SANTANA - ID: 1144077549 - Radicado: ef6cc474db064347
+2025-09-12 11:45:44,741 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:45:49,870 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:45:50,854 - INFO - Clic exitoso en VER REPORTE para 1144077549
+2025-09-12 11:45:50,857 - INFO - Procesando reporte para 1144077549 - Radicado: ef6cc474db064347
+2025-09-12 11:45:56,436 - INFO - Descarga iniciada
+2025-09-12 11:45:58,438 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:45:58,438 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:46:03,632 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:46:08,835 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:46:09,818 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:46:23,502 - INFO - Texto paginación: Página 3 de 6 (55 elementos)
+2025-09-12 11:46:23,502 - INFO - === PROCESANDO PÁGINA 3 DE 6 ===
+2025-09-12 11:46:26,590 - INFO - Extraído: LEIDY CAYCEDO - ID: 1005705615 - Radicado: 3a5db0017d8e5f36
+2025-09-12 11:46:26,655 - INFO - Extraído: DAIRO CANCHALA - ID: 14703232 - Radicado: 837fe99452df0b77
+2025-09-12 11:46:26,743 - INFO - Extraído: VICTOR ROJAS - ID: 1120380802 - Radicado: e07dec013f25f09a
+2025-09-12 11:46:26,816 - INFO - Extraído: JUAN VALVERDE - ID: 1006036003 - Radicado: 843d83cf527c011a
+2025-09-12 11:46:26,890 - INFO - Extraído: HAROLD MUÑOZ - ID: 16654025 - Radicado: 4d67796c37676076
+2025-09-12 11:46:26,968 - INFO - Extraído: YULY MONTAÑO - ID: 1192727031 - Radicado: 84e6b97af52cdc1c
+2025-09-12 11:46:27,040 - INFO - Extraído: LAURA MURILLO - ID: 1107513424 - Radicado: cf4fb548839eb08f
+2025-09-12 11:46:27,130 - INFO - Extraído: JUAN HERNANDEZ - ID: 1111548620 - Radicado: 7898c3c6cd45aee0
+2025-09-12 11:46:27,220 - INFO - Extraído: DERLY SALAS - ID: 1143832932 - Radicado: 2f3cf7ca191812f
+2025-09-12 11:46:27,371 - INFO - Extraído: KILBERT TRUJILLO - ID: 16944299 - Radicado: cdbbb58318daabf8
+2025-09-12 11:46:27,380 - INFO - Total elementos encontrados: 10
+2025-09-12 11:46:27,380 - INFO - Procesando: LEIDY CAYCEDO - ID: 1005705615 - Radicado: 3a5db0017d8e5f36
+2025-09-12 11:46:32,520 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:46:37,654 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:46:38,654 - INFO - Clic exitoso en VER REPORTE para 1005705615
+2025-09-12 11:46:38,654 - INFO - Procesando reporte para 1005705615 - Radicado: 3a5db0017d8e5f36
+2025-09-12 11:46:44,235 - INFO - Descarga iniciada
+2025-09-12 11:46:46,236 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:46:46,236 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:46:51,441 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:46:56,630 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:46:57,611 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:47:05,629 - INFO - Procesando: DAIRO CANCHALA - ID: 14703232 - Radicado: 837fe99452df0b77
+2025-09-12 11:47:10,778 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:47:15,904 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:47:16,938 - INFO - Clic exitoso en VER REPORTE para 14703232
+2025-09-12 11:47:16,939 - INFO - Procesando reporte para 14703232 - Radicado: 837fe99452df0b77
+2025-09-12 11:47:22,521 - INFO - Descarga iniciada
+2025-09-12 11:47:24,523 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:47:24,523 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:47:29,730 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:47:34,930 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:47:35,810 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:47:43,827 - INFO - Procesando: VICTOR ROJAS - ID: 1120380802 - Radicado: e07dec013f25f09a
+2025-09-12 11:47:44,854 - INFO - Clic exitoso en VER REPORTE para 1120380802
+2025-09-12 11:47:44,854 - INFO - Procesando reporte para 1120380802 - Radicado: e07dec013f25f09a
+2025-09-12 11:47:50,436 - INFO - Descarga iniciada
+2025-09-12 11:47:52,437 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:47:52,437 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:47:57,648 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:48:02,832 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:48:03,778 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:48:11,793 - INFO - Procesando: JUAN VALVERDE - ID: 1006036003 - Radicado: 843d83cf527c011a
+2025-09-12 11:48:16,933 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:48:22,070 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:48:23,185 - INFO - Clic exitoso en VER REPORTE para 1006036003
+2025-09-12 11:48:23,185 - INFO - Procesando reporte para 1006036003 - Radicado: 843d83cf527c011a
+2025-09-12 11:48:28,767 - INFO - Descarga iniciada
+2025-09-12 11:48:30,770 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:48:30,770 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:48:36,035 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:48:41,240 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:48:42,250 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:48:50,266 - INFO - Procesando: HAROLD MUÑOZ - ID: 16654025 - Radicado: 4d67796c37676076
+2025-09-12 11:48:55,413 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:49:00,540 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:49:01,590 - INFO - Clic exitoso en VER REPORTE para 16654025
+2025-09-12 11:49:01,591 - INFO - Procesando reporte para 16654025 - Radicado: 4d67796c37676076
+2025-09-12 11:49:07,169 - INFO - Descarga iniciada
+2025-09-12 11:49:09,171 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:49:09,171 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:49:14,373 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:49:19,560 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:49:20,479 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:49:28,493 - INFO - Procesando: YULY MONTAÑO - ID: 1192727031 - Radicado: 84e6b97af52cdc1c
+2025-09-12 11:49:33,631 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:49:38,772 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:49:39,947 - INFO - Clic exitoso en VER REPORTE para 1192727031
+2025-09-12 11:49:39,948 - INFO - Procesando reporte para 1192727031 - Radicado: 84e6b97af52cdc1c
+2025-09-12 11:49:45,529 - INFO - Descarga iniciada
+2025-09-12 11:49:47,531 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:49:47,531 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:49:52,741 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:49:57,931 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:49:58,817 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:50:06,836 - INFO - Procesando: LAURA MURILLO - ID: 1107513424 - Radicado: cf4fb548839eb08f
+2025-09-12 11:50:11,971 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:50:17,111 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:50:18,266 - INFO - Clic exitoso en VER REPORTE para 1107513424
+2025-09-12 11:50:18,266 - INFO - Procesando reporte para 1107513424 - Radicado: cf4fb548839eb08f
+2025-09-12 11:50:23,846 - INFO - Descarga iniciada
+2025-09-12 11:50:25,849 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:50:25,849 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:50:31,054 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:50:36,242 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:50:37,195 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:50:45,210 - INFO - Procesando: JUAN HERNANDEZ - ID: 1111548620 - Radicado: 7898c3c6cd45aee0
+2025-09-12 11:50:50,347 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:50:55,482 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:50:56,534 - INFO - Clic exitoso en VER REPORTE para 1111548620
+2025-09-12 11:50:56,535 - INFO - Procesando reporte para 1111548620 - Radicado: 7898c3c6cd45aee0
+2025-09-12 11:51:02,118 - INFO - Descarga iniciada
+2025-09-12 11:51:04,119 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:51:04,119 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:51:09,302 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:51:14,512 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:51:15,458 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:51:23,475 - INFO - Procesando: DERLY SALAS - ID: 1143832932 - Radicado: 2f3cf7ca191812f
+2025-09-12 11:51:28,613 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:51:33,743 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:51:34,740 - INFO - Clic exitoso en VER REPORTE para 1143832932
+2025-09-12 11:51:34,740 - INFO - Procesando reporte para 1143832932 - Radicado: 2f3cf7ca191812f
+2025-09-12 11:51:40,320 - INFO - Descarga iniciada
+2025-09-12 11:51:42,322 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:51:42,322 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:52:16,503 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:52:21,693 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:52:22,631 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:52:30,647 - INFO - Procesando: KILBERT TRUJILLO - ID: 16944299 - Radicado: cdbbb58318daabf8
+2025-09-12 11:52:35,784 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:52:40,920 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:52:41,918 - INFO - Clic exitoso en VER REPORTE para 16944299
+2025-09-12 11:52:41,919 - INFO - Procesando reporte para 16944299 - Radicado: cdbbb58318daabf8
+2025-09-12 11:52:47,499 - INFO - Descarga iniciada
+2025-09-12 11:52:49,501 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:52:49,501 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:52:54,694 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:52:59,884 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:53:00,841 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:53:14,454 - INFO - Texto paginación: Página 4 de 6 (55 elementos)
+2025-09-12 11:53:14,464 - INFO - === PROCESANDO PÁGINA 4 DE 6 ===
+2025-09-12 11:53:17,544 - INFO - Extraído: MICHAEL ORDOÑEZ - ID: 1114480017 - Radicado: c369e2ce6301e201
+2025-09-12 11:53:17,614 - INFO - Extraído: CARLOS ROZO - ID: 94516677 - Radicado: c00f0b02bbfcaf89
+2025-09-12 11:53:17,692 - INFO - Extraído: SANTIAGO RIVERA - ID: 1010147428 - Radicado: 197e9c58f3e84b5e
+2025-09-12 11:53:17,764 - INFO - Extraído: NATHALIA CORTES - ID: 1151961469 - Radicado: 8b089c6efca65f51
+2025-09-12 11:53:17,852 - INFO - Extraído: DIANA VELEZ - ID: 31486646 - Radicado: ddeb629e2c485ade
+2025-09-12 11:53:17,929 - INFO - Extraído: STEPHANIA ALARCON - ID: 1113693094 - Radicado: e64e03c12b18209a
+2025-09-12 11:53:17,994 - INFO - Extraído: ALEJANDRA LUJAN - ID: 1005980422 - Radicado: db45a5fa00501200
+2025-09-12 11:53:18,069 - INFO - Extraído: RUBEN PERLAZA - ID: 1118306394 - Radicado: 2cdacbd984d41a6d
+2025-09-12 11:53:18,144 - INFO - Extraído: CARMEN LLANOS - ID: 66819730 - Radicado: 10c092a04e7a460d
+2025-09-12 11:53:18,294 - INFO - Extraído: CHARLES CAICEDO - ID: 16847435 - Radicado: 740fb9be1138cfa6
+2025-09-12 11:53:18,295 - INFO - Total elementos encontrados: 10
+2025-09-12 11:53:18,295 - INFO - Procesando: MICHAEL ORDOÑEZ - ID: 1114480017 - Radicado: c369e2ce6301e201
+2025-09-12 11:53:23,424 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:53:28,563 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:53:29,588 - INFO - Clic exitoso en VER REPORTE para 1114480017
+2025-09-12 11:53:29,588 - INFO - Procesando reporte para 1114480017 - Radicado: c369e2ce6301e201
+2025-09-12 11:53:35,168 - INFO - Descarga iniciada
+2025-09-12 11:53:37,170 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:53:37,170 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:53:42,384 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:53:47,574 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:53:48,536 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:53:56,555 - INFO - Procesando: CARLOS ROZO - ID: 94516677 - Radicado: c00f0b02bbfcaf89
+2025-09-12 11:54:01,702 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:54:06,844 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:54:07,917 - INFO - Clic exitoso en VER REPORTE para 94516677
+2025-09-12 11:54:07,917 - INFO - Procesando reporte para 94516677 - Radicado: c00f0b02bbfcaf89
+2025-09-12 11:54:13,498 - INFO - Descarga iniciada
+2025-09-12 11:54:15,500 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:54:15,500 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:54:20,695 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:54:25,897 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:54:26,853 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:54:34,869 - INFO - Procesando: SANTIAGO RIVERA - ID: 1010147428 - Radicado: 197e9c58f3e84b5e
+2025-09-12 11:54:39,995 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:54:45,145 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:54:46,203 - INFO - Clic exitoso en VER REPORTE para 1010147428
+2025-09-12 11:54:46,203 - INFO - Procesando reporte para 1010147428 - Radicado: 197e9c58f3e84b5e
+2025-09-12 11:54:51,792 - INFO - Descarga iniciada
+2025-09-12 11:54:53,793 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:54:53,793 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:54:59,076 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:55:04,275 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:55:05,312 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:55:13,329 - INFO - Procesando: NATHALIA CORTES - ID: 1151961469 - Radicado: 8b089c6efca65f51
+2025-09-12 11:55:14,515 - INFO - Clic exitoso en VER REPORTE para 1151961469
+2025-09-12 11:55:14,515 - INFO - Procesando reporte para 1151961469 - Radicado: 8b089c6efca65f51
+2025-09-12 11:55:20,136 - INFO - Descarga iniciada
+2025-09-12 11:55:22,139 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:55:22,139 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:55:27,350 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:55:32,546 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:55:33,496 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:55:41,516 - INFO - Procesando: DIANA VELEZ - ID: 31486646 - Radicado: ddeb629e2c485ade
+2025-09-12 11:55:46,656 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:55:51,776 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:55:52,816 - INFO - Clic exitoso en VER REPORTE para 31486646
+2025-09-12 11:55:52,816 - INFO - Procesando reporte para 31486646 - Radicado: ddeb629e2c485ade
+2025-09-12 11:55:58,402 - INFO - Descarga iniciada
+2025-09-12 11:56:00,404 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:56:00,404 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:56:05,636 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:56:10,826 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:56:11,805 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:56:19,826 - INFO - Procesando: STEPHANIA ALARCON - ID: 1113693094 - Radicado: e64e03c12b18209a
+2025-09-12 11:56:24,957 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:56:30,091 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:56:31,147 - INFO - Clic exitoso en VER REPORTE para 1113693094
+2025-09-12 11:56:31,150 - INFO - Procesando reporte para 1113693094 - Radicado: e64e03c12b18209a
+2025-09-12 11:56:36,748 - INFO - Descarga iniciada
+2025-09-12 11:56:38,751 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:56:38,751 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:56:43,975 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:56:49,177 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:56:50,076 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:56:58,093 - INFO - Procesando: ALEJANDRA LUJAN - ID: 1005980422 - Radicado: db45a5fa00501200
+2025-09-12 11:57:03,261 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:57:08,437 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:57:09,450 - INFO - Clic exitoso en VER REPORTE para 1005980422
+2025-09-12 11:57:09,450 - INFO - Procesando reporte para 1005980422 - Radicado: db45a5fa00501200
+2025-09-12 11:57:15,036 - INFO - Descarga iniciada
+2025-09-12 11:57:17,038 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:57:17,038 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:57:22,257 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:57:27,447 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:57:28,417 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:57:36,429 - INFO - Procesando: RUBEN PERLAZA - ID: 1118306394 - Radicado: 2cdacbd984d41a6d
+2025-09-12 11:57:41,568 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:57:46,710 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:57:47,726 - INFO - Clic exitoso en VER REPORTE para 1118306394
+2025-09-12 11:57:47,726 - INFO - Procesando reporte para 1118306394 - Radicado: 2cdacbd984d41a6d
+2025-09-12 11:57:53,313 - INFO - Descarga iniciada
+2025-09-12 11:57:55,315 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:57:55,315 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:58:00,534 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:58:05,727 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:58:06,648 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:58:14,663 - INFO - Procesando: CARMEN LLANOS - ID: 66819730 - Radicado: 10c092a04e7a460d
+2025-09-12 11:58:19,804 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:58:24,939 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:58:25,931 - INFO - Clic exitoso en VER REPORTE para 66819730
+2025-09-12 11:58:25,934 - INFO - Procesando reporte para 66819730 - Radicado: 10c092a04e7a460d
+2025-09-12 11:58:31,521 - INFO - Descarga iniciada
+2025-09-12 11:58:33,522 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:58:33,522 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:58:38,740 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:58:43,923 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:58:45,002 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:58:53,038 - INFO - Procesando: CHARLES CAICEDO - ID: 16847435 - Radicado: 740fb9be1138cfa6
+2025-09-12 11:58:58,188 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 11:59:03,331 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//*[contains(@id, 'CBtn1')]
+2025-09-12 11:59:04,317 - INFO - Clic exitoso en VER REPORTE para 16847435
+2025-09-12 11:59:04,317 - INFO - Procesando reporte para 16847435 - Radicado: 740fb9be1138cfa6
+2025-09-12 11:59:09,900 - INFO - Descarga iniciada
+2025-09-12 11:59:11,901 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 11:59:11,901 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 11:59:17,111 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 11:59:22,298 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 11:59:23,224 - INFO - Botón volver clickeado exitosamente
+2025-09-12 11:59:36,848 - INFO - Texto paginación: Página 5 de 6 (55 elementos)
+2025-09-12 11:59:36,848 - INFO - === PROCESANDO PÁGINA 5 DE 6 ===
+2025-09-12 11:59:39,939 - INFO - Extraído: JOSE CARMONA - ID: 6102562 - Radicado: 2205ff5c0b1dc8bb
+2025-09-12 11:59:40,019 - INFO - Extraído: VALENTINA LUCUMI - ID: 1006167622 - Radicado: 224e210df717b8f7
+2025-09-12 11:59:40,099 - INFO - Extraído: BRAYNER CHAVES - ID: 1107070932 - Radicado: 7cd1c7b00aaa4997
+2025-09-12 11:59:40,176 - INFO - Extraído: DANIELA RIVAS - ID: 1143975211 - Radicado: c7b72fa23e298870
+2025-09-12 12:01:40,226 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=53999): Read timed out. (read timeout=120)")': /session/56c669857ea78b6f4b7bba3903db1007/element/f.17D39BBCECEBA976386E90010368F00C.d.91B298AB0890BDD6E48250685D4D6CB8.e.4739/text
+2025-09-12 12:03:40,239 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ReadTimeoutError("HTTPConnectionPool(host='localhost', port=53999): Read timed out. (read timeout=120)")': /session/56c669857ea78b6f4b7bba3903db1007/element/f.17D39BBCECEBA976386E90010368F00C.d.91B298AB0890BDD6E48250685D4D6CB8.e.4739/text
+2025-09-12 12:04:54,777 - INFO - Extraído: YOLANDA GONZALEZ - ID: 66820999 - Radicado: 22b04750fd20ee72
+2025-09-12 12:04:54,947 - INFO - Extraído: JHONATANN MORENO - ID: 1006110165 - Radicado: 8c7e8110433f4f57
+2025-09-12 12:04:55,091 - INFO - Extraído: KATHERINE DELGADO - ID: 1107527821 - Radicado: 4562459ac04c9b6b
+2025-09-12 12:04:55,205 - INFO - Extraído: JAMES RODRIGUEZ - ID: 1006184934 - Radicado: 839ba4d00b0d411e
+2025-09-12 12:04:55,311 - INFO - Extraído: SINDY MONTILLA - ID: 1006396922 - Radicado: 637684d461759416
+2025-09-12 12:04:55,416 - INFO - Extraído: WEYMAR VALLEJO - ID: 1112226970 - Radicado: 8fdc8d5ef8b79067
+2025-09-12 12:04:55,416 - INFO - Total elementos encontrados: 10
+2025-09-12 12:04:55,416 - INFO - Procesando: JOSE CARMONA - ID: 6102562 - Radicado: 2205ff5c0b1dc8bb
+2025-09-12 12:05:00,561 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 12:05:05,691 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//*[contains(@id, 'CBtn1')]
+2025-09-12 12:05:06,770 - INFO - Clic exitoso en VER REPORTE para 6102562
+2025-09-12 12:05:06,770 - INFO - Procesando reporte para 6102562 - Radicado: 2205ff5c0b1dc8bb
+2025-09-12 12:05:12,357 - INFO - Descarga iniciada
+2025-09-12 12:05:14,358 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 12:05:14,358 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 12:05:19,564 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 12:05:24,747 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 12:05:25,654 - INFO - Botón volver clickeado exitosamente
+2025-09-12 12:05:33,670 - INFO - Procesando: VALENTINA LUCUMI - ID: 1006167622 - Radicado: 224e210df717b8f7
+2025-09-12 12:05:38,822 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 12:05:43,956 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//*[contains(@id, 'CBtn1')]
+2025-09-12 12:05:44,995 - INFO - Clic exitoso en VER REPORTE para 1006167622
+2025-09-12 12:05:44,995 - INFO - Procesando reporte para 1006167622 - Radicado: 224e210df717b8f7
+2025-09-12 12:05:50,575 - INFO - Descarga iniciada
+2025-09-12 12:05:52,578 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 12:05:52,578 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 12:05:57,783 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 12:06:02,971 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 12:06:03,915 - INFO - Botón volver clickeado exitosamente
+2025-09-12 12:06:11,929 - INFO - Procesando: BRAYNER CHAVES - ID: 1107070932 - Radicado: 7cd1c7b00aaa4997
+2025-09-12 12:06:17,071 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 12:06:22,211 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//*[contains(@id, 'CBtn1')]
+2025-09-12 12:06:23,262 - INFO - Clic exitoso en VER REPORTE para 1107070932
+2025-09-12 12:06:23,263 - INFO - Procesando reporte para 1107070932 - Radicado: 7cd1c7b00aaa4997
+2025-09-12 12:06:28,844 - INFO - Descarga iniciada
+2025-09-12 12:06:30,846 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 12:06:30,846 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 12:06:36,041 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 12:06:41,241 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 12:06:42,239 - INFO - Botón volver clickeado exitosamente
+2025-09-12 12:06:50,255 - INFO - Procesando: DANIELA RIVAS - ID: 1143975211 - Radicado: c7b72fa23e298870
+2025-09-12 12:06:55,399 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 12:07:00,536 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//*[contains(@id, 'CBtn1')]
+2025-09-12 12:07:01,646 - INFO - Clic exitoso en VER REPORTE para 1143975211
+2025-09-12 12:07:01,649 - INFO - Procesando reporte para 1143975211 - Radicado: c7b72fa23e298870
+2025-09-12 12:07:07,231 - INFO - Descarga iniciada
+2025-09-12 12:07:09,233 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 12:07:09,233 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 12:07:14,452 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 12:07:19,644 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 12:07:20,600 - INFO - Botón volver clickeado exitosamente
+2025-09-12 12:07:28,616 - INFO - Procesando: YOLANDA GONZALEZ - ID: 66820999 - Radicado: 22b04750fd20ee72
+2025-09-12 12:07:29,591 - INFO - Clic exitoso en VER REPORTE para 66820999
+2025-09-12 12:07:29,591 - INFO - Procesando reporte para 66820999 - Radicado: 22b04750fd20ee72
+2025-09-12 12:07:35,171 - INFO - Descarga iniciada
+2025-09-12 12:07:37,172 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 12:07:37,172 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 12:07:42,373 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 12:07:47,561 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 12:07:48,566 - INFO - Botón volver clickeado exitosamente
+2025-09-12 12:07:56,583 - INFO - Procesando: JHONATANN MORENO - ID: 1006110165 - Radicado: 8c7e8110433f4f57
+2025-09-12 12:08:01,722 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 12:08:06,852 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow5')]//*[contains(@id, 'CBtn1')]
+2025-09-12 12:08:08,075 - INFO - Clic exitoso en VER REPORTE para 1006110165
+2025-09-12 12:08:08,075 - INFO - Procesando reporte para 1006110165 - Radicado: 8c7e8110433f4f57
+2025-09-12 12:08:13,656 - INFO - Descarga iniciada
+2025-09-12 12:08:15,659 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 12:08:15,659 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 12:08:20,852 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 12:08:26,052 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 12:08:27,029 - INFO - Botón volver clickeado exitosamente
+2025-09-12 12:08:35,045 - INFO - Procesando: KATHERINE DELGADO - ID: 1107527821 - Radicado: 4562459ac04c9b6b
+2025-09-12 12:08:40,185 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 12:08:45,322 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow6')]//*[contains(@id, 'CBtn1')]
+2025-09-12 12:08:46,302 - INFO - Clic exitoso en VER REPORTE para 1107527821
+2025-09-12 12:08:46,302 - INFO - Procesando reporte para 1107527821 - Radicado: 4562459ac04c9b6b
+2025-09-12 12:08:51,880 - INFO - Descarga iniciada
+2025-09-12 12:08:53,882 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 12:08:53,882 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 12:08:59,082 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 12:09:04,282 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 12:09:05,204 - INFO - Botón volver clickeado exitosamente
+2025-09-12 12:09:13,219 - INFO - Procesando: JAMES RODRIGUEZ - ID: 1006184934 - Radicado: 839ba4d00b0d411e
+2025-09-12 12:09:18,352 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 12:09:23,482 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow7')]//*[contains(@id, 'CBtn1')]
+2025-09-12 12:09:24,664 - INFO - Clic exitoso en VER REPORTE para 1006184934
+2025-09-12 12:09:24,664 - INFO - Procesando reporte para 1006184934 - Radicado: 839ba4d00b0d411e
+2025-09-12 12:09:30,252 - INFO - Descarga iniciada
+2025-09-12 12:09:32,254 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 12:09:32,254 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 12:09:37,452 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 12:09:42,655 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 12:09:43,639 - INFO - Botón volver clickeado exitosamente
+2025-09-12 12:09:51,655 - INFO - Procesando: SINDY MONTILLA - ID: 1006396922 - Radicado: 637684d461759416
+2025-09-12 12:09:56,793 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 12:10:01,936 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow8')]//*[contains(@id, 'CBtn1')]
+2025-09-12 12:10:02,999 - INFO - Clic exitoso en VER REPORTE para 1006396922
+2025-09-12 12:10:02,999 - INFO - Procesando reporte para 1006396922 - Radicado: 637684d461759416
+2025-09-12 12:10:08,581 - INFO - Descarga iniciada
+2025-09-12 12:10:10,583 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 12:10:10,583 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 12:10:15,784 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 12:10:20,982 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 12:10:21,905 - INFO - Botón volver clickeado exitosamente
+2025-09-12 12:10:29,925 - INFO - Procesando: WEYMAR VALLEJO - ID: 1112226970 - Radicado: 8fdc8d5ef8b79067
+2025-09-12 12:10:35,062 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 12:10:40,192 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow9')]//*[contains(@id, 'CBtn1')]
+2025-09-12 12:10:41,235 - INFO - Clic exitoso en VER REPORTE para 1112226970
+2025-09-12 12:10:41,235 - INFO - Procesando reporte para 1112226970 - Radicado: 8fdc8d5ef8b79067
+2025-09-12 12:10:46,822 - INFO - Descarga iniciada
+2025-09-12 12:10:48,824 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 12:10:48,824 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 12:10:54,029 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 12:10:59,212 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 12:11:00,153 - INFO - Botón volver clickeado exitosamente
+2025-09-12 12:11:13,772 - INFO - Texto paginación: Página 6 de 6 (55 elementos)
+2025-09-12 12:11:13,772 - INFO - === PROCESANDO PÁGINA 6 DE 6 ===
+2025-09-12 12:11:16,852 - INFO - Extraído: JHOSSY ARANA - ID: 1114312510 - Radicado: dd9b3bcbf40baca1
+2025-09-12 12:11:16,912 - INFO - Extraído: ORIAN VALERIO - ID: 1126909495 - Radicado: bdf3b4012bf7904e
+2025-09-12 12:11:17,059 - INFO - Extraído: DANIEL HERNANDEZ - ID: 1112969903 - Radicado: e247f99fbbd1ddd2
+2025-09-12 12:11:17,140 - INFO - Extraído: ISABEL MORA - ID: 1111667861 - Radicado: 116a67b065dace46
+2025-09-12 12:11:17,231 - INFO - Extraído: MERCEDES URBANO - ID: 31226303 - Radicado: f17922081f41e3f5
+2025-09-12 12:11:17,231 - INFO - Total elementos encontrados: 5
+2025-09-12 12:11:17,231 - INFO - Procesando: JHOSSY ARANA - ID: 1114312510 - Radicado: dd9b3bcbf40baca1
+2025-09-12 12:11:22,363 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 12:11:27,503 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow0')]//*[contains(@id, 'CBtn1')]
+2025-09-12 12:11:28,561 - INFO - Clic exitoso en VER REPORTE para 1114312510
+2025-09-12 12:11:28,561 - INFO - Procesando reporte para 1114312510 - Radicado: dd9b3bcbf40baca1
+2025-09-12 12:11:34,141 - INFO - Descarga iniciada
+2025-09-12 12:11:36,144 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 12:11:36,144 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 12:11:41,335 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 12:11:46,539 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 12:11:47,471 - INFO - Botón volver clickeado exitosamente
+2025-09-12 12:11:55,493 - INFO - Procesando: ORIAN VALERIO - ID: 1126909495 - Radicado: bdf3b4012bf7904e
+2025-09-12 12:12:00,642 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 12:12:05,802 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow1')]//*[contains(@id, 'CBtn1')]
+2025-09-12 12:12:06,860 - INFO - Clic exitoso en VER REPORTE para 1126909495
+2025-09-12 12:12:06,860 - INFO - Procesando reporte para 1126909495 - Radicado: bdf3b4012bf7904e
+2025-09-12 12:12:12,447 - INFO - Descarga iniciada
+2025-09-12 12:12:14,449 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 12:12:14,449 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 12:12:19,643 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 12:12:24,839 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 12:12:25,763 - INFO - Botón volver clickeado exitosamente
+2025-09-12 12:12:33,780 - INFO - Procesando: DANIEL HERNANDEZ - ID: 1112969903 - Radicado: e247f99fbbd1ddd2
+2025-09-12 12:12:38,923 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 12:12:44,043 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow2')]//*[contains(@id, 'CBtn1')]
+2025-09-12 12:12:45,083 - INFO - Clic exitoso en VER REPORTE para 1112969903
+2025-09-12 12:12:45,083 - INFO - Procesando reporte para 1112969903 - Radicado: e247f99fbbd1ddd2
+2025-09-12 12:12:50,664 - INFO - Descarga iniciada
+2025-09-12 12:12:52,666 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 12:12:52,666 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 12:12:57,863 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 12:13:03,064 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 12:13:03,992 - INFO - Botón volver clickeado exitosamente
+2025-09-12 12:13:12,008 - INFO - Procesando: ISABEL MORA - ID: 1111667861 - Radicado: 116a67b065dace46
+2025-09-12 12:13:17,145 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 12:13:22,283 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow3')]//*[contains(@id, 'CBtn1')]
+2025-09-12 12:13:23,302 - INFO - Clic exitoso en VER REPORTE para 1111667861
+2025-09-12 12:13:23,304 - INFO - Procesando reporte para 1111667861 - Radicado: 116a67b065dace46
+2025-09-12 12:13:28,883 - INFO - Descarga iniciada
+2025-09-12 12:13:30,884 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 12:13:30,884 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 12:13:36,089 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 12:13:41,283 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 12:13:42,235 - INFO - Botón volver clickeado exitosamente
+2025-09-12 12:13:50,253 - INFO - Procesando: MERCEDES URBANO - ID: 31226303 - Radicado: f17922081f41e3f5
+2025-09-12 12:13:55,393 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//span[contains(text(), 'Ver Reporte')]
+2025-09-12 12:14:00,533 - ERROR - Elemento no encontrado: //tr[contains(@id, 'DXDataRow4')]//*[contains(@id, 'CBtn1')]
+2025-09-12 12:14:01,596 - INFO - Clic exitoso en VER REPORTE para 31226303
+2025-09-12 12:14:01,597 - INFO - Procesando reporte para 31226303 - Radicado: f17922081f41e3f5
+2025-09-12 12:14:07,177 - INFO - Descarga iniciada
+2025-09-12 12:14:09,179 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 12:14:09,179 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-12 12:14:14,373 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 12:14:19,573 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 12:14:20,546 - INFO - Botón volver clickeado exitosamente
+2025-09-12 12:14:28,563 - INFO - Procesamiento de todas las páginas completado
+2025-09-12 12:14:28,565 - INFO - Reporte generado: c:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\src\descargasPDF\reporte_archivos.txt
+2025-09-12 12:14:28,565 - INFO - Proceso completado. Total archivos descargados: 55
+2025-09-12 12:14:28,565 - INFO - Archivos guardados en: c:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\src\descargasPDF
+2025-09-12 12:14:28,565 - INFO -    c5ac43ac63e5737f_34594183_MARIA_ARCOS.pdf (ID: 34594183, Radicado: c5ac43ac63e5737f)
+2025-09-12 12:14:28,569 - INFO -    ef597720fa650ad2_1144073861_ERIKA_MAPALLO.pdf (ID: 1144073861, Radicado: ef597720fa650ad2)
+2025-09-12 12:14:28,569 - INFO -    e082258898a635b7_1144186684_LEYDI_PEREZ.pdf (ID: 1144186684, Radicado: e082258898a635b7)
+2025-09-12 12:14:28,569 - INFO -    746f128b2a1d3654_1004694741_ERIKA_TORO.pdf (ID: 1004694741, Radicado: 746f128b2a1d3654)
+2025-09-12 12:14:28,569 - INFO -    b470f7b5dd13e1a_32242201_CATALINA_BETANCUR.pdf (ID: 32242201, Radicado: b470f7b5dd13e1a)
+2025-09-12 12:14:28,569 - INFO -    768e3e0a72172179_7093188_JOSE_SANCHEZ.pdf (ID: 7093188, Radicado: 768e3e0a72172179)
+2025-09-12 12:14:28,569 - INFO -    833b7e2b4ed86b54_1006071027_EDWIN_HURTADO.pdf (ID: 1006071027, Radicado: 833b7e2b4ed86b54)
+2025-09-12 12:14:28,570 - INFO -    7e5854058da90f9f_1114884172_KATHERINE_HURTADO.pdf (ID: 1114884172, Radicado: 7e5854058da90f9f)
+2025-09-12 12:14:28,570 - INFO -    a33c59c1915c2510_1006099149_JHOSUETH_CARDONA.pdf (ID: 1006099149, Radicado: a33c59c1915c2510)
+2025-09-12 12:14:28,570 - INFO -    2cc491811b80e76b_1006101711_SARA_GUERRERO.pdf (ID: 1006101711, Radicado: 2cc491811b80e76b)
+2025-09-12 12:14:28,571 - INFO -    c42603e6839a2faf_1113701157_HENRY_SANCHEZ.pdf (ID: 1113701157, Radicado: c42603e6839a2faf)
+2025-09-12 12:14:28,571 - INFO -    319ca76ae114a1a9_1104805866_JUAN_PEJENDINO.pdf (ID: 1104805866, Radicado: 319ca76ae114a1a9)
+2025-09-12 12:14:28,571 - INFO -    dc29941ccb89f550_1143986470_YURI_GONZALEZ.pdf (ID: 1143986470, Radicado: dc29941ccb89f550)
+2025-09-12 12:14:28,571 - INFO -    792272eadb052580_76268072_FELICIANO_JUANILLO.pdf (ID: 76268072, Radicado: 792272eadb052580)
+2025-09-12 12:14:28,571 - INFO -    b856a873a6cf9d81_16591889_CARLOS_RESTREPO.pdf (ID: 16591889, Radicado: b856a873a6cf9d81)
+2025-09-12 12:14:28,571 - INFO -    2ebd0e495208807_36380389_DORA_GUEVARA.pdf (ID: 36380389, Radicado: 2ebd0e495208807)
+2025-09-12 12:14:28,571 - INFO -    f070d9652c841005_1005873473_BRAYAN_CORTES.pdf (ID: 1005873473, Radicado: f070d9652c841005)
+2025-09-12 12:14:28,571 - INFO -    8597296f52a5a16_14999112_FELIX_SALDARRIAGA.pdf (ID: 14999112, Radicado: 8597296f52a5a16)
+2025-09-12 12:14:28,571 - INFO -    63540698063974bb_16269004_FERNANDO_AYALA.pdf (ID: 16269004, Radicado: 63540698063974bb)
+2025-09-12 12:14:28,573 - INFO -    ef6cc474db064347_1144077549_PAOLA_SANTANA.pdf (ID: 1144077549, Radicado: ef6cc474db064347)
+2025-09-12 12:14:28,573 - INFO -    3a5db0017d8e5f36_1005705615_LEIDY_CAYCEDO.pdf (ID: 1005705615, Radicado: 3a5db0017d8e5f36)
+2025-09-12 12:14:28,573 - INFO -    837fe99452df0b77_14703232_DAIRO_CANCHALA.pdf (ID: 14703232, Radicado: 837fe99452df0b77)
+2025-09-12 12:14:28,573 - INFO -    e07dec013f25f09a_1120380802_VICTOR_ROJAS.pdf (ID: 1120380802, Radicado: e07dec013f25f09a)
+2025-09-12 12:14:28,573 - INFO -    843d83cf527c011a_1006036003_JUAN_VALVERDE.pdf (ID: 1006036003, Radicado: 843d83cf527c011a)
+2025-09-12 12:14:28,573 - INFO -    4d67796c37676076_16654025_HAROLD_MUÑOZ.pdf (ID: 16654025, Radicado: 4d67796c37676076)
+2025-09-12 12:14:28,573 - INFO -    84e6b97af52cdc1c_1192727031_YULY_MONTAÑO.pdf (ID: 1192727031, Radicado: 84e6b97af52cdc1c)
+2025-09-12 12:14:28,573 - INFO -    cf4fb548839eb08f_1107513424_LAURA_MURILLO.pdf (ID: 1107513424, Radicado: cf4fb548839eb08f)
+2025-09-12 12:14:28,573 - INFO -    7898c3c6cd45aee0_1111548620_JUAN_HERNANDEZ.pdf (ID: 1111548620, Radicado: 7898c3c6cd45aee0)
+2025-09-12 12:14:28,573 - INFO -    2f3cf7ca191812f_1143832932_DERLY_SALAS.pdf (ID: 1143832932, Radicado: 2f3cf7ca191812f)
+2025-09-12 12:14:28,573 - INFO -    cdbbb58318daabf8_16944299_KILBERT_TRUJILLO.pdf (ID: 16944299, Radicado: cdbbb58318daabf8)
+2025-09-12 12:14:28,573 - INFO -    c369e2ce6301e201_1114480017_MICHAEL_ORDOÑEZ.pdf (ID: 1114480017, Radicado: c369e2ce6301e201)
+2025-09-12 12:14:28,573 - INFO -    c00f0b02bbfcaf89_94516677_CARLOS_ROZO.pdf (ID: 94516677, Radicado: c00f0b02bbfcaf89)
+2025-09-12 12:14:28,573 - INFO -    197e9c58f3e84b5e_1010147428_SANTIAGO_RIVERA.pdf (ID: 1010147428, Radicado: 197e9c58f3e84b5e)
+2025-09-12 12:14:28,573 - INFO -    8b089c6efca65f51_1151961469_NATHALIA_CORTES.pdf (ID: 1151961469, Radicado: 8b089c6efca65f51)
+2025-09-12 12:14:28,573 - INFO -    ddeb629e2c485ade_31486646_DIANA_VELEZ.pdf (ID: 31486646, Radicado: ddeb629e2c485ade)
+2025-09-12 12:14:28,573 - INFO -    e64e03c12b18209a_1113693094_STEPHANIA_ALARCON.pdf (ID: 1113693094, Radicado: e64e03c12b18209a)
+2025-09-12 12:14:28,573 - INFO -    db45a5fa00501200_1005980422_ALEJANDRA_LUJAN.pdf (ID: 1005980422, Radicado: db45a5fa00501200)
+2025-09-12 12:14:28,576 - INFO -    2cdacbd984d41a6d_1118306394_RUBEN_PERLAZA.pdf (ID: 1118306394, Radicado: 2cdacbd984d41a6d)
+2025-09-12 12:14:28,576 - INFO -    10c092a04e7a460d_66819730_CARMEN_LLANOS.pdf (ID: 66819730, Radicado: 10c092a04e7a460d)
+2025-09-12 12:14:28,576 - INFO -    740fb9be1138cfa6_16847435_CHARLES_CAICEDO.pdf (ID: 16847435, Radicado: 740fb9be1138cfa6)
+2025-09-12 12:14:28,576 - INFO -    2205ff5c0b1dc8bb_6102562_JOSE_CARMONA.pdf (ID: 6102562, Radicado: 2205ff5c0b1dc8bb)
+2025-09-12 12:14:28,576 - INFO -    224e210df717b8f7_1006167622_VALENTINA_LUCUMI.pdf (ID: 1006167622, Radicado: 224e210df717b8f7)
+2025-09-12 12:14:28,576 - INFO -    7cd1c7b00aaa4997_1107070932_BRAYNER_CHAVES.pdf (ID: 1107070932, Radicado: 7cd1c7b00aaa4997)
+2025-09-12 12:14:28,576 - INFO -    c7b72fa23e298870_1143975211_DANIELA_RIVAS.pdf (ID: 1143975211, Radicado: c7b72fa23e298870)
+2025-09-12 12:14:28,577 - INFO -    22b04750fd20ee72_66820999_YOLANDA_GONZALEZ.pdf (ID: 66820999, Radicado: 22b04750fd20ee72)
+2025-09-12 12:14:28,577 - INFO -    8c7e8110433f4f57_1006110165_JHONATANN_MORENO.pdf (ID: 1006110165, Radicado: 8c7e8110433f4f57)
+2025-09-12 12:14:28,577 - INFO -    4562459ac04c9b6b_1107527821_KATHERINE_DELGADO.pdf (ID: 1107527821, Radicado: 4562459ac04c9b6b)
+2025-09-12 12:14:28,577 - INFO -    839ba4d00b0d411e_1006184934_JAMES_RODRIGUEZ.pdf (ID: 1006184934, Radicado: 839ba4d00b0d411e)
+2025-09-12 12:14:28,577 - INFO -    637684d461759416_1006396922_SINDY_MONTILLA.pdf (ID: 1006396922, Radicado: 637684d461759416)
+2025-09-12 12:14:28,578 - INFO -    8fdc8d5ef8b79067_1112226970_WEYMAR_VALLEJO.pdf (ID: 1112226970, Radicado: 8fdc8d5ef8b79067)
+2025-09-12 12:14:28,578 - INFO -    dd9b3bcbf40baca1_1114312510_JHOSSY_ARANA.pdf (ID: 1114312510, Radicado: dd9b3bcbf40baca1)
+2025-09-12 12:14:28,578 - INFO -    bdf3b4012bf7904e_1126909495_ORIAN_VALERIO.pdf (ID: 1126909495, Radicado: bdf3b4012bf7904e)
+2025-09-12 12:14:28,578 - INFO -    e247f99fbbd1ddd2_1112969903_DANIEL_HERNANDEZ.pdf (ID: 1112969903, Radicado: e247f99fbbd1ddd2)
+2025-09-12 12:14:28,578 - INFO -    116a67b065dace46_1111667861_ISABEL_MORA.pdf (ID: 1111667861, Radicado: 116a67b065dace46)
+2025-09-12 12:14:28,578 - INFO -    f17922081f41e3f5_31226303_MERCEDES_URBANO.pdf (ID: 31226303, Radicado: f17922081f41e3f5)
+2025-09-12 12:14:34,627 - INFO - Driver cerrado
+2025-09-12 12:14:38,676 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002090E3E1280>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/56c669857ea78b6f4b7bba3903db1007
+2025-09-12 12:14:42,744 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002090E3E0BC0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/56c669857ea78b6f4b7bba3903db1007
+2025-09-12 12:14:46,796 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002090E3E0D40>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/56c669857ea78b6f4b7bba3903db1007

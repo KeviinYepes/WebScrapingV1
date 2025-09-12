@@ -20,6 +20,8 @@ import traceback
 import os
 from datetime import datetime
 import logging
+import shutil
+import glob
 
 # Configurar logging
 logging.basicConfig(
@@ -37,93 +39,29 @@ PRIVATE_DATA = {
     "email": "dirimagenes@vallesaludips.com",
     "password": "SE0uJ9dC",
     "param": "760010732306",
-    "fecha": "1092025",
+    "fecha": "1192025",
 }
 
-<<<<<<< HEAD
 class SirasAutomation:
     def __init__(self, headless=False):
         self.driver = None
         self.setup_directories()
         self.setup_driver(headless)
+        self.archivos_procesados = {} 
         
     def setup_directories(self):
-        """Configurar carpeta de descargas"""
+        #Carpeta de descarga 
         self.descargas_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "descargasPDF")
         if not os.path.exists(self.descargas_dir):
             os.makedirs(self.descargas_dir)
-            logger.info(f"Carpeta de descargas creada: {self.descargas_dir}")
-=======
-# Simula escritura humana con retrasos aleatorios entre caracteres
-def human_typing(element, text, delay_range=(0.05, 0.2)):
-    for char in text:
-        element.send_keys(char)
-        time.sleep(random.uniform(*delay_range))
-
-def procesar_reporte():
-        button_descarga = Wait(driver, 10).until(
-            EC.element_to_be_clickable((By.ID, "DocumentViewer_Splitter_Toolbar_Menu_DXI9_T"))
-        )
-        button_descarga.click()
-
-        regresar= Wait(driver,10).until(
-            EC.element_to_be_clickable((By.ID,"btnVolver"))
-        )
-        regresar.click()
-
-
-def obtener_elementos_por_pagina(driver):
-    try:
-        # Espera a que la tabla cargue
-        Wait(driver, 10).until(
-            EC.presence_of_element_located((By.XPATH, "//table[contains(@id, 'gridResumidas')]"))
-        )
-        
-        # Encontrar todas las filas de datos
-        filas = driver.find_elements(By.XPATH, "//tr[contains(@id, 'gridResumidas_DXDataRow')]")
-        
-        elementos = []
-        
-        for i, fila in enumerate(filas):
-            try:
-                # Extraer información de cada fila
-                celdas = fila.find_elements(By.TAG_NAME, "td")
-                
-                if len(celdas) >= 8:  
-                    elemento_info = {
-                        'tipo_id': celdas[0].text.strip(),
-                        'identificacion': celdas[1].text.strip(),
-                        'primer_apellido': celdas[2].text.strip(),
-                        'segundo_apellido': celdas[3].text.strip(),
-                        'primer_nombre': celdas[4].text.strip(),
-                        'segundo_nombre': celdas[5].text.strip(),
-                        'tipo_ingreso': celdas[6].text.strip(),
-                        'clasificacion': celdas[7].text.strip(),
-                        'indice_fila': i
-                    }
-                    elementos.append(elemento_info)
-                    
-            except Exception as e:
-                print(f"Error extrayendo datos de fila {i}: {str(e)}")
-                continue
-        
-        print(f"Encontrados {len(elementos)} elementos en esta página")
-        return elementos
-        
-    except Exception as e:
-        print(f"Error obteniendo elementos: {str(e)}")
-        return []
-
-def procesar_todas_las_paginas(driver):
-    pagina_actual, total_paginas, total_elementos = total_pages(driver)
->>>>>>> 9d4f6b045d525cb2221482cab7a0b55f08cf4cb5
+            print(f"Carpeta de descargas creada: {self.descargas_dir}")
     
     def setup_driver(self, headless=False):
-        """Configurar el driver de Chrome con opciones optimizadas"""
+        #Configuración del driver de chrome
         try:
             options = webdriver.ChromeOptions()
             
-            # Configurar descargas automáticas
+            # Configurar descargas aut
             prefs = {
                 "download.default_directory": self.descargas_dir,
                 "download.prompt_for_download": False,
@@ -135,7 +73,7 @@ def procesar_todas_las_paginas(driver):
             }
             options.add_experimental_option("prefs", prefs)
             
-            # Opciones adicionales para estabilidad
+            # Opciones para estabilidad del navegador
             options.add_argument("--no-sandbox")
             options.add_argument("--disable-dev-shm-usage")
             options.add_argument("--disable-gpu")
@@ -158,14 +96,14 @@ def procesar_todas_las_paginas(driver):
             raise
     
     def human_typing(self, element, text, delay_range=(0.05, 0.15)):
-        """Simular escritura humana"""
+        #Simula escritura letra por letra
         element.clear()
         for char in text:
             element.send_keys(char)
             time.sleep(random.uniform(*delay_range))
     
     def wait_for_element(self, by, selector, timeout=15, clickable=True):
-        """Esperar por un elemento con manejo mejorado de errores"""
+        #Esperar 
         try:
             if clickable:
                 return Wait(self.driver, timeout).until(
@@ -180,7 +118,7 @@ def procesar_todas_las_paginas(driver):
             raise
     
     def safe_click(self, element, use_js=False):
-        """Hacer clic de forma segura con reintentos"""
+        #Intentar de diferentes momentos los clicks
         max_intentos = 3
         for intento in range(max_intentos):
             try:
@@ -208,7 +146,7 @@ def procesar_todas_las_paginas(driver):
         return False
     
     def verificar_descarga_completada(self, timeout=60):
-        """Verificar que la descarga se haya completado con timeout aumentado"""
+        #Esperar el timeout de la descarga
         inicio = time.time()
         archivos_iniciales = set([f for f in os.listdir(self.descargas_dir) 
                                 if f.endswith('.pdf') and not f.endswith('.crdownload')])
@@ -246,8 +184,77 @@ def procesar_todas_las_paginas(driver):
         logger.error("Timeout esperando descarga")
         return None
     
+    def generar_nombre_archivo(self, elemento):
+        #Generamos el nombre del archivo
+        try:
+            # Limpiar caracteres especiales
+            def limpiar_texto(texto):
+                if not texto:
+                    return ""
+                # Reemplazar caracteres problemáticos
+                caracteres_prohibidos = ['<', '>', ':', '"', '|', '?', '*', '/', '\\']
+                for char in caracteres_prohibidos:
+                    texto = texto.replace(char, '')
+                return texto.strip()
+            
+            no_radicado = limpiar_texto(elemento.get('no_radicado', ''))
+            identificacion = limpiar_texto(elemento.get('identificacion', ''))
+            primer_nombre = limpiar_texto(elemento.get('primer_nombre', ''))
+            primer_apellido = limpiar_texto(elemento.get('primer_apellido', ''))
+            
+            # Formato principal: NoRadicado_ID_Nombre_Apellido.pdf 
+            #Si hay numero de radicado
+            if no_radicado:
+                nombre = f"{no_radicado}_{identificacion}_{primer_nombre}_{primer_apellido}.pdf"
+            else:
+                # Fallback si no hay número de radicado
+                nombre = f"SinRadicado_{identificacion}_{primer_nombre}_{primer_apellido}.pdf"
+            
+            # Remover espacios múltiples y caracteres especiales adicionales
+            nombre = '_'.join(nombre.split())
+            nombre = nombre.replace('__', '_')
+            
+            return nombre
+            
+        except Exception as e:
+            logger.error(f"Error generando nombre de archivo: {str(e)}")
+            # Nombre fallback
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            return f"archivo_{timestamp}.pdf"
+    
+    def renombrar_archivo_descargado(self, archivo_original, elemento):
+        #Renombrarlos
+        try:
+            if not os.path.exists(archivo_original):
+                logger.error(f"Archivo original no existe: {archivo_original}")
+                return None
+            
+            nuevo_nombre = self.generar_nombre_archivo(elemento)
+            nuevo_path = os.path.join(self.descargas_dir, nuevo_nombre)
+            
+            # Si el archivo con el nuevo nombre ya existe, agregar timestamp
+            if os.path.exists(nuevo_path):
+                timestamp = datetime.now().strftime("%H%M%S")
+                nombre_base = nuevo_nombre.replace('.pdf', '')
+                nuevo_nombre = f"{nombre_base}_{timestamp}.pdf"
+                nuevo_path = os.path.join(self.descargas_dir, nuevo_nombre)
+            
+            # Renombrar archivo
+            shutil.move(archivo_original, nuevo_path)
+            logger.info(f"Archivo renombrado: {os.path.basename(archivo_original)} → {nuevo_nombre}")
+            
+            # Registrar el archivo procesado
+            self.archivos_procesados[nuevo_nombre] = elemento
+            
+            return nuevo_path
+            
+        except Exception as e:
+            logger.error(f"Error renombrando archivo: {str(e)}")
+            return archivo_original
+    
     def login(self, credentials):
-        """Realizar login con manejo mejorado de errores"""
+        #Realiza el proceso del login con la data del usuario
+        #TODO Pendiente parametrizar para que esta información sea dinamica 
         try:
             logger.info("Iniciando login...")
             self.driver.get("https://www.siras.com.co/siras/Seguridad/Login?Modo=1")
@@ -268,26 +275,31 @@ def procesar_todas_las_paginas(driver):
             
             # Esperar a que el login sea exitoso
             time.sleep(5)
-            logger.info("Login exitoso")
+            print("Login Exitoso")
             
         except Exception as e:
-            logger.error(f"Error durante login: {str(e)}")
+            print(f"Error durante login: {str(e)}")
             raise
     
     def select_options(self, credentials):
-        """Seleccionar opciones y configurar filtros"""
+        #Proceso de seleccionar las opciones despues de ingresar al Login
+        #TODO pendiente configurar la parte de la fecha para que se autocomplemente como el script anterior
         try:
-            logger.info("Configurando opciones...")
+            print("Configurando opciones...")
             
-            # Código de habilitación
-            codigo_input = self.wait_for_element(By.ID, "CodigoHabilitacion_I")
-            self.human_typing(codigo_input, credentials["param"])
-            
-            # Botón prestador encontrado
-            prestador_button = self.wait_for_element(By.XPATH, "//span[contains(text(), 'Ingresar con el Prestador Encontrado')]")
-            self.safe_click(prestador_button)
-            self.safe_click(prestador_button)
-            time.sleep(3)
+            if credentials["param"] is not None:
+                # Código de habilitación
+                codigo_input = self.wait_for_element(By.ID, "CodigoHabilitacion_I")
+                self.human_typing(codigo_input, credentials["param"])
+                
+                # Botón prestador encontrado
+                prestador_button = self.wait_for_element(By.XPATH, "//span[contains(text(), 'Ingresar con el Prestador Encontrado')]")
+                self.safe_click(prestador_button)
+                self.safe_click(prestador_button)
+                time.sleep(3)
+                time.sleep(3)
+            else: 
+                print("Process without CodigoHabilitación")
             
             # Navbar consultas
             navbar_consultas = self.wait_for_element(By.ID, "menuNoAuth_DXI2_T")
@@ -300,13 +312,11 @@ def procesar_todas_las_paginas(driver):
             
             # Configurar fechas
             fecha_inicial = self.wait_for_element(By.ID, "FechaInicialFiltro_I")
-            fecha_inicial.click()
-            time.sleep(1)
+            self.safe_click(fecha_inicial)
             self.human_typing(fecha_inicial, credentials["fecha"])
             
             fecha_final = self.wait_for_element(By.ID, "FechaFinalFiltro_I")
-            fecha_final.click()
-            time.sleep(1)
+            self.safe_click(fecha_final)
             self.human_typing(fecha_final, credentials["fecha"])
             
             # Consultar
@@ -315,20 +325,20 @@ def procesar_todas_las_paginas(driver):
             
             # Esperar a que se carguen los resultados
             time.sleep(10)
-            logger.info("Opciones configuradas exitosamente")
+            print("Opciones configuradas exitosamente")
             
         except Exception as e:
-            logger.error(f"Error configurando opciones: {str(e)}")
+            print(f"Error configurando opciones: {str(e)}")
             raise
     
     def obtener_info_paginacion(self):
-        """Obtener información de paginación"""
+        #Obtener la información de la páginacion
         try:
             paginacion = self.wait_for_element(By.CLASS_NAME, "dxp-summary", clickable=False)
             texto = paginacion.text
-            logger.info(f"Texto paginación: {texto}")
+            print(f"Texto paginación: {texto}")
             
-            # Parsear texto de paginación (ej: "1 of 3 (25)")
+            # Parsear texto de paginación (ejemplo: "1 of 3 (25)")
             partes = texto.split()
             pagina_actual = int(partes[1])
             total_paginas = int(partes[3])
@@ -337,11 +347,11 @@ def procesar_todas_las_paginas(driver):
             return pagina_actual, total_paginas, total_elementos
             
         except Exception as e:
-            logger.error(f"Error obteniendo paginación: {str(e)}")
+            print(f"Error obteniendo paginación: {str(e)}")
             return 1, 1, 0
     
     def obtener_elementos_pagina(self):
-        """Obtener elementos de la página actual con manejo robusto"""
+        #Obtener los datos de la tabla 
         try:
             # Esperar a que la tabla esté presente
             self.wait_for_element(By.XPATH, "//table[contains(@id, 'gridResumidas')]", clickable=False)
@@ -366,24 +376,24 @@ def procesar_todas_las_paginas(driver):
                             'clasificacion': celdas[8].text.strip(),
                             'no_radicado': celdas[27].text.strip() if len(celdas) > 27 else '',
                             'indice_fila': i,
-                            'fila_element': fila  # Guardar referencia al elemento
+                            'fila_element': fila  
                         }
                         elementos.append(elemento_info)
-                        logger.info(f"Extraído: {elemento_info['primer_nombre']} {elemento_info['primer_apellido']} - ID: {elemento_info['identificacion']}")
+                        logger.info(f"Extraído: {elemento_info['primer_nombre']} {elemento_info['primer_apellido']} - ID: {elemento_info['identificacion']} - Radicado: {elemento_info['no_radicado']}")
                         
                 except Exception as e:
-                    logger.warning(f"Error procesando fila {i}: {str(e)}")
+                    print(f"Error procesando fila {i}: {str(e)}")
                     continue
             
-            logger.info(f"Total elementos encontrados: {len(elementos)}")
+            print(f"Total elementos encontrados: {len(elementos)}")
             return elementos
             
         except Exception as e:
-            logger.error(f"Error obteniendo elementos: {str(e)}")
+            print(f"Error obteniendo elementos: {str(e)}")
             return []
     
     def hacer_clic_ver_reporte(self, elemento):
-        """Hacer clic en VER REPORTE con múltiples estrategias"""
+        #Botón de ver reporte , proceso
         estrategias = [
             (By.XPATH, f"//tr[contains(@id, 'DXDataRow{elemento['indice_fila']}')]//span[contains(text(), 'Ver Reporte')]"),
             (By.XPATH, f"//tr[contains(@id, 'DXDataRow{elemento['indice_fila']}')]//*[contains(@id, 'CBtn1')]"),
@@ -395,22 +405,22 @@ def procesar_todas_las_paginas(driver):
             try:
                 boton_reporte = self.wait_for_element(by, selector, timeout=5)
                 if self.safe_click(boton_reporte):
-                    logger.info(f"Clic exitoso en VER REPORTE para {elemento['identificacion']}")
+                    print(f"Clic exitoso en VER REPORTE para {elemento['identificacion']}")
                     return True
                     
             except TimeoutException:
                 continue
             except Exception as e:
-                logger.warning(f"Error en estrategia: {str(e)}")
+                print(f"Error en estrategia: {str(e)}")
                 continue
         
-        logger.error(f"No se pudo hacer clic en VER REPORTE para {elemento['identificacion']}")
+        print(f"No se pudo hacer clic en VER REPORTE para {elemento['identificacion']}")
         return False
     
     def procesar_reporte(self, elemento):
-        """Procesar reporte individual con manejo robusto"""
+        #Manejar el reporte individual , descargar y regresar
         try:
-            logger.info(f"Procesando reporte para {elemento['identificacion']}")
+            logger.info(f"Procesando reporte para {elemento['identificacion']} - Radicado: {elemento['no_radicado']}")
             
             # Esperar a que aparezca el visor de documentos
             time.sleep(5)
@@ -419,13 +429,16 @@ def procesar_todas_las_paginas(driver):
             button_descarga = self.wait_for_element(By.ID, "DocumentViewer_Splitter_Toolbar_Menu_DXI9_T", timeout=20)
             
             if self.safe_click(button_descarga):
-                logger.info("Descarga iniciada")
+                print("Descarga iniciada")
                 
                 # Verificar descarga
                 archivo_descargado = self.verificar_descarga_completada()
                 
                 if archivo_descargado:
-                    logger.info(f"PDF descargado: {os.path.basename(archivo_descargado)}")
+                    print(f"PDF descargado: {os.path.basename(archivo_descargado)}")
+                    
+                    # Renombrar archivo con información del elemento
+                    archivo_renombrado = self.renombrar_archivo_descargado(archivo_descargado, elemento)
                     
                     # Regresar a la lista - múltiples estrategias
                     try:
@@ -443,34 +456,34 @@ def procesar_todas_las_paginas(driver):
                             try:
                                 regresar = self.wait_for_element(by, selector, timeout=5)
                                 if self.safe_click(regresar):
-                                    logger.info("Botón volver clickeado exitosamente")
+                                    print("Botón regresar clickeado exitosamente")
                                     boton_encontrado = True
                                     break
                             except TimeoutException:
                                 continue
                         
                         if not boton_encontrado:
-                            logger.warning("No se encontró botón volver, usando navegador back")
+                            print("No se encontró botón de regresar, usando navegador back")
                             self.driver.back()
                         
                         time.sleep(5)
                         return True
                         
                     except Exception as e:
-                        logger.error(f"Error regresando: {str(e)}")
+                        print(f"Error regresando: {str(e)}")
                         # Alternativa: usar back del navegador
                         self.driver.back()
                         time.sleep(5)
                         return True
                 else:
-                    logger.error("Descarga no completada")
+                    print("Descarga no completada")
                     return False
             else:
-                logger.error("No se pudo hacer clic en descarga")
+                print("No se pudo hacer clic en descarga")
                 return False
                 
         except Exception as e:
-            logger.error(f"Error procesando reporte: {str(e)}")
+            print(f"Error procesando reporte: {str(e)}")
             try:
                 self.driver.back()
                 time.sleep(3)
@@ -479,41 +492,41 @@ def procesar_todas_las_paginas(driver):
             return False
     
     def procesar_todas_paginas(self):
-        """Procesar todas las páginas con manejo robusto"""
+        #Procesar todos los datos de la página
         try:
             pagina_actual, total_paginas, total_elementos = self.obtener_info_paginacion()
-            logger.info(f"Iniciando procesamiento: {total_elementos} elementos en {total_paginas} páginas")
+            print(f"Iniciando procesamiento: {total_elementos} elementos en {total_paginas} páginas")
             
             for pagina in range(pagina_actual, total_paginas + 1):
-                logger.info(f"=== PROCESANDO PÁGINA {pagina} DE {total_paginas} ===")
+                print(f"=== PROCESANDO PÁGINA {pagina} DE {total_paginas} ===")
                 
                 elementos = self.obtener_elementos_pagina()
                 
                 if not elementos:
-                    logger.warning("No se encontraron elementos en esta página")
+                    print("No se encontraron elementos en esta página")
                     continue
                 
                 for elemento in elementos:
                     try:
-                        logger.info(f"Procesando: {elemento['primer_nombre']} {elemento['primer_apellido']} - ID: {elemento['identificacion']}")
+                        print(f"Procesando: {elemento['primer_nombre']} {elemento['primer_apellido']} - ID: {elemento['identificacion']} - Radicado: {elemento['no_radicado']}")
                         
                         if self.hacer_clic_ver_reporte(elemento):
                             if self.procesar_reporte(elemento):
-                                logger.info(f"✓ Completado: {elemento['identificacion']}")
+                                print(f"✓ Completado: {elemento['identificacion']}")
                                 
                                 # Esperar a que se recargue la tabla
                                 self.wait_for_element(By.XPATH, "//table[contains(@id, 'gridResumidas')]", clickable=False)
                                 time.sleep(3)
                             else:
-                                logger.error(f"✗ Error procesando: {elemento['identificacion']}")
+                                print(f"✗ Error procesando: {elemento['identificacion']}")
                         else:
-                            logger.error(f"✗ No se pudo acceder al reporte: {elemento['identificacion']}")
+                            print(f"✗ No se pudo acceder al reporte: {elemento['identificacion']}")
                         
                     except Exception as e:
-                        logger.error(f"Error con elemento {elemento['identificacion']}: {str(e)}")
+                        print(f"Error con elemento {elemento['identificacion']}: {str(e)}")
                         continue
                 
-                # Ir a la siguiente página
+                #siguiente página
                 if pagina < total_paginas:
                     try:
                         siguiente_boton = self.driver.find_element(By.XPATH, f"//a[contains(text(), '{pagina + 1}')]")
@@ -524,17 +537,46 @@ def procesar_todas_las_paginas(driver):
                         pagina_actual, total_paginas, total_elementos = self.obtener_info_paginacion()
                         
                     except Exception as e:
-                        logger.error(f"Error navegando a página {pagina + 1}: {str(e)}")
+                        print(f"Error navegando a página {pagina + 1}: {str(e)}")
                         break
             
-            logger.info("Procesamiento de todas las páginas completado")
+            print("Procesamiento de todas las páginas completado")
             
         except Exception as e:
-            logger.error(f"Error en procesamiento general: {str(e)}")
+            print(f"Error en procesamiento general: {str(e)}")
             raise
     
+    def generar_reporte_archivos(self):
+        #Funcion de prueba para ver los datos del archivo descargado
+        try:
+            reporte_path = os.path.join(self.descargas_dir, "reporte_archivos.txt")
+            
+            with open(reporte_path, 'w', encoding='utf-8') as f:
+                f.write("REPORTE DE ARCHIVOS PROCESADOS\n")
+                f.write("=" * 50 + "\n")
+                f.write(f"Fecha de procesamiento: {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}\n")
+                f.write(f"Total de archivos procesados: {len(self.archivos_procesados)}\n\n")
+                
+                f.write("DETALLE DE ARCHIVOS:\n")
+                f.write("-" * 30 + "\n")
+                
+                for nombre_archivo, elemento in self.archivos_procesados.items():
+                    f.write(f"Archivo: {nombre_archivo}\n")
+                    f.write(f"  - Identificación: {elemento['identificacion']}\n")
+                    f.write(f"  - Nombre: {elemento['primer_nombre']} {elemento['segundo_nombre']}\n")
+                    f.write(f"  - Apellidos: {elemento['primer_apellido']} {elemento['segundo_apellido']}\n")
+                    f.write(f"  - No. Radicado: {elemento['no_radicado']}\n")
+                    f.write(f"  - Tipo ID: {elemento['tipo_id']}\n")
+                    f.write(f"  - Clasificación: {elemento['clasificacion']}\n")
+                    f.write("-" * 30 + "\n")
+            
+            logger.info(f"Reporte generado: {reporte_path}")
+            
+        except Exception as e:
+            logger.error(f"Error generando reporte: {str(e)}")
+    
     def ejecutar_automatizacion(self):
-        """Ejecutar el proceso completo"""
+        #Ejecuta el proceso
         try:
             self.login(PRIVATE_DATA)
             self.select_options(PRIVATE_DATA)
@@ -542,25 +584,29 @@ def procesar_todas_las_paginas(driver):
             
             self.procesar_todas_paginas()
             
+            # Generar reporte de archivos
+            self.generar_reporte_archivos()
+            
             # Mostrar resumen
             archivos_descargados = [f for f in os.listdir(self.descargas_dir) if f.endswith('.pdf')]
-            logger.info(f"Proceso completado. Total archivos descargados: {len(archivos_descargados)}")
-            logger.info(f"Archivos guardados en: {self.descargas_dir}")
+            print(f"Proceso completado. Total archivos descargados: {len(archivos_descargados)}")
+            print(f"Archivos guardados en: {self.descargas_dir}")
             
-            for archivo in archivos_descargados:
-                logger.info(f"📄 {archivo}")
+            print("\n📄 ARCHIVOS PROCESADOS:")
+            for nombre_archivo, elemento in self.archivos_procesados.items():
+                print(f"   {nombre_archivo} (ID: {elemento['identificacion']}, Radicado: {elemento['no_radicado']})")
                 
         except Exception as e:
-            logger.error(f"Error en automatización: {str(e)}")
+            print(f"Error en automatización: {str(e)}")
             raise
         finally:
             if self.driver:
                 time.sleep(3)
                 self.driver.quit()
-                logger.info("Driver cerrado")
+                print("Driver cerrado")
 
 def main():
-    """Función principal"""
+    #Funciona Main
     automation = None
     try:
         # Crear instancia con opción headless (cambiar a True para ejecutar sin ventana)
@@ -574,75 +620,5 @@ def main():
         if automation and automation.driver:
             automation.driver.quit()
 
-<<<<<<< HEAD
 if __name__ == "__main__":
     main()
-=======
-        #fecha inicial
-        fecha_inicial_input = Wait(driver, 10).until(
-            EC.element_to_be_clickable((By.ID, "FechaInicialFiltro_I"))
-        )
-        fecha_inicial_input.click()
-        time.sleep(1)
-        human_typing(fecha_inicial_input, privateData["fecha"])
-
-        #fecha final 
-        fecha_final_input = Wait(driver, 10).until(
-            EC.element_to_be_clickable((By.ID, "FechaFinalFiltro_I"))
-        )
-        fecha_final_input.click()
-        time.sleep(1)
-        human_typing(fecha_final_input, privateData["fecha"])
-
-        #Botón consultar 
-        button_consultar = Wait(driver, 10).until(
-            EC.element_to_be_clickable((By.XPATH, "//span[contains(text(), 'Consultar')]"))
-        )
-        button_consultar.click()
-
-def total_pages(driver):
-    try:   
-        paginacion = Wait(driver, 10).until(
-            EC.presence_of_element_located((By.CLASS_NAME, "dxp-summary"))
-        )
-        
-        # Extraer información usando split
-        partes = paginacion.text.split()
-
-        # "Página 1 de 6 (51 elementos)"
-        pagina_actual = int(partes[1])
-        total_paginas = int(partes[3])
-        total_elementos = int(partes[4].replace('(', '').replace(')', ''))
-        
-        print(f"Página actual: {pagina_actual}")
-        print(f"Total de páginas: {total_paginas}")
-        print(f"Total de elementos: {total_elementos}")
-
-        return pagina_actual, total_paginas, total_elementos
-          
-    except Exception as e: 
-         print(f"Error obteniendo información de paginación: {str(e)}")
-         return 1, 1, 0
-    
-def test():
-    boton_reporte = Wait(driver, 10).until(
-        EC.element_to_be_clickable((By.ID, "gridResumidas_DXCBtn1"))
-    )
-    driver.execute_script("arguments[0].scrollIntoView();", boton_reporte)
-    boton_reporte.click()
-
-
-if  __name__ == "__main__":
-    login(driver, privateData)
-    select_options(driver, privateData)
-    
-    # Esperar a que cargue la consulta
-    time.sleep(5)
-    
-    # Procesar todas las páginas y elementos
-    procesar_todas_las_paginas(driver)
-    
-    
-    time.sleep(5)
-    driver.quit()
->>>>>>> 9d4f6b045d525cb2221482cab7a0b55f08cf4cb5
