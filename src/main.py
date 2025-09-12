@@ -313,11 +313,15 @@ class SirasAutomation:
             # Configurar fechas
             fecha_inicial = self.wait_for_element(By.ID, "FechaInicialFiltro_I")
             self.safe_click(fecha_inicial)
-            self.human_typing(fecha_inicial, credentials["fecha"])
+            time.sleep(1)
+            fecha_inicial.send_keys(credentials["fecha"])
+            # self.human_typing(fecha_inicial, credentials["fecha"])
             
             fecha_final = self.wait_for_element(By.ID, "FechaFinalFiltro_I")
             self.safe_click(fecha_final)
-            self.human_typing(fecha_final, credentials["fecha"])
+            time.sleep(1)
+            fecha_final.send_keys(credentials["fecha"])
+            # self.human_typing(fecha_final, credentials["fecha"])
             
             # Consultar
             consultar_button = self.wait_for_element(By.XPATH, "//span[contains(text(), 'Consultar')]")
@@ -395,8 +399,8 @@ class SirasAutomation:
     def hacer_clic_ver_reporte(self, elemento):
         #Botón de ver reporte , proceso
         estrategias = [
-            (By.XPATH, f"//tr[contains(@id, 'DXDataRow{elemento['indice_fila']}')]//span[contains(text(), 'Ver Reporte')]"),
-            (By.XPATH, f"//tr[contains(@id, 'DXDataRow{elemento['indice_fila']}')]//*[contains(@id, 'CBtn1')]"),
+            # (By.XPATH, f"//tr[contains(@id, 'DXDataRow{elemento['indice_fila']}')]//span[contains(text(), 'Ver Reporte')]"),
+            # (By.XPATH, f"//tr[contains(@id, 'DXDataRow{elemento['indice_fila']}')]//*[contains(@id, 'CBtn1')]"),
             (By.XPATH, f"//td[contains(text(), '{elemento['identificacion']}')]/..//span[contains(text(), 'Ver Reporte')]"),
             (By.XPATH, f"//tr[contains(@id, 'DXDataRow{elemento['indice_fila']}')]//a[contains(@class, 'dxbButton')]")
         ]
@@ -444,8 +448,8 @@ class SirasAutomation:
                     try:
                         # Estrategias para encontrar el botón volver
                         estrategias_volver = [
-                            (By.ID, "btnVolver_I"),
-                            (By.XPATH, "//input[@id='btnVolver_I']"),
+                            # (By.ID, "btnVolver_I"),
+                            # (By.XPATH, "//input[@id='btnVolver_I']"),
                             (By.XPATH, "//span[contains(text(), 'Volver a lista')]"),
                             (By.XPATH, "//div[contains(@class, 'dxbButton_Moderno')]//span[contains(text(), 'Volver a lista')]"),
                             (By.XPATH, "//input[@value='Volver a lista']")

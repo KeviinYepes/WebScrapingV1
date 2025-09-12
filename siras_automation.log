@@ -3959,3 +3959,178 @@ Stacktrace:
 2025-09-12 12:14:38,676 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002090E3E1280>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/56c669857ea78b6f4b7bba3903db1007
 2025-09-12 12:14:42,744 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002090E3E0BC0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/56c669857ea78b6f4b7bba3903db1007
 2025-09-12 12:14:46,796 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002090E3E0D40>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/56c669857ea78b6f4b7bba3903db1007
+2025-09-12 14:43:02,296 - INFO - ====== WebDriver manager ======
+2025-09-12 14:43:04,117 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 14:43:04,784 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 14:43:05,329 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.82\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-12 14:43:07,887 - INFO - Driver configurado exitosamente
+2025-09-12 14:43:07,887 - INFO - Iniciando login...
+2025-09-12 14:43:55,473 - INFO - Extraído: ALVARO BONILLA - ID: 14997852 - Radicado: 41a1155495927a60
+2025-09-12 14:43:55,540 - INFO - Extraído: DELVIS LEDESMA - ID: 16719908 - Radicado: f5f31f53dc85bc96
+2025-09-12 14:43:55,610 - INFO - Extraído: FERNANDO LEON - ID: 16752342 - Radicado: 18fa54485d37ddac
+2025-09-12 14:43:55,690 - INFO - Extraído: EDILBERTO OCAMPO - ID: 7688753 - Radicado: 78574b3244516a80
+2025-09-12 14:43:55,767 - INFO - Extraído: JAIDER BELALCAZAR - ID: 1126450198 - Radicado: 7508a5b2e78d6e0c
+2025-09-12 14:43:55,837 - INFO - Extraído: MARVIN MACHADO - ID: 756298 - Radicado: 34361471e9c53a50
+2025-09-12 14:43:55,908 - INFO - Extraído: WILLIAM TAMAYO - ID: 16706241 - Radicado: 1c5fbaa20b800c92
+2025-09-12 14:43:55,980 - INFO - Extraído: JOAMS CASTILLO - ID: 1143994055 - Radicado: 34200baaa51452b6
+2025-09-12 14:43:56,050 - INFO - Extraído: LESLIE LOZANO - ID: 1005897632 - Radicado: db6f946523f1ac7
+2025-09-12 14:43:56,170 - INFO - Extraído: DIEGO PANCHE - ID: 1193253111 - Radicado: a724a8961ef66354
+2025-09-12 14:43:57,317 - INFO - Procesando reporte para 14997852 - Radicado: 41a1155495927a60
+2025-09-12 14:44:04,910 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 14:44:10,133 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 14:44:15,333 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 14:44:25,689 - INFO - Procesando reporte para 16719908 - Radicado: f5f31f53dc85bc96
+2025-09-12 14:44:33,274 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 14:44:38,489 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 14:44:43,678 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 14:44:53,725 - INFO - Procesando reporte para 16752342 - Radicado: 18fa54485d37ddac
+2025-09-12 14:45:01,309 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 14:45:06,510 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 14:45:11,709 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 14:45:21,722 - INFO - Procesando reporte para 7688753 - Radicado: 78574b3244516a80
+2025-09-12 14:45:29,307 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 14:45:34,564 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 14:45:39,759 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 14:45:49,830 - INFO - Procesando reporte para 1126450198 - Radicado: 7508a5b2e78d6e0c
+2025-09-12 14:45:57,411 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 14:46:02,617 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 14:46:07,806 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 14:46:17,893 - INFO - Procesando reporte para 756298 - Radicado: 34361471e9c53a50
+2025-09-12 14:46:25,482 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 14:46:30,727 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 14:46:35,948 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 14:46:46,084 - INFO - Procesando reporte para 16706241 - Radicado: 1c5fbaa20b800c92
+2025-09-12 14:46:53,680 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 14:46:58,901 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 14:47:04,112 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 14:47:14,644 - INFO - Procesando reporte para 1143994055 - Radicado: 34200baaa51452b6
+2025-09-12 14:47:22,231 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 14:47:27,433 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 14:47:32,636 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 14:47:42,827 - INFO - Procesando reporte para 1005897632 - Radicado: db6f946523f1ac7
+2025-09-12 14:47:50,410 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 14:47:55,621 - ERROR - Elemento no encontrado: btnVolver_I
+2025-09-12 14:48:00,809 - ERROR - Elemento no encontrado: //input[@id='btnVolver_I']
+2025-09-12 14:58:39,219 - INFO - ====== WebDriver manager ======
+2025-09-12 14:58:41,480 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 14:58:42,371 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 14:58:43,244 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.82\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-12 14:58:46,078 - INFO - Driver configurado exitosamente
+2025-09-12 14:58:46,078 - INFO - Iniciando login...
+2025-09-12 14:59:01,664 - ERROR - Error fatal: Message: element not interactable
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x88d2a3+66419]
+	GetHandleVerifier [0x0x88d2e4+66484]
+	(No symbol) [0x0x664a20]
+	(No symbol) [0x0x6afb5d]
+	(No symbol) [0x0x6a43c5]
+	(No symbol) [0x0x6d101c]
+	(No symbol) [0x0x6a3e24]
+	(No symbol) [0x0x6d11d4]
+	(No symbol) [0x0x6f28a1]
+	(No symbol) [0x0x6d0e16]
+	(No symbol) [0x0x6a25ce]
+	(No symbol) [0x0x6a34a4]
+	GetHandleVerifier [0x0xad5ee3+2461619]
+	GetHandleVerifier [0x0xad0f66+2441270]
+	GetHandleVerifier [0x0x8b6242+234258]
+	GetHandleVerifier [0x0x8a6208+168664]
+	GetHandleVerifier [0x0x8ad1ad+197245]
+	GetHandleVerifier [0x0x8955f8+100040]
+	GetHandleVerifier [0x0x895792+100450]
+	GetHandleVerifier [0x0x87f74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-12 14:59:05,740 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000027F09462F00>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/33c31c0a7f08108dbf00627d3120f8d1
+2025-09-12 14:59:38,266 - INFO - ====== WebDriver manager ======
+2025-09-12 14:59:40,247 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 14:59:40,830 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 14:59:41,510 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.82\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-12 14:59:44,151 - INFO - Driver configurado exitosamente
+2025-09-12 14:59:44,151 - INFO - Iniciando login...
+2025-09-12 14:59:59,673 - ERROR - Error fatal: Message: element not interactable
+  (Session info: chrome=140.0.7339.80); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#elementnotinteractableexception
+Stacktrace:
+	GetHandleVerifier [0x0x88d2a3+66419]
+	GetHandleVerifier [0x0x88d2e4+66484]
+	(No symbol) [0x0x664a20]
+	(No symbol) [0x0x6afb5d]
+	(No symbol) [0x0x6a43c5]
+	(No symbol) [0x0x6d101c]
+	(No symbol) [0x0x6a3e24]
+	(No symbol) [0x0x6d11d4]
+	(No symbol) [0x0x6f28a1]
+	(No symbol) [0x0x6d0e16]
+	(No symbol) [0x0x6a25ce]
+	(No symbol) [0x0x6a34a4]
+	GetHandleVerifier [0x0xad5ee3+2461619]
+	GetHandleVerifier [0x0xad0f66+2441270]
+	GetHandleVerifier [0x0x8b6242+234258]
+	GetHandleVerifier [0x0x8a6208+168664]
+	GetHandleVerifier [0x0x8ad1ad+197245]
+	GetHandleVerifier [0x0x8955f8+100040]
+	GetHandleVerifier [0x0x895792+100450]
+	GetHandleVerifier [0x0x87f74a+10266]
+	BaseThreadInitThunk [0x0x76697ba9+25]
+	RtlInitializeExceptionChain [0x0x779ac3ab+107]
+	RtlClearBits [0x0x779ac32f+191]
+
+2025-09-12 15:00:03,762 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025232772F00>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/eae71122cab42b131b6b136b9596efa7
+2025-09-12 15:00:07,824 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000252327737D0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/eae71122cab42b131b6b136b9596efa7
+2025-09-12 15:00:11,910 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025232773BF0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/eae71122cab42b131b6b136b9596efa7
+2025-09-12 15:02:16,676 - INFO - ====== WebDriver manager ======
+2025-09-12 15:02:18,537 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 15:02:19,105 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 15:02:19,676 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.82\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-12 15:02:22,072 - INFO - Driver configurado exitosamente
+2025-09-12 15:02:22,072 - INFO - Iniciando login...
+2025-09-12 15:03:04,217 - INFO - Extraído: EDILBERTO OCAMPO - ID: 7688753 - Radicado: 78574b3244516a80
+2025-09-12 15:03:04,290 - INFO - Extraído: JAVIER FRANCO - ID: 1061532281 - Radicado: d7977ec7b83d4da6
+2025-09-12 15:03:04,366 - INFO - Extraído: RUBEN CAMARGO - ID: 91260109 - Radicado: c8a8db7874c5ede2
+2025-09-12 15:03:04,433 - INFO - Extraído: INGRID VALENCIA - ID: 1143945992 - Radicado: 1934a44435d1582
+2025-09-12 15:03:04,516 - INFO - Extraído: JEISON BRAVO - ID: 1193287364 - Radicado: f3901f7cc5b3df1b
+2025-09-12 15:03:04,597 - INFO - Extraído: CRISTIAN SALAZAR - ID: 1005874234 - Radicado: fdd6ff3868d08a68
+2025-09-12 15:03:04,671 - INFO - Extraído: KATTERINE LOPEZ - ID: 1112469946 - Radicado: 4a1af7ae60114048
+2025-09-12 15:03:04,733 - INFO - Extraído: VICTOR SALCEDO - ID: 1112460121 - Radicado: f34e520f083219e0
+2025-09-12 15:03:04,820 - INFO - Extraído: VICTOR SALCEDO - ID: 1112460121 - Radicado: 83fd5f68b12c7b73
+2025-09-12 15:03:04,883 - INFO - Extraído: JAIME MINA - ID: 1130950032 - Radicado: e91db43b93bfc9e7
+2025-09-12 15:03:06,056 - INFO - Procesando reporte para 7688753 - Radicado: 78574b3244516a80
+2025-09-12 15:03:13,642 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-12 15:24:10,977 - INFO - ====== WebDriver manager ======
+2025-09-12 15:24:12,837 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 15:24:13,474 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 15:24:14,018 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.82\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-12 15:24:16,471 - INFO - Driver configurado exitosamente
+2025-09-12 15:24:16,471 - INFO - Iniciando login...
+2025-09-12 15:32:49,015 - INFO - ====== WebDriver manager ======
+2025-09-12 15:32:50,882 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 15:32:51,525 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 15:32:52,072 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.82\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-12 15:32:54,410 - INFO - Driver configurado exitosamente
+2025-09-12 15:32:54,410 - INFO - Iniciando login...
+2025-09-12 15:33:39,482 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000256441197C0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/3cacdfde86cc408ec20857484072f0e5
+2025-09-12 15:33:43,575 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002564411B140>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/3cacdfde86cc408ec20857484072f0e5
+2025-09-12 15:33:47,635 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002564411BD70>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/3cacdfde86cc408ec20857484072f0e5
+2025-09-12 15:33:55,796 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000256441440E0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/3cacdfde86cc408ec20857484072f0e5
+2025-09-12 15:33:59,864 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025644144260>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/3cacdfde86cc408ec20857484072f0e5
+2025-09-12 15:34:03,931 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000025644144410>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/3cacdfde86cc408ec20857484072f0e5
+2025-09-12 15:37:54,429 - INFO - ====== WebDriver manager ======
+2025-09-12 15:37:56,673 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 15:37:57,450 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 15:37:58,191 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.82\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-12 15:38:01,079 - INFO - Driver configurado exitosamente
+2025-09-12 15:38:01,079 - INFO - Iniciando login...
+2025-09-12 15:38:36,340 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000254D8E5EF30>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/926008f96f5de6fb474f6b23b43eb6cb
+2025-09-12 15:38:40,393 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000254D8E5F380>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/926008f96f5de6fb474f6b23b43eb6cb
+2025-09-12 15:38:44,442 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000254D8E5F500>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/926008f96f5de6fb474f6b23b43eb6cb
+2025-09-12 15:38:52,541 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000254D8E5FBF0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/926008f96f5de6fb474f6b23b43eb6cb
+2025-09-12 15:38:58,381 - INFO - ====== WebDriver manager ======
+2025-09-12 15:39:00,360 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 15:39:01,281 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-12 15:39:01,993 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.82\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-12 15:39:04,857 - INFO - Driver configurado exitosamente
+2025-09-12 15:39:04,857 - INFO - Iniciando login...
+2025-09-12 15:39:51,540 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000015113A3ED50>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/4f6812bee0c77798842c369ad000164d
