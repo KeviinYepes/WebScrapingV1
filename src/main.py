@@ -47,7 +47,7 @@ PRIVATE_DATA = {
     "password": "SE0uJ9dC",
     "param": "760010732306",
     "fecha": "1292025",
-    "fechaF": "1492025",
+    "fechaF": "1492025"
 }
 
 class SirasAutomation:
@@ -58,14 +58,14 @@ class SirasAutomation:
         self.archivos_procesados = {} 
         
     def setup_directories(self):
-        """Carpeta de descarga"""
+        #Carpeta de descarga
         self.descargas_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "descargasPDF")
         if not os.path.exists(self.descargas_dir):
             os.makedirs(self.descargas_dir)
             print(f"Carpeta de descargas creada: {self.descargas_dir}")
     
     def setup_driver(self, headless=False):
-        """Configuración mejorada del driver de chrome con timeouts optimizados"""
+        #Configuración mejorada del driver de chrome con timeouts optimizados
         try:
             options = webdriver.ChromeOptions()
             
@@ -133,7 +133,7 @@ class SirasAutomation:
             raise
     
     def reiniciar_driver_si_necesario(self):
-        """Reinicia el driver si hay problemas de conexión"""
+        #Reinicia el driver si hay problemas de conexión
         try:
             if self.driver:
                 try:
@@ -151,7 +151,7 @@ class SirasAutomation:
             return False
     
     def human_typing(self, element, text, delay_range=(0.05, 0.15)):
-        """Simula escritura humana letra por letra"""
+        #Simula escritura humana letra por letra
         try:
             element.clear()
             for char in text:
@@ -164,7 +164,7 @@ class SirasAutomation:
             element.send_keys(text)
     
     def wait_for_element(self, by, selector, timeout=30, clickable=True, retries=3):
-        """Esperar elemento con reintentos y manejo de errores mejorado"""
+        #Esperar elemento con reintentos y manejo de errores mejorado
         for intento in range(retries):
             try:
                 if clickable:
@@ -199,7 +199,7 @@ class SirasAutomation:
                     raise
     
     def safe_click(self, element, use_js=False, retries=5):
-        """Clic seguro con múltiples estrategias y reintentos"""
+        #Clic seguro con múltiples estrategias y reintentos
         for intento in range(retries):
             try:
                 if use_js:
@@ -236,7 +236,7 @@ class SirasAutomation:
         return False
     
     def safe_navigate(self, url, retries=3):
-        """Navegación segura con reintentos"""
+        #Navegación segura con reintentos
         for intento in range(retries):
             try:
                 logger.info(f"Navegando a: {url} (intento {intento + 1})")
@@ -255,7 +255,7 @@ class SirasAutomation:
         return False
     
     def verificar_descarga_completada(self, timeout=120):
-        """Verificar descarga con timeout más largo"""
+        #Verificar descarga con timeout más largo
         inicio = time.time()
         archivos_iniciales = set([f for f in os.listdir(self.descargas_dir) 
                                 if f.endswith('.pdf') and not f.endswith('.crdownload')])
@@ -294,7 +294,7 @@ class SirasAutomation:
         return None
     
     def generar_nombre_archivo(self, elemento):
-        """Genera nombre de archivo limpio y único"""
+        #Genera nombre de archivo limpio y único
         try:
             def limpiar_texto(texto):
                 if not texto:
@@ -333,7 +333,7 @@ class SirasAutomation:
             return f"archivo_{timestamp}.pdf"
     
     def renombrar_archivo_descargado(self, archivo_original, elemento):
-        """Renombrar archivo descargado"""
+        #Renombrar archivo descargado
         try:
             if not os.path.exists(archivo_original):
                 logger.error(f"Archivo original no existe: {archivo_original}")
@@ -363,7 +363,7 @@ class SirasAutomation:
             return archivo_original
     
     def login(self, credentials, retries=3):
-        """Login con manejo de errores mejorado"""
+        #Login con manejo de errores mejorado
         for intento in range(retries):
             try:
                 logger.info(f"Iniciando login (intento {intento + 1})...")
@@ -371,19 +371,18 @@ class SirasAutomation:
                 if not self.safe_navigate("https://www.siras.com.co/siras/Seguridad/Login?Modo=1"):
                     continue
                 
-                time.sleep(5)
-                
                 username_input = self.wait_for_element(By.ID, "Email_I", timeout=30)
                 username_input.clear()
                 self.human_typing(username_input, credentials["email"])
+                time.sleep(1)
                 
                 password_input = self.wait_for_element(By.ID, "Password_I", timeout=30)
                 password_input.clear()
                 self.human_typing(password_input, credentials["password"])
                 
+                time.sleep(1)
                 login_button = self.wait_for_element(By.ID, "btnIngresar", timeout=30)
                 if self.safe_click(login_button):
-                    time.sleep(10)  # Esperar más tiempo después del login
                     logger.info("Login exitoso")
                     return True
                 
@@ -397,7 +396,7 @@ class SirasAutomation:
         return False
     
     def select_options(self, credentials, retries=3):
-        """Configurar opciones con manejo de errores mejorado"""
+        #Configurar opciones con manejo de errores mejorado
         for intento in range(retries):
             try:
                 logger.info(f"Configurando opciones (intento {intento + 1})...")
@@ -413,29 +412,24 @@ class SirasAutomation:
                     )
                     self.safe_click(prestador_button)
                     self.safe_click(prestador_button)
-                    time.sleep(5)
                 
                 # Navbar consultas
                 navbar_consultas = self.wait_for_element(By.ID, "menuNoAuth_DXI2_T", timeout=30)
                 self.safe_click(navbar_consultas)
-                time.sleep(3)
                 
                 # Opción lista resumida
                 lista_resumida = self.wait_for_element(
                     By.XPATH, "//span[contains(text(), 'LISTA RESUMIDA DE ATENCIONES')]", timeout=30
                 )
                 self.safe_click(lista_resumida)
-                time.sleep(5)
                 
                 # Configurar fechas
                 fecha_inicial = self.wait_for_element(By.ID, "FechaInicialFiltro_I", timeout=30)
                 self.safe_click(fecha_inicial)
-                time.sleep(1)
                 fecha_inicial.send_keys(credentials["fecha"])
                 
                 fecha_final = self.wait_for_element(By.ID, "FechaFinalFiltro_I", timeout=30)
                 self.safe_click(fecha_final)
-                time.sleep(1)
                 fecha_final.send_keys(credentials["fechaF"])
                 
                 # Consultar
@@ -445,20 +439,19 @@ class SirasAutomation:
                 self.safe_click(consultar_button)
                 
                 # Esperar resultados
-                time.sleep(15)
                 logger.info("Opciones configuradas exitosamente")
                 return True
                 
             except Exception as e:
                 logger.error(f"Error configurando opciones (intento {intento + 1}): {str(e)}")
                 if intento < retries - 1:
-                    time.sleep(10)
+                    time.sleep(2)
                 else:
                     raise
         return False
     
     def obtener_info_paginacion(self):
-        """Obtener información de paginación con manejo de errores"""
+        #Obtener información de paginación con manejo de errores
         try:
             paginacion = self.wait_for_element(By.CLASS_NAME, "dxp-summary", timeout=20, clickable=False)
             texto = paginacion.text
@@ -477,11 +470,10 @@ class SirasAutomation:
             return 1, 1, 0
     
     def obtener_elementos_pagina(self):
-        """Obtener elementos de la página actual"""
+        #Obtener elementos de la página actual
         try:
             # Esperar tabla con timeout más largo
             self.wait_for_element(By.XPATH, "//table[contains(@id, 'gridResumidas')]", timeout=30, clickable=False)
-            time.sleep(5)
             
             filas = self.driver.find_elements(By.XPATH, "//tr[contains(@id, 'gridResumidas_DXDataRow')]")
             elementos = []
@@ -519,11 +511,11 @@ class SirasAutomation:
             return []
     
     def hacer_clic_ver_reporte(self, elemento):
-        """Hacer clic en Ver Reporte con múltiples estrategias"""
+        #Hacer clic en Ver Reporte con múltiples estrategias
         estrategias = [
             (By.XPATH, f"//td[contains(text(), '{elemento['identificacion']}')]/..//span[contains(text(), 'Ver Reporte')]"),
-            (By.XPATH, f"//tr[contains(@id, 'DXDataRow{elemento['indice_fila']}')]//span[contains(text(), 'Ver Reporte')]"),
-            (By.XPATH, f"//tr[contains(@id, 'DXDataRow{elemento['indice_fila']}')]//a[contains(@class, 'dxbButton')]"),
+            # (By.XPATH, f"//tr[contains(@id, 'DXDataRow{elemento['indice_fila']}')]//span[contains(text(), 'Ver Reporte')]"),
+            # (By.XPATH, f"//tr[contains(@id, 'DXDataRow{elemento['indice_fila']}')]//a[contains(@class, 'dxbButton')]"),
         ]
         
         for by, selector in estrategias:
@@ -543,12 +535,12 @@ class SirasAutomation:
         return False
     
     def procesar_reporte(self, elemento):
-        """Procesar reporte individual con manejo mejorado de errores"""
+        #Procesar reporte individual con manejo mejorado de errores
         try:
             logger.info(f"Procesando reporte para {elemento['identificacion']} - Radicado: {elemento['no_radicado']}")
             
             # Esperar visor de documentos con timeout más largo
-            time.sleep(10)
+            time.sleep(2)
             
             # Buscar botón de descarga
             button_descarga = self.wait_for_element(By.ID, "DocumentViewer_Splitter_Toolbar_Menu_DXI9_T", timeout=45)
@@ -568,8 +560,8 @@ class SirasAutomation:
                     # Regresar a la lista
                     estrategias_volver = [
                         (By.XPATH, "//span[contains(text(), 'Volver a lista')]"),
-                        (By.XPATH, "//div[contains(@class, 'dxbButton')]//span[contains(text(), 'Volver a lista')]"),
-                        (By.XPATH, "//input[@value='Volver a lista']")
+                        # (By.XPATH, "//div[contains(@class, 'dxbButton')]//span[contains(text(), 'Volver a lista')]"),
+                        # (By.XPATH, "//input[@value='Volver a lista']")
                     ]
                     
                     boton_encontrado = False
@@ -587,7 +579,7 @@ class SirasAutomation:
                         logger.info("Usando navegador back...")
                         self.driver.back()
                     
-                    time.sleep(10)
+                    time.sleep(2)
                     return True
                 else:
                     logger.error("Descarga no completada")
@@ -600,13 +592,13 @@ class SirasAutomation:
             logger.error(f"Error procesando reporte: {str(e)}")
             try:
                 self.driver.back()
-                time.sleep(5)
+                time.sleep(2)
             except:
                 pass
             return False
     
     def procesar_todas_paginas(self):
-        """Procesar todas las páginas con manejo robusto de errores"""
+        #Procesar todas las páginas con manejo robusto de errores
         try:
             pagina_actual, total_paginas, total_elementos = self.obtener_info_paginacion()
             logger.info(f"Iniciando procesamiento: {total_elementos} elementos en {total_paginas} páginas")
@@ -621,7 +613,7 @@ class SirasAutomation:
                     if elementos:
                         break
                     logger.warning(f"No se encontraron elementos, reintentando... ({intento_elementos + 1}/3)")
-                    time.sleep(5)
+                    time.sleep(2)
                 
                 if not elementos:
                     logger.warning("No se encontraron elementos en esta página, continuando...")
@@ -672,7 +664,7 @@ class SirasAutomation:
             raise
     
     def generar_reporte_archivos(self):
-        """Generar reporte de archivos procesados"""
+        #Generar reporte de archivos procesados
         try:
             reporte_path = os.path.join(self.descargas_dir, "reporte_archivos.txt")
             
@@ -701,7 +693,7 @@ class SirasAutomation:
             logger.error(f"Error generando reporte: {str(e)}")
     
     def cleanup_driver(self):
-        """Limpiar recursos del driver de forma segura"""
+        #Limpiar recursos del driver de forma segura
         try:
             if self.driver:
                 self.driver.quit()
@@ -710,7 +702,7 @@ class SirasAutomation:
             logger.warning(f"Error cerrando driver: {str(e)}")
     
     def ejecutar_automatizacion(self):
-        """Ejecutar el proceso completo con manejo robusto de errores"""
+        #Ejecutar el proceso completo con manejo robusto de errores
         start_time = datetime.now()
         try:
             logger.info("=== INICIANDO AUTOMATIZACIÓN SIRAS ===")
@@ -750,7 +742,7 @@ class SirasAutomation:
                 for nombre_archivo, elemento in self.archivos_procesados.items():
                     logger.info(f"   ✓ {nombre_archivo} (ID: {elemento['identificacion']}, Radicado: {elemento['no_radicado']})")
             else:
-                logger.warning("⚠️  No se procesaron archivos exitosamente")
+                logger.warning(" No se procesaron archivos exitosamente")
                 
         except Exception as e:
             logger.error(f"Error en automatización: {str(e)}")
@@ -760,7 +752,7 @@ class SirasAutomation:
             self.cleanup_driver()
 
 def main():
-    """Función principal con manejo de argumentos y configuración"""
+    #Función principal con manejo de argumentos y configuración
     automation = None
     
     try:
@@ -794,7 +786,7 @@ def main():
                 logger.error(f"Page title: {automation.driver.title}")
             except:
                 pass
-        
+            
         sys.exit(1)
         
     finally:

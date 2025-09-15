@@ -7694,3 +7694,1375 @@ Stacktrace:
 2025-09-15 09:57:29,806 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000184B8E6E270>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/688798cdc4d5178908f3d70b96bf5554
 2025-09-15 09:57:33,892 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000184B8E6E420>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/688798cdc4d5178908f3d70b96bf5554
 2025-09-15 09:57:37,988 - INFO - Driver cerrado correctamente
+2025-09-15 11:06:36,052 - INFO - Iniciando automatización en modo con interfaz
+2025-09-15 11:06:36,053 - INFO - ====== WebDriver manager ======
+2025-09-15 11:06:38,708 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-15 11:06:39,593 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-15 11:06:40,367 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.82\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-15 11:06:43,400 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-15 11:06:43,400 - INFO - === INICIANDO AUTOMATIZACIÓN SIRAS ===
+2025-09-15 11:06:43,400 - INFO - Iniciando login (intento 1)...
+2025-09-15 11:06:43,401 - INFO - Navegando a: https://www.siras.com.co/siras/Seguridad/Login?Modo=1 (intento 1)
+2025-09-15 11:07:12,750 - INFO - Login exitoso
+2025-09-15 11:07:12,750 - INFO - Configurando opciones (intento 1)...
+2025-09-15 11:07:53,147 - INFO - Opciones configuradas exitosamente
+2025-09-15 11:08:03,174 - INFO - Texto paginación: Página 1 de 14 (131 elementos)
+2025-09-15 11:08:03,174 - INFO - Iniciando procesamiento: 131 elementos en 14 páginas
+2025-09-15 11:08:03,174 - INFO - === PROCESANDO PÁGINA 1 DE 14 ===
+2025-09-15 11:08:08,267 - INFO - Extraído: GERALDINE BELTRAN - ID: 1143947719
+2025-09-15 11:08:08,355 - INFO - Extraído: ALDEMAR DAZA - ID: 1193391654
+2025-09-15 11:08:08,426 - INFO - Extraído: YUSTIN LONDOÑO - ID: 1144148180
+2025-09-15 11:08:08,502 - INFO - Extraído: LAURA ALZATE - ID: 1113694432
+2025-09-15 11:08:08,578 - INFO - Extraído: YILBER LOPEZ - ID: 16938344
+2025-09-15 11:08:08,655 - INFO - Extraído: JUAN MARULANDA - ID: 1143878461
+2025-09-15 11:08:08,732 - INFO - Extraído: JAN LOPEZ - ID: 1128888421
+2025-09-15 11:08:08,859 - INFO - Extraído: NEISI LEON - ID: 5222873
+2025-09-15 11:08:08,932 - INFO - Extraído: HECTOR USMA - ID: 1007609737
+2025-09-15 11:08:09,011 - INFO - Extraído: MILLER PEÑA - ID: 1105364165
+2025-09-15 11:08:09,012 - INFO - Total elementos encontrados: 10
+2025-09-15 11:08:09,012 - INFO - Procesando 1/10: GERALDINE BELTRAN - ID: 1143947719
+2025-09-15 11:08:10,745 - INFO - Clic exitoso en VER REPORTE para 1143947719
+2025-09-15 11:08:10,745 - INFO - Procesando reporte para 1143947719 - Radicado: 1798da7d553b5ba
+2025-09-15 11:08:21,835 - INFO - Descarga iniciada
+2025-09-15 11:08:21,836 - INFO - Esperando descarga...
+2025-09-15 11:08:24,837 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:08:24,837 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:08:26,289 - INFO - Regresando a lista...
+2025-09-15 11:08:41,309 - INFO - Procesando 2/10: ALDEMAR DAZA - ID: 1193391654
+2025-09-15 11:08:42,889 - INFO - Clic exitoso en VER REPORTE para 1193391654
+2025-09-15 11:08:42,890 - INFO - Procesando reporte para 1193391654 - Radicado: 2bfcc26d5d7d7660
+2025-09-15 11:08:53,973 - INFO - Descarga iniciada
+2025-09-15 11:08:53,973 - INFO - Esperando descarga...
+2025-09-15 11:08:56,974 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:08:56,974 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:08:58,501 - INFO - Regresando a lista...
+2025-09-15 11:09:13,518 - INFO - Procesando 3/10: YUSTIN LONDOÑO - ID: 1144148180
+2025-09-15 11:09:15,062 - INFO - Clic exitoso en VER REPORTE para 1144148180
+2025-09-15 11:09:15,063 - INFO - Procesando reporte para 1144148180 - Radicado: 224a6118679ff013
+2025-09-15 11:09:26,141 - INFO - Descarga iniciada
+2025-09-15 11:09:26,142 - INFO - Esperando descarga...
+2025-09-15 11:09:29,143 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:09:29,143 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:09:31,015 - INFO - Regresando a lista...
+2025-09-15 11:09:46,030 - INFO - Procesando 4/10: LAURA ALZATE - ID: 1113694432
+2025-09-15 11:09:47,778 - INFO - Clic exitoso en VER REPORTE para 1113694432
+2025-09-15 11:09:47,779 - INFO - Procesando reporte para 1113694432 - Radicado: 898e50e7a3d85ad5
+2025-09-15 11:09:58,864 - INFO - Descarga iniciada
+2025-09-15 11:09:58,864 - INFO - Esperando descarga...
+2025-09-15 11:10:01,865 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:10:01,865 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:10:03,434 - INFO - Regresando a lista...
+2025-09-15 11:10:18,449 - INFO - Procesando 5/10: YILBER LOPEZ - ID: 16938344
+2025-09-15 11:10:20,033 - INFO - Clic exitoso en VER REPORTE para 16938344
+2025-09-15 11:10:20,033 - INFO - Procesando reporte para 16938344 - Radicado: 838f10cff836ebe9
+2025-09-15 11:10:31,113 - INFO - Descarga iniciada
+2025-09-15 11:10:31,114 - INFO - Esperando descarga...
+2025-09-15 11:10:34,115 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:10:34,116 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:10:35,595 - INFO - Regresando a lista...
+2025-09-15 11:10:50,611 - INFO - Procesando 6/10: JUAN MARULANDA - ID: 1143878461
+2025-09-15 11:10:52,165 - INFO - Clic exitoso en VER REPORTE para 1143878461
+2025-09-15 11:10:52,165 - INFO - Procesando reporte para 1143878461 - Radicado: 3e24563b040989a4
+2025-09-15 11:11:03,246 - INFO - Descarga iniciada
+2025-09-15 11:11:03,246 - INFO - Esperando descarga...
+2025-09-15 11:11:06,248 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:11:06,248 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:11:07,777 - INFO - Regresando a lista...
+2025-09-15 11:11:22,793 - INFO - Procesando 7/10: JAN LOPEZ - ID: 1128888421
+2025-09-15 11:11:24,361 - INFO - Clic exitoso en VER REPORTE para 1128888421
+2025-09-15 11:11:24,362 - INFO - Procesando reporte para 1128888421 - Radicado: 7a292cb778f2b797
+2025-09-15 11:11:35,457 - INFO - Descarga iniciada
+2025-09-15 11:11:35,457 - INFO - Esperando descarga...
+2025-09-15 11:11:38,458 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:11:38,459 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:11:39,900 - INFO - Regresando a lista...
+2025-09-15 11:11:54,915 - INFO - Procesando 8/10: NEISI LEON - ID: 5222873
+2025-09-15 11:11:56,430 - INFO - Clic exitoso en VER REPORTE para 5222873
+2025-09-15 11:11:56,431 - INFO - Procesando reporte para 5222873 - Radicado: cedca80f63d2330e
+2025-09-15 11:12:07,516 - INFO - Descarga iniciada
+2025-09-15 11:12:07,516 - INFO - Esperando descarga...
+2025-09-15 11:12:10,517 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:12:10,517 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:12:12,092 - INFO - Regresando a lista...
+2025-09-15 11:12:27,108 - INFO - Procesando 9/10: HECTOR USMA - ID: 1007609737
+2025-09-15 11:12:28,708 - INFO - Clic exitoso en VER REPORTE para 1007609737
+2025-09-15 11:12:28,708 - INFO - Procesando reporte para 1007609737 - Radicado: 6ac4d012426a311d
+2025-09-15 11:12:39,792 - INFO - Descarga iniciada
+2025-09-15 11:12:39,793 - INFO - Esperando descarga...
+2025-09-15 11:12:42,795 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:12:42,795 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:12:44,274 - INFO - Regresando a lista...
+2025-09-15 11:12:59,292 - INFO - Procesando 10/10: MILLER PEÑA - ID: 1105364165
+2025-09-15 11:13:00,811 - INFO - Clic exitoso en VER REPORTE para 1105364165
+2025-09-15 11:13:00,811 - INFO - Procesando reporte para 1105364165 - Radicado: bd50207fac7e60c5
+2025-09-15 11:13:11,904 - INFO - Descarga iniciada
+2025-09-15 11:13:11,904 - INFO - Esperando descarga...
+2025-09-15 11:13:14,905 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:13:14,905 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:13:16,316 - INFO - Regresando a lista...
+2025-09-15 11:13:42,445 - INFO - Texto paginación: Página 2 de 14 (131 elementos)
+2025-09-15 11:13:42,445 - INFO - === PROCESANDO PÁGINA 2 DE 14 ===
+2025-09-15 11:15:37,922 - WARNING - Proceso interrumpido por el usuario
+2025-09-15 11:15:42,018 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002601D2DCB00>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/a6baf99469129c259664829f6d66becc
+2025-09-15 11:15:46,118 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002601D2DCC50>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/a6baf99469129c259664829f6d66becc
+2025-09-15 11:33:18,618 - INFO - Iniciando automatización en modo con interfaz
+2025-09-15 11:33:18,618 - INFO - ====== WebDriver manager ======
+2025-09-15 11:33:20,672 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-15 11:33:21,452 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-15 11:33:22,184 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.82\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-15 11:33:25,157 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-15 11:33:25,157 - INFO - === INICIANDO AUTOMATIZACIÓN SIRAS ===
+2025-09-15 11:33:25,157 - INFO - Iniciando login (intento 1)...
+2025-09-15 11:33:25,157 - INFO - Navegando a: https://www.siras.com.co/siras/Seguridad/Login?Modo=1 (intento 1)
+2025-09-15 11:34:02,506 - WARNING - Proceso interrumpido por el usuario
+2025-09-15 11:34:22,805 - INFO - Iniciando automatización en modo con interfaz
+2025-09-15 11:34:22,805 - INFO - ====== WebDriver manager ======
+2025-09-15 11:34:24,653 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-15 11:34:25,279 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-15 11:34:25,857 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.82\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-15 11:34:28,359 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-15 11:34:28,359 - INFO - === INICIANDO AUTOMATIZACIÓN SIRAS ===
+2025-09-15 11:34:28,359 - INFO - Iniciando login (intento 1)...
+2025-09-15 11:34:28,359 - INFO - Navegando a: https://www.siras.com.co/siras/Seguridad/Login?Modo=1 (intento 1)
+2025-09-15 11:34:43,990 - INFO - Login exitoso
+2025-09-15 11:34:43,991 - INFO - Configurando opciones (intento 1)...
+2025-09-15 11:34:55,477 - INFO - Opciones configuradas exitosamente
+2025-09-15 11:35:05,498 - INFO - Texto paginación: Página 1 de 14 (131 elementos)
+2025-09-15 11:35:05,498 - INFO - Iniciando procesamiento: 131 elementos en 14 páginas
+2025-09-15 11:35:05,498 - INFO - === PROCESANDO PÁGINA 1 DE 14 ===
+2025-09-15 11:35:05,579 - INFO - Extraído: GERALDINE BELTRAN - ID: 1143947719
+2025-09-15 11:35:05,647 - INFO - Extraído: ALDEMAR DAZA - ID: 1193391654
+2025-09-15 11:35:05,736 - INFO - Extraído: YUSTIN LONDOÑO - ID: 1144148180
+2025-09-15 11:35:05,817 - INFO - Extraído: LAURA ALZATE - ID: 1113694432
+2025-09-15 11:35:05,898 - INFO - Extraído: YILBER LOPEZ - ID: 16938344
+2025-09-15 11:35:05,974 - INFO - Extraído: JUAN MARULANDA - ID: 1143878461
+2025-09-15 11:35:06,048 - INFO - Extraído: JAN LOPEZ - ID: 1128888421
+2025-09-15 11:35:06,113 - INFO - Extraído: NEISI LEON - ID: 5222873
+2025-09-15 11:35:06,246 - INFO - Extraído: HECTOR USMA - ID: 1007609737
+2025-09-15 11:35:06,320 - INFO - Extraído: MILLER PEÑA - ID: 1105364165
+2025-09-15 11:35:06,320 - INFO - Total elementos encontrados: 10
+2025-09-15 11:35:06,321 - INFO - Procesando 1/10: GERALDINE BELTRAN - ID: 1143947719
+2025-09-15 11:35:07,858 - INFO - Clic exitoso en VER REPORTE para 1143947719
+2025-09-15 11:35:07,859 - INFO - Procesando reporte para 1143947719 - Radicado: 1798da7d553b5ba
+2025-09-15 11:35:10,947 - INFO - Descarga iniciada
+2025-09-15 11:35:10,947 - INFO - Esperando descarga...
+2025-09-15 11:35:13,949 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:35:13,949 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:35:15,440 - INFO - Regresando a lista...
+2025-09-15 11:35:22,455 - INFO - Procesando 2/10: ALDEMAR DAZA - ID: 1193391654
+2025-09-15 11:35:24,051 - INFO - Clic exitoso en VER REPORTE para 1193391654
+2025-09-15 11:35:24,051 - INFO - Procesando reporte para 1193391654 - Radicado: 2bfcc26d5d7d7660
+2025-09-15 11:35:27,135 - INFO - Descarga iniciada
+2025-09-15 11:35:27,137 - INFO - Esperando descarga...
+2025-09-15 11:35:30,139 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:35:30,139 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:35:31,635 - INFO - Regresando a lista...
+2025-09-15 11:35:38,650 - INFO - Procesando 3/10: YUSTIN LONDOÑO - ID: 1144148180
+2025-09-15 11:35:40,204 - INFO - Clic exitoso en VER REPORTE para 1144148180
+2025-09-15 11:35:40,204 - INFO - Procesando reporte para 1144148180 - Radicado: 224a6118679ff013
+2025-09-15 11:35:43,282 - INFO - Descarga iniciada
+2025-09-15 11:35:43,284 - INFO - Esperando descarga...
+2025-09-15 11:35:46,286 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:35:46,286 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:35:47,763 - INFO - Regresando a lista...
+2025-09-15 11:35:54,779 - INFO - Procesando 4/10: LAURA ALZATE - ID: 1113694432
+2025-09-15 11:35:56,341 - INFO - Clic exitoso en VER REPORTE para 1113694432
+2025-09-15 11:35:56,341 - INFO - Procesando reporte para 1113694432 - Radicado: 898e50e7a3d85ad5
+2025-09-15 11:35:59,425 - INFO - Descarga iniciada
+2025-09-15 11:35:59,425 - INFO - Esperando descarga...
+2025-09-15 11:36:02,427 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:36:02,427 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:36:03,918 - INFO - Regresando a lista...
+2025-09-15 11:36:10,935 - INFO - Procesando 5/10: YILBER LOPEZ - ID: 16938344
+2025-09-15 11:36:12,470 - INFO - Clic exitoso en VER REPORTE para 16938344
+2025-09-15 11:36:12,470 - INFO - Procesando reporte para 16938344 - Radicado: 838f10cff836ebe9
+2025-09-15 11:36:15,549 - INFO - Descarga iniciada
+2025-09-15 11:36:15,549 - INFO - Esperando descarga...
+2025-09-15 11:36:18,551 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:36:18,551 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:36:20,120 - INFO - Regresando a lista...
+2025-09-15 11:36:27,137 - INFO - Procesando 6/10: JUAN MARULANDA - ID: 1143878461
+2025-09-15 11:36:28,861 - INFO - Clic exitoso en VER REPORTE para 1143878461
+2025-09-15 11:36:28,861 - INFO - Procesando reporte para 1143878461 - Radicado: 3e24563b040989a4
+2025-09-15 11:36:31,946 - INFO - Descarga iniciada
+2025-09-15 11:36:31,947 - INFO - Esperando descarga...
+2025-09-15 11:36:34,948 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:36:34,948 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:36:36,478 - INFO - Regresando a lista...
+2025-09-15 11:36:43,490 - INFO - Procesando 7/10: JAN LOPEZ - ID: 1128888421
+2025-09-15 11:36:45,057 - INFO - Clic exitoso en VER REPORTE para 1128888421
+2025-09-15 11:36:45,057 - INFO - Procesando reporte para 1128888421 - Radicado: 7a292cb778f2b797
+2025-09-15 11:36:48,146 - INFO - Descarga iniciada
+2025-09-15 11:36:48,147 - INFO - Esperando descarga...
+2025-09-15 11:36:51,148 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:36:51,148 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:36:53,050 - INFO - Regresando a lista...
+2025-09-15 11:37:00,066 - INFO - Procesando 8/10: NEISI LEON - ID: 5222873
+2025-09-15 11:37:01,622 - INFO - Clic exitoso en VER REPORTE para 5222873
+2025-09-15 11:37:01,623 - INFO - Procesando reporte para 5222873 - Radicado: cedca80f63d2330e
+2025-09-15 11:37:04,704 - INFO - Descarga iniciada
+2025-09-15 11:37:04,704 - INFO - Esperando descarga...
+2025-09-15 11:37:07,706 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:37:07,706 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:37:09,181 - INFO - Regresando a lista...
+2025-09-15 11:37:16,196 - INFO - Procesando 9/10: HECTOR USMA - ID: 1007609737
+2025-09-15 11:37:17,750 - INFO - Clic exitoso en VER REPORTE para 1007609737
+2025-09-15 11:37:17,751 - INFO - Procesando reporte para 1007609737 - Radicado: 6ac4d012426a311d
+2025-09-15 11:37:20,833 - INFO - Descarga iniciada
+2025-09-15 11:37:20,834 - INFO - Esperando descarga...
+2025-09-15 11:37:23,835 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:37:23,836 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:37:25,288 - INFO - Regresando a lista...
+2025-09-15 11:37:32,306 - INFO - Procesando 10/10: MILLER PEÑA - ID: 1105364165
+2025-09-15 11:37:33,835 - INFO - Clic exitoso en VER REPORTE para 1105364165
+2025-09-15 11:37:33,835 - INFO - Procesando reporte para 1105364165 - Radicado: bd50207fac7e60c5
+2025-09-15 11:37:36,922 - INFO - Descarga iniciada
+2025-09-15 11:37:36,923 - INFO - Esperando descarga...
+2025-09-15 11:37:39,924 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:37:39,924 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:37:41,747 - INFO - Regresando a lista...
+2025-09-15 11:37:59,880 - INFO - Texto paginación: Página 2 de 14 (131 elementos)
+2025-09-15 11:37:59,880 - INFO - === PROCESANDO PÁGINA 2 DE 14 ===
+2025-09-15 11:37:59,969 - INFO - Extraído: HANNY PARDO - ID: 1110285813
+2025-09-15 11:38:00,032 - INFO - Extraído: MARIÑO ROSERO - ID: 94061133
+2025-09-15 11:38:00,118 - INFO - Extraído: KEINER ALVARADO - ID: 1109663822
+2025-09-15 11:38:00,182 - INFO - Extraído: JUAN ARIAS - ID: 1107521335
+2025-09-15 11:38:00,270 - INFO - Extraído: ERIKA ARCILA - ID: 1116722562
+2025-09-15 11:38:00,343 - INFO - Extraído: MILLER VASQUEZ - ID: 1086328764
+2025-09-15 11:38:00,415 - INFO - Extraído: FRANCISCO ALVAREZ - ID: 1103949192
+2025-09-15 11:38:00,482 - INFO - Extraído: DAN RODRIGUEZ - ID: 10494375
+2025-09-15 11:38:00,565 - INFO - Extraído: RODRIGO ALVARADO - ID: 14319479
+2025-09-15 11:38:00,647 - INFO - Extraído: EYLYN BALLESTEROS - ID: 1105375209
+2025-09-15 11:38:00,647 - INFO - Total elementos encontrados: 10
+2025-09-15 11:38:00,647 - INFO - Procesando 1/10: HANNY PARDO - ID: 1110285813
+2025-09-15 11:38:02,243 - INFO - Clic exitoso en VER REPORTE para 1110285813
+2025-09-15 11:38:02,244 - INFO - Procesando reporte para 1110285813 - Radicado: 99ddcd9a9d326d16
+2025-09-15 11:38:05,324 - INFO - Descarga iniciada
+2025-09-15 11:38:05,325 - INFO - Esperando descarga...
+2025-09-15 11:38:08,326 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:38:08,326 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:38:09,795 - INFO - Regresando a lista...
+2025-09-15 11:38:16,813 - INFO - Procesando 2/10: MARIÑO ROSERO - ID: 94061133
+2025-09-15 11:38:18,352 - INFO - Clic exitoso en VER REPORTE para 94061133
+2025-09-15 11:38:18,352 - INFO - Procesando reporte para 94061133 - Radicado: fcfc020921d48ebb
+2025-09-15 11:38:21,432 - INFO - Descarga iniciada
+2025-09-15 11:38:21,433 - INFO - Esperando descarga...
+2025-09-15 11:38:24,435 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:38:24,435 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:38:26,357 - INFO - Regresando a lista...
+2025-09-15 11:38:33,373 - INFO - Procesando 3/10: KEINER ALVARADO - ID: 1109663822
+2025-09-15 11:38:34,913 - INFO - Clic exitoso en VER REPORTE para 1109663822
+2025-09-15 11:38:34,914 - INFO - Procesando reporte para 1109663822 - Radicado: 97c314400360d646
+2025-09-15 11:38:37,995 - INFO - Descarga iniciada
+2025-09-15 11:38:37,995 - INFO - Esperando descarga...
+2025-09-15 11:38:40,997 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:38:40,998 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:38:42,544 - INFO - Regresando a lista...
+2025-09-15 11:38:49,561 - INFO - Procesando 4/10: JUAN ARIAS - ID: 1107521335
+2025-09-15 11:38:51,134 - INFO - Clic exitoso en VER REPORTE para 1107521335
+2025-09-15 11:38:51,134 - INFO - Procesando reporte para 1107521335 - Radicado: eacf80388329302e
+2025-09-15 11:38:54,213 - INFO - Descarga iniciada
+2025-09-15 11:38:54,213 - INFO - Esperando descarga...
+2025-09-15 11:38:57,215 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:38:57,215 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:38:58,750 - INFO - Regresando a lista...
+2025-09-15 11:39:05,766 - INFO - Procesando 5/10: ERIKA ARCILA - ID: 1116722562
+2025-09-15 11:39:07,302 - INFO - Clic exitoso en VER REPORTE para 1116722562
+2025-09-15 11:39:07,302 - INFO - Procesando reporte para 1116722562 - Radicado: 81949c65dbddcc8c
+2025-09-15 11:39:10,384 - INFO - Descarga iniciada
+2025-09-15 11:39:10,385 - INFO - Esperando descarga...
+2025-09-15 11:39:13,386 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:39:13,386 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:39:14,841 - INFO - Regresando a lista...
+2025-09-15 11:39:21,858 - INFO - Procesando 6/10: MILLER VASQUEZ - ID: 1086328764
+2025-09-15 11:39:23,452 - INFO - Clic exitoso en VER REPORTE para 1086328764
+2025-09-15 11:39:23,453 - INFO - Procesando reporte para 1086328764 - Radicado: daeb157dfadef02f
+2025-09-15 11:39:26,530 - INFO - Descarga iniciada
+2025-09-15 11:39:26,532 - INFO - Esperando descarga...
+2025-09-15 11:39:29,534 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:39:29,534 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:39:31,019 - INFO - Regresando a lista...
+2025-09-15 11:39:38,034 - INFO - Procesando 7/10: FRANCISCO ALVAREZ - ID: 1103949192
+2025-09-15 11:39:39,615 - INFO - Clic exitoso en VER REPORTE para 1103949192
+2025-09-15 11:39:39,615 - INFO - Procesando reporte para 1103949192 - Radicado: 61a8df4cd8c08cdd
+2025-09-15 11:39:42,704 - INFO - Descarga iniciada
+2025-09-15 11:39:42,704 - INFO - Esperando descarga...
+2025-09-15 11:39:45,706 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:39:45,706 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:39:47,289 - INFO - Regresando a lista...
+2025-09-15 11:39:54,304 - INFO - Procesando 8/10: DAN RODRIGUEZ - ID: 10494375
+2025-09-15 11:39:55,867 - INFO - Clic exitoso en VER REPORTE para 10494375
+2025-09-15 11:39:55,868 - INFO - Procesando reporte para 10494375 - Radicado: 56a5fd47836cb2b9
+2025-09-15 11:39:58,952 - INFO - Descarga iniciada
+2025-09-15 11:39:58,954 - INFO - Esperando descarga...
+2025-09-15 11:40:01,954 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:40:01,954 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:40:03,433 - INFO - Regresando a lista...
+2025-09-15 11:40:10,450 - INFO - Procesando 9/10: RODRIGO ALVARADO - ID: 14319479
+2025-09-15 11:40:11,938 - INFO - Clic exitoso en VER REPORTE para 14319479
+2025-09-15 11:40:11,938 - INFO - Procesando reporte para 14319479 - Radicado: 3fe4b52db1f63124
+2025-09-15 11:40:15,018 - INFO - Descarga iniciada
+2025-09-15 11:40:15,019 - INFO - Esperando descarga...
+2025-09-15 11:40:18,020 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:40:18,021 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:40:19,578 - INFO - Regresando a lista...
+2025-09-15 11:40:26,592 - INFO - Procesando 10/10: EYLYN BALLESTEROS - ID: 1105375209
+2025-09-15 11:40:28,183 - INFO - Clic exitoso en VER REPORTE para 1105375209
+2025-09-15 11:40:28,184 - INFO - Procesando reporte para 1105375209 - Radicado: 9553710451ed7000
+2025-09-15 11:40:31,265 - INFO - Descarga iniciada
+2025-09-15 11:40:31,266 - INFO - Esperando descarga...
+2025-09-15 11:40:34,267 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:40:34,268 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:40:35,761 - INFO - Regresando a lista...
+2025-09-15 11:40:53,884 - INFO - Texto paginación: Página 3 de 14 (131 elementos)
+2025-09-15 11:40:53,884 - INFO - === PROCESANDO PÁGINA 3 DE 14 ===
+2025-09-15 11:40:53,964 - INFO - Extraído: ADRIANA FANDIÑOS - ID: 52071212
+2025-09-15 11:40:54,016 - INFO - Extraído: ANDERSON HERNANDEZ - ID: 1143994134
+2025-09-15 11:40:54,083 - INFO - Extraído: JOSE MUÑOZ - ID: 16736001
+2025-09-15 11:40:54,150 - INFO - Extraído: DAVID ORTIZ - ID: 1118306186
+2025-09-15 11:40:54,236 - INFO - Extraído: MICHEL ASTAIZA - ID: 1110290629
+2025-09-15 11:40:54,300 - INFO - Extraído: YEIMMY BETANCURTH - ID: 1054990784
+2025-09-15 11:40:54,367 - INFO - Extraído: GUSTAVO ESCUDERO - ID: 15906553
+2025-09-15 11:40:54,433 - INFO - Extraído: LEYDI MURILLO - ID: 1111782924
+2025-09-15 11:40:54,592 - INFO - Extraído: STEPHANIA ROJAS - ID: 1144209704
+2025-09-15 11:40:54,650 - INFO - Extraído: DANIEL JARAMILLO - ID: 1113784091
+2025-09-15 11:40:54,650 - INFO - Total elementos encontrados: 10
+2025-09-15 11:40:54,650 - INFO - Procesando 1/10: ADRIANA FANDIÑOS - ID: 52071212
+2025-09-15 11:40:56,229 - INFO - Clic exitoso en VER REPORTE para 52071212
+2025-09-15 11:40:56,229 - INFO - Procesando reporte para 52071212 - Radicado: b70dfe051e5ee08a
+2025-09-15 11:40:59,307 - INFO - Descarga iniciada
+2025-09-15 11:40:59,308 - INFO - Esperando descarga...
+2025-09-15 11:41:02,309 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:41:02,309 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:41:03,790 - INFO - Regresando a lista...
+2025-09-15 11:41:10,805 - INFO - Procesando 2/10: ANDERSON HERNANDEZ - ID: 1143994134
+2025-09-15 11:41:12,406 - INFO - Clic exitoso en VER REPORTE para 1143994134
+2025-09-15 11:41:12,406 - INFO - Procesando reporte para 1143994134 - Radicado: ef611153d43b1f22
+2025-09-15 11:41:15,492 - INFO - Descarga iniciada
+2025-09-15 11:41:15,493 - INFO - Esperando descarga...
+2025-09-15 11:41:18,495 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:41:18,495 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:41:20,019 - INFO - Regresando a lista...
+2025-09-15 11:41:27,036 - INFO - Procesando 3/10: JOSE MUÑOZ - ID: 16736001
+2025-09-15 11:41:28,668 - INFO - Clic exitoso en VER REPORTE para 16736001
+2025-09-15 11:41:28,669 - INFO - Procesando reporte para 16736001 - Radicado: 4c67792b21150d0a
+2025-09-15 11:41:31,748 - INFO - Descarga iniciada
+2025-09-15 11:41:31,748 - INFO - Esperando descarga...
+2025-09-15 11:41:34,749 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:41:34,749 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:41:36,247 - INFO - Regresando a lista...
+2025-09-15 11:41:43,264 - INFO - Procesando 4/10: DAVID ORTIZ - ID: 1118306186
+2025-09-15 11:41:44,768 - INFO - Clic exitoso en VER REPORTE para 1118306186
+2025-09-15 11:41:44,769 - INFO - Procesando reporte para 1118306186 - Radicado: 3ecfb1f9425f5b6e
+2025-09-15 11:41:47,854 - INFO - Descarga iniciada
+2025-09-15 11:41:47,854 - INFO - Esperando descarga...
+2025-09-15 11:41:50,856 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:41:50,856 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:41:52,282 - INFO - Regresando a lista...
+2025-09-15 11:41:59,296 - INFO - Procesando 5/10: MICHEL ASTAIZA - ID: 1110290629
+2025-09-15 11:42:00,901 - INFO - Clic exitoso en VER REPORTE para 1110290629
+2025-09-15 11:42:00,901 - INFO - Procesando reporte para 1110290629 - Radicado: 9fefab67f41fa580
+2025-09-15 11:42:03,982 - INFO - Descarga iniciada
+2025-09-15 11:42:03,983 - INFO - Esperando descarga...
+2025-09-15 11:42:06,983 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:42:06,983 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:42:08,479 - INFO - Regresando a lista...
+2025-09-15 11:42:15,495 - INFO - Procesando 6/10: YEIMMY BETANCURTH - ID: 1054990784
+2025-09-15 11:42:17,052 - INFO - Clic exitoso en VER REPORTE para 1054990784
+2025-09-15 11:42:17,052 - INFO - Procesando reporte para 1054990784 - Radicado: de9f56e335cd8115
+2025-09-15 11:42:20,134 - INFO - Descarga iniciada
+2025-09-15 11:42:20,135 - INFO - Esperando descarga...
+2025-09-15 11:42:23,136 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:42:23,136 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:42:24,662 - INFO - Regresando a lista...
+2025-09-15 11:42:31,679 - INFO - Procesando 7/10: GUSTAVO ESCUDERO - ID: 15906553
+2025-09-15 11:42:33,357 - INFO - Clic exitoso en VER REPORTE para 15906553
+2025-09-15 11:42:33,357 - INFO - Procesando reporte para 15906553 - Radicado: 13680d713ed301f7
+2025-09-15 11:42:36,440 - INFO - Descarga iniciada
+2025-09-15 11:42:36,441 - INFO - Esperando descarga...
+2025-09-15 11:42:39,442 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:42:39,442 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:42:41,274 - INFO - Regresando a lista...
+2025-09-15 11:42:48,291 - INFO - Procesando 8/10: LEYDI MURILLO - ID: 1111782924
+2025-09-15 11:42:49,809 - INFO - Clic exitoso en VER REPORTE para 1111782924
+2025-09-15 11:42:49,810 - INFO - Procesando reporte para 1111782924 - Radicado: f804b3de92f7872
+2025-09-15 11:42:52,891 - INFO - Descarga iniciada
+2025-09-15 11:42:52,892 - INFO - Esperando descarga...
+2025-09-15 11:42:55,894 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:42:55,894 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:42:57,338 - INFO - Regresando a lista...
+2025-09-15 11:43:04,352 - INFO - Procesando 9/10: STEPHANIA ROJAS - ID: 1144209704
+2025-09-15 11:43:05,887 - INFO - Clic exitoso en VER REPORTE para 1144209704
+2025-09-15 11:43:05,887 - INFO - Procesando reporte para 1144209704 - Radicado: f63679681c0bdc1
+2025-09-15 11:43:08,970 - INFO - Descarga iniciada
+2025-09-15 11:43:08,970 - INFO - Esperando descarga...
+2025-09-15 11:43:11,971 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:43:11,971 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:43:13,407 - INFO - Regresando a lista...
+2025-09-15 11:43:20,426 - INFO - Procesando 10/10: DANIEL JARAMILLO - ID: 1113784091
+2025-09-15 11:43:22,170 - INFO - Clic exitoso en VER REPORTE para 1113784091
+2025-09-15 11:43:22,170 - INFO - Procesando reporte para 1113784091 - Radicado: 8bbebbb3922eba68
+2025-09-15 11:43:25,257 - INFO - Descarga iniciada
+2025-09-15 11:43:25,258 - INFO - Esperando descarga...
+2025-09-15 11:43:28,259 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:43:28,260 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:43:29,800 - INFO - Regresando a lista...
+2025-09-15 11:43:47,937 - INFO - Texto paginación: Página 4 de 14 (131 elementos)
+2025-09-15 11:43:47,937 - INFO - === PROCESANDO PÁGINA 4 DE 14 ===
+2025-09-15 11:43:48,021 - INFO - Extraído: DIANA ZUÑIGA - ID: 1130625844
+2025-09-15 11:43:48,085 - INFO - Extraído: JUAN TABARES - ID: 1112492433
+2025-09-15 11:43:48,152 - INFO - Extraído: MARYURI RESTREPO - ID: 1007509842
+2025-09-15 11:43:48,235 - INFO - Extraído: LUIS CARDONA - ID: 16826982
+2025-09-15 11:43:48,367 - INFO - Extraído: JOGHEN ZAMBRANO - ID: 1111799907
+2025-09-15 11:43:48,435 - INFO - Extraído: ANDERLEY VIDAL - ID: 1192916141
+2025-09-15 11:43:48,520 - INFO - Extraído: DOUGLAS CORTES - ID: 1143988080
+2025-09-15 11:43:48,585 - INFO - Extraído: RONALD DIAZ - ID: 1006179947
+2025-09-15 11:43:48,749 - INFO - Extraído: JUAN POSADA - ID: 1193044928
+2025-09-15 11:43:48,802 - INFO - Extraído: YEIMY OSORIO - ID: 1006086616
+2025-09-15 11:43:48,802 - INFO - Total elementos encontrados: 10
+2025-09-15 11:43:48,802 - INFO - Procesando 1/10: DIANA ZUÑIGA - ID: 1130625844
+2025-09-15 11:43:50,318 - INFO - Clic exitoso en VER REPORTE para 1130625844
+2025-09-15 11:43:50,318 - INFO - Procesando reporte para 1130625844 - Radicado: 2db3a80f1c6d755c
+2025-09-15 11:43:53,401 - INFO - Descarga iniciada
+2025-09-15 11:43:53,402 - INFO - Esperando descarga...
+2025-09-15 11:43:56,403 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:43:56,403 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:43:57,877 - INFO - Regresando a lista...
+2025-09-15 11:44:04,896 - INFO - Procesando 2/10: JUAN TABARES - ID: 1112492433
+2025-09-15 11:44:06,522 - INFO - Clic exitoso en VER REPORTE para 1112492433
+2025-09-15 11:44:06,522 - INFO - Procesando reporte para 1112492433 - Radicado: 1d52dfc133428d2
+2025-09-15 11:44:09,598 - INFO - Descarga iniciada
+2025-09-15 11:44:09,598 - INFO - Esperando descarga...
+2025-09-15 11:44:12,600 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:44:12,600 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:44:13,676 - INFO - Regresando a lista...
+2025-09-15 11:44:20,692 - INFO - Procesando 3/10: MARYURI RESTREPO - ID: 1007509842
+2025-09-15 11:44:22,274 - INFO - Clic exitoso en VER REPORTE para 1007509842
+2025-09-15 11:44:22,274 - INFO - Procesando reporte para 1007509842 - Radicado: 41431f62664afe31
+2025-09-15 11:44:25,348 - INFO - Descarga iniciada
+2025-09-15 11:44:25,349 - INFO - Esperando descarga...
+2025-09-15 11:44:28,350 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:44:28,351 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:44:29,430 - INFO - Regresando a lista...
+2025-09-15 11:44:36,444 - INFO - Procesando 4/10: LUIS CARDONA - ID: 16826982
+2025-09-15 11:44:38,025 - INFO - Clic exitoso en VER REPORTE para 16826982
+2025-09-15 11:44:38,025 - INFO - Procesando reporte para 16826982 - Radicado: d353890e4881e6c5
+2025-09-15 11:44:41,102 - INFO - Descarga iniciada
+2025-09-15 11:44:41,103 - INFO - Esperando descarga...
+2025-09-15 11:44:44,104 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:44:44,105 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:44:45,186 - INFO - Regresando a lista...
+2025-09-15 11:44:52,203 - INFO - Procesando 5/10: JOGHEN ZAMBRANO - ID: 1111799907
+2025-09-15 11:44:53,723 - INFO - Clic exitoso en VER REPORTE para 1111799907
+2025-09-15 11:44:53,723 - INFO - Procesando reporte para 1111799907 - Radicado: 20d60f957f202e3f
+2025-09-15 11:44:56,797 - INFO - Descarga iniciada
+2025-09-15 11:44:56,798 - INFO - Esperando descarga...
+2025-09-15 11:44:59,800 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:44:59,801 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:45:00,876 - INFO - Regresando a lista...
+2025-09-15 11:45:07,892 - INFO - Procesando 6/10: ANDERLEY VIDAL - ID: 1192916141
+2025-09-15 11:45:09,458 - INFO - Clic exitoso en VER REPORTE para 1192916141
+2025-09-15 11:45:09,462 - INFO - Procesando reporte para 1192916141 - Radicado: 27c50475e0708f63
+2025-09-15 11:45:12,567 - INFO - Descarga iniciada
+2025-09-15 11:45:12,567 - INFO - Esperando descarga...
+2025-09-15 11:45:15,569 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:45:15,570 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:45:16,652 - INFO - Regresando a lista...
+2025-09-15 11:45:23,670 - INFO - Procesando 7/10: DOUGLAS CORTES - ID: 1143988080
+2025-09-15 11:45:25,183 - INFO - Clic exitoso en VER REPORTE para 1143988080
+2025-09-15 11:45:25,183 - INFO - Procesando reporte para 1143988080 - Radicado: a66980f3f2b1f978
+2025-09-15 11:45:28,294 - INFO - Descarga iniciada
+2025-09-15 11:45:28,294 - INFO - Esperando descarga...
+2025-09-15 11:45:31,297 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:45:31,297 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:45:32,379 - INFO - Regresando a lista...
+2025-09-15 11:45:39,397 - INFO - Procesando 8/10: RONALD DIAZ - ID: 1006179947
+2025-09-15 11:45:41,228 - INFO - Clic exitoso en VER REPORTE para 1006179947
+2025-09-15 11:45:41,228 - INFO - Procesando reporte para 1006179947 - Radicado: 7a86afd3dcfaa85
+2025-09-15 11:45:44,311 - INFO - Descarga iniciada
+2025-09-15 11:45:44,311 - INFO - Esperando descarga...
+2025-09-15 11:45:47,313 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:45:47,313 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:45:48,394 - INFO - Regresando a lista...
+2025-09-15 11:45:55,408 - INFO - Procesando 9/10: JUAN POSADA - ID: 1193044928
+2025-09-15 11:45:56,941 - INFO - Clic exitoso en VER REPORTE para 1193044928
+2025-09-15 11:45:56,941 - INFO - Procesando reporte para 1193044928 - Radicado: cef059d558b88ad3
+2025-09-15 11:46:00,152 - INFO - Descarga iniciada
+2025-09-15 11:46:00,153 - INFO - Esperando descarga...
+2025-09-15 11:46:03,155 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:46:03,156 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:46:04,303 - INFO - Regresando a lista...
+2025-09-15 11:46:11,321 - INFO - Procesando 10/10: YEIMY OSORIO - ID: 1006086616
+2025-09-15 11:46:12,918 - INFO - Clic exitoso en VER REPORTE para 1006086616
+2025-09-15 11:46:12,918 - INFO - Procesando reporte para 1006086616 - Radicado: b61f185221d0ef45
+2025-09-15 11:46:16,005 - INFO - Descarga iniciada
+2025-09-15 11:46:16,006 - INFO - Esperando descarga...
+2025-09-15 11:46:19,007 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:46:19,007 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:46:20,247 - INFO - Regresando a lista...
+2025-09-15 11:46:38,389 - INFO - Texto paginación: Página 5 de 14 (131 elementos)
+2025-09-15 11:46:38,389 - INFO - === PROCESANDO PÁGINA 5 DE 14 ===
+2025-09-15 11:46:38,481 - INFO - Extraído: MARLON GUZMAN - ID: 1114892838
+2025-09-15 11:46:38,571 - INFO - Extraído: JOSE GRAJALES - ID: 79954893
+2025-09-15 11:46:38,655 - INFO - Extraído: JOHAN CASTRO - ID: 1005944438
+2025-09-15 11:46:38,858 - INFO - Extraído: EYDI OROZCO - ID: 34561197
+2025-09-15 11:46:38,970 - INFO - Extraído: AMINTA GONZALEZ - ID: 65743322
+2025-09-15 11:46:39,055 - INFO - Extraído: JHOAN CARABALI - ID: 1193118568
+2025-09-15 11:46:39,136 - INFO - Extraído: KEVIN COLLAZOS - ID: 1002953767
+2025-09-15 11:46:39,220 - INFO - Extraído: KAROL FLOR - ID: 1104805269
+2025-09-15 11:46:39,357 - INFO - Extraído: MAURICIO LONDOÑO - ID: 1130678949
+2025-09-15 11:46:39,443 - INFO - Extraído: CARLOS CARDONA - ID: 1005891869
+2025-09-15 11:46:39,444 - INFO - Total elementos encontrados: 10
+2025-09-15 11:46:39,444 - INFO - Procesando 1/10: MARLON GUZMAN - ID: 1114892838
+2025-09-15 11:46:41,051 - INFO - Clic exitoso en VER REPORTE para 1114892838
+2025-09-15 11:46:41,051 - INFO - Procesando reporte para 1114892838 - Radicado: e8dc74c95820f92
+2025-09-15 11:46:44,128 - INFO - Descarga iniciada
+2025-09-15 11:46:44,129 - INFO - Esperando descarga...
+2025-09-15 11:46:47,130 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:46:47,130 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:46:48,212 - INFO - Regresando a lista...
+2025-09-15 11:46:55,231 - INFO - Procesando 2/10: JOSE GRAJALES - ID: 79954893
+2025-09-15 11:46:56,732 - INFO - Clic exitoso en VER REPORTE para 79954893
+2025-09-15 11:46:56,733 - INFO - Procesando reporte para 79954893 - Radicado: 7fdc0394e942b025
+2025-09-15 11:46:59,813 - INFO - Descarga iniciada
+2025-09-15 11:46:59,814 - INFO - Esperando descarga...
+2025-09-15 11:47:02,815 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:47:02,816 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:47:03,892 - INFO - Regresando a lista...
+2025-09-15 11:47:10,905 - INFO - Procesando 3/10: JOHAN CASTRO - ID: 1005944438
+2025-09-15 11:47:12,596 - INFO - Clic exitoso en VER REPORTE para 1005944438
+2025-09-15 11:47:12,596 - INFO - Procesando reporte para 1005944438 - Radicado: 9f33ec9ed779679d
+2025-09-15 11:47:15,675 - INFO - Descarga iniciada
+2025-09-15 11:47:15,675 - INFO - Esperando descarga...
+2025-09-15 11:47:18,677 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:47:18,677 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:47:19,752 - INFO - Regresando a lista...
+2025-09-15 11:47:26,769 - INFO - Procesando 4/10: EYDI OROZCO - ID: 34561197
+2025-09-15 11:47:28,307 - INFO - Clic exitoso en VER REPORTE para 34561197
+2025-09-15 11:47:28,307 - INFO - Procesando reporte para 34561197 - Radicado: 513622f340c07d9a
+2025-09-15 11:47:31,386 - INFO - Descarga iniciada
+2025-09-15 11:47:31,386 - INFO - Esperando descarga...
+2025-09-15 11:47:34,388 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:47:34,388 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:47:35,462 - INFO - Regresando a lista...
+2025-09-15 11:47:42,482 - INFO - Procesando 5/10: AMINTA GONZALEZ - ID: 65743322
+2025-09-15 11:47:44,006 - INFO - Clic exitoso en VER REPORTE para 65743322
+2025-09-15 11:47:44,006 - INFO - Procesando reporte para 65743322 - Radicado: 2196a446b8e83dcc
+2025-09-15 11:47:47,093 - INFO - Descarga iniciada
+2025-09-15 11:47:47,093 - INFO - Esperando descarga...
+2025-09-15 11:47:50,095 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:47:50,095 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:47:51,172 - INFO - Regresando a lista...
+2025-09-15 11:47:58,188 - INFO - Procesando 6/10: JHOAN CARABALI - ID: 1193118568
+2025-09-15 11:47:59,717 - INFO - Clic exitoso en VER REPORTE para 1193118568
+2025-09-15 11:47:59,717 - INFO - Procesando reporte para 1193118568 - Radicado: 7b1fd4caeb7e110b
+2025-09-15 11:48:02,797 - INFO - Descarga iniciada
+2025-09-15 11:48:02,798 - INFO - Esperando descarga...
+2025-09-15 11:48:05,799 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:48:05,799 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:48:06,880 - INFO - Regresando a lista...
+2025-09-15 11:48:13,892 - INFO - Procesando 7/10: KEVIN COLLAZOS - ID: 1002953767
+2025-09-15 11:48:15,460 - INFO - Clic exitoso en VER REPORTE para 1002953767
+2025-09-15 11:48:15,460 - INFO - Procesando reporte para 1002953767 - Radicado: 68b7bb86e2406897
+2025-09-15 11:48:18,539 - INFO - Descarga iniciada
+2025-09-15 11:48:18,539 - INFO - Esperando descarga...
+2025-09-15 11:48:21,541 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:48:21,541 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:48:22,636 - INFO - Regresando a lista...
+2025-09-15 11:48:29,652 - INFO - Procesando 8/10: KAROL FLOR - ID: 1104805269
+2025-09-15 11:48:31,500 - INFO - Clic exitoso en VER REPORTE para 1104805269
+2025-09-15 11:48:31,502 - INFO - Procesando reporte para 1104805269 - Radicado: 49889dc54415ef1d
+2025-09-15 11:48:34,582 - INFO - Descarga iniciada
+2025-09-15 11:48:34,583 - INFO - Esperando descarga...
+2025-09-15 11:48:37,585 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:48:37,585 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:48:38,673 - INFO - Regresando a lista...
+2025-09-15 11:48:45,699 - INFO - Procesando 9/10: MAURICIO LONDOÑO - ID: 1130678949
+2025-09-15 11:48:47,308 - INFO - Clic exitoso en VER REPORTE para 1130678949
+2025-09-15 11:48:47,309 - INFO - Procesando reporte para 1130678949 - Radicado: 8a0fafe41aadada2
+2025-09-15 11:48:50,397 - INFO - Descarga iniciada
+2025-09-15 11:48:50,397 - INFO - Esperando descarga...
+2025-09-15 11:48:53,399 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:48:53,399 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:48:54,512 - INFO - Regresando a lista...
+2025-09-15 11:49:01,529 - INFO - Procesando 10/10: CARLOS CARDONA - ID: 1005891869
+2025-09-15 11:49:03,124 - INFO - Clic exitoso en VER REPORTE para 1005891869
+2025-09-15 11:49:03,124 - INFO - Procesando reporte para 1005891869 - Radicado: 632cc1fd49fb5662
+2025-09-15 11:49:06,214 - INFO - Descarga iniciada
+2025-09-15 11:49:06,215 - INFO - Esperando descarga...
+2025-09-15 11:49:09,216 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:49:09,216 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:49:10,301 - INFO - Regresando a lista...
+2025-09-15 11:49:28,412 - INFO - Texto paginación: Página 6 de 14 (131 elementos)
+2025-09-15 11:49:28,412 - INFO - === PROCESANDO PÁGINA 6 DE 14 ===
+2025-09-15 11:49:28,521 - INFO - Extraído: YURLAY CAMACHO - ID: 67020559
+2025-09-15 11:49:28,592 - INFO - Extraído: CLAUDIA CAMACHO - ID: 66992087
+2025-09-15 11:49:28,674 - INFO - Extraído: JESUS LASSO - ID: 1113524446
+2025-09-15 11:49:28,813 - INFO - Extraído: NATHALY LOPEZ - ID: 1130598696
+2025-09-15 11:49:28,916 - INFO - Extraído: JUAN JAUREGUI - ID: 1017276700
+2025-09-15 11:49:29,027 - INFO - Extraído: LUIS PERDOMO - ID: 1007896671
+2025-09-15 11:49:29,126 - INFO - Extraído: SIGIFREDO FRANCO - ID: 2728110
+2025-09-15 11:49:29,217 - INFO - Extraído: SORIBEL CABEZAS - ID: 1130663921
+2025-09-15 11:49:29,343 - INFO - Extraído: JESSICA GALVIS - ID: 1144157007
+2025-09-15 11:49:29,428 - INFO - Extraído: TERESA OJEDA - ID: 31284241
+2025-09-15 11:49:29,429 - INFO - Total elementos encontrados: 10
+2025-09-15 11:49:29,429 - INFO - Procesando 1/10: YURLAY CAMACHO - ID: 67020559
+2025-09-15 11:49:30,977 - INFO - Clic exitoso en VER REPORTE para 67020559
+2025-09-15 11:49:30,977 - INFO - Procesando reporte para 67020559 - Radicado: 43a2a5cc2b0acf3c
+2025-09-15 11:49:34,057 - INFO - Descarga iniciada
+2025-09-15 11:49:34,057 - INFO - Esperando descarga...
+2025-09-15 11:49:37,059 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:49:37,059 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:49:38,165 - INFO - Regresando a lista...
+2025-09-15 11:49:45,185 - INFO - Procesando 2/10: CLAUDIA CAMACHO - ID: 66992087
+2025-09-15 11:49:46,690 - INFO - Clic exitoso en VER REPORTE para 66992087
+2025-09-15 11:49:46,690 - INFO - Procesando reporte para 66992087 - Radicado: 581933a187db3b1c
+2025-09-15 11:49:49,774 - INFO - Descarga iniciada
+2025-09-15 11:49:49,775 - INFO - Esperando descarga...
+2025-09-15 11:49:52,776 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:49:52,776 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:49:53,861 - INFO - Regresando a lista...
+2025-09-15 11:50:00,877 - INFO - Procesando 3/10: JESUS LASSO - ID: 1113524446
+2025-09-15 11:50:02,546 - INFO - Clic exitoso en VER REPORTE para 1113524446
+2025-09-15 11:50:02,546 - INFO - Procesando reporte para 1113524446 - Radicado: 1737cb73868d67a6
+2025-09-15 11:50:05,630 - INFO - Descarga iniciada
+2025-09-15 11:50:05,631 - INFO - Esperando descarga...
+2025-09-15 11:50:08,632 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:50:08,632 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:50:09,712 - INFO - Regresando a lista...
+2025-09-15 11:50:16,729 - INFO - Procesando 4/10: NATHALY LOPEZ - ID: 1130598696
+2025-09-15 11:50:18,364 - INFO - Clic exitoso en VER REPORTE para 1130598696
+2025-09-15 11:50:18,364 - INFO - Procesando reporte para 1130598696 - Radicado: 9f4f5c824f0580ba
+2025-09-15 11:50:21,455 - INFO - Descarga iniciada
+2025-09-15 11:50:21,456 - INFO - Esperando descarga...
+2025-09-15 11:50:24,457 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:50:24,457 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:50:25,533 - INFO - Regresando a lista...
+2025-09-15 11:50:32,556 - INFO - Procesando 5/10: JUAN JAUREGUI - ID: 1017276700
+2025-09-15 11:50:34,163 - INFO - Clic exitoso en VER REPORTE para 1017276700
+2025-09-15 11:50:34,164 - INFO - Procesando reporte para 1017276700 - Radicado: bd6872342a85e6d1
+2025-09-15 11:50:37,243 - INFO - Descarga iniciada
+2025-09-15 11:50:37,243 - INFO - Esperando descarga...
+2025-09-15 11:50:40,244 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:50:40,244 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:50:41,327 - INFO - Regresando a lista...
+2025-09-15 11:50:48,341 - INFO - Procesando 6/10: LUIS PERDOMO - ID: 1007896671
+2025-09-15 11:50:49,877 - INFO - Clic exitoso en VER REPORTE para 1007896671
+2025-09-15 11:50:49,878 - INFO - Procesando reporte para 1007896671 - Radicado: f120a59c4d8e3c61
+2025-09-15 11:50:52,968 - INFO - Descarga iniciada
+2025-09-15 11:50:52,969 - INFO - Esperando descarga...
+2025-09-15 11:50:55,970 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:50:55,970 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:50:57,052 - INFO - Regresando a lista...
+2025-09-15 11:51:04,069 - INFO - Procesando 7/10: SIGIFREDO FRANCO - ID: 2728110
+2025-09-15 11:51:05,615 - INFO - Clic exitoso en VER REPORTE para 2728110
+2025-09-15 11:51:05,615 - INFO - Procesando reporte para 2728110 - Radicado: 23b7078d7ab9761d
+2025-09-15 11:51:08,696 - INFO - Descarga iniciada
+2025-09-15 11:51:08,697 - INFO - Esperando descarga...
+2025-09-15 11:51:11,698 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:51:11,698 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:51:12,772 - INFO - Regresando a lista...
+2025-09-15 11:51:19,792 - INFO - Procesando 8/10: SORIBEL CABEZAS - ID: 1130663921
+2025-09-15 11:51:21,354 - INFO - Clic exitoso en VER REPORTE para 1130663921
+2025-09-15 11:51:21,354 - INFO - Procesando reporte para 1130663921 - Radicado: 3261b97c247420e7
+2025-09-15 11:51:24,432 - INFO - Descarga iniciada
+2025-09-15 11:51:24,433 - INFO - Esperando descarga...
+2025-09-15 11:51:27,434 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:51:27,434 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:51:28,510 - INFO - Regresando a lista...
+2025-09-15 11:51:35,528 - INFO - Procesando 9/10: JESSICA GALVIS - ID: 1144157007
+2025-09-15 11:51:37,183 - INFO - Clic exitoso en VER REPORTE para 1144157007
+2025-09-15 11:51:37,183 - INFO - Procesando reporte para 1144157007 - Radicado: 368b1251081b9159
+2025-09-15 11:51:40,262 - INFO - Descarga iniciada
+2025-09-15 11:51:40,262 - INFO - Esperando descarga...
+2025-09-15 11:51:43,264 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:51:43,264 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:51:44,340 - INFO - Regresando a lista...
+2025-09-15 11:51:51,354 - INFO - Procesando 10/10: TERESA OJEDA - ID: 31284241
+2025-09-15 11:51:53,125 - INFO - Clic exitoso en VER REPORTE para 31284241
+2025-09-15 11:51:53,126 - INFO - Procesando reporte para 31284241 - Radicado: e2e706f390fdf454
+2025-09-15 11:51:56,212 - INFO - Descarga iniciada
+2025-09-15 11:51:56,213 - INFO - Esperando descarga...
+2025-09-15 11:51:59,215 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:51:59,215 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:52:00,296 - INFO - Regresando a lista...
+2025-09-15 11:52:18,411 - INFO - Texto paginación: Página 7 de 14 (131 elementos)
+2025-09-15 11:52:18,421 - INFO - === PROCESANDO PÁGINA 7 DE 14 ===
+2025-09-15 11:52:18,513 - INFO - Extraído: MARIO CRUZ - ID: 1114731807
+2025-09-15 11:52:18,590 - INFO - Extraído: CARLOS MONCAYO - ID: 87061909
+2025-09-15 11:52:18,669 - INFO - Extraído: EDUARD AGUIRRE - ID: 1143855250
+2025-09-15 11:52:18,836 - INFO - Extraído: CRISTIAN ROJAS - ID: 1106514329
+2025-09-15 11:52:18,910 - INFO - Extraído: YURI GOMEZ - ID: 1028161345
+2025-09-15 11:52:19,000 - INFO - Extraído: GEORGINA BERNAL - ID: 1125410860
+2025-09-15 11:52:19,084 - INFO - Extraído: DARLING RAMIREZ - ID: 94373383
+2025-09-15 11:52:19,161 - INFO - Extraído: LOREN MARTINEZ - ID: 1193391796
+2025-09-15 11:52:19,260 - INFO - Extraído: JAVIER RAMIREZ - ID: 6531483
+2025-09-15 11:52:19,369 - INFO - Extraído: KATERINE GAITAN - ID: 38562082
+2025-09-15 11:52:19,369 - INFO - Total elementos encontrados: 10
+2025-09-15 11:52:19,369 - INFO - Procesando 1/10: MARIO CRUZ - ID: 1114731807
+2025-09-15 11:52:20,933 - INFO - Clic exitoso en VER REPORTE para 1114731807
+2025-09-15 11:52:20,934 - INFO - Procesando reporte para 1114731807 - Radicado: d0a0cdc7d02d4b8e
+2025-09-15 11:52:24,020 - INFO - Descarga iniciada
+2025-09-15 11:52:24,020 - INFO - Esperando descarga...
+2025-09-15 11:52:27,023 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:52:27,023 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:52:28,103 - INFO - Regresando a lista...
+2025-09-15 11:52:35,121 - INFO - Procesando 2/10: CARLOS MONCAYO - ID: 87061909
+2025-09-15 11:52:36,653 - INFO - Clic exitoso en VER REPORTE para 87061909
+2025-09-15 11:52:36,653 - INFO - Procesando reporte para 87061909 - Radicado: 92ff51f6a9a3076f
+2025-09-15 11:52:39,731 - INFO - Descarga iniciada
+2025-09-15 11:52:39,732 - INFO - Esperando descarga...
+2025-09-15 11:52:42,734 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:52:42,734 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:52:43,812 - INFO - Regresando a lista...
+2025-09-15 11:52:50,835 - INFO - Procesando 3/10: EDUARD AGUIRRE - ID: 1143855250
+2025-09-15 11:52:52,396 - INFO - Clic exitoso en VER REPORTE para 1143855250
+2025-09-15 11:52:52,396 - INFO - Procesando reporte para 1143855250 - Radicado: 4cb124ab0d7384ce
+2025-09-15 11:52:55,478 - INFO - Descarga iniciada
+2025-09-15 11:52:55,479 - INFO - Esperando descarga...
+2025-09-15 11:52:58,480 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:52:58,480 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:52:59,561 - INFO - Regresando a lista...
+2025-09-15 11:53:06,575 - INFO - Procesando 4/10: CRISTIAN ROJAS - ID: 1106514329
+2025-09-15 11:53:08,096 - INFO - Clic exitoso en VER REPORTE para 1106514329
+2025-09-15 11:53:08,096 - INFO - Procesando reporte para 1106514329 - Radicado: 8d14d02610f68f8b
+2025-09-15 11:53:11,203 - INFO - Descarga iniciada
+2025-09-15 11:53:11,204 - INFO - Esperando descarga...
+2025-09-15 11:53:14,206 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:53:14,206 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:53:15,287 - INFO - Regresando a lista...
+2025-09-15 11:53:22,305 - INFO - Procesando 5/10: YURI GOMEZ - ID: 1028161345
+2025-09-15 11:53:23,849 - INFO - Clic exitoso en VER REPORTE para 1028161345
+2025-09-15 11:53:23,849 - INFO - Procesando reporte para 1028161345 - Radicado: 689c88cbf2b658d1
+2025-09-15 11:53:26,931 - INFO - Descarga iniciada
+2025-09-15 11:53:26,931 - INFO - Esperando descarga...
+2025-09-15 11:53:29,933 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:53:29,933 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:53:31,010 - INFO - Regresando a lista...
+2025-09-15 11:53:38,032 - INFO - Procesando 6/10: GEORGINA BERNAL - ID: 1125410860
+2025-09-15 11:53:39,599 - INFO - Clic exitoso en VER REPORTE para 1125410860
+2025-09-15 11:53:39,601 - INFO - Procesando reporte para 1125410860 - Radicado: e0dee23613e228f4
+2025-09-15 11:53:42,718 - INFO - Descarga iniciada
+2025-09-15 11:53:42,718 - INFO - Esperando descarga...
+2025-09-15 11:53:45,721 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:53:45,721 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:53:46,821 - INFO - Regresando a lista...
+2025-09-15 11:53:53,838 - INFO - Procesando 7/10: DARLING RAMIREZ - ID: 94373383
+2025-09-15 11:53:55,357 - INFO - Clic exitoso en VER REPORTE para 94373383
+2025-09-15 11:53:55,358 - INFO - Procesando reporte para 94373383 - Radicado: f99cc00f6b59b932
+2025-09-15 11:53:58,441 - INFO - Descarga iniciada
+2025-09-15 11:53:58,441 - INFO - Esperando descarga...
+2025-09-15 11:54:01,442 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:54:01,442 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:54:02,519 - INFO - Regresando a lista...
+2025-09-15 11:54:09,534 - INFO - Procesando 8/10: LOREN MARTINEZ - ID: 1193391796
+2025-09-15 11:54:11,088 - INFO - Clic exitoso en VER REPORTE para 1193391796
+2025-09-15 11:54:11,088 - INFO - Procesando reporte para 1193391796 - Radicado: d716ff2d5b57c882
+2025-09-15 11:54:14,169 - INFO - Descarga iniciada
+2025-09-15 11:54:14,170 - INFO - Esperando descarga...
+2025-09-15 11:54:17,171 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:54:17,171 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:54:18,310 - INFO - Regresando a lista...
+2025-09-15 11:54:25,333 - INFO - Procesando 9/10: JAVIER RAMIREZ - ID: 6531483
+2025-09-15 11:54:26,884 - INFO - Clic exitoso en VER REPORTE para 6531483
+2025-09-15 11:54:26,885 - INFO - Procesando reporte para 6531483 - Radicado: c5a3e1b9b2c91e5c
+2025-09-15 11:54:29,963 - INFO - Descarga iniciada
+2025-09-15 11:54:29,964 - INFO - Esperando descarga...
+2025-09-15 11:54:32,965 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:54:32,965 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:54:34,040 - INFO - Regresando a lista...
+2025-09-15 11:54:41,059 - INFO - Procesando 10/10: KATERINE GAITAN - ID: 38562082
+2025-09-15 11:54:42,726 - INFO - Clic exitoso en VER REPORTE para 38562082
+2025-09-15 11:54:42,727 - INFO - Procesando reporte para 38562082 - Radicado: e41e0f467133b716
+2025-09-15 11:54:45,811 - INFO - Descarga iniciada
+2025-09-15 11:54:45,812 - INFO - Esperando descarga...
+2025-09-15 11:54:48,813 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:54:48,813 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:54:49,892 - INFO - Regresando a lista...
+2025-09-15 11:55:08,007 - INFO - Texto paginación: Página 8 de 14 (131 elementos)
+2025-09-15 11:55:08,011 - INFO - === PROCESANDO PÁGINA 8 DE 14 ===
+2025-09-15 11:55:08,091 - INFO - Extraído: KATHERINE MONTOYA - ID: 1152471881
+2025-09-15 11:55:08,160 - INFO - Extraído: HIDALI TAQUINAS - ID: 1059845866
+2025-09-15 11:55:08,239 - INFO - Extraído: SNEYDER COQUE - ID: 1061780571
+2025-09-15 11:55:08,317 - INFO - Extraído: HARBER VIVAS - ID: 7249608
+2025-09-15 11:55:08,455 - INFO - Extraído: MAURICIO DUARTE - ID: 72287128
+2025-09-15 11:55:08,541 - INFO - Extraído: MANUEL MONTENEGRO - ID: 76288075
+2025-09-15 11:55:08,612 - INFO - Extraído: SAMUEL VERGARA - ID: 1107853762
+2025-09-15 11:55:08,689 - INFO - Extraído: MARIA PERLAZA - ID: 31576270
+2025-09-15 11:55:08,810 - INFO - Extraído: LUIS VALENCIA - ID: 1143974911
+2025-09-15 11:55:08,889 - INFO - Extraído: AARON MURILLAS - ID: 1232596332
+2025-09-15 11:55:08,889 - INFO - Total elementos encontrados: 10
+2025-09-15 11:55:08,890 - INFO - Procesando 1/10: KATHERINE MONTOYA - ID: 1152471881
+2025-09-15 11:55:10,492 - INFO - Clic exitoso en VER REPORTE para 1152471881
+2025-09-15 11:55:10,492 - INFO - Procesando reporte para 1152471881 - Radicado: 272946006a69531d
+2025-09-15 11:55:13,570 - INFO - Descarga iniciada
+2025-09-15 11:55:13,572 - INFO - Esperando descarga...
+2025-09-15 11:55:16,573 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:55:16,573 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:55:17,650 - INFO - Regresando a lista...
+2025-09-15 11:55:24,663 - INFO - Procesando 2/10: HIDALI TAQUINAS - ID: 1059845866
+2025-09-15 11:55:26,246 - INFO - Clic exitoso en VER REPORTE para 1059845866
+2025-09-15 11:55:26,247 - INFO - Procesando reporte para 1059845866 - Radicado: f79d515f8567420e
+2025-09-15 11:55:29,325 - INFO - Descarga iniciada
+2025-09-15 11:55:29,326 - INFO - Esperando descarga...
+2025-09-15 11:55:32,327 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:55:32,328 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:55:33,431 - INFO - Regresando a lista...
+2025-09-15 11:55:40,448 - INFO - Procesando 3/10: SNEYDER COQUE - ID: 1061780571
+2025-09-15 11:55:42,212 - INFO - Clic exitoso en VER REPORTE para 1061780571
+2025-09-15 11:55:42,212 - INFO - Procesando reporte para 1061780571 - Radicado: 868921fab998e2dc
+2025-09-15 11:55:45,296 - INFO - Descarga iniciada
+2025-09-15 11:55:45,297 - INFO - Esperando descarga...
+2025-09-15 11:55:48,298 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:55:48,299 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:55:49,371 - INFO - Regresando a lista...
+2025-09-15 11:55:56,387 - INFO - Procesando 4/10: HARBER VIVAS - ID: 7249608
+2025-09-15 11:55:58,061 - INFO - Clic exitoso en VER REPORTE para 7249608
+2025-09-15 11:55:58,061 - INFO - Procesando reporte para 7249608 - Radicado: 750c2aa71a296ec
+2025-09-15 11:56:01,147 - INFO - Descarga iniciada
+2025-09-15 11:56:01,148 - INFO - Esperando descarga...
+2025-09-15 11:56:04,149 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:56:04,149 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:56:05,231 - INFO - Regresando a lista...
+2025-09-15 11:56:12,247 - INFO - Procesando 5/10: MAURICIO DUARTE - ID: 72287128
+2025-09-15 11:56:13,906 - INFO - Clic exitoso en VER REPORTE para 72287128
+2025-09-15 11:56:13,906 - INFO - Procesando reporte para 72287128 - Radicado: 68f19025330c38fd
+2025-09-15 11:56:17,098 - INFO - Descarga iniciada
+2025-09-15 11:56:17,099 - INFO - Esperando descarga...
+2025-09-15 11:56:20,101 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:56:20,102 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:56:21,237 - INFO - Regresando a lista...
+2025-09-15 11:56:28,252 - INFO - Procesando 6/10: MANUEL MONTENEGRO - ID: 76288075
+2025-09-15 11:56:29,773 - INFO - Clic exitoso en VER REPORTE para 76288075
+2025-09-15 11:56:29,774 - INFO - Procesando reporte para 76288075 - Radicado: 746b85b90ce04047
+2025-09-15 11:56:32,858 - INFO - Descarga iniciada
+2025-09-15 11:56:32,859 - INFO - Esperando descarga...
+2025-09-15 11:56:35,860 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:56:35,861 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:56:36,941 - INFO - Regresando a lista...
+2025-09-15 11:56:43,961 - INFO - Procesando 7/10: SAMUEL VERGARA - ID: 1107853762
+2025-09-15 11:56:45,491 - INFO - Clic exitoso en VER REPORTE para 1107853762
+2025-09-15 11:56:45,492 - INFO - Procesando reporte para 1107853762 - Radicado: ff3c7b751ed7aa53
+2025-09-15 11:56:48,575 - INFO - Descarga iniciada
+2025-09-15 11:56:48,576 - INFO - Esperando descarga...
+2025-09-15 11:56:51,577 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:56:51,577 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:56:52,658 - INFO - Regresando a lista...
+2025-09-15 11:56:59,671 - INFO - Procesando 8/10: MARIA PERLAZA - ID: 31576270
+2025-09-15 11:57:01,191 - INFO - Clic exitoso en VER REPORTE para 31576270
+2025-09-15 11:57:01,191 - INFO - Procesando reporte para 31576270 - Radicado: 82814202b45059bd
+2025-09-15 11:57:04,269 - INFO - Descarga iniciada
+2025-09-15 11:57:04,271 - INFO - Esperando descarga...
+2025-09-15 11:57:07,272 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:57:07,272 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:57:08,352 - INFO - Regresando a lista...
+2025-09-15 11:57:15,365 - INFO - Procesando 9/10: LUIS VALENCIA - ID: 1143974911
+2025-09-15 11:57:16,871 - INFO - Clic exitoso en VER REPORTE para 1143974911
+2025-09-15 11:57:16,871 - INFO - Procesando reporte para 1143974911 - Radicado: 2c769e6ee94b5746
+2025-09-15 11:57:19,947 - INFO - Descarga iniciada
+2025-09-15 11:57:19,947 - INFO - Esperando descarga...
+2025-09-15 11:57:22,949 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:57:22,949 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:57:24,021 - INFO - Regresando a lista...
+2025-09-15 11:57:31,044 - INFO - Procesando 10/10: AARON MURILLAS - ID: 1232596332
+2025-09-15 11:57:32,603 - INFO - Clic exitoso en VER REPORTE para 1232596332
+2025-09-15 11:57:32,604 - INFO - Procesando reporte para 1232596332 - Radicado: 59f866aa4854dc34
+2025-09-15 11:57:35,685 - INFO - Descarga iniciada
+2025-09-15 11:57:35,686 - INFO - Esperando descarga...
+2025-09-15 11:57:38,688 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:57:38,688 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:57:39,771 - INFO - Regresando a lista...
+2025-09-15 11:57:57,890 - INFO - Texto paginación: Página 9 de 14 (131 elementos)
+2025-09-15 11:57:57,890 - INFO - === PROCESANDO PÁGINA 9 DE 14 ===
+2025-09-15 11:57:57,971 - INFO - Extraído: WILSON QUENGUAN - ID: 1010065225
+2025-09-15 11:57:58,030 - INFO - Extraído: TATIANA OSPINA - ID: 1004918197
+2025-09-15 11:57:58,111 - INFO - Extraído: JHON CHILITO - ID: 94487415
+2025-09-15 11:57:58,187 - INFO - Extraído: KEVIN RIVERA - ID: 1006233199
+2025-09-15 11:57:58,258 - INFO - Extraído: ALICIA CAICEDO - ID: 1059915386
+2025-09-15 11:57:58,324 - INFO - Extraído: JUAN PALACIOS - ID: 1106513812
+2025-09-15 11:57:58,400 - INFO - Extraído: HAWEND SALDARRIAGA - ID: 1107837225
+2025-09-15 11:57:58,471 - INFO - Extraído: KATHERINE MONTOYA - ID: 1152471881
+2025-09-15 11:57:58,600 - INFO - Extraído: ANGELA GARCES - ID: 1143875311
+2025-09-15 11:57:58,670 - INFO - Extraído: MARIA RODRIGUEZ - ID: 1005831682
+2025-09-15 11:57:58,670 - INFO - Total elementos encontrados: 10
+2025-09-15 11:57:58,670 - INFO - Procesando 1/10: WILSON QUENGUAN - ID: 1010065225
+2025-09-15 11:58:00,248 - INFO - Clic exitoso en VER REPORTE para 1010065225
+2025-09-15 11:58:00,248 - INFO - Procesando reporte para 1010065225 - Radicado: e4dfe8d9663c56a5
+2025-09-15 11:58:03,329 - INFO - Descarga iniciada
+2025-09-15 11:58:03,330 - INFO - Esperando descarga...
+2025-09-15 11:58:06,331 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:58:06,331 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:58:07,411 - INFO - Regresando a lista...
+2025-09-15 11:58:14,430 - INFO - Procesando 2/10: TATIANA OSPINA - ID: 1004918197
+2025-09-15 11:58:15,996 - INFO - Clic exitoso en VER REPORTE para 1004918197
+2025-09-15 11:58:15,997 - INFO - Procesando reporte para 1004918197 - Radicado: 28fd7b4aba9b2210
+2025-09-15 11:58:19,083 - INFO - Descarga iniciada
+2025-09-15 11:58:19,084 - INFO - Esperando descarga...
+2025-09-15 11:58:22,085 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:58:22,085 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:58:23,181 - INFO - Regresando a lista...
+2025-09-15 11:58:30,198 - INFO - Procesando 3/10: JHON CHILITO - ID: 94487415
+2025-09-15 11:58:31,791 - INFO - Clic exitoso en VER REPORTE para 94487415
+2025-09-15 11:58:31,791 - INFO - Procesando reporte para 94487415 - Radicado: de83950fce1e3016
+2025-09-15 11:58:34,876 - INFO - Descarga iniciada
+2025-09-15 11:58:34,877 - INFO - Esperando descarga...
+2025-09-15 11:58:37,878 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:58:37,879 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:58:38,961 - INFO - Regresando a lista...
+2025-09-15 11:58:45,985 - INFO - Procesando 4/10: KEVIN RIVERA - ID: 1006233199
+2025-09-15 11:58:47,588 - INFO - Clic exitoso en VER REPORTE para 1006233199
+2025-09-15 11:58:47,588 - INFO - Procesando reporte para 1006233199 - Radicado: a7905dec3498fb58
+2025-09-15 11:58:50,667 - INFO - Descarga iniciada
+2025-09-15 11:58:50,667 - INFO - Esperando descarga...
+2025-09-15 11:58:53,669 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:58:53,669 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:58:54,751 - INFO - Regresando a lista...
+2025-09-15 11:59:01,768 - INFO - Procesando 5/10: ALICIA CAICEDO - ID: 1059915386
+2025-09-15 11:59:03,333 - INFO - Clic exitoso en VER REPORTE para 1059915386
+2025-09-15 11:59:03,334 - INFO - Procesando reporte para 1059915386 - Radicado: 4fa7406d52bb413f
+2025-09-15 11:59:06,431 - INFO - Descarga iniciada
+2025-09-15 11:59:06,432 - INFO - Esperando descarga...
+2025-09-15 11:59:09,435 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:59:09,435 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:59:10,525 - INFO - Regresando a lista...
+2025-09-15 11:59:17,542 - INFO - Procesando 6/10: JUAN PALACIOS - ID: 1106513812
+2025-09-15 11:59:19,116 - INFO - Clic exitoso en VER REPORTE para 1106513812
+2025-09-15 11:59:19,117 - INFO - Procesando reporte para 1106513812 - Radicado: d634b54315a5206e
+2025-09-15 11:59:22,199 - INFO - Descarga iniciada
+2025-09-15 11:59:22,199 - INFO - Esperando descarga...
+2025-09-15 11:59:25,202 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:59:25,202 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:59:26,281 - INFO - Regresando a lista...
+2025-09-15 11:59:33,297 - INFO - Procesando 7/10: HAWEND SALDARRIAGA - ID: 1107837225
+2025-09-15 11:59:34,809 - INFO - Clic exitoso en VER REPORTE para 1107837225
+2025-09-15 11:59:34,809 - INFO - Procesando reporte para 1107837225 - Radicado: b73574b62b5be0b2
+2025-09-15 11:59:37,896 - INFO - Descarga iniciada
+2025-09-15 11:59:37,897 - INFO - Esperando descarga...
+2025-09-15 11:59:40,899 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:59:40,899 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:59:41,991 - INFO - Regresando a lista...
+2025-09-15 11:59:49,006 - INFO - Procesando 8/10: KATHERINE MONTOYA - ID: 1152471881
+2025-09-15 11:59:50,651 - INFO - Clic exitoso en VER REPORTE para 1152471881
+2025-09-15 11:59:50,651 - INFO - Procesando reporte para 1152471881 - Radicado: 960525e3de26376c
+2025-09-15 11:59:53,731 - INFO - Descarga iniciada
+2025-09-15 11:59:53,732 - INFO - Esperando descarga...
+2025-09-15 11:59:56,733 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 11:59:56,733 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 11:59:57,818 - INFO - Regresando a lista...
+2025-09-15 12:00:04,832 - INFO - Procesando 9/10: ANGELA GARCES - ID: 1143875311
+2025-09-15 12:00:06,433 - INFO - Clic exitoso en VER REPORTE para 1143875311
+2025-09-15 12:00:06,433 - INFO - Procesando reporte para 1143875311 - Radicado: 85e4da96cf248f81
+2025-09-15 12:00:09,566 - INFO - Descarga iniciada
+2025-09-15 12:00:09,567 - INFO - Esperando descarga...
+2025-09-15 12:00:12,569 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:00:12,569 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:00:13,672 - INFO - Regresando a lista...
+2025-09-15 12:00:20,731 - INFO - Procesando 10/10: MARIA RODRIGUEZ - ID: 1005831682
+2025-09-15 12:00:22,545 - INFO - Clic exitoso en VER REPORTE para 1005831682
+2025-09-15 12:00:22,546 - INFO - Procesando reporte para 1005831682 - Radicado: 265458917ea26831
+2025-09-15 12:00:25,669 - INFO - Descarga iniciada
+2025-09-15 12:00:25,670 - INFO - Esperando descarga...
+2025-09-15 12:00:28,671 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:00:28,672 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:00:29,806 - INFO - Regresando a lista...
+2025-09-15 12:00:47,980 - INFO - Texto paginación: Página 10 de 14 (131 elementos)
+2025-09-15 12:00:47,980 - INFO - === PROCESANDO PÁGINA 10 DE 14 ===
+2025-09-15 12:00:48,078 - INFO - Extraído: PEDRO SALAZAR - ID: 2123198
+2025-09-15 12:00:48,161 - INFO - Extraído: ANGEL RUBIO - ID: 14984366
+2025-09-15 12:00:48,246 - INFO - Extraído: LIZETH ERAZO - ID: 1193092800
+2025-09-15 12:00:48,329 - INFO - Extraído: KELLY GONZALEZ - ID: 1118302686
+2025-09-15 12:00:48,412 - INFO - Extraído: JORGE MARIN - ID: 1006179388
+2025-09-15 12:00:48,497 - INFO - Extraído: VICTOR BUSTAMANTE - ID: 6550775
+2025-09-15 12:00:48,585 - INFO - Extraído: ANA ROSAS - ID: 1107520415
+2025-09-15 12:00:48,661 - INFO - Extraído: KAROL ALZATE - ID: 1144061439
+2025-09-15 12:00:48,811 - INFO - Extraído: SANDRA HERNANDEZ - ID: 1144149449
+2025-09-15 12:00:48,902 - INFO - Extraído: DANIELA ROSALES - ID: 1143853788
+2025-09-15 12:00:48,902 - INFO - Total elementos encontrados: 10
+2025-09-15 12:00:48,902 - INFO - Procesando 1/10: PEDRO SALAZAR - ID: 2123198
+2025-09-15 12:00:50,513 - INFO - Clic exitoso en VER REPORTE para 2123198
+2025-09-15 12:00:50,514 - INFO - Procesando reporte para 2123198 - Radicado: e0e1d64b8a9f8c0b
+2025-09-15 12:00:53,597 - INFO - Descarga iniciada
+2025-09-15 12:00:53,598 - INFO - Esperando descarga...
+2025-09-15 12:00:56,600 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:00:56,601 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:00:57,681 - INFO - Regresando a lista...
+2025-09-15 12:01:04,700 - INFO - Procesando 2/10: ANGEL RUBIO - ID: 14984366
+2025-09-15 12:01:06,277 - INFO - Clic exitoso en VER REPORTE para 14984366
+2025-09-15 12:01:06,277 - INFO - Procesando reporte para 14984366 - Radicado: 652c5b19b7149d73
+2025-09-15 12:01:09,359 - INFO - Descarga iniciada
+2025-09-15 12:01:09,360 - INFO - Esperando descarga...
+2025-09-15 12:01:12,362 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:01:12,362 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:01:13,431 - INFO - Regresando a lista...
+2025-09-15 12:01:20,454 - INFO - Procesando 3/10: LIZETH ERAZO - ID: 1193092800
+2025-09-15 12:01:22,084 - INFO - Clic exitoso en VER REPORTE para 1193092800
+2025-09-15 12:01:22,084 - INFO - Procesando reporte para 1193092800 - Radicado: 5dc59c33f4eb0440
+2025-09-15 12:01:25,166 - INFO - Descarga iniciada
+2025-09-15 12:01:25,167 - INFO - Esperando descarga...
+2025-09-15 12:01:28,168 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:01:28,168 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:01:29,251 - INFO - Regresando a lista...
+2025-09-15 12:01:36,272 - INFO - Procesando 4/10: KELLY GONZALEZ - ID: 1118302686
+2025-09-15 12:01:37,886 - INFO - Clic exitoso en VER REPORTE para 1118302686
+2025-09-15 12:01:37,887 - INFO - Procesando reporte para 1118302686 - Radicado: 91a84ef6949328b4
+2025-09-15 12:01:40,967 - INFO - Descarga iniciada
+2025-09-15 12:01:40,967 - INFO - Esperando descarga...
+2025-09-15 12:01:43,968 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:01:43,968 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:01:45,049 - INFO - Regresando a lista...
+2025-09-15 12:01:52,064 - INFO - Procesando 5/10: JORGE MARIN - ID: 1006179388
+2025-09-15 12:01:53,623 - INFO - Clic exitoso en VER REPORTE para 1006179388
+2025-09-15 12:01:53,624 - INFO - Procesando reporte para 1006179388 - Radicado: f74329ddccca6cfd
+2025-09-15 12:01:56,706 - INFO - Descarga iniciada
+2025-09-15 12:01:56,706 - INFO - Esperando descarga...
+2025-09-15 12:01:59,716 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:01:59,734 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:02:00,865 - INFO - Regresando a lista...
+2025-09-15 12:02:07,878 - INFO - Procesando 6/10: VICTOR BUSTAMANTE - ID: 6550775
+2025-09-15 12:02:09,386 - INFO - Clic exitoso en VER REPORTE para 6550775
+2025-09-15 12:02:09,387 - INFO - Procesando reporte para 6550775 - Radicado: dbfb80831c86f64f
+2025-09-15 12:02:12,467 - INFO - Descarga iniciada
+2025-09-15 12:02:12,468 - INFO - Esperando descarga...
+2025-09-15 12:02:15,469 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:02:15,469 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:02:16,552 - INFO - Regresando a lista...
+2025-09-15 12:02:23,569 - INFO - Procesando 7/10: ANA ROSAS - ID: 1107520415
+2025-09-15 12:02:25,031 - INFO - Clic exitoso en VER REPORTE para 1107520415
+2025-09-15 12:02:25,031 - INFO - Procesando reporte para 1107520415 - Radicado: d3dcc6527c4b6383
+2025-09-15 12:02:28,116 - INFO - Descarga iniciada
+2025-09-15 12:02:28,116 - INFO - Esperando descarga...
+2025-09-15 12:02:31,118 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:02:31,119 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:02:32,211 - INFO - Regresando a lista...
+2025-09-15 12:02:39,226 - INFO - Procesando 8/10: KAROL ALZATE - ID: 1144061439
+2025-09-15 12:02:40,759 - INFO - Clic exitoso en VER REPORTE para 1144061439
+2025-09-15 12:02:40,759 - INFO - Procesando reporte para 1144061439 - Radicado: 3df58fe4c936562c
+2025-09-15 12:02:43,842 - INFO - Descarga iniciada
+2025-09-15 12:02:43,842 - INFO - Esperando descarga...
+2025-09-15 12:02:46,844 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:02:46,844 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:02:47,921 - INFO - Regresando a lista...
+2025-09-15 12:02:54,941 - INFO - Procesando 9/10: SANDRA HERNANDEZ - ID: 1144149449
+2025-09-15 12:02:56,453 - INFO - Clic exitoso en VER REPORTE para 1144149449
+2025-09-15 12:02:56,454 - INFO - Procesando reporte para 1144149449 - Radicado: 1ed1c0206537ea13
+2025-09-15 12:02:59,534 - INFO - Descarga iniciada
+2025-09-15 12:02:59,534 - INFO - Esperando descarga...
+2025-09-15 12:03:02,536 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:03:02,536 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:03:03,613 - INFO - Regresando a lista...
+2025-09-15 12:03:10,637 - INFO - Procesando 10/10: DANIELA ROSALES - ID: 1143853788
+2025-09-15 12:03:12,195 - INFO - Clic exitoso en VER REPORTE para 1143853788
+2025-09-15 12:03:12,195 - INFO - Procesando reporte para 1143853788 - Radicado: 8346a5c252762300
+2025-09-15 12:03:15,273 - INFO - Descarga iniciada
+2025-09-15 12:03:15,274 - INFO - Esperando descarga...
+2025-09-15 12:03:18,276 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:03:18,276 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:03:19,351 - INFO - Regresando a lista...
+2025-09-15 12:03:37,471 - INFO - Texto paginación: Página 11 de 14 (131 elementos)
+2025-09-15 12:03:37,471 - INFO - === PROCESANDO PÁGINA 11 DE 14 ===
+2025-09-15 12:03:37,560 - INFO - Extraído: FRANCISCO LOZANO - ID: 1107080104
+2025-09-15 12:03:37,635 - INFO - Extraído: MASSIEL ARIAS - ID: 4248924
+2025-09-15 12:03:37,711 - INFO - Extraído: DAVID AGUIRRE - ID: 1109660281
+2025-09-15 12:03:37,803 - INFO - Extraído: PAOLA IBARRA - ID: 1192894705
+2025-09-15 12:03:37,905 - INFO - Extraído: WILSON LEYTON - ID: 94377629
+2025-09-15 12:03:37,980 - INFO - Extraído: DIANA OMEN - ID: 1130601580
+2025-09-15 12:03:38,051 - INFO - Extraído: ANDREA MARQUEZ - ID: 4705883
+2025-09-15 12:03:38,131 - INFO - Extraído: FAIZURY RIASCOS - ID: 1114821237
+2025-09-15 12:03:38,237 - INFO - Extraído: JHON PINEDA - ID: 1143965518
+2025-09-15 12:03:38,344 - INFO - Extraído: PAOLA PARRA - ID: 1130656055
+2025-09-15 12:03:38,344 - INFO - Total elementos encontrados: 10
+2025-09-15 12:03:38,344 - INFO - Procesando 1/10: FRANCISCO LOZANO - ID: 1107080104
+2025-09-15 12:03:39,908 - INFO - Clic exitoso en VER REPORTE para 1107080104
+2025-09-15 12:03:39,908 - INFO - Procesando reporte para 1107080104 - Radicado: 8bbe3d96e36670f5
+2025-09-15 12:03:43,061 - INFO - Descarga iniciada
+2025-09-15 12:03:43,061 - INFO - Esperando descarga...
+2025-09-15 12:03:46,069 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:03:46,069 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:03:47,151 - INFO - Regresando a lista...
+2025-09-15 12:03:54,174 - INFO - Procesando 2/10: MASSIEL ARIAS - ID: 4248924
+2025-09-15 12:03:55,779 - INFO - Clic exitoso en VER REPORTE para 4248924
+2025-09-15 12:03:55,779 - INFO - Procesando reporte para 4248924 - Radicado: 9d1e05de6b8b84ee
+2025-09-15 12:03:58,858 - INFO - Descarga iniciada
+2025-09-15 12:03:58,859 - INFO - Esperando descarga...
+2025-09-15 12:04:01,862 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:04:01,863 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:04:02,931 - INFO - Regresando a lista...
+2025-09-15 12:04:09,953 - INFO - Procesando 3/10: DAVID AGUIRRE - ID: 1109660281
+2025-09-15 12:04:11,736 - INFO - Clic exitoso en VER REPORTE para 1109660281
+2025-09-15 12:04:11,737 - INFO - Procesando reporte para 1109660281 - Radicado: db3df16408c0d68
+2025-09-15 12:04:14,816 - INFO - Descarga iniciada
+2025-09-15 12:04:14,817 - INFO - Esperando descarga...
+2025-09-15 12:04:17,818 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:04:17,818 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:04:18,891 - INFO - Regresando a lista...
+2025-09-15 12:04:25,909 - INFO - Procesando 4/10: PAOLA IBARRA - ID: 1192894705
+2025-09-15 12:04:27,437 - INFO - Clic exitoso en VER REPORTE para 1192894705
+2025-09-15 12:04:27,437 - INFO - Procesando reporte para 1192894705 - Radicado: f3e1d5a0e2f52f5f
+2025-09-15 12:04:30,516 - INFO - Descarga iniciada
+2025-09-15 12:04:30,517 - INFO - Esperando descarga...
+2025-09-15 12:04:33,519 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:04:33,519 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:04:34,599 - INFO - Regresando a lista...
+2025-09-15 12:04:41,612 - INFO - Procesando 5/10: WILSON LEYTON - ID: 94377629
+2025-09-15 12:04:43,246 - INFO - Clic exitoso en VER REPORTE para 94377629
+2025-09-15 12:04:43,247 - INFO - Procesando reporte para 94377629 - Radicado: 9489ae88146e614d
+2025-09-15 12:04:46,333 - INFO - Descarga iniciada
+2025-09-15 12:04:46,333 - INFO - Esperando descarga...
+2025-09-15 12:04:49,335 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:04:49,335 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:04:50,417 - INFO - Regresando a lista...
+2025-09-15 12:04:57,431 - INFO - Procesando 6/10: DIANA OMEN - ID: 1130601580
+2025-09-15 12:04:58,974 - INFO - Clic exitoso en VER REPORTE para 1130601580
+2025-09-15 12:04:58,974 - INFO - Procesando reporte para 1130601580 - Radicado: d53fc7ab6c62065c
+2025-09-15 12:05:02,056 - INFO - Descarga iniciada
+2025-09-15 12:05:02,056 - INFO - Esperando descarga...
+2025-09-15 12:05:05,058 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:05:05,058 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:05:06,141 - INFO - Regresando a lista...
+2025-09-15 12:05:13,153 - INFO - Procesando 7/10: ANDREA MARQUEZ - ID: 4705883
+2025-09-15 12:05:14,763 - INFO - Clic exitoso en VER REPORTE para 4705883
+2025-09-15 12:05:14,763 - INFO - Procesando reporte para 4705883 - Radicado: 85015c498d5e893e
+2025-09-15 12:05:17,843 - INFO - Descarga iniciada
+2025-09-15 12:05:17,843 - INFO - Esperando descarga...
+2025-09-15 12:05:20,845 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:05:20,846 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:05:21,931 - INFO - Regresando a lista...
+2025-09-15 12:05:28,944 - INFO - Procesando 8/10: FAIZURY RIASCOS - ID: 1114821237
+2025-09-15 12:05:30,679 - INFO - Clic exitoso en VER REPORTE para 1114821237
+2025-09-15 12:05:30,681 - INFO - Procesando reporte para 1114821237 - Radicado: b9967272881edcba
+2025-09-15 12:05:33,769 - INFO - Descarga iniciada
+2025-09-15 12:05:33,770 - INFO - Esperando descarga...
+2025-09-15 12:05:36,772 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:05:36,773 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:05:37,861 - INFO - Regresando a lista...
+2025-09-15 12:05:44,885 - INFO - Procesando 9/10: JHON PINEDA - ID: 1143965518
+2025-09-15 12:05:46,432 - INFO - Clic exitoso en VER REPORTE para 1143965518
+2025-09-15 12:05:46,432 - INFO - Procesando reporte para 1143965518 - Radicado: 13d170bc54b7840d
+2025-09-15 12:05:49,525 - INFO - Descarga iniciada
+2025-09-15 12:05:49,525 - INFO - Esperando descarga...
+2025-09-15 12:05:52,527 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:05:52,527 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:05:53,611 - INFO - Regresando a lista...
+2025-09-15 12:06:00,627 - INFO - Procesando 10/10: PAOLA PARRA - ID: 1130656055
+2025-09-15 12:06:02,258 - INFO - Clic exitoso en VER REPORTE para 1130656055
+2025-09-15 12:06:02,258 - INFO - Procesando reporte para 1130656055 - Radicado: bb9c77f9f017bde2
+2025-09-15 12:06:05,339 - INFO - Descarga iniciada
+2025-09-15 12:06:05,339 - INFO - Esperando descarga...
+2025-09-15 12:06:08,343 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:06:08,343 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:06:09,431 - INFO - Regresando a lista...
+2025-09-15 12:06:27,551 - INFO - Texto paginación: Página 12 de 14 (131 elementos)
+2025-09-15 12:06:27,560 - INFO - === PROCESANDO PÁGINA 12 DE 14 ===
+2025-09-15 12:06:27,656 - INFO - Extraído: CARLOS RODRIGUEZ - ID: 1006016771
+2025-09-15 12:06:27,741 - INFO - Extraído: SANDRA ROMERO - ID: 53093276
+2025-09-15 12:06:27,821 - INFO - Extraído: LAURA FRANCO - ID: 1111660496
+2025-09-15 12:06:27,909 - INFO - Extraído: HECTOR AVILA - ID: 1107049516
+2025-09-15 12:06:27,999 - INFO - Extraído: KAROLAY HIO - ID: 1144204122
+2025-09-15 12:06:28,084 - INFO - Extraído: JHON CASTILLO - ID: 1113642380
+2025-09-15 12:06:28,174 - INFO - Extraído: FERNANDO COSME - ID: 1144139200
+2025-09-15 12:06:28,265 - INFO - Extraído: DANIELA GALVIS - ID: 1144089664
+2025-09-15 12:06:28,404 - INFO - Extraído: JUAN TORRES - ID: 19255938
+2025-09-15 12:06:28,494 - INFO - Extraído: DILAN BANGUERO - ID: 1143990125
+2025-09-15 12:06:28,494 - INFO - Total elementos encontrados: 10
+2025-09-15 12:06:28,494 - INFO - Procesando 1/10: CARLOS RODRIGUEZ - ID: 1006016771
+2025-09-15 12:06:30,114 - INFO - Clic exitoso en VER REPORTE para 1006016771
+2025-09-15 12:06:30,114 - INFO - Procesando reporte para 1006016771 - Radicado: 55e904d98c8e2f81
+2025-09-15 12:06:33,196 - INFO - Descarga iniciada
+2025-09-15 12:06:33,197 - INFO - Esperando descarga...
+2025-09-15 12:06:36,198 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:06:36,199 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:06:37,281 - INFO - Regresando a lista...
+2025-09-15 12:06:44,299 - INFO - Procesando 2/10: SANDRA ROMERO - ID: 53093276
+2025-09-15 12:06:45,852 - INFO - Clic exitoso en VER REPORTE para 53093276
+2025-09-15 12:06:45,852 - INFO - Procesando reporte para 53093276 - Radicado: 30136c66995e7404
+2025-09-15 12:06:48,951 - INFO - Descarga iniciada
+2025-09-15 12:06:48,951 - INFO - Esperando descarga...
+2025-09-15 12:06:51,952 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:06:51,952 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:06:53,031 - INFO - Regresando a lista...
+2025-09-15 12:07:00,055 - INFO - Procesando 3/10: LAURA FRANCO - ID: 1111660496
+2025-09-15 12:07:01,681 - INFO - Clic exitoso en VER REPORTE para 1111660496
+2025-09-15 12:07:01,683 - INFO - Procesando reporte para 1111660496 - Radicado: 7e5926b3503f3fec
+2025-09-15 12:07:04,769 - INFO - Descarga iniciada
+2025-09-15 12:07:04,770 - INFO - Esperando descarga...
+2025-09-15 12:07:07,771 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:07:07,771 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:07:08,856 - INFO - Regresando a lista...
+2025-09-15 12:07:15,925 - INFO - Procesando 4/10: HECTOR AVILA - ID: 1107049516
+2025-09-15 12:07:17,486 - INFO - Clic exitoso en VER REPORTE para 1107049516
+2025-09-15 12:07:17,486 - INFO - Procesando reporte para 1107049516 - Radicado: 75cc3a0e81741162
+2025-09-15 12:07:20,571 - INFO - Descarga iniciada
+2025-09-15 12:07:20,573 - INFO - Esperando descarga...
+2025-09-15 12:07:23,574 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:07:23,574 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:07:24,661 - INFO - Regresando a lista...
+2025-09-15 12:07:31,678 - INFO - Procesando 5/10: KAROLAY HIO - ID: 1144204122
+2025-09-15 12:07:33,211 - INFO - Clic exitoso en VER REPORTE para 1144204122
+2025-09-15 12:07:33,212 - INFO - Procesando reporte para 1144204122 - Radicado: dd0b1bbefa3dd209
+2025-09-15 12:07:36,297 - INFO - Descarga iniciada
+2025-09-15 12:07:36,298 - INFO - Esperando descarga...
+2025-09-15 12:07:39,300 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:07:39,300 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:07:40,385 - INFO - Regresando a lista...
+2025-09-15 12:07:47,403 - INFO - Procesando 6/10: JHON CASTILLO - ID: 1113642380
+2025-09-15 12:07:48,981 - INFO - Clic exitoso en VER REPORTE para 1113642380
+2025-09-15 12:07:48,981 - INFO - Procesando reporte para 1113642380 - Radicado: 5830a4432cc63fd7
+2025-09-15 12:07:52,065 - INFO - Descarga iniciada
+2025-09-15 12:07:52,066 - INFO - Esperando descarga...
+2025-09-15 12:07:55,068 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:07:55,069 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:07:56,161 - INFO - Regresando a lista...
+2025-09-15 12:08:03,179 - INFO - Procesando 7/10: FERNANDO COSME - ID: 1144139200
+2025-09-15 12:08:04,731 - INFO - Clic exitoso en VER REPORTE para 1144139200
+2025-09-15 12:08:04,731 - INFO - Procesando reporte para 1144139200 - Radicado: 751c6d9625ab6602
+2025-09-15 12:08:07,814 - INFO - Descarga iniciada
+2025-09-15 12:08:07,815 - INFO - Esperando descarga...
+2025-09-15 12:08:10,816 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:08:10,816 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:08:11,995 - INFO - Regresando a lista...
+2025-09-15 12:08:19,009 - INFO - Procesando 8/10: DANIELA GALVIS - ID: 1144089664
+2025-09-15 12:08:20,645 - INFO - Clic exitoso en VER REPORTE para 1144089664
+2025-09-15 12:08:20,646 - INFO - Procesando reporte para 1144089664 - Radicado: fed9202f0b723ff6
+2025-09-15 12:08:23,731 - INFO - Descarga iniciada
+2025-09-15 12:08:23,732 - INFO - Esperando descarga...
+2025-09-15 12:08:26,734 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:08:26,734 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:08:27,824 - INFO - Regresando a lista...
+2025-09-15 12:08:34,842 - INFO - Procesando 9/10: JUAN TORRES - ID: 19255938
+2025-09-15 12:08:36,433 - INFO - Clic exitoso en VER REPORTE para 19255938
+2025-09-15 12:08:36,433 - INFO - Procesando reporte para 19255938 - Radicado: 77b676a07a70c7ff
+2025-09-15 12:08:39,528 - INFO - Descarga iniciada
+2025-09-15 12:08:39,529 - INFO - Esperando descarga...
+2025-09-15 12:08:42,531 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:08:42,531 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:08:43,661 - INFO - Regresando a lista...
+2025-09-15 12:08:50,683 - INFO - Procesando 10/10: DILAN BANGUERO - ID: 1143990125
+2025-09-15 12:08:52,367 - INFO - Clic exitoso en VER REPORTE para 1143990125
+2025-09-15 12:08:52,367 - INFO - Procesando reporte para 1143990125 - Radicado: 5a55d9a3c26fe611
+2025-09-15 12:08:55,468 - INFO - Descarga iniciada
+2025-09-15 12:08:55,470 - INFO - Esperando descarga...
+2025-09-15 12:08:58,471 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:08:58,471 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:08:59,558 - INFO - Regresando a lista...
+2025-09-15 12:09:17,678 - INFO - Texto paginación: Página 13 de 14 (131 elementos)
+2025-09-15 12:09:17,679 - INFO - === PROCESANDO PÁGINA 13 DE 14 ===
+2025-09-15 12:09:17,772 - INFO - Extraído: LEIDY MONTENEGRO - ID: 1144126580
+2025-09-15 12:09:17,857 - INFO - Extraído: JOSE IBARGUEN - ID: 94295173
+2025-09-15 12:09:17,949 - INFO - Extraído: CRISTHIAN HERNANDEZ - ID: 1117012385
+2025-09-15 12:09:18,041 - INFO - Extraído: BLANCA APARICIO - ID: 31847575
+2025-09-15 12:09:18,134 - INFO - Extraído: WILLIAM RODRIGUEZ - ID: 1151939024
+2025-09-15 12:09:18,238 - INFO - Extraído: DAVID TORRES - ID: 1070990689
+2025-09-15 12:09:18,338 - INFO - Extraído: JOSE LOPEZ - ID: 1001989495
+2025-09-15 12:09:18,448 - INFO - Extraído: YENNY PEREZ - ID: 1118282697
+2025-09-15 12:09:18,582 - INFO - Extraído: SANDRA BENITEZ - ID: 66973132
+2025-09-15 12:09:18,684 - INFO - Extraído: CRISTIAN TRIVIÑO - ID: 1144185385
+2025-09-15 12:09:18,684 - INFO - Total elementos encontrados: 10
+2025-09-15 12:09:18,684 - INFO - Procesando 1/10: LEIDY MONTENEGRO - ID: 1144126580
+2025-09-15 12:09:20,293 - INFO - Clic exitoso en VER REPORTE para 1144126580
+2025-09-15 12:09:20,294 - INFO - Procesando reporte para 1144126580 - Radicado: 4ce603409b11c3e6
+2025-09-15 12:09:23,375 - INFO - Descarga iniciada
+2025-09-15 12:09:23,376 - INFO - Esperando descarga...
+2025-09-15 12:09:26,378 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:09:26,378 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:09:27,487 - INFO - Regresando a lista...
+2025-09-15 12:09:34,505 - INFO - Procesando 2/10: JOSE IBARGUEN - ID: 94295173
+2025-09-15 12:09:36,211 - INFO - Clic exitoso en VER REPORTE para 94295173
+2025-09-15 12:09:36,211 - INFO - Procesando reporte para 94295173 - Radicado: c804839e65fb28a5
+2025-09-15 12:09:39,296 - INFO - Descarga iniciada
+2025-09-15 12:09:39,296 - INFO - Esperando descarga...
+2025-09-15 12:09:42,299 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:09:42,299 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:09:43,391 - INFO - Regresando a lista...
+2025-09-15 12:09:50,408 - INFO - Procesando 3/10: CRISTHIAN HERNANDEZ - ID: 1117012385
+2025-09-15 12:09:51,997 - INFO - Clic exitoso en VER REPORTE para 1117012385
+2025-09-15 12:09:51,997 - INFO - Procesando reporte para 1117012385 - Radicado: 3b0c7bd4ae11b2d4
+2025-09-15 12:09:55,088 - INFO - Descarga iniciada
+2025-09-15 12:09:55,089 - INFO - Esperando descarga...
+2025-09-15 12:09:58,090 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:09:58,090 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:09:59,171 - INFO - Regresando a lista...
+2025-09-15 12:10:06,190 - INFO - Procesando 4/10: BLANCA APARICIO - ID: 31847575
+2025-09-15 12:10:07,679 - INFO - Clic exitoso en VER REPORTE para 31847575
+2025-09-15 12:10:07,679 - INFO - Procesando reporte para 31847575 - Radicado: 12950f9c6f4f5225
+2025-09-15 12:10:10,764 - INFO - Descarga iniciada
+2025-09-15 12:10:10,765 - INFO - Esperando descarga...
+2025-09-15 12:10:13,766 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:10:13,767 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:10:14,850 - INFO - Regresando a lista...
+2025-09-15 12:10:21,868 - INFO - Procesando 5/10: WILLIAM RODRIGUEZ - ID: 1151939024
+2025-09-15 12:10:23,383 - INFO - Clic exitoso en VER REPORTE para 1151939024
+2025-09-15 12:10:23,383 - INFO - Procesando reporte para 1151939024 - Radicado: b2f81a0f4da2cdda
+2025-09-15 12:10:26,474 - INFO - Descarga iniciada
+2025-09-15 12:10:26,475 - INFO - Esperando descarga...
+2025-09-15 12:10:29,476 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:10:29,476 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:10:30,569 - INFO - Regresando a lista...
+2025-09-15 12:10:37,584 - INFO - Procesando 6/10: DAVID TORRES - ID: 1070990689
+2025-09-15 12:10:39,125 - INFO - Clic exitoso en VER REPORTE para 1070990689
+2025-09-15 12:10:39,125 - INFO - Procesando reporte para 1070990689 - Radicado: 3e8e11e9c684adf3
+2025-09-15 12:10:42,215 - INFO - Descarga iniciada
+2025-09-15 12:10:42,216 - INFO - Esperando descarga...
+2025-09-15 12:10:45,218 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:10:45,218 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:10:46,311 - INFO - Regresando a lista...
+2025-09-15 12:10:53,332 - INFO - Procesando 7/10: JOSE LOPEZ - ID: 1001989495
+2025-09-15 12:10:54,905 - INFO - Clic exitoso en VER REPORTE para 1001989495
+2025-09-15 12:10:54,905 - INFO - Procesando reporte para 1001989495 - Radicado: 25045b2b869a4e15
+2025-09-15 12:10:57,995 - INFO - Descarga iniciada
+2025-09-15 12:10:57,995 - INFO - Esperando descarga...
+2025-09-15 12:11:00,997 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:11:00,997 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:11:02,081 - INFO - Regresando a lista...
+2025-09-15 12:11:09,104 - INFO - Procesando 8/10: YENNY PEREZ - ID: 1118282697
+2025-09-15 12:11:10,863 - INFO - Clic exitoso en VER REPORTE para 1118282697
+2025-09-15 12:11:10,863 - INFO - Procesando reporte para 1118282697 - Radicado: 3a948170ea0cbd4d
+2025-09-15 12:11:13,966 - INFO - Descarga iniciada
+2025-09-15 12:11:13,967 - INFO - Esperando descarga...
+2025-09-15 12:11:16,969 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:11:16,969 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:11:18,068 - INFO - Regresando a lista...
+2025-09-15 12:11:25,083 - INFO - Procesando 9/10: SANDRA BENITEZ - ID: 66973132
+2025-09-15 12:11:26,714 - INFO - Clic exitoso en VER REPORTE para 66973132
+2025-09-15 12:11:26,715 - INFO - Procesando reporte para 66973132 - Radicado: a96f99df83e02a52
+2025-09-15 12:11:29,802 - INFO - Descarga iniciada
+2025-09-15 12:11:29,803 - INFO - Esperando descarga...
+2025-09-15 12:11:32,805 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:11:32,805 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:11:33,908 - INFO - Regresando a lista...
+2025-09-15 12:11:40,927 - INFO - Procesando 10/10: CRISTIAN TRIVIÑO - ID: 1144185385
+2025-09-15 12:11:42,632 - INFO - Clic exitoso en VER REPORTE para 1144185385
+2025-09-15 12:11:42,633 - INFO - Procesando reporte para 1144185385 - Radicado: 8e5c07b7037f9834
+2025-09-15 12:11:45,713 - INFO - Descarga iniciada
+2025-09-15 12:11:45,714 - INFO - Esperando descarga...
+2025-09-15 12:11:48,716 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:11:48,716 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:11:49,812 - INFO - Regresando a lista...
+2025-09-15 12:12:07,931 - INFO - Texto paginación: Página 14 de 14 (131 elementos)
+2025-09-15 12:12:07,931 - INFO - === PROCESANDO PÁGINA 14 DE 14 ===
+2025-09-15 12:12:08,028 - INFO - Extraído: DIEGO GONZALEZ - ID: 1193246917
+2025-09-15 12:12:08,028 - INFO - Total elementos encontrados: 1
+2025-09-15 12:12:08,028 - INFO - Procesando 1/1: DIEGO GONZALEZ - ID: 1193246917
+2025-09-15 12:12:09,627 - INFO - Clic exitoso en VER REPORTE para 1193246917
+2025-09-15 12:12:09,627 - INFO - Procesando reporte para 1193246917 - Radicado: e8c832e2e11ac0d8
+2025-09-15 12:12:12,710 - INFO - Descarga iniciada
+2025-09-15 12:12:12,710 - INFO - Esperando descarga...
+2025-09-15 12:12:15,715 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-15 12:12:15,719 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-15 12:12:16,864 - INFO - Regresando a lista...
+2025-09-15 12:12:23,887 - INFO - Procesamiento de todas las páginas completado
+2025-09-15 12:12:23,890 - INFO - Reporte generado: c:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\src\descargasPDF\reporte_archivos.txt
+2025-09-15 12:12:23,891 - INFO - ==================================================
+2025-09-15 12:12:23,891 - INFO - RESUMEN DE PROCESAMIENTO
+2025-09-15 12:12:23,892 - INFO - ==================================================
+2025-09-15 12:12:23,892 - INFO - Tiempo total: 0:37:55.531778
+2025-09-15 12:12:23,892 - INFO - Archivos descargados: 141
+2025-09-15 12:12:23,892 - INFO - Archivos procesados exitosamente: 131
+2025-09-15 12:12:23,893 - INFO - Directorio de descargas: c:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\src\descargasPDF
+2025-09-15 12:12:23,893 - INFO - ==================================================
+2025-09-15 12:12:23,893 - INFO -  ARCHIVOS PROCESADOS:
+2025-09-15 12:12:27,546 - INFO - Driver cerrado correctamente
+2025-09-15 12:12:27,546 - INFO -  AUTOMATIZACIÓN COMPLETADA EXITOSAMENTE
+2025-09-15 12:12:31,600 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DCC6510BF0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/c65ebd3337b58b7e8c0459785fb234ad
+2025-09-15 12:12:35,715 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DCC6510E90>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/c65ebd3337b58b7e8c0459785fb234ad
+2025-09-15 12:12:39,787 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002DCC6511B50>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/c65ebd3337b58b7e8c0459785fb234ad
+2025-09-15 12:12:43,866 - INFO - Driver cerrado correctamente
