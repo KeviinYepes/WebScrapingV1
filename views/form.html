@@ -4,17 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>DATA</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
 </head>
 <body>
     <h3>PRIMERA VISTA</h3>
-    <div class="form">
-        <input type="email" placeholder="Email" id="email_ID">
-        <input type="password" placeholder="Contraseña" id="password_ID"">
-        <input type="text" placeholder="Código Habilitación" id="codigo_ID">
-        <input type="date" name="Fecha_Incial" id="fecha_I">
-        <input type="date" name="Fecha_Final" id="fecha_F">
-        <button>Submit</button>
-    </div>
+    <form method="POST" action="/data">
+        <input type="email" name="email" placeholder="Email" id="email_ID" required>
+        <input type="password" name="password" placeholder="Contraseña" id="password_ID" required>
+        <input type="text" name="codigo" placeholder="Código Habilitación" id="codigo_ID" required>
+        <input type="date" name="fecha_inicial" id="fecha_I" required>
+        <input type="date" name="fecha_final" id="fecha_F" required>
+        <button type="submit">Enviar</button>
+    </form>
+
+    <!-- Mostrar errores si existen -->
+    {% if error %}
+        <div class="error">
+            <strong>Error:</strong> {{ error }}
+        </div>
+    {% endif %}
+
+    <!-- Mostrar datos si existen -->
+    {% if datos %}
+        <div class="success">
+            <h2>Resultados:</h2>
+            <p>Correo: {{ datos.correo }}</p>
+            <p>Contraseña: {{ datos.password }}</p>
+            <p>Código: {{ datos.codigo }}</p>
+            <p>Fecha inicial: {{ datos.fecha_inicial }}</p>
+            <p>Fecha final: {{ datos.fecha_final }}</p>
+            {% if datos.mensaje %}
+                <p>{{ datos.mensaje }}</p>
+            {% endif %}
+        </div>
+    {% endif %}
 </body>
 </html>

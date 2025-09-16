@@ -51,7 +51,8 @@ PRIVATE_DATA = {
 }
 
 class SirasAutomation:
-    def __init__(self, headless=False):
+    
+    def __init__(self, headless=True):
         self.driver = None
         self.setup_directories()
         self.setup_driver(headless)
@@ -92,13 +93,19 @@ class SirasAutomation:
             options.add_argument("--disable-extensions")
             options.add_argument("--disable-plugins")
             options.add_argument("--disable-images")  # Acelerar carga
-            options.add_argument("--disable-javascript")  # Solo si no necesitas JS crítico
             
             # Configuraciones de red y timeouts
             options.add_argument("--max_old_space_size=4096")
             options.add_argument("--disable-background-timer-throttling")
             options.add_argument("--disable-renderer-backgrounding")
             options.add_argument("--disable-backgrounding-occluded-windows")
+            options.add_argument("--disable-extensions")
+            options.add_argument("--disable-plugins-discovery")
+            options.add_argument("--no-first-run")
+            options.add_argument("--no-default-browser-check")
+            options.add_argument("--disable-component-extensions-with-background-pages")
+            options.add_argument("--disable-backgrounding-occluded-windows")
+            options.add_argument("--disable-renderer-backgrounding")
             
             # User agent para evitar detección
             options.add_argument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36")
@@ -132,6 +139,34 @@ class SirasAutomation:
             logger.error(f"Error configurando driver: {str(e)}")
             raise
     
+    def procesar_datos(self, correo, password, codigo, fecha_inicial, fecha_final):
+        """Procesa los datos de entrada y los valida"""
+        try:
+            resultado = {
+                "correo": correo.strip() if correo else "",
+                "password": password.strip() if password else "",
+                "codigo": codigo.strip() if codigo else "",
+                "fecha_inicial": fecha_inicial.strip() if fecha_inicial else "",
+                "fecha_final": fecha_final.strip() if fecha_final else "",
+            }
+            
+            # Validar datos requeridos
+            if not resultado["correo"]:
+                raise ValueError("El correo es requerido")
+            if not resultado["password"]:
+                raise ValueError("La contraseña es requerida")
+            if not resultado["fecha_inicial"]:
+                raise ValueError("La fecha inicial es requerida")
+            if not resultado["fecha_final"]:
+                raise ValueError("La fecha final es requerida")
+            
+            logger.info("Datos procesados correctamente")
+            return resultado
+            
+        except Exception as e:
+            logger.error(f"Error procesando datos: {str(e)}")
+            raise
+        
     def reiniciar_driver_si_necesario(self):
         #Reinicia el driver si hay problemas de conexión
         try:
