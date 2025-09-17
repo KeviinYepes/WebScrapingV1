@@ -10548,3 +10548,120 @@ Stacktrace:
 2025-09-16 16:25:50,752 - INFO - 127.0.0.1 - - [16/Sep/2025 16:25:50] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
 2025-09-16 16:25:55,399 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
 2025-09-16 16:25:55,441 - INFO -  * Restarting with stat
+2025-09-16 16:25:56,624 - WARNING -  * Debugger is active!
+2025-09-16 16:25:56,624 - INFO -  * Debugger PIN: 133-900-433
+2025-09-16 16:25:56,891 - INFO - 127.0.0.1 - - [16/Sep/2025 16:25:56] "GET / HTTP/1.1" 200 -
+2025-09-16 16:25:56,916 - INFO - 127.0.0.1 - - [16/Sep/2025 16:25:56] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-09-16 16:25:57,780 - INFO - 127.0.0.1 - - [16/Sep/2025 16:25:57] "GET / HTTP/1.1" 200 -
+2025-09-16 16:25:57,799 - INFO - 127.0.0.1 - - [16/Sep/2025 16:25:57] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-09-16 16:34:49,969 - INFO - 127.0.0.1 - - [16/Sep/2025 16:34:49] "GET / HTTP/1.1" 200 -
+2025-09-16 16:34:50,005 - INFO - 127.0.0.1 - - [16/Sep/2025 16:34:50] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-09-17 11:36:48,346 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-17 11:36:48,582 - INFO -  * Restarting with stat
+2025-09-17 11:36:51,792 - WARNING -  * Debugger is active!
+2025-09-17 11:36:51,795 - INFO -  * Debugger PIN: 133-900-433
+2025-09-17 11:37:46,410 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-17 11:37:46,410 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-17 11:37:46,413 - INFO -  * Restarting with stat
+2025-09-17 11:37:47,829 - WARNING -  * Debugger is active!
+2025-09-17 11:37:47,832 - INFO -  * Debugger PIN: 133-900-433
+2025-09-17 11:38:06,389 - INFO - 127.0.0.1 - - [17/Sep/2025 11:38:06] "GET / HTTP/1.1" 200 -
+2025-09-17 11:38:06,685 - INFO - 127.0.0.1 - - [17/Sep/2025 11:38:06] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-09-17 11:38:06,800 - INFO - 127.0.0.1 - - [17/Sep/2025 11:38:06] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-17 11:49:19,718 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-17 11:49:19,766 - INFO -  * Restarting with stat
+2025-09-17 11:49:20,985 - WARNING -  * Debugger is active!
+2025-09-17 11:49:20,985 - INFO -  * Debugger PIN: 133-900-433
+2025-09-17 11:49:22,394 - INFO - 127.0.0.1 - - [17/Sep/2025 11:49:22] "GET / HTTP/1.1" 200 -
+2025-09-17 11:49:22,416 - INFO - 127.0.0.1 - - [17/Sep/2025 11:49:22] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-09-17 11:49:22,442 - INFO - 127.0.0.1 - - [17/Sep/2025 11:49:22] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-17 11:49:23,403 - INFO - 127.0.0.1 - - [17/Sep/2025 11:49:23] "GET / HTTP/1.1" 200 -
+2025-09-17 11:49:23,421 - INFO - 127.0.0.1 - - [17/Sep/2025 11:49:23] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-09-17 11:49:23,445 - INFO - 127.0.0.1 - - [17/Sep/2025 11:49:23] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-17 11:49:24,113 - INFO - 127.0.0.1 - - [17/Sep/2025 11:49:24] "GET / HTTP/1.1" 200 -
+2025-09-17 11:49:24,131 - INFO - 127.0.0.1 - - [17/Sep/2025 11:49:24] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-09-17 11:49:24,155 - INFO - 127.0.0.1 - - [17/Sep/2025 11:49:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-17 11:49:24,875 - INFO - 127.0.0.1 - - [17/Sep/2025 11:49:24] "GET / HTTP/1.1" 200 -
+2025-09-17 11:49:24,894 - INFO - 127.0.0.1 - - [17/Sep/2025 11:49:24] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-09-17 11:49:24,925 - INFO - 127.0.0.1 - - [17/Sep/2025 11:49:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-17 11:51:52,184 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-17 11:51:52,234 - INFO -  * Restarting with stat
+2025-09-17 11:51:53,368 - WARNING -  * Debugger is active!
+2025-09-17 11:51:53,383 - INFO -  * Debugger PIN: 133-900-433
+2025-09-17 11:51:56,736 - INFO - 127.0.0.1 - - [17/Sep/2025 11:51:56] "GET / HTTP/1.1" 200 -
+2025-09-17 11:51:56,765 - INFO - 127.0.0.1 - - [17/Sep/2025 11:51:56] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-09-17 11:51:57,517 - INFO - 127.0.0.1 - - [17/Sep/2025 11:51:57] "GET / HTTP/1.1" 200 -
+2025-09-17 11:51:57,543 - INFO - 127.0.0.1 - - [17/Sep/2025 11:51:57] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-09-17 11:51:58,156 - INFO - 127.0.0.1 - - [17/Sep/2025 11:51:58] "GET / HTTP/1.1" 200 -
+2025-09-17 11:51:58,173 - INFO - 127.0.0.1 - - [17/Sep/2025 11:51:58] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-09-17 11:51:58,789 - INFO - 127.0.0.1 - - [17/Sep/2025 11:51:58] "GET / HTTP/1.1" 200 -
+2025-09-17 11:51:58,807 - INFO - 127.0.0.1 - - [17/Sep/2025 11:51:58] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-09-17 12:00:03,453 - INFO - 127.0.0.1 - - [17/Sep/2025 12:00:03] "GET / HTTP/1.1" 200 -
+2025-09-17 12:00:19,195 - INFO - 127.0.0.1 - - [17/Sep/2025 12:00:19] "GET / HTTP/1.1" 200 -
+2025-09-17 12:00:19,238 - INFO - 127.0.0.1 - - [17/Sep/2025 12:00:19] "[33mGET /static/css/style.css HTTP/1.1[0m" 404 -
+2025-09-17 12:00:29,026 - INFO - 127.0.0.1 - - [17/Sep/2025 12:00:29] "GET / HTTP/1.1" 200 -
+2025-09-17 12:01:56,681 - INFO - ====== WebDriver manager ======
+2025-09-17 12:01:59,712 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 12:02:00,876 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 12:02:01,907 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 12:02:04,136 - INFO - WebDriver version 140.0.7339.82 selected
+2025-09-17 12:02:04,147 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.82/win32/chromedriver-win32.zip
+2025-09-17 12:02:04,147 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.82/win32/chromedriver-win32.zip
+2025-09-17 12:02:05,361 - INFO - Driver downloading response is 200
+2025-09-17 12:02:05,757 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-17 12:02:07,081 - INFO - Driver has been saved in cache [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.82]
+2025-09-17 12:02:10,311 - INFO - 127.0.0.1 - - [17/Sep/2025 12:02:10] "GET / HTTP/1.1" 200 -
+2025-09-17 12:02:12,108 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-17 12:02:12,109 - INFO - Datos procesados correctamente
+2025-09-17 12:02:16,145 - INFO - 127.0.0.1 - - [17/Sep/2025 12:02:16] "[35m[1mPOST /data HTTP/1.1[0m" 500 -
+2025-09-17 12:02:52,474 - INFO - 127.0.0.1 - - [17/Sep/2025 12:02:52] "GET / HTTP/1.1" 200 -
+2025-09-17 12:02:54,914 - INFO - 127.0.0.1 - - [17/Sep/2025 12:02:54] "GET / HTTP/1.1" 200 -
+2025-09-17 12:02:55,963 - INFO - 127.0.0.1 - - [17/Sep/2025 12:02:55] "GET / HTTP/1.1" 200 -
+2025-09-17 12:02:56,663 - INFO - 127.0.0.1 - - [17/Sep/2025 12:02:56] "GET / HTTP/1.1" 200 -
+2025-09-17 12:03:21,083 - INFO - 127.0.0.1 - - [17/Sep/2025 12:03:21] "GET / HTTP/1.1" 200 -
+2025-09-17 12:03:24,073 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-17 12:03:26,242 - INFO -  * Restarting with stat
+2025-09-17 12:03:27,711 - WARNING -  * Debugger is active!
+2025-09-17 12:03:27,715 - INFO -  * Debugger PIN: 133-900-433
+2025-09-17 12:03:27,782 - INFO - 127.0.0.1 - - [17/Sep/2025 12:03:27] "GET / HTTP/1.1" 200 -
+2025-09-17 12:03:27,837 - INFO - 127.0.0.1 - - [17/Sep/2025 12:03:27] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-17 12:03:29,599 - INFO - 127.0.0.1 - - [17/Sep/2025 12:03:29] "GET / HTTP/1.1" 200 -
+2025-09-17 12:03:29,644 - INFO - 127.0.0.1 - - [17/Sep/2025 12:03:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-17 12:03:38,798 - INFO - 127.0.0.1 - - [17/Sep/2025 12:03:38] "GET / HTTP/1.1" 200 -
+2025-09-17 12:03:39,651 - INFO - 127.0.0.1 - - [17/Sep/2025 12:03:39] "GET / HTTP/1.1" 200 -
+2025-09-17 12:17:16,859 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-17 12:17:16,919 - INFO -  * Restarting with stat
+2025-09-17 12:17:17,970 - WARNING -  * Debugger is active!
+2025-09-17 12:17:17,970 - INFO -  * Debugger PIN: 133-900-433
+2025-09-17 12:17:18,772 - INFO - 127.0.0.1 - - [17/Sep/2025 12:17:18] "GET / HTTP/1.1" 200 -
+2025-09-17 12:17:20,138 - INFO - 127.0.0.1 - - [17/Sep/2025 12:17:20] "GET / HTTP/1.1" 200 -
+2025-09-17 12:17:57,409 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-17 12:17:57,463 - INFO -  * Restarting with stat
+2025-09-17 12:17:58,577 - WARNING -  * Debugger is active!
+2025-09-17 12:17:58,577 - INFO -  * Debugger PIN: 133-900-433
+2025-09-17 12:18:00,442 - INFO - 127.0.0.1 - - [17/Sep/2025 12:18:00] "GET / HTTP/1.1" 200 -
+2025-09-17 12:18:43,139 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-17 12:18:43,203 - INFO -  * Restarting with stat
+2025-09-17 12:18:44,237 - WARNING -  * Debugger is active!
+2025-09-17 12:18:44,240 - INFO -  * Debugger PIN: 133-900-433
+2025-09-17 12:18:44,845 - INFO - 127.0.0.1 - - [17/Sep/2025 12:18:44] "GET / HTTP/1.1" 200 -
+2025-09-17 12:19:09,165 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-17 12:19:09,216 - INFO -  * Restarting with stat
+2025-09-17 12:19:10,330 - WARNING -  * Debugger is active!
+2025-09-17 12:19:10,330 - INFO -  * Debugger PIN: 133-900-433
+2025-09-17 12:19:12,786 - INFO - 127.0.0.1 - - [17/Sep/2025 12:19:12] "GET / HTTP/1.1" 200 -
+2025-09-17 12:19:58,994 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-17 12:19:59,052 - INFO -  * Restarting with stat
+2025-09-17 12:20:00,045 - WARNING -  * Debugger is active!
+2025-09-17 12:20:00,048 - INFO -  * Debugger PIN: 133-900-433
+2025-09-17 12:20:01,393 - INFO - 127.0.0.1 - - [17/Sep/2025 12:20:01] "GET / HTTP/1.1" 200 -
+2025-09-17 12:20:01,445 - INFO - 127.0.0.1 - - [17/Sep/2025 12:20:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-17 12:20:18,887 - INFO - 127.0.0.1 - - [17/Sep/2025 12:20:18] "GET / HTTP/1.1" 200 -
+2025-09-17 12:20:18,943 - INFO - 127.0.0.1 - - [17/Sep/2025 12:20:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-17 14:18:22,486 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-17 14:18:22,592 - INFO -  * Restarting with stat
+2025-09-17 14:18:24,296 - WARNING -  * Debugger is active!
+2025-09-17 14:18:24,306 - INFO -  * Debugger PIN: 133-900-433
+2025-09-17 14:33:23,627 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-17 14:33:23,664 - INFO -  * Restarting with stat

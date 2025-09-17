@@ -6,7 +6,7 @@ import time
 current_dir = os.path.dirname(os.path.abspath(__file__))
 template_dir = os.path.join(current_dir, '..', 'views')
 
-application = Flask(__name__, template_folder=template_dir, static_folder="static")
+application = Flask(__name__, template_folder=template_dir,  static_url_path='/static')
 
 @application.route('/')
 def index():
@@ -31,9 +31,7 @@ def form_data():
             datos = automation.procesar_datos(correo, password, codigo, fecha_inicial, fecha_final)
             time.sleep(4)
             
-
             # MOSTRAR UNA PÁGINA DIFERENTE con los resultados
-        
         except Exception as e:
             error_msg = f"Error procesando los datos: {str(e)}"
             return render_template("form.html", error=error_msg)

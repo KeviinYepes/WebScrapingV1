@@ -1,42 +1,242 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DATA</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Formulario ValleSalud</title>
+    <style>
+        /* Reset y estilos base */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            background-color: #f0f4f8; /* Azul claro y limpio */
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            width: 100%;
+            max-width: 500px;
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 15px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            overflow: hidden;
+            border: 1px solid #e0e6ed;
+        }
+        
+        .header {
+            background: #213563; /* Azul oscuro, color principal de ValleSalud */
+            color: white;
+            text-align: center;
+            padding: 25px;
+            position: relative;
+        }
+        
+        .header h3 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 5px;
+        }
+        
+        .header p {
+            font-size: 16px;
+            color: rgba(255, 255, 255, 0.9);
+        }
+        
+        .header::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 4px;
+            background: #213563; /* Azul más claro para la línea */
+        }
+        
+        .form-container {
+            padding: 30px;
+        }
+        
+        .form-group {
+            margin-bottom: 20px;
+        }
+        
+        .form-group label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 500;
+            color: #333;
+        }
+        
+        .form-group input {
+            width: 100%;
+            padding: 14px 15px;
+            border: 2px solid #ddd;
+            border-radius: 8px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+        
+        .form-group input:focus {
+            border-color: #007bff;
+            box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+            outline: none;
+        }
+        
+        .btn {
+            background: #213563; /* Azul vibrante para el botón */
+            color: white;
+            border: none;
+            padding: 16px 20px;
+            width: 100%;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            margin-top: 10px;
+        }
+        
+        .btn:hover {
+            background: #089ca5;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        
+        .btn:active {
+            transform: translateY(0);
+        }
+        
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            padding: 12px;
+            border-radius: 8px;
+            margin-top: 20px;
+            text-align: center;
+            border-left: 4px solid #dc3545;
+            display: none;
+        }
+        
+        .error.active {
+            display: block;
+        }
+        
+        .date-container {
+            display: flex;
+            gap: 15px;
+        }
+        
+        .date-container .form-group {
+            flex: 1;
+        }
+        
+        .footer {
+            text-align: center;
+            padding: 20px;
+            color: #7f8c8d;
+            font-size: 14px;
+            border-top: 1px solid #eee;
+        }
+        
+        /* Responsive */
+        @media (max-width: 600px) {
+            .date-container {
+                flex-direction: column;
+                gap: 10px;
+            }
+            
+            .container {
+                border-radius: 10px;
+            }
+            
+            .form-container {
+                padding: 20px;
+            }
+        }
+    </style>
 </head>
 <body>
-    <h3>PRIMERA VISTA</h3>
-    <form method="POST" action="/data">
-        <input type="email" name="email" placeholder="Email" id="email_ID" required>
-        <input type="password" name="password" placeholder="Contraseña" id="password_ID" required>
-        <input type="text" name="codigo" placeholder="Código Habilitación" id="codigo_ID" required>
-        <input type="date" name="fecha_inicial" id="fecha_I" required>
-        <input type="date" name="fecha_final" id="fecha_F" required>
-        <button type="submit">Enviar</button>
-    </form>
-
-    <!-- Mostrar errores si existen -->
-    {% if error %}
-        <div class="error">
-            <strong>Error:</strong> {{ error }}
+    <div class="container">
+        <div class="header">
+            <h3>ValleSalud</h3>
+            <p>Sistema de extracción de PDFS siras</p>
         </div>
-    {% endif %}
-
-    <!-- Mostrar datos si existen -->
-    {% if datos %}
-        <div class="success">
-            <h2>Resultados:</h2>
-            <p>Correo: {{ datos.correo }}</p>
-            <p>Contraseña: {{ datos.password }}</p>
-            <p>Código: {{ datos.codigo }}</p>
-            <p>Fecha inicial: {{ datos.fecha_inicial }}</p>
-            <p>Fecha final: {{ datos.fecha_final }}</p>
-            {% if datos.mensaje %}
-                <p>{{ datos.mensaje }}</p>
-            {% endif %}
+        
+        <div class="form-container">
+            <form id="dataForm" method="POST" action="/data">
+                <div class="form-group">
+                    <label for="email_ID">Correo electrónico</label>
+                    <input type="email" name="email" placeholder="usuario@ejemplo.com" id="email_ID" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="password_ID">Contraseña</label>
+                    <input type="password" name="password" placeholder="Ingresa tu contraseña" id="password_ID" required>
+                </div>
+                
+                <div class="form-group">
+                    <label for="codigo_ID">Código de habilitación</label>
+                    <input type="text" name="coligo" placeholder="Código de 6 dígitos" id="codigo_ID" required>
+                </div>
+                
+                <div class="date-container">
+                    <div class="form-group">
+                        <label for="fecha_inicial">Fecha inicial</label>
+                        <input type="date" name="fecha_inicial" id="fecha_inicial" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="fecha_final">Fecha final</label>
+                        <input type="date" name="fecha_final" id="fecha_final" required>
+                    </div>
+                </div>
+                
+                <button type="submit" class="btn">Iniciar extracción de datos</button>
+            </form>
+            
+            <div id="errorMessage" class="error">
+                Mensaje de error aquí
+            </div>
         </div>
-    {% endif %}
+        
+        <div class="footer">
+            <p>ValleSalud © 2025</p>
+        </div>
+    </div>
+
+    <script>
+        // Establecer valores por defecto para las fechas
+        window.addEventListener('DOMContentLoaded', (event) => {
+            // Establecer fecha inicial como hace 1 días
+            const initialDate = new Date();
+            initialDate.setDate(initialDate.getDate() - 1);
+            document.getElementById('fecha_inicial').valueAsDate = initialDate;
+            
+            // Establecer fecha final como hoy
+            document.getElementById('fecha_final').valueAsDate = new Date();
+            
+            // Simular la visualización de errores si hay parámetros en la URL
+            const urlParams = new URLSearchParams(window.location.search);
+            if (urlParams.has('error')) {
+                const errorDiv = document.getElementById('errorMessage');
+                errorDiv.textContent = decodeURIComponent(urlParams.get('error'));
+                errorDiv.classList.add('active');
+                
+                // Ocultar el error después de 5 segundos
+                setTimeout(() => {
+                    errorDiv.classList.remove('active');
+                }, 5000);
+            }
+        });
+    </script>
 </body>
 </html>
