@@ -11753,3 +11753,248 @@ Stacktrace:
 2025-09-18 12:22:09,388 - INFO - === INICIANDO AUTOMATIZACIÓN SIRAS ===
 2025-09-18 12:22:09,388 - INFO - Iniciando login (intento 1)...
 2025-09-18 12:22:09,389 - INFO - Navegando a: https://www.siras.com.co/siras/Seguridad/Login?Modo=1 (intento 1)
+2025-09-18 15:58:46,729 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 15:58:46,729 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 15:58:46,729 - INFO -  * Restarting with stat
+2025-09-18 15:58:48,162 - WARNING -  * Debugger is active!
+2025-09-18 15:58:48,168 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 15:58:52,010 - INFO - ====== WebDriver manager ======
+2025-09-18 15:58:54,246 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 15:58:54,987 - INFO - 127.0.0.1 - - [18/Sep/2025 15:58:54] "GET / HTTP/1.1" 200 -
+2025-09-18 15:58:55,209 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 15:58:56,195 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 15:59:02,150 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 15:59:02,150 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 15:59:02,150 - INFO -  * Restarting with stat
+2025-09-18 15:59:03,979 - WARNING -  * Debugger is active!
+2025-09-18 15:59:03,979 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 15:59:04,628 - INFO - 127.0.0.1 - - [18/Sep/2025 15:59:04] "GET / HTTP/1.1" 200 -
+2025-09-18 16:01:38,777 - INFO - ====== WebDriver manager ======
+2025-09-18 16:01:40,649 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 16:01:41,408 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 16:01:42,221 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 16:01:44,628 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 16:01:44,629 - INFO - Datos procesados correctamente
+2025-09-18 16:01:44,629 - INFO - Email: correodeprueba@gmail.com
+2025-09-18 16:01:44,629 - INFO - Fecha inicial: 2025-09-17
+2025-09-18 16:01:44,630 - INFO - Fecha final: 2025-09-18
+2025-09-18 16:01:44,630 - INFO - === INICIANDO AUTOMATIZACIÓN SIRAS ===
+2025-09-18 16:01:44,630 - INFO - Iniciando login (intento 1)...
+2025-09-18 16:01:44,630 - INFO - Navegando a: https://www.siras.com.co/siras/Seguridad/Login?Modo=1 (intento 1)
+2025-09-18 16:01:59,176 - INFO - Login exitoso
+2025-09-18 16:01:59,177 - INFO - Configurando opciones (intento 1)...
+2025-09-18 16:10:21,400 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 16:10:21,401 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 16:10:21,405 - INFO -  * Restarting with stat
+2025-09-18 16:10:23,666 - WARNING -  * Debugger is active!
+2025-09-18 16:10:23,671 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 16:10:25,468 - INFO - 127.0.0.1 - - [18/Sep/2025 16:10:25] "GET / HTTP/1.1" 200 -
+2025-09-18 16:10:33,982 - INFO - ====== WebDriver manager ======
+2025-09-18 16:10:36,215 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 16:10:37,060 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 16:10:37,715 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 16:10:40,494 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 16:10:40,494 - INFO - Datos procesados correctamente
+2025-09-18 16:10:40,494 - INFO - Email: keyv2412@gmail.com
+2025-09-18 16:10:40,494 - INFO - Fecha inicial: 2025-09-17
+2025-09-18 16:10:40,494 - INFO - Fecha final: 2025-09-18
+2025-09-18 16:10:40,494 - INFO - === INICIANDO AUTOMATIZACIÓN SIRAS ===
+2025-09-18 16:10:40,494 - INFO - Iniciando login (intento 1)...
+2025-09-18 16:10:40,494 - INFO - Navegando a: https://www.siras.com.co/siras/Seguridad/Login?Modo=1 (intento 1)
+2025-09-18 16:10:54,334 - INFO - Login exitoso
+2025-09-18 16:10:54,334 - INFO - Configurando opciones (intento 1)...
+2025-09-18 16:32:37,502 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 16:32:37,502 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 16:32:37,506 - INFO -  * Restarting with stat
+2025-09-18 16:32:38,965 - WARNING -  * Debugger is active!
+2025-09-18 16:32:38,969 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 16:32:43,287 - INFO - 127.0.0.1 - - [18/Sep/2025 16:32:43] "GET / HTTP/1.1" 200 -
+2025-09-18 16:34:04,531 - INFO - ====== WebDriver manager ======
+2025-09-18 16:34:06,439 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 16:34:07,149 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 16:34:07,735 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 16:34:10,324 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 16:34:10,325 - INFO - Datos procesados correctamente
+2025-09-18 16:34:10,326 - INFO - Email: dirimagenes@vallesaludips.com
+2025-09-18 16:34:10,326 - INFO - Fecha inicial: 2025-09-14
+2025-09-18 16:34:10,326 - INFO - Fecha final: 2025-09-15
+2025-09-18 16:34:10,327 - INFO - === INICIANDO AUTOMATIZACIÓN SIRAS ===
+2025-09-18 16:34:10,327 - INFO - Iniciando login (intento 1)...
+2025-09-18 16:34:10,327 - INFO - Navegando a: https://www.siras.com.co/siras/Seguridad/Login?Modo=1 (intento 1)
+2025-09-18 16:34:24,465 - INFO - Login exitoso
+2025-09-18 16:34:24,466 - INFO - Configurando opciones (intento 1)...
+2025-09-18 16:34:28,233 - WARNING - Error en clic, intento 1: Message: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0xf10c13+66051]
+	GetHandleVerifier [0x0xf10c54+66116]
+	(No symbol) [0x0xcedb33]
+	(No symbol) [0x0xcffb01]
+	(No symbol) [0x0xcfebd0]
+	(No symbol) [0x0xcf4ff2]
+	(No symbol) [0x0xcf50d6]
+	(No symbol) [0x0xcf34e8]
+	(No symbol) [0x0xcf6b43]
+	(No symbol) [0x0xd7c85d]
+	(No symbol) [0x0xd59f8c]
+	(No symbol) [0x0xd7b7f1]
+	(No symbol) [0x0xd59d86]
+	(No symbol) [0x0xd2b53e]
+	(No symbol) [0x0xd2c414]
+	GetHandleVerifier [0x0x1158a13+2457603]
+	GetHandleVerifier [0x0x11539d2+2437058]
+	GetHandleVerifier [0x0xf397f2+232930]
+	GetHandleVerifier [0x0xf29a18+167944]
+	GetHandleVerifier [0x0xf3092d+196381]
+	GetHandleVerifier [0x0xf18ee8+99544]
+	GetHandleVerifier [0x0xf19082+99954]
+	GetHandleVerifier [0x0xf0322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-18 16:34:30,243 - WARNING - Error en clic, intento 2: Message: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0xf10c13+66051]
+	GetHandleVerifier [0x0xf10c54+66116]
+	(No symbol) [0x0xcedb33]
+	(No symbol) [0x0xcffb01]
+	(No symbol) [0x0xcfebd0]
+	(No symbol) [0x0xcf4ff2]
+	(No symbol) [0x0xcf50d6]
+	(No symbol) [0x0xcf34e8]
+	(No symbol) [0x0xcf6b43]
+	(No symbol) [0x0xd7c85d]
+	(No symbol) [0x0xd59f8c]
+	(No symbol) [0x0xd7b7f1]
+	(No symbol) [0x0xd59d86]
+	(No symbol) [0x0xd2b53e]
+	(No symbol) [0x0xd2c414]
+	GetHandleVerifier [0x0x1158a13+2457603]
+	GetHandleVerifier [0x0x11539d2+2437058]
+	GetHandleVerifier [0x0xf397f2+232930]
+	GetHandleVerifier [0x0xf29a18+167944]
+	GetHandleVerifier [0x0xf3092d+196381]
+	GetHandleVerifier [0x0xf18ee8+99544]
+	GetHandleVerifier [0x0xf19082+99954]
+	GetHandleVerifier [0x0xf0322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-18 16:34:32,262 - WARNING - Error en clic, intento 3: Message: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0xf10c13+66051]
+	GetHandleVerifier [0x0xf10c54+66116]
+	(No symbol) [0x0xcedb33]
+	(No symbol) [0x0xcffb01]
+	(No symbol) [0x0xcfebd0]
+	(No symbol) [0x0xcf4ff2]
+	(No symbol) [0x0xcf50d6]
+	(No symbol) [0x0xcf34e8]
+	(No symbol) [0x0xcf6b43]
+	(No symbol) [0x0xd7c85d]
+	(No symbol) [0x0xd59f8c]
+	(No symbol) [0x0xd7b7f1]
+	(No symbol) [0x0xd59d86]
+	(No symbol) [0x0xd2b53e]
+	(No symbol) [0x0xd2c414]
+	GetHandleVerifier [0x0x1158a13+2457603]
+	GetHandleVerifier [0x0x11539d2+2437058]
+	GetHandleVerifier [0x0xf397f2+232930]
+	GetHandleVerifier [0x0xf29a18+167944]
+	GetHandleVerifier [0x0xf3092d+196381]
+	GetHandleVerifier [0x0xf18ee8+99544]
+	GetHandleVerifier [0x0xf19082+99954]
+	GetHandleVerifier [0x0xf0322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-18 16:34:34,276 - WARNING - Error en clic, intento 4: Message: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0xf10c13+66051]
+	GetHandleVerifier [0x0xf10c54+66116]
+	(No symbol) [0x0xcedb33]
+	(No symbol) [0x0xcffb01]
+	(No symbol) [0x0xcfebd0]
+	(No symbol) [0x0xcf4ff2]
+	(No symbol) [0x0xcf50d6]
+	(No symbol) [0x0xcf34e8]
+	(No symbol) [0x0xcf6b43]
+	(No symbol) [0x0xd7c85d]
+	(No symbol) [0x0xd59f8c]
+	(No symbol) [0x0xd7b7f1]
+	(No symbol) [0x0xd59d86]
+	(No symbol) [0x0xd2b53e]
+	(No symbol) [0x0xd2c414]
+	GetHandleVerifier [0x0x1158a13+2457603]
+	GetHandleVerifier [0x0x11539d2+2437058]
+	GetHandleVerifier [0x0xf397f2+232930]
+	GetHandleVerifier [0x0xf29a18+167944]
+	GetHandleVerifier [0x0xf3092d+196381]
+	GetHandleVerifier [0x0xf18ee8+99544]
+	GetHandleVerifier [0x0xf19082+99954]
+	GetHandleVerifier [0x0xf0322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-18 16:34:36,290 - WARNING - Error en clic, intento 5: Message: stale element reference: stale element not found
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#staleelementreferenceexception
+Stacktrace:
+	GetHandleVerifier [0x0xf10c13+66051]
+	GetHandleVerifier [0x0xf10c54+66116]
+	(No symbol) [0x0xcedb33]
+	(No symbol) [0x0xcffb01]
+	(No symbol) [0x0xcfebd0]
+	(No symbol) [0x0xcf4ff2]
+	(No symbol) [0x0xcf50d6]
+	(No symbol) [0x0xcf34e8]
+	(No symbol) [0x0xcf6b43]
+	(No symbol) [0x0xd7c85d]
+	(No symbol) [0x0xd59f8c]
+	(No symbol) [0x0xd7b7f1]
+	(No symbol) [0x0xd59d86]
+	(No symbol) [0x0xd2b53e]
+	(No symbol) [0x0xd2c414]
+	GetHandleVerifier [0x0x1158a13+2457603]
+	GetHandleVerifier [0x0x11539d2+2437058]
+	GetHandleVerifier [0x0xf397f2+232930]
+	GetHandleVerifier [0x0xf29a18+167944]
+	GetHandleVerifier [0x0xf3092d+196381]
+	GetHandleVerifier [0x0xf18ee8+99544]
+	GetHandleVerifier [0x0xf19082+99954]
+	GetHandleVerifier [0x0xf0322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-18 16:34:36,291 - ERROR - No se pudo hacer clic después de varios intentos
+2025-09-18 16:34:43,142 - INFO - Opciones configuradas exitosamente
+2025-09-18 16:47:33,666 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 16:47:33,667 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 16:47:33,669 - INFO -  * Restarting with stat
+2025-09-18 16:47:34,733 - WARNING -  * Debugger is active!
+2025-09-18 16:47:34,743 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 16:47:34,837 - INFO - 127.0.0.1 - - [18/Sep/2025 16:47:34] "GET / HTTP/1.1" 200 -
+2025-09-18 16:48:17,777 - INFO - ====== WebDriver manager ======
+2025-09-18 16:48:19,758 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 16:48:20,561 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 16:48:21,233 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 16:48:23,818 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 16:48:23,819 - INFO - Datos procesados correctamente
+2025-09-18 16:48:23,819 - INFO - Email: dirimagenes@vallesaludips.com
+2025-09-18 16:48:23,819 - INFO - Fecha inicial: 1592025
+2025-09-18 16:48:23,820 - INFO - Fecha final: 1792025
+2025-09-18 16:48:23,820 - INFO - === INICIANDO AUTOMATIZACIÓN SIRAS ===
+2025-09-18 16:48:23,820 - INFO - Iniciando login (intento 1)...
+2025-09-18 16:48:23,820 - INFO - Navegando a: https://www.siras.com.co/siras/Seguridad/Login?Modo=1 (intento 1)

@@ -3,6 +3,7 @@ import os
 from webscraping import SirasAutomation
 from webscraping import main
 import time
+from datetime import datetime
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 template_dir = os.path.join(current_dir, '..', 'views')
@@ -30,7 +31,7 @@ def form_data():
         return render_template("form.html", error="Todos los campos son obligatorios")
     else:
         try:
-            automation = SirasAutomation(headless=True) #Vista emulador
+            automation = SirasAutomation(headless=False) #Vista emulador
             #Mandar datos a la función
             automation.procesar_datos(correo, password, codigo, fecha_inicial, fecha_final)
             time.sleep(2)
