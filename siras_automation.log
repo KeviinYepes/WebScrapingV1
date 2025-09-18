@@ -10665,3 +10665,1091 @@ Stacktrace:
 2025-09-17 14:18:24,306 - INFO -  * Debugger PIN: 133-900-433
 2025-09-17 14:33:23,627 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
 2025-09-17 14:33:23,664 - INFO -  * Restarting with stat
+2025-09-17 14:33:24,848 - WARNING -  * Debugger is active!
+2025-09-17 14:33:24,848 - INFO -  * Debugger PIN: 133-900-433
+2025-09-17 14:33:25,642 - INFO - 127.0.0.1 - - [17/Sep/2025 14:33:25] "GET / HTTP/1.1" 200 -
+2025-09-18 08:58:32,408 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-18 08:58:32,518 - INFO -  * Restarting with stat
+2025-09-18 08:58:36,318 - WARNING -  * Debugger is active!
+2025-09-18 08:58:36,330 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 08:58:43,658 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 08:58:43,658 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 08:58:43,658 - INFO -  * Restarting with stat
+2025-09-18 08:58:45,166 - WARNING -  * Debugger is active!
+2025-09-18 08:58:45,168 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 08:58:47,123 - INFO - 127.0.0.1 - - [18/Sep/2025 08:58:47] "GET / HTTP/1.1" 200 -
+2025-09-18 08:58:47,428 - INFO - 127.0.0.1 - - [18/Sep/2025 08:58:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-18 08:59:02,598 - INFO - 127.0.0.1 - - [18/Sep/2025 08:59:02] "POST /data HTTP/1.1" 200 -
+2025-09-18 08:59:31,908 - INFO - 127.0.0.1 - - [18/Sep/2025 08:59:31] "POST /data HTTP/1.1" 200 -
+2025-09-18 08:59:37,388 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 08:59:37,388 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 08:59:37,398 - INFO -  * Restarting with stat
+2025-09-18 08:59:38,388 - WARNING -  * Debugger is active!
+2025-09-18 08:59:38,388 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 08:59:40,337 - INFO - 127.0.0.1 - - [18/Sep/2025 08:59:40] "POST /data HTTP/1.1" 200 -
+2025-09-18 09:00:00,749 - INFO - 127.0.0.1 - - [18/Sep/2025 09:00:00] "POST /data HTTP/1.1" 200 -
+2025-09-18 09:01:08,168 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 09:01:08,168 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 09:01:08,172 - INFO -  * Restarting with stat
+2025-09-18 09:01:09,378 - WARNING -  * Debugger is active!
+2025-09-18 09:01:09,383 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 09:01:10,965 - INFO - 127.0.0.1 - - [18/Sep/2025 09:01:10] "POST /data HTTP/1.1" 200 -
+2025-09-18 09:01:18,669 - INFO - 127.0.0.1 - - [18/Sep/2025 09:01:18] "POST /data HTTP/1.1" 200 -
+2025-09-18 09:02:10,028 - INFO - 127.0.0.1 - - [18/Sep/2025 09:02:10] "POST /data HTTP/1.1" 200 -
+2025-09-18 09:02:25,778 - INFO - 127.0.0.1 - - [18/Sep/2025 09:02:25] "POST /data HTTP/1.1" 200 -
+2025-09-18 09:02:54,153 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-18 09:02:54,219 - INFO -  * Restarting with stat
+2025-09-18 09:02:55,728 - WARNING -  * Debugger is active!
+2025-09-18 09:02:55,739 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 09:02:59,719 - INFO - 127.0.0.1 - - [18/Sep/2025 09:02:59] "POST /data HTTP/1.1" 200 -
+2025-09-18 09:04:17,128 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 09:04:17,128 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 09:04:17,128 - INFO -  * Restarting with stat
+2025-09-18 09:04:18,278 - WARNING -  * Debugger is active!
+2025-09-18 09:04:18,278 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 09:04:20,443 - INFO - 127.0.0.1 - - [18/Sep/2025 09:04:20] "POST /data HTTP/1.1" 200 -
+2025-09-18 09:04:29,360 - INFO - 127.0.0.1 - - [18/Sep/2025 09:04:29] "POST /data HTTP/1.1" 200 -
+2025-09-18 09:05:17,418 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-18 09:05:17,494 - INFO -  * Restarting with stat
+2025-09-18 09:05:19,175 - WARNING -  * Debugger is active!
+2025-09-18 09:05:19,179 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 09:05:22,868 - INFO - 127.0.0.1 - - [18/Sep/2025 09:05:22] "POST /data HTTP/1.1" 200 -
+2025-09-18 09:05:29,284 - INFO - 127.0.0.1 - - [18/Sep/2025 09:05:29] "POST /data HTTP/1.1" 200 -
+2025-09-18 09:05:48,338 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-18 09:05:48,397 - INFO -  * Restarting with stat
+2025-09-18 09:05:49,579 - WARNING -  * Debugger is active!
+2025-09-18 09:05:49,579 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 09:05:55,083 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 09:05:55,084 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 09:05:55,088 - INFO -  * Restarting with stat
+2025-09-18 09:05:56,731 - WARNING -  * Debugger is active!
+2025-09-18 09:05:56,739 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 09:05:59,263 - INFO - 127.0.0.1 - - [18/Sep/2025 09:05:59] "POST /data HTTP/1.1" 200 -
+2025-09-18 09:06:05,949 - INFO - 127.0.0.1 - - [18/Sep/2025 09:06:05] "POST /data HTTP/1.1" 200 -
+2025-09-18 09:06:39,678 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-18 09:06:39,776 - INFO -  * Restarting with stat
+2025-09-18 09:06:41,154 - WARNING -  * Debugger is active!
+2025-09-18 09:06:41,158 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 09:06:48,739 - INFO - 127.0.0.1 - - [18/Sep/2025 09:06:48] "POST /data HTTP/1.1" 200 -
+2025-09-18 09:07:27,852 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-18 09:07:27,900 - INFO -  * Restarting with stat
+2025-09-18 09:07:29,109 - WARNING -  * Debugger is active!
+2025-09-18 09:07:29,111 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 09:07:31,250 - INFO - 127.0.0.1 - - [18/Sep/2025 09:07:31] "POST /data HTTP/1.1" 200 -
+2025-09-18 09:07:37,793 - INFO - ====== WebDriver manager ======
+2025-09-18 09:07:41,160 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 09:07:42,030 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 09:07:42,777 - INFO - There is no [win64] chromedriver "140.0.7339.185" for browser google-chrome "140.0.7339" in cache
+2025-09-18 09:07:42,778 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 09:07:44,296 - INFO - WebDriver version 140.0.7339.185 selected
+2025-09-18 09:07:44,300 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.185/win32/chromedriver-win32.zip
+2025-09-18 09:07:44,300 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.185/win32/chromedriver-win32.zip
+2025-09-18 09:07:45,040 - INFO - Driver downloading response is 200
+2025-09-18 09:07:45,420 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 09:07:46,206 - INFO - Driver has been saved in cache [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185]
+2025-09-18 09:07:50,233 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 09:07:50,234 - INFO - Datos procesados correctamente
+2025-09-18 09:07:54,235 - INFO - Iniciando automatización en modo con interfaz
+2025-09-18 09:07:54,235 - INFO - ====== WebDriver manager ======
+2025-09-18 09:07:56,699 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 09:07:57,475 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 09:07:58,284 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 09:08:01,111 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 09:08:01,113 - INFO - === INICIANDO AUTOMATIZACIÓN SIRAS ===
+2025-09-18 09:08:01,114 - INFO - Iniciando login (intento 1)...
+2025-09-18 09:08:01,114 - INFO - Navegando a: https://www.siras.com.co/siras/Seguridad/Login?Modo=1 (intento 1)
+2025-09-18 09:08:07,854 - WARNING - Error en human_typing: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x830c13+66051]
+	GetHandleVerifier [0x0x830c54+66116]
+	(No symbol) [0x0x60db33]
+	(No symbol) [0x0x5ec3bd]
+	(No symbol) [0x0x6807de]
+	(No symbol) [0x0x69b109]
+	(No symbol) [0x0x679d86]
+	(No symbol) [0x0x64b53e]
+	(No symbol) [0x0x64c414]
+	GetHandleVerifier [0x0xa78a13+2457603]
+	GetHandleVerifier [0x0xa739d2+2437058]
+	GetHandleVerifier [0x0x8597f2+232930]
+	GetHandleVerifier [0x0x849a18+167944]
+	GetHandleVerifier [0x0x85092d+196381]
+	GetHandleVerifier [0x0x838ee8+99544]
+	GetHandleVerifier [0x0x839082+99954]
+	GetHandleVerifier [0x0x82322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-18 09:08:07,861 - ERROR - Error durante login (intento 1): Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x830c13+66051]
+	GetHandleVerifier [0x0x830c54+66116]
+	(No symbol) [0x0x60db33]
+	(No symbol) [0x0x5ec3bd]
+	(No symbol) [0x0x6807de]
+	(No symbol) [0x0x69b109]
+	(No symbol) [0x0x679d86]
+	(No symbol) [0x0x64b53e]
+	(No symbol) [0x0x64c414]
+	GetHandleVerifier [0x0xa78a13+2457603]
+	GetHandleVerifier [0x0xa739d2+2437058]
+	GetHandleVerifier [0x0x8597f2+232930]
+	GetHandleVerifier [0x0x849a18+167944]
+	GetHandleVerifier [0x0x85092d+196381]
+	GetHandleVerifier [0x0x838ee8+99544]
+	GetHandleVerifier [0x0x839082+99954]
+	GetHandleVerifier [0x0x82322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-18 09:10:28,103 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 09:10:28,103 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 09:10:28,107 - INFO -  * Restarting with stat
+2025-09-18 09:10:29,488 - WARNING -  * Debugger is active!
+2025-09-18 09:10:29,491 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 09:10:29,571 - INFO - 127.0.0.1 - - [18/Sep/2025 09:10:29] "GET / HTTP/1.1" 200 -
+2025-09-18 09:10:37,056 - INFO - ====== WebDriver manager ======
+2025-09-18 09:10:38,850 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 09:10:39,576 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 09:10:40,279 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 09:10:42,759 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 09:10:42,760 - INFO - Datos procesados correctamente
+2025-09-18 09:10:46,761 - INFO - 127.0.0.1 - - [18/Sep/2025 09:10:46] "POST /data HTTP/1.1" 200 -
+2025-09-18 09:16:57,529 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 09:16:57,529 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 09:16:57,529 - INFO -  * Restarting with stat
+2025-09-18 09:16:58,548 - WARNING -  * Debugger is active!
+2025-09-18 09:16:58,548 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 09:17:02,039 - INFO - ====== WebDriver manager ======
+2025-09-18 09:17:04,098 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 09:17:04,801 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 09:17:05,363 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 09:17:07,711 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 09:17:07,716 - INFO - 127.0.0.1 - - [18/Sep/2025 09:17:07] "POST /data HTTP/1.1" 200 -
+2025-09-18 09:17:26,479 - INFO - ====== WebDriver manager ======
+2025-09-18 09:17:28,398 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 09:17:31,049 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 09:17:31,692 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 09:17:33,274 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 09:17:33,276 - INFO - 127.0.0.1 - - [18/Sep/2025 09:17:33] "POST /data HTTP/1.1" 200 -
+2025-09-18 09:26:27,075 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 09:26:27,075 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 09:26:27,075 - INFO -  * Restarting with stat
+2025-09-18 09:26:28,611 - WARNING -  * Debugger is active!
+2025-09-18 09:26:28,614 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 09:26:45,090 - INFO - ====== WebDriver manager ======
+2025-09-18 09:26:47,103 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 09:26:48,136 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 09:26:48,891 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 09:26:51,470 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 09:26:51,475 - INFO - 127.0.0.1 - - [18/Sep/2025 09:26:51] "POST /data HTTP/1.1" 200 -
+2025-09-18 09:26:57,833 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 09:26:57,836 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 09:26:57,836 - INFO -  * Restarting with stat
+2025-09-18 09:26:59,025 - WARNING -  * Debugger is active!
+2025-09-18 09:26:59,026 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 09:27:10,764 - INFO - 127.0.0.1 - - [18/Sep/2025 09:27:10] "GET / HTTP/1.1" 200 -
+2025-09-18 09:27:20,257 - INFO - ====== WebDriver manager ======
+2025-09-18 09:27:22,130 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 09:27:22,731 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 09:27:23,332 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 09:27:25,670 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 09:27:25,671 - INFO - 127.0.0.1 - - [18/Sep/2025 09:27:25] "POST /data HTTP/1.1" 200 -
+2025-09-18 10:57:00,666 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 10:57:00,667 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 10:57:00,670 - INFO -  * Restarting with stat
+2025-09-18 10:57:02,159 - WARNING -  * Debugger is active!
+2025-09-18 10:57:02,159 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 10:57:18,953 - INFO - 127.0.0.1 - - [18/Sep/2025 10:57:18] "GET / HTTP/1.1" 200 -
+2025-09-18 10:57:19,059 - INFO - 127.0.0.1 - - [18/Sep/2025 10:57:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-09-18 10:57:28,660 - INFO - ====== WebDriver manager ======
+2025-09-18 10:57:30,640 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 10:57:31,400 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 10:57:32,205 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 10:57:35,372 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 10:57:35,373 - INFO - 127.0.0.1 - - [18/Sep/2025 10:57:35] "POST /data HTTP/1.1" 200 -
+2025-09-18 10:58:17,961 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-18 10:58:20,100 - INFO -  * Restarting with stat
+2025-09-18 10:58:21,140 - WARNING -  * Debugger is active!
+2025-09-18 10:58:21,140 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 10:58:30,213 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 10:58:30,214 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 10:58:30,218 - INFO -  * Restarting with stat
+2025-09-18 10:58:31,381 - WARNING -  * Debugger is active!
+2025-09-18 10:58:31,390 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 10:58:35,670 - INFO - 127.0.0.1 - - [18/Sep/2025 10:58:35] "GET / HTTP/1.1" 200 -
+2025-09-18 10:58:42,460 - INFO - ====== WebDriver manager ======
+2025-09-18 10:58:44,434 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 10:58:45,170 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 10:58:45,815 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 10:58:48,288 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 10:58:48,289 - INFO - 127.0.0.1 - - [18/Sep/2025 10:58:48] "POST /data HTTP/1.1" 200 -
+2025-09-18 10:59:13,180 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\webscraping.py', reloading
+2025-09-18 10:59:15,340 - INFO -  * Restarting with stat
+2025-09-18 10:59:16,770 - WARNING -  * Debugger is active!
+2025-09-18 10:59:16,770 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 10:59:17,921 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-18 10:59:17,986 - INFO -  * Restarting with stat
+2025-09-18 10:59:19,232 - WARNING -  * Debugger is active!
+2025-09-18 10:59:19,236 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 10:59:20,961 - INFO - ====== WebDriver manager ======
+2025-09-18 10:59:23,038 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 10:59:23,805 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 10:59:24,504 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 10:59:26,228 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 10:59:26,233 - INFO - 127.0.0.1 - - [18/Sep/2025 10:59:26] "POST /data HTTP/1.1" 200 -
+2025-09-18 11:01:41,101 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 11:01:41,101 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 11:01:41,101 - INFO -  * Restarting with stat
+2025-09-18 11:01:42,088 - WARNING -  * Debugger is active!
+2025-09-18 11:01:42,091 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 11:01:46,191 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 11:01:46,191 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 11:01:46,194 - INFO -  * Restarting with stat
+2025-09-18 11:01:47,481 - WARNING -  * Debugger is active!
+2025-09-18 11:01:47,485 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 11:01:53,511 - INFO - 127.0.0.1 - - [18/Sep/2025 11:01:53] "GET / HTTP/1.1" 200 -
+2025-09-18 11:01:59,941 - INFO - ====== WebDriver manager ======
+2025-09-18 11:02:02,175 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 11:02:03,011 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 11:02:03,713 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 11:02:06,465 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 11:02:06,466 - INFO - 127.0.0.1 - - [18/Sep/2025 11:02:06] "POST /data HTTP/1.1" 200 -
+2025-09-18 11:02:22,167 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\webscraping.py', reloading
+2025-09-18 11:02:24,355 - INFO -  * Restarting with stat
+2025-09-18 11:02:25,621 - WARNING -  * Debugger is active!
+2025-09-18 11:02:25,631 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 11:02:34,281 - INFO - ====== WebDriver manager ======
+2025-09-18 11:02:36,361 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 11:02:37,201 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 11:02:38,005 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 11:02:39,878 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 11:02:39,885 - INFO - 127.0.0.1 - - [18/Sep/2025 11:02:39] "POST /data HTTP/1.1" 200 -
+2025-09-18 11:03:26,519 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\webscraping.py', reloading
+2025-09-18 11:03:28,676 - INFO -  * Restarting with stat
+2025-09-18 11:03:30,362 - WARNING -  * Debugger is active!
+2025-09-18 11:03:30,362 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 11:03:31,532 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-18 11:03:31,591 - INFO -  * Restarting with stat
+2025-09-18 11:03:32,859 - WARNING -  * Debugger is active!
+2025-09-18 11:03:32,863 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 11:03:40,151 - INFO - 127.0.0.1 - - [18/Sep/2025 11:03:40] "GET / HTTP/1.1" 200 -
+2025-09-18 11:03:48,192 - INFO - ====== WebDriver manager ======
+2025-09-18 11:03:50,282 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 11:03:51,126 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 11:03:51,781 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 11:03:54,295 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 11:03:54,296 - INFO - Datos procesados correctamente
+2025-09-18 11:03:56,298 - INFO - 127.0.0.1 - - [18/Sep/2025 11:03:56] "POST /data HTTP/1.1" 200 -
+2025-09-18 11:04:14,162 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-18 11:04:16,332 - INFO -  * Restarting with stat
+2025-09-18 11:04:17,647 - WARNING -  * Debugger is active!
+2025-09-18 11:04:17,652 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 11:11:35,469 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\pruebapython.py', reloading
+2025-09-18 11:11:35,548 - INFO -  * Restarting with stat
+2025-09-18 11:11:37,578 - WARNING -  * Debugger is active!
+2025-09-18 11:11:37,584 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 11:15:41,573 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\pruebapython.py', reloading
+2025-09-18 11:15:41,621 - INFO -  * Restarting with stat
+2025-09-18 11:15:43,097 - WARNING -  * Debugger is active!
+2025-09-18 11:15:43,109 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 11:15:55,804 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\pruebapython.py', reloading
+2025-09-18 11:15:55,848 - INFO -  * Restarting with stat
+2025-09-18 11:15:56,858 - WARNING -  * Debugger is active!
+2025-09-18 11:15:56,874 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 11:16:07,790 - INFO - Iniciando automatización en modo con interfaz
+2025-09-18 11:16:07,790 - INFO - ====== WebDriver manager ======
+2025-09-18 11:16:09,577 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 11:16:10,331 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 11:16:10,926 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 11:16:10,926 - ERROR - Error configurando driver: name 'Chrome' is not defined
+2025-09-18 11:16:10,926 - ERROR -  Error fatal en la automatización: name 'Chrome' is not defined
+2025-09-18 11:16:10,926 - ERROR - Stack trace completo:
+Traceback (most recent call last):
+  File "c:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\src\pruebapython.py", line 1605, in main
+    automation = SirasAutomation(headless=headless_mode)
+                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\src\pruebapython.py", line 865, in __init__
+    self.setup_driver(headless)
+  File "c:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\src\pruebapython.py", line 930, in setup_driver
+    self.driver = Chrome(service=service, options=options)
+                  ^^^^^^
+NameError: name 'Chrome' is not defined
+2025-09-18 11:16:10,926 - ERROR - === INFORMACIÓN DE DEBUGGING ===
+2025-09-18 11:16:10,926 - ERROR - Python version: 3.12.2 (tags/v3.12.2:6abddd9, Feb  6 2024, 21:26:36) [MSC v.1937 64 bit (AMD64)]
+2025-09-18 11:16:10,926 - ERROR - Current working directory: C:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping
+2025-09-18 11:17:14,800 - INFO - Iniciando automatización en modo con interfaz
+2025-09-18 11:17:14,800 - INFO - ====== WebDriver manager ======
+2025-09-18 11:17:16,824 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 11:17:17,593 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 11:17:18,286 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 11:17:20,766 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 11:17:20,766 - INFO - === INICIANDO AUTOMATIZACIÓN SIRAS ===
+2025-09-18 11:17:20,766 - INFO - Iniciando login (intento 1)...
+2025-09-18 11:17:20,766 - INFO - Navegando a: https://www.siras.com.co/siras/Seguridad/Login?Modo=1 (intento 1)
+2025-09-18 11:17:37,089 - INFO - Login exitoso
+2025-09-18 11:17:37,089 - INFO - Configurando opciones (intento 1)...
+2025-09-18 11:17:48,334 - INFO - Opciones configuradas exitosamente
+2025-09-18 11:17:58,360 - INFO - Texto paginación: Página 1 de 6 (57 elementos)
+2025-09-18 11:17:58,360 - INFO - Iniciando procesamiento: 57 elementos en 6 páginas
+2025-09-18 11:17:58,360 - INFO - === PROCESANDO PÁGINA 1 DE 6 ===
+2025-09-18 11:17:58,444 - INFO - Extraído: CRISTHIAN GRISALES - ID: 1006537493
+2025-09-18 11:17:58,528 - INFO - Extraído: LUISA ESCOBAR - ID: 1113642005
+2025-09-18 11:17:58,595 - INFO - Extraído: MARIA PEÑA - ID: 1143989420
+2025-09-18 11:17:58,662 - INFO - Extraído: JHOAN PEREA - ID: 1089799244
+2025-09-18 11:17:58,745 - INFO - Extraído: BLANCA ROJAS - ID: 31929936
+2025-09-18 11:17:58,811 - INFO - Extraído: NATHALIA SARTA - ID: 1144034841
+2025-09-18 11:17:58,878 - INFO - Extraído: CARLOS GARCIA - ID: 1130594912
+2025-09-18 11:17:58,961 - INFO - Extraído: MARIA SALINAS - ID: 1006103027
+2025-09-18 11:17:59,028 - INFO - Extraído: SIRLY SUAREZ - ID: 1112790125
+2025-09-18 11:17:59,161 - INFO - Extraído: DAVID LENIS - ID: 1006052510
+2025-09-18 11:17:59,161 - INFO - Total elementos encontrados: 10
+2025-09-18 11:17:59,161 - INFO - Procesando 1/10: CRISTHIAN GRISALES - ID: 1006537493
+2025-09-18 11:18:00,754 - INFO - Clic exitoso en VER REPORTE para 1006537493
+2025-09-18 11:18:00,755 - INFO - Procesando reporte para 1006537493 - Radicado: 920ec011c68b6462
+2025-09-18 11:18:03,842 - INFO - Descarga iniciada
+2025-09-18 11:18:03,843 - INFO - Esperando descarga...
+2025-09-18 11:18:06,844 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:18:06,844 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:18:08,317 - INFO - Regresando a lista...
+2025-09-18 11:18:15,333 - INFO - Procesando 2/10: LUISA ESCOBAR - ID: 1113642005
+2025-09-18 11:18:16,866 - INFO - Clic exitoso en VER REPORTE para 1113642005
+2025-09-18 11:18:16,866 - INFO - Procesando reporte para 1113642005 - Radicado: 94d0ddac297bd861
+2025-09-18 11:18:19,947 - INFO - Descarga iniciada
+2025-09-18 11:18:19,948 - INFO - Esperando descarga...
+2025-09-18 11:18:22,949 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:18:22,949 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:18:24,384 - INFO - Regresando a lista...
+2025-09-18 11:18:31,401 - INFO - Procesando 3/10: MARIA PEÑA - ID: 1143989420
+2025-09-18 11:18:32,953 - INFO - Clic exitoso en VER REPORTE para 1143989420
+2025-09-18 11:18:32,953 - INFO - Procesando reporte para 1143989420 - Radicado: 84f2b5502f89a31d
+2025-09-18 11:18:36,033 - INFO - Descarga iniciada
+2025-09-18 11:18:36,034 - INFO - Esperando descarga...
+2025-09-18 11:18:39,035 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:18:39,035 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:18:40,436 - INFO - Regresando a lista...
+2025-09-18 11:18:47,452 - INFO - Procesando 4/10: JHOAN PEREA - ID: 1089799244
+2025-09-18 11:18:49,005 - INFO - Clic exitoso en VER REPORTE para 1089799244
+2025-09-18 11:18:49,005 - INFO - Procesando reporte para 1089799244 - Radicado: 7021b49d21149835
+2025-09-18 11:18:52,090 - INFO - Descarga iniciada
+2025-09-18 11:18:52,090 - INFO - Esperando descarga...
+2025-09-18 11:18:55,091 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:18:55,091 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:18:56,640 - INFO - Regresando a lista...
+2025-09-18 11:19:03,656 - INFO - Procesando 5/10: BLANCA ROJAS - ID: 31929936
+2025-09-18 11:19:05,251 - INFO - Clic exitoso en VER REPORTE para 31929936
+2025-09-18 11:19:05,251 - INFO - Procesando reporte para 31929936 - Radicado: 8e899b72a37837d3
+2025-09-18 11:19:08,329 - INFO - Descarga iniciada
+2025-09-18 11:19:08,329 - INFO - Esperando descarga...
+2025-09-18 11:19:11,331 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:19:11,331 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:19:12,793 - INFO - Regresando a lista...
+2025-09-18 11:19:19,817 - INFO - Procesando 6/10: NATHALIA SARTA - ID: 1144034841
+2025-09-18 11:19:21,358 - INFO - Clic exitoso en VER REPORTE para 1144034841
+2025-09-18 11:19:21,358 - INFO - Procesando reporte para 1144034841 - Radicado: 655673f9e66cfb70
+2025-09-18 11:19:24,439 - INFO - Descarga iniciada
+2025-09-18 11:19:24,439 - INFO - Esperando descarga...
+2025-09-18 11:19:27,440 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:19:27,440 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:19:28,969 - INFO - Regresando a lista...
+2025-09-18 11:19:35,984 - INFO - Procesando 7/10: CARLOS GARCIA - ID: 1130594912
+2025-09-18 11:19:37,472 - INFO - Clic exitoso en VER REPORTE para 1130594912
+2025-09-18 11:19:37,472 - INFO - Procesando reporte para 1130594912 - Radicado: 14182fcc2021ffd1
+2025-09-18 11:19:40,552 - INFO - Descarga iniciada
+2025-09-18 11:19:40,553 - INFO - Esperando descarga...
+2025-09-18 11:19:43,554 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:19:43,555 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:19:45,031 - INFO - Regresando a lista...
+2025-09-18 11:19:52,052 - INFO - Procesando 8/10: MARIA SALINAS - ID: 1006103027
+2025-09-18 11:19:53,581 - INFO - Clic exitoso en VER REPORTE para 1006103027
+2025-09-18 11:19:53,581 - INFO - Procesando reporte para 1006103027 - Radicado: ad131e675745d58a
+2025-09-18 11:19:56,665 - INFO - Descarga iniciada
+2025-09-18 11:19:56,665 - INFO - Esperando descarga...
+2025-09-18 11:19:59,667 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:19:59,667 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:20:01,126 - INFO - Regresando a lista...
+2025-09-18 11:20:08,143 - INFO - Procesando 9/10: SIRLY SUAREZ - ID: 1112790125
+2025-09-18 11:20:09,648 - INFO - Clic exitoso en VER REPORTE para 1112790125
+2025-09-18 11:20:09,649 - INFO - Procesando reporte para 1112790125 - Radicado: c5a83cf14755798
+2025-09-18 11:20:12,731 - INFO - Descarga iniciada
+2025-09-18 11:20:12,732 - INFO - Esperando descarga...
+2025-09-18 11:20:15,733 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:20:15,733 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:20:17,212 - INFO - Regresando a lista...
+2025-09-18 11:20:24,225 - INFO - Procesando 10/10: DAVID LENIS - ID: 1006052510
+2025-09-18 11:20:25,876 - INFO - Clic exitoso en VER REPORTE para 1006052510
+2025-09-18 11:20:25,876 - INFO - Procesando reporte para 1006052510 - Radicado: 532c7a7edbe83ede
+2025-09-18 11:20:28,966 - INFO - Descarga iniciada
+2025-09-18 11:20:28,966 - INFO - Esperando descarga...
+2025-09-18 11:20:31,968 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:20:31,968 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:20:33,435 - INFO - Regresando a lista...
+2025-09-18 11:20:51,568 - INFO - Texto paginación: Página 2 de 6 (57 elementos)
+2025-09-18 11:20:51,568 - INFO - === PROCESANDO PÁGINA 2 DE 6 ===
+2025-09-18 11:20:51,663 - INFO - Extraído: BETSABE URIBE - ID: 31842917
+2025-09-18 11:20:51,730 - INFO - Extraído: MARIA MENDEZ - ID: 1064193700
+2025-09-18 11:20:51,797 - INFO - Extraído: PAULA LOZANO - ID: 1000688021
+2025-09-18 11:20:51,880 - INFO - Extraído: MIGUEL GUERRA - ID: 1006035859
+2025-09-18 11:20:51,947 - INFO - Extraído: CHRISTIAN ZAPATA - ID: 1151936083
+2025-09-18 11:20:52,013 - INFO - Extraído: KELLY LONDOÑO - ID: 1143978447
+2025-09-18 11:20:52,097 - INFO - Extraído: MICHAEL VALENCIA - ID: 1143874438
+2025-09-18 11:20:52,179 - INFO - Extraído: SELENA GRUESO - ID: 1006038054
+2025-09-18 11:20:52,247 - INFO - Extraído: ALEXANDER LOPEZ - ID: 71661139
+2025-09-18 11:20:52,387 - INFO - Extraído: YURY IDARRAGA - ID: 1144157475
+2025-09-18 11:20:52,387 - INFO - Total elementos encontrados: 10
+2025-09-18 11:20:52,387 - INFO - Procesando 1/10: BETSABE URIBE - ID: 31842917
+2025-09-18 11:20:53,951 - INFO - Clic exitoso en VER REPORTE para 31842917
+2025-09-18 11:20:53,952 - INFO - Procesando reporte para 31842917 - Radicado: ccc6d78168446ba3
+2025-09-18 11:20:57,040 - INFO - Descarga iniciada
+2025-09-18 11:20:57,040 - INFO - Esperando descarga...
+2025-09-18 11:21:00,042 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:21:00,042 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:21:01,505 - INFO - Regresando a lista...
+2025-09-18 11:21:08,525 - INFO - Procesando 2/10: MARIA MENDEZ - ID: 1064193700
+2025-09-18 11:21:10,079 - INFO - Clic exitoso en VER REPORTE para 1064193700
+2025-09-18 11:21:10,080 - INFO - Procesando reporte para 1064193700 - Radicado: ea12133aaa7eb0bd
+2025-09-18 11:21:13,165 - INFO - Descarga iniciada
+2025-09-18 11:21:13,165 - INFO - Esperando descarga...
+2025-09-18 11:21:16,168 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:21:16,168 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:21:18,023 - INFO - Regresando a lista...
+2025-09-18 11:21:25,038 - INFO - Procesando 3/10: PAULA LOZANO - ID: 1000688021
+2025-09-18 11:21:26,593 - INFO - Clic exitoso en VER REPORTE para 1000688021
+2025-09-18 11:21:26,593 - INFO - Procesando reporte para 1000688021 - Radicado: fbdb0302bb1db42e
+2025-09-18 11:21:29,675 - INFO - Descarga iniciada
+2025-09-18 11:21:29,676 - INFO - Esperando descarga...
+2025-09-18 11:21:32,677 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:21:32,677 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:21:34,187 - INFO - Regresando a lista...
+2025-09-18 11:21:41,205 - INFO - Procesando 4/10: MIGUEL GUERRA - ID: 1006035859
+2025-09-18 11:21:42,752 - INFO - Clic exitoso en VER REPORTE para 1006035859
+2025-09-18 11:21:42,752 - INFO - Procesando reporte para 1006035859 - Radicado: 1c2e380a29599e07
+2025-09-18 11:21:45,834 - INFO - Descarga iniciada
+2025-09-18 11:21:45,835 - INFO - Esperando descarga...
+2025-09-18 11:21:48,835 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:21:48,835 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:21:49,936 - INFO - Regresando a lista...
+2025-09-18 11:21:56,962 - INFO - Procesando 5/10: CHRISTIAN ZAPATA - ID: 1151936083
+2025-09-18 11:21:58,535 - INFO - Clic exitoso en VER REPORTE para 1151936083
+2025-09-18 11:21:58,535 - INFO - Procesando reporte para 1151936083 - Radicado: e9a84568cef43eab
+2025-09-18 11:22:01,612 - INFO - Descarga iniciada
+2025-09-18 11:22:01,612 - INFO - Esperando descarga...
+2025-09-18 11:22:04,614 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:22:04,614 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:22:05,721 - INFO - Regresando a lista...
+2025-09-18 11:22:12,737 - INFO - Procesando 6/10: KELLY LONDOÑO - ID: 1143978447
+2025-09-18 11:22:14,357 - INFO - Clic exitoso en VER REPORTE para 1143978447
+2025-09-18 11:22:14,364 - INFO - Procesando reporte para 1143978447 - Radicado: 619b1c5ace1124fa
+2025-09-18 11:22:17,457 - INFO - Descarga iniciada
+2025-09-18 11:22:17,457 - INFO - Esperando descarga...
+2025-09-18 11:22:20,459 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:22:20,459 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:22:21,539 - INFO - Regresando a lista...
+2025-09-18 11:22:28,567 - INFO - Procesando 7/10: MICHAEL VALENCIA - ID: 1143874438
+2025-09-18 11:22:30,138 - INFO - Clic exitoso en VER REPORTE para 1143874438
+2025-09-18 11:22:30,138 - INFO - Procesando reporte para 1143874438 - Radicado: 84970c086d23b002
+2025-09-18 11:22:33,215 - INFO - Descarga iniciada
+2025-09-18 11:22:33,215 - INFO - Esperando descarga...
+2025-09-18 11:22:36,217 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:22:36,217 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:22:37,292 - INFO - Regresando a lista...
+2025-09-18 11:22:44,333 - INFO - Procesando 8/10: SELENA GRUESO - ID: 1006038054
+2025-09-18 11:22:45,956 - INFO - Clic exitoso en VER REPORTE para 1006038054
+2025-09-18 11:22:45,958 - INFO - Procesando reporte para 1006038054 - Radicado: d9be17af69f02ff1
+2025-09-18 11:22:49,037 - INFO - Descarga iniciada
+2025-09-18 11:22:49,037 - INFO - Esperando descarga...
+2025-09-18 11:22:52,038 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:22:52,038 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:22:53,106 - INFO - Regresando a lista...
+2025-09-18 11:23:00,133 - INFO - Procesando 9/10: ALEXANDER LOPEZ - ID: 71661139
+2025-09-18 11:23:01,679 - INFO - Clic exitoso en VER REPORTE para 71661139
+2025-09-18 11:23:01,679 - INFO - Procesando reporte para 71661139 - Radicado: b26d7f33fedcaa6f
+2025-09-18 11:23:04,762 - INFO - Descarga iniciada
+2025-09-18 11:23:04,763 - INFO - Esperando descarga...
+2025-09-18 11:23:07,764 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:23:07,764 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:23:08,827 - INFO - Regresando a lista...
+2025-09-18 11:23:15,854 - INFO - Procesando 10/10: YURY IDARRAGA - ID: 1144157475
+2025-09-18 11:23:17,487 - INFO - Clic exitoso en VER REPORTE para 1144157475
+2025-09-18 11:23:17,487 - INFO - Procesando reporte para 1144157475 - Radicado: d25f21f86c2e1e12
+2025-09-18 11:23:20,565 - INFO - Descarga iniciada
+2025-09-18 11:23:20,565 - INFO - Esperando descarga...
+2025-09-18 11:23:23,567 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:23:23,567 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:23:24,629 - INFO - Regresando a lista...
+2025-09-18 11:23:42,762 - INFO - Texto paginación: Página 3 de 6 (57 elementos)
+2025-09-18 11:23:42,762 - INFO - === PROCESANDO PÁGINA 3 DE 6 ===
+2025-09-18 11:23:42,847 - INFO - Extraído: KEILA ARAGON - ID: 1061116199
+2025-09-18 11:23:42,923 - INFO - Extraído: JUAN CASTRO - ID: 1110287795
+2025-09-18 11:23:42,998 - INFO - Extraído: RUBIEL OSPINA - ID: 70785190
+2025-09-18 11:23:43,080 - INFO - Extraído: MANUEL MURILLO - ID: 1059984321
+2025-09-18 11:23:43,159 - INFO - Extraído: YAZMIN HERNANDEZ - ID: 31480679
+2025-09-18 11:23:43,239 - INFO - Extraído: JHOAN PEREA - ID: 1089799244
+2025-09-18 11:23:43,316 - INFO - Extraído: ANA ZAPATA - ID: 1151941620
+2025-09-18 11:23:43,391 - INFO - Extraído: JUAN LLANO - ID: 1193039384
+2025-09-18 11:23:43,508 - INFO - Extraído: ELIECER FRANCO - ID: 1007734770
+2025-09-18 11:23:43,575 - INFO - Extraído: SUGEY HERNANDEZ - ID: 1007509476
+2025-09-18 11:23:43,575 - INFO - Total elementos encontrados: 10
+2025-09-18 11:23:43,575 - INFO - Procesando 1/10: KEILA ARAGON - ID: 1061116199
+2025-09-18 11:23:45,129 - INFO - Clic exitoso en VER REPORTE para 1061116199
+2025-09-18 11:23:45,129 - INFO - Procesando reporte para 1061116199 - Radicado: 56e1d703b58e72ae
+2025-09-18 11:23:48,220 - INFO - Descarga iniciada
+2025-09-18 11:23:48,221 - INFO - Esperando descarga...
+2025-09-18 11:23:51,222 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:23:51,222 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:23:52,299 - INFO - Regresando a lista...
+2025-09-18 11:23:59,317 - INFO - Procesando 2/10: JUAN CASTRO - ID: 1110287795
+2025-09-18 11:24:00,920 - INFO - Clic exitoso en VER REPORTE para 1110287795
+2025-09-18 11:24:00,920 - INFO - Procesando reporte para 1110287795 - Radicado: 74cfba1294b3137e
+2025-09-18 11:24:03,998 - INFO - Descarga iniciada
+2025-09-18 11:24:03,999 - INFO - Esperando descarga...
+2025-09-18 11:24:07,000 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:24:07,000 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:24:08,079 - INFO - Regresando a lista...
+2025-09-18 11:24:15,100 - INFO - Procesando 3/10: RUBIEL OSPINA - ID: 70785190
+2025-09-18 11:24:16,677 - INFO - Clic exitoso en VER REPORTE para 70785190
+2025-09-18 11:24:16,677 - INFO - Procesando reporte para 70785190 - Radicado: 5cd48bed3e1a600
+2025-09-18 11:24:19,753 - INFO - Descarga iniciada
+2025-09-18 11:24:19,753 - INFO - Esperando descarga...
+2025-09-18 11:24:22,754 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:24:22,754 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:24:23,820 - INFO - Regresando a lista...
+2025-09-18 11:24:30,851 - INFO - Procesando 4/10: MANUEL MURILLO - ID: 1059984321
+2025-09-18 11:24:32,351 - INFO - Clic exitoso en VER REPORTE para 1059984321
+2025-09-18 11:24:32,351 - INFO - Procesando reporte para 1059984321 - Radicado: 747a5e493a99106e
+2025-09-18 11:24:35,433 - INFO - Descarga iniciada
+2025-09-18 11:24:35,434 - INFO - Esperando descarga...
+2025-09-18 11:24:38,435 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:24:38,436 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:24:39,504 - INFO - Regresando a lista...
+2025-09-18 11:24:46,528 - INFO - Procesando 5/10: YAZMIN HERNANDEZ - ID: 31480679
+2025-09-18 11:24:48,091 - INFO - Clic exitoso en VER REPORTE para 31480679
+2025-09-18 11:24:48,092 - INFO - Procesando reporte para 31480679 - Radicado: f0f16c212c99318c
+2025-09-18 11:24:51,168 - INFO - Descarga iniciada
+2025-09-18 11:24:51,169 - INFO - Esperando descarga...
+2025-09-18 11:24:54,170 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:24:54,170 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:24:55,232 - INFO - Regresando a lista...
+2025-09-18 11:25:02,263 - INFO - Procesando 6/10: JHOAN PEREA - ID: 1089799244
+2025-09-18 11:25:03,793 - INFO - Clic exitoso en VER REPORTE para 1089799244
+2025-09-18 11:25:03,793 - INFO - Procesando reporte para 1089799244 - Radicado: a6aeaf1db0de1a69
+2025-09-18 11:25:06,870 - INFO - Descarga iniciada
+2025-09-18 11:25:06,871 - INFO - Esperando descarga...
+2025-09-18 11:25:09,872 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:25:09,872 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:25:10,937 - INFO - Regresando a lista...
+2025-09-18 11:25:17,977 - INFO - Procesando 7/10: ANA ZAPATA - ID: 1151941620
+2025-09-18 11:25:19,631 - INFO - Clic exitoso en VER REPORTE para 1151941620
+2025-09-18 11:25:19,631 - INFO - Procesando reporte para 1151941620 - Radicado: d5c64d959827dbb1
+2025-09-18 11:25:22,710 - INFO - Descarga iniciada
+2025-09-18 11:25:22,710 - INFO - Esperando descarga...
+2025-09-18 11:25:25,712 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:25:25,712 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:25:26,787 - INFO - Regresando a lista...
+2025-09-18 11:25:33,814 - INFO - Procesando 8/10: JUAN LLANO - ID: 1193039384
+2025-09-18 11:25:35,370 - INFO - Clic exitoso en VER REPORTE para 1193039384
+2025-09-18 11:25:35,371 - INFO - Procesando reporte para 1193039384 - Radicado: 79e9e61a406cdf02
+2025-09-18 11:25:38,450 - INFO - Descarga iniciada
+2025-09-18 11:25:38,450 - INFO - Esperando descarga...
+2025-09-18 11:25:41,451 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:25:41,451 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:25:42,527 - INFO - Regresando a lista...
+2025-09-18 11:25:49,546 - INFO - Procesando 9/10: ELIECER FRANCO - ID: 1007734770
+2025-09-18 11:25:51,051 - INFO - Clic exitoso en VER REPORTE para 1007734770
+2025-09-18 11:25:51,051 - INFO - Procesando reporte para 1007734770 - Radicado: 92b274ea8f848e07
+2025-09-18 11:25:54,129 - INFO - Descarga iniciada
+2025-09-18 11:25:54,130 - INFO - Esperando descarga...
+2025-09-18 11:25:57,131 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:25:57,131 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:25:58,196 - INFO - Regresando a lista...
+2025-09-18 11:26:05,224 - INFO - Procesando 10/10: SUGEY HERNANDEZ - ID: 1007509476
+2025-09-18 11:26:06,776 - INFO - Clic exitoso en VER REPORTE para 1007509476
+2025-09-18 11:26:06,776 - INFO - Procesando reporte para 1007509476 - Radicado: cd995d5bce8280e
+2025-09-18 11:26:09,853 - INFO - Descarga iniciada
+2025-09-18 11:26:09,854 - INFO - Esperando descarga...
+2025-09-18 11:26:12,855 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:26:12,855 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:26:13,928 - INFO - Regresando a lista...
+2025-09-18 11:26:32,052 - INFO - Texto paginación: Página 4 de 6 (57 elementos)
+2025-09-18 11:26:32,053 - INFO - === PROCESANDO PÁGINA 4 DE 6 ===
+2025-09-18 11:26:32,141 - INFO - Extraído: LEIDI HERNANDEZ - ID: 1107524161
+2025-09-18 11:26:32,202 - INFO - Extraído: PAULA ZUÑIGA - ID: 1107098401
+2025-09-18 11:26:32,269 - INFO - Extraído: MARIA GONZALEZ - ID: 66752697
+2025-09-18 11:26:32,351 - INFO - Extraído: LAURA SANCHEZ - ID: 1109545041
+2025-09-18 11:26:32,422 - INFO - Extraído: KATERINE TISOY - ID: 1005783452
+2025-09-18 11:26:32,490 - INFO - Extraído: MAYELI QUIÑONEZ - ID: 1107045359
+2025-09-18 11:26:32,552 - INFO - Extraído: MARIA HENAO - ID: 1143984143
+2025-09-18 11:26:32,626 - INFO - Extraído: KEVIN GIL - ID: 1006009621
+2025-09-18 11:26:32,737 - INFO - Extraído: JHON ROSSO - ID: 16760799
+2025-09-18 11:26:32,786 - INFO - Extraído: LORENA SALAS - ID: 1130647319
+2025-09-18 11:26:32,801 - INFO - Total elementos encontrados: 10
+2025-09-18 11:26:32,801 - INFO - Procesando 1/10: LEIDI HERNANDEZ - ID: 1107524161
+2025-09-18 11:26:34,337 - INFO - Clic exitoso en VER REPORTE para 1107524161
+2025-09-18 11:26:34,337 - INFO - Procesando reporte para 1107524161 - Radicado: 37bb4895f28e077
+2025-09-18 11:26:37,419 - INFO - Descarga iniciada
+2025-09-18 11:26:37,420 - INFO - Esperando descarga...
+2025-09-18 11:26:40,421 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:26:40,421 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:26:41,488 - INFO - Regresando a lista...
+2025-09-18 11:26:48,516 - INFO - Procesando 2/10: PAULA ZUÑIGA - ID: 1107098401
+2025-09-18 11:26:50,029 - INFO - Clic exitoso en VER REPORTE para 1107098401
+2025-09-18 11:26:50,029 - INFO - Procesando reporte para 1107098401 - Radicado: c5bbede56b070f54
+2025-09-18 11:26:53,106 - INFO - Descarga iniciada
+2025-09-18 11:26:53,106 - INFO - Esperando descarga...
+2025-09-18 11:26:56,108 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:26:56,108 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:26:57,186 - INFO - Regresando a lista...
+2025-09-18 11:27:04,201 - INFO - Procesando 3/10: MARIA GONZALEZ - ID: 66752697
+2025-09-18 11:27:05,860 - INFO - Clic exitoso en VER REPORTE para 66752697
+2025-09-18 11:27:05,860 - INFO - Procesando reporte para 66752697 - Radicado: b3aa54a0d1473f93
+2025-09-18 11:27:08,939 - INFO - Descarga iniciada
+2025-09-18 11:27:08,940 - INFO - Esperando descarga...
+2025-09-18 11:27:11,942 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:27:11,942 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:27:13,015 - INFO - Regresando a lista...
+2025-09-18 11:27:20,039 - INFO - Procesando 4/10: LAURA SANCHEZ - ID: 1109545041
+2025-09-18 11:27:21,550 - INFO - Clic exitoso en VER REPORTE para 1109545041
+2025-09-18 11:27:21,550 - INFO - Procesando reporte para 1109545041 - Radicado: 1c043ac739b673d1
+2025-09-18 11:27:24,636 - INFO - Descarga iniciada
+2025-09-18 11:27:24,638 - INFO - Esperando descarga...
+2025-09-18 11:27:27,639 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:27:27,639 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:27:28,713 - INFO - Regresando a lista...
+2025-09-18 11:27:35,760 - INFO - Procesando 5/10: KATERINE TISOY - ID: 1005783452
+2025-09-18 11:27:37,222 - INFO - Clic exitoso en VER REPORTE para 1005783452
+2025-09-18 11:27:37,222 - INFO - Procesando reporte para 1005783452 - Radicado: 3953b61220874de0
+2025-09-18 11:27:40,302 - INFO - Descarga iniciada
+2025-09-18 11:27:40,303 - INFO - Esperando descarga...
+2025-09-18 11:27:43,304 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:27:43,304 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:27:44,433 - INFO - Regresando a lista...
+2025-09-18 11:27:51,459 - INFO - Procesando 6/10: MAYELI QUIÑONEZ - ID: 1107045359
+2025-09-18 11:27:52,979 - INFO - Clic exitoso en VER REPORTE para 1107045359
+2025-09-18 11:27:52,979 - INFO - Procesando reporte para 1107045359 - Radicado: e5ab07f6b7119ecd
+2025-09-18 11:27:56,056 - INFO - Descarga iniciada
+2025-09-18 11:27:56,057 - INFO - Esperando descarga...
+2025-09-18 11:27:59,058 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:27:59,058 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:28:00,134 - INFO - Regresando a lista...
+2025-09-18 11:28:07,152 - INFO - Procesando 7/10: MARIA HENAO - ID: 1143984143
+2025-09-18 11:28:08,992 - INFO - Clic exitoso en VER REPORTE para 1143984143
+2025-09-18 11:28:08,993 - INFO - Procesando reporte para 1143984143 - Radicado: d644b5f0079a3320
+2025-09-18 11:28:12,075 - INFO - Descarga iniciada
+2025-09-18 11:28:12,076 - INFO - Esperando descarga...
+2025-09-18 11:28:15,077 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:28:15,077 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:28:16,157 - INFO - Regresando a lista...
+2025-09-18 11:28:23,200 - INFO - Procesando 8/10: KEVIN GIL - ID: 1006009621
+2025-09-18 11:28:24,730 - INFO - Clic exitoso en VER REPORTE para 1006009621
+2025-09-18 11:28:24,730 - INFO - Procesando reporte para 1006009621 - Radicado: 30ecb378a0713720
+2025-09-18 11:28:27,814 - INFO - Descarga iniciada
+2025-09-18 11:28:27,814 - INFO - Esperando descarga...
+2025-09-18 11:28:30,816 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:28:30,816 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:28:31,894 - INFO - Regresando a lista...
+2025-09-18 11:28:38,914 - INFO - Procesando 9/10: JHON ROSSO - ID: 16760799
+2025-09-18 11:28:40,413 - INFO - Clic exitoso en VER REPORTE para 16760799
+2025-09-18 11:28:40,413 - INFO - Procesando reporte para 16760799 - Radicado: ec582fb6dd52d5ed
+2025-09-18 11:28:43,492 - INFO - Descarga iniciada
+2025-09-18 11:28:43,493 - INFO - Esperando descarga...
+2025-09-18 11:28:46,494 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:28:46,495 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:28:47,576 - INFO - Regresando a lista...
+2025-09-18 11:28:54,594 - INFO - Procesando 10/10: LORENA SALAS - ID: 1130647319
+2025-09-18 11:28:56,486 - INFO - Clic exitoso en VER REPORTE para 1130647319
+2025-09-18 11:28:56,487 - INFO - Procesando reporte para 1130647319 - Radicado: 805b7b478cf116f6
+2025-09-18 11:28:59,567 - INFO - Descarga iniciada
+2025-09-18 11:28:59,568 - INFO - Esperando descarga...
+2025-09-18 11:29:02,569 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:29:02,569 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:29:03,636 - INFO - Regresando a lista...
+2025-09-18 11:29:21,767 - INFO - Texto paginación: Página 5 de 6 (57 elementos)
+2025-09-18 11:29:21,767 - INFO - === PROCESANDO PÁGINA 5 DE 6 ===
+2025-09-18 11:29:21,855 - INFO - Extraído: JHAILYN NIEVA - ID: 1006396810
+2025-09-18 11:29:21,906 - INFO - Extraído: DEIVID MONTANO - ID: 1130621895
+2025-09-18 11:29:21,981 - INFO - Extraído: ANGIE GUERRA - ID: 1005207121
+2025-09-18 11:29:22,040 - INFO - Extraído: ISABEL QUIJANO - ID: 25479377
+2025-09-18 11:29:22,106 - INFO - Extraído: FERNANDO DELGADO - ID: 16539213
+2025-09-18 11:29:22,172 - INFO - Extraído: CRISTHIAN HERRERA - ID: 1143969817
+2025-09-18 11:29:22,255 - INFO - Extraído: JANER GONZALEZ - ID: 1086727627
+2025-09-18 11:29:22,322 - INFO - Extraído: ISABELLA ESTRADA - ID: 1108334436
+2025-09-18 11:29:22,439 - INFO - Extraído: KAROL DORADO - ID: 1109663256
+2025-09-18 11:29:22,506 - INFO - Extraído: GLADYS MARTINEZ - ID: 59150114
+2025-09-18 11:29:22,507 - INFO - Total elementos encontrados: 10
+2025-09-18 11:29:22,507 - INFO - Procesando 1/10: JHAILYN NIEVA - ID: 1006396810
+2025-09-18 11:29:24,042 - INFO - Clic exitoso en VER REPORTE para 1006396810
+2025-09-18 11:29:24,043 - INFO - Procesando reporte para 1006396810 - Radicado: 5fd2396005e80b09
+2025-09-18 11:29:27,121 - INFO - Descarga iniciada
+2025-09-18 11:29:27,121 - INFO - Esperando descarga...
+2025-09-18 11:29:30,122 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:29:30,122 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:29:31,201 - INFO - Regresando a lista...
+2025-09-18 11:29:38,217 - INFO - Procesando 2/10: DEIVID MONTANO - ID: 1130621895
+2025-09-18 11:29:39,794 - INFO - Clic exitoso en VER REPORTE para 1130621895
+2025-09-18 11:29:39,794 - INFO - Procesando reporte para 1130621895 - Radicado: 22071753c33c5d94
+2025-09-18 11:29:42,876 - INFO - Descarga iniciada
+2025-09-18 11:29:42,876 - INFO - Esperando descarga...
+2025-09-18 11:29:45,878 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:29:45,878 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:29:46,959 - INFO - Regresando a lista...
+2025-09-18 11:29:53,979 - INFO - Procesando 3/10: ANGIE GUERRA - ID: 1005207121
+2025-09-18 11:29:55,603 - INFO - Clic exitoso en VER REPORTE para 1005207121
+2025-09-18 11:29:55,603 - INFO - Procesando reporte para 1005207121 - Radicado: df5e699aa4242783
+2025-09-18 11:29:58,685 - INFO - Descarga iniciada
+2025-09-18 11:29:58,686 - INFO - Esperando descarga...
+2025-09-18 11:30:01,687 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:30:01,687 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:30:02,774 - INFO - Regresando a lista...
+2025-09-18 11:30:09,791 - INFO - Procesando 4/10: ISABEL QUIJANO - ID: 25479377
+2025-09-18 11:30:11,458 - INFO - Clic exitoso en VER REPORTE para 25479377
+2025-09-18 11:30:11,458 - INFO - Procesando reporte para 25479377 - Radicado: 3073f665c4936ac4
+2025-09-18 11:30:14,538 - INFO - Descarga iniciada
+2025-09-18 11:30:14,539 - INFO - Esperando descarga...
+2025-09-18 11:30:17,540 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:30:17,540 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:30:18,608 - INFO - Regresando a lista...
+2025-09-18 11:30:25,636 - INFO - Procesando 5/10: FERNANDO DELGADO - ID: 16539213
+2025-09-18 11:30:27,191 - INFO - Clic exitoso en VER REPORTE para 16539213
+2025-09-18 11:30:27,191 - INFO - Procesando reporte para 16539213 - Radicado: 6b25aabd437ea490
+2025-09-18 11:30:30,272 - INFO - Descarga iniciada
+2025-09-18 11:30:30,273 - INFO - Esperando descarga...
+2025-09-18 11:30:33,274 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:30:33,275 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:30:34,346 - INFO - Regresando a lista...
+2025-09-18 11:30:41,367 - INFO - Procesando 6/10: CRISTHIAN HERRERA - ID: 1143969817
+2025-09-18 11:30:42,880 - INFO - Clic exitoso en VER REPORTE para 1143969817
+2025-09-18 11:30:42,880 - INFO - Procesando reporte para 1143969817 - Radicado: ea945718b5fba4e3
+2025-09-18 11:30:45,964 - INFO - Descarga iniciada
+2025-09-18 11:30:45,965 - INFO - Esperando descarga...
+2025-09-18 11:30:48,966 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:30:48,966 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:30:50,043 - INFO - Regresando a lista...
+2025-09-18 11:30:57,061 - INFO - Procesando 7/10: JANER GONZALEZ - ID: 1086727627
+2025-09-18 11:30:58,805 - INFO - Clic exitoso en VER REPORTE para 1086727627
+2025-09-18 11:30:58,805 - INFO - Procesando reporte para 1086727627 - Radicado: cb70ed952ae0fc38
+2025-09-18 11:31:01,894 - INFO - Descarga iniciada
+2025-09-18 11:31:01,895 - INFO - Esperando descarga...
+2025-09-18 11:31:04,896 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:31:04,896 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:31:05,964 - INFO - Regresando a lista...
+2025-09-18 11:31:12,991 - INFO - Procesando 8/10: ISABELLA ESTRADA - ID: 1108334436
+2025-09-18 11:31:14,529 - INFO - Clic exitoso en VER REPORTE para 1108334436
+2025-09-18 11:31:14,530 - INFO - Procesando reporte para 1108334436 - Radicado: 25155f3fb98a85da
+2025-09-18 11:31:17,614 - INFO - Descarga iniciada
+2025-09-18 11:31:17,615 - INFO - Esperando descarga...
+2025-09-18 11:31:20,615 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:31:20,616 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:31:21,692 - INFO - Regresando a lista...
+2025-09-18 11:31:28,714 - INFO - Procesando 9/10: KAROL DORADO - ID: 1109663256
+2025-09-18 11:31:30,232 - INFO - Clic exitoso en VER REPORTE para 1109663256
+2025-09-18 11:31:30,232 - INFO - Procesando reporte para 1109663256 - Radicado: 71485d8b622418b8
+2025-09-18 11:31:33,311 - INFO - Descarga iniciada
+2025-09-18 11:31:33,312 - INFO - Esperando descarga...
+2025-09-18 11:31:36,312 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:31:36,313 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:31:37,390 - INFO - Regresando a lista...
+2025-09-18 11:31:44,401 - INFO - Procesando 10/10: GLADYS MARTINEZ - ID: 59150114
+2025-09-18 11:31:45,989 - INFO - Clic exitoso en VER REPORTE para 59150114
+2025-09-18 11:31:45,990 - INFO - Procesando reporte para 59150114 - Radicado: 3576d2d41172c873
+2025-09-18 11:31:49,065 - INFO - Descarga iniciada
+2025-09-18 11:31:49,066 - INFO - Esperando descarga...
+2025-09-18 11:31:52,067 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:31:52,067 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:31:53,136 - INFO - Regresando a lista...
+2025-09-18 11:32:11,273 - INFO - Texto paginación: Página 6 de 6 (57 elementos)
+2025-09-18 11:32:11,273 - INFO - === PROCESANDO PÁGINA 6 DE 6 ===
+2025-09-18 11:32:11,453 - INFO - Extraído: ROBERT RODRIGUEZ - ID: 94382488
+2025-09-18 11:32:11,573 - INFO - Extraído: DIANA BRAVO - ID: 1061767098
+2025-09-18 11:32:11,707 - INFO - Extraído: JOSSEN LANDAZURY - ID: 1003372533
+2025-09-18 11:32:11,824 - INFO - Extraído: SARA AGUDELO - ID: 1006011068
+2025-09-18 11:32:11,940 - INFO - Extraído: ROBINSON MANQUILLO - ID: 1061784989
+2025-09-18 11:32:12,066 - INFO - Extraído: ESTEFANIA SERNA - ID: 1033183712
+2025-09-18 11:32:12,177 - INFO - Extraído: YESLAN OÑATE - ID: 1044609310
+2025-09-18 11:32:12,177 - INFO - Total elementos encontrados: 7
+2025-09-18 11:32:12,177 - INFO - Procesando 1/7: ROBERT RODRIGUEZ - ID: 94382488
+2025-09-18 11:32:13,745 - INFO - Clic exitoso en VER REPORTE para 94382488
+2025-09-18 11:32:13,746 - INFO - Procesando reporte para 94382488 - Radicado: 52d4fcce520ace7
+2025-09-18 11:32:16,824 - INFO - Descarga iniciada
+2025-09-18 11:32:16,825 - INFO - Esperando descarga...
+2025-09-18 11:32:19,826 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:32:19,826 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:32:20,891 - INFO - Regresando a lista...
+2025-09-18 11:32:27,918 - INFO - Procesando 2/7: DIANA BRAVO - ID: 1061767098
+2025-09-18 11:32:29,423 - INFO - Clic exitoso en VER REPORTE para 1061767098
+2025-09-18 11:32:29,423 - INFO - Procesando reporte para 1061767098 - Radicado: 722ded5560d39e0d
+2025-09-18 11:32:32,503 - INFO - Descarga iniciada
+2025-09-18 11:32:32,504 - INFO - Esperando descarga...
+2025-09-18 11:32:35,506 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:32:35,506 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:32:36,587 - INFO - Regresando a lista...
+2025-09-18 11:32:43,607 - INFO - Procesando 3/7: JOSSEN LANDAZURY - ID: 1003372533
+2025-09-18 11:32:45,200 - INFO - Clic exitoso en VER REPORTE para 1003372533
+2025-09-18 11:32:45,200 - INFO - Procesando reporte para 1003372533 - Radicado: ce39783c6d93b416
+2025-09-18 11:32:48,280 - INFO - Descarga iniciada
+2025-09-18 11:32:48,281 - INFO - Esperando descarga...
+2025-09-18 11:32:51,282 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:32:51,282 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:32:52,353 - INFO - Regresando a lista...
+2025-09-18 11:32:59,377 - INFO - Procesando 4/7: SARA AGUDELO - ID: 1006011068
+2025-09-18 11:33:00,872 - INFO - Clic exitoso en VER REPORTE para 1006011068
+2025-09-18 11:33:00,873 - INFO - Procesando reporte para 1006011068 - Radicado: 363c381b377ae5f9
+2025-09-18 11:33:03,953 - INFO - Descarga iniciada
+2025-09-18 11:33:03,954 - INFO - Esperando descarga...
+2025-09-18 11:33:06,956 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:33:06,956 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:33:08,029 - INFO - Regresando a lista...
+2025-09-18 11:33:15,051 - INFO - Procesando 5/7: ROBINSON MANQUILLO - ID: 1061784989
+2025-09-18 11:33:16,532 - INFO - Clic exitoso en VER REPORTE para 1061784989
+2025-09-18 11:33:16,532 - INFO - Procesando reporte para 1061784989 - Radicado: faa9a65c947efbe4
+2025-09-18 11:33:19,613 - INFO - Descarga iniciada
+2025-09-18 11:33:19,614 - INFO - Esperando descarga...
+2025-09-18 11:33:22,615 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:33:22,615 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:33:23,693 - INFO - Regresando a lista...
+2025-09-18 11:33:30,711 - INFO - Procesando 6/7: ESTEFANIA SERNA - ID: 1033183712
+2025-09-18 11:33:32,237 - INFO - Clic exitoso en VER REPORTE para 1033183712
+2025-09-18 11:33:32,238 - INFO - Procesando reporte para 1033183712 - Radicado: 25cf251bbac43550
+2025-09-18 11:33:35,317 - INFO - Descarga iniciada
+2025-09-18 11:33:35,317 - INFO - Esperando descarga...
+2025-09-18 11:33:38,318 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:33:38,318 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:33:39,390 - INFO - Regresando a lista...
+2025-09-18 11:33:46,414 - INFO - Procesando 7/7: YESLAN OÑATE - ID: 1044609310
+2025-09-18 11:33:47,901 - INFO - Clic exitoso en VER REPORTE para 1044609310
+2025-09-18 11:33:47,902 - INFO - Procesando reporte para 1044609310 - Radicado: b795cb5e5a65152f
+2025-09-18 11:33:50,980 - INFO - Descarga iniciada
+2025-09-18 11:33:50,980 - INFO - Esperando descarga...
+2025-09-18 11:33:53,981 - INFO - Descarga completada: XtraReportAtencionIPS.pdf
+2025-09-18 11:33:53,981 - INFO - PDF descargado: XtraReportAtencionIPS.pdf
+2025-09-18 11:33:55,078 - INFO - Regresando a lista...
+2025-09-18 11:34:02,091 - INFO - Procesamiento de todas las páginas completado
+2025-09-18 11:34:02,091 - INFO - Reporte generado: c:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\src\descargasPDF\reporte_archivos.txt
+2025-09-18 11:34:02,091 - INFO - ==================================================
+2025-09-18 11:34:02,091 - INFO - RESUMEN DE PROCESAMIENTO
+2025-09-18 11:34:02,091 - INFO - ==================================================
+2025-09-18 11:34:02,091 - INFO - Tiempo total: 0:16:41.325343
+2025-09-18 11:34:02,091 - INFO - Archivos descargados: 57
+2025-09-18 11:34:02,091 - INFO - Archivos procesados exitosamente: 57
+2025-09-18 11:34:02,091 - INFO - Directorio de descargas: c:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\src\descargasPDF
+2025-09-18 11:34:02,091 - INFO - ==================================================
+2025-09-18 11:34:02,091 - INFO -  ARCHIVOS PROCESADOS:
+2025-09-18 11:34:05,301 - INFO - Driver cerrado correctamente
+2025-09-18 11:34:05,301 - INFO -  AUTOMATIZACIÓN COMPLETADA EXITOSAMENTE
+2025-09-18 11:34:09,370 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CC27C05970>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/c505647d6dff8cd8f637543880cac61e
+2025-09-18 11:34:13,441 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CC27C07EF0>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/c505647d6dff8cd8f637543880cac61e
+2025-09-18 11:34:17,520 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001CC27C88080>: Failed to establish a new connection: [WinError 10061] No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión')': /session/c505647d6dff8cd8f637543880cac61e
+2025-09-18 11:34:21,588 - INFO - Driver cerrado correctamente
+2025-09-18 12:12:29,280 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 12:12:29,281 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 12:12:29,284 - INFO -  * Restarting with stat
+2025-09-18 12:12:30,410 - WARNING -  * Debugger is active!
+2025-09-18 12:12:30,414 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 12:12:33,515 - INFO - ====== WebDriver manager ======
+2025-09-18 12:12:36,075 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 12:12:37,095 - INFO - 127.0.0.1 - - [18/Sep/2025 12:12:37] "GET / HTTP/1.1" 200 -
+2025-09-18 12:12:37,171 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 12:12:38,116 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 12:12:41,380 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 12:12:41,380 - INFO - Datos procesados correctamente
+2025-09-18 12:12:41,381 - INFO - Email: keyv2412@gmail.com
+2025-09-18 12:12:41,381 - INFO - Fecha inicial: 2025-09-17
+2025-09-18 12:12:41,381 - INFO - Fecha final: 2025-09-18
+2025-09-18 12:12:41,381 - INFO - === INICIANDO AUTOMATIZACIÓN SIRAS ===
+2025-09-18 12:12:41,382 - INFO - Iniciando login (intento 1)...
+2025-09-18 12:12:41,382 - INFO - Navegando a: https://www.siras.com.co/siras/Seguridad/Login?Modo=1 (intento 1)
+2025-09-18 12:12:50,607 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 12:12:50,607 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 12:12:50,610 - INFO -  * Restarting with stat
+2025-09-18 12:12:51,877 - WARNING -  * Debugger is active!
+2025-09-18 12:12:51,877 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 12:12:53,047 - INFO - 127.0.0.1 - - [18/Sep/2025 12:12:53] "GET / HTTP/1.1" 200 -
+2025-09-18 12:13:44,163 - INFO - ====== WebDriver manager ======
+2025-09-18 12:13:46,271 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 12:13:47,023 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 12:13:47,717 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 12:13:50,466 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 12:13:50,467 - INFO - Datos procesados correctamente
+2025-09-18 12:13:50,467 - INFO - Email: dirimagenes@vallesaludips.com
+2025-09-18 12:13:50,467 - INFO - Fecha inicial: 2025-09-17
+2025-09-18 12:13:50,467 - INFO - Fecha final: 2025-09-17
+2025-09-18 12:13:50,468 - INFO - === INICIANDO AUTOMATIZACIÓN SIRAS ===
+2025-09-18 12:13:50,468 - INFO - Iniciando login (intento 1)...
+2025-09-18 12:13:50,468 - INFO - Navegando a: https://www.siras.com.co/siras/Seguridad/Login?Modo=1 (intento 1)
+2025-09-18 12:14:08,740 - INFO - Login exitoso
+2025-09-18 12:14:08,741 - INFO - Configurando opciones (intento 1)...
+2025-09-18 12:15:39,296 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 12:15:39,296 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 12:15:39,302 - INFO -  * Restarting with stat
+2025-09-18 12:15:40,689 - WARNING -  * Debugger is active!
+2025-09-18 12:15:40,693 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 12:15:41,361 - INFO - 127.0.0.1 - - [18/Sep/2025 12:15:41] "GET / HTTP/1.1" 200 -
+2025-09-18 12:17:27,070 - INFO - ====== WebDriver manager ======
+2025-09-18 12:17:29,362 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 12:17:30,316 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 12:17:30,977 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 12:17:33,639 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 12:17:33,639 - INFO - Datos procesados correctamente
+2025-09-18 12:17:33,640 - INFO - Email: dirimagenes@vallesaludips.com
+2025-09-18 12:17:33,640 - INFO - Fecha inicial: 2025-09-17
+2025-09-18 12:17:33,640 - INFO - Fecha final: 2025-09-17
+2025-09-18 12:17:33,641 - INFO - === INICIANDO AUTOMATIZACIÓN SIRAS ===
+2025-09-18 12:17:33,641 - INFO - Iniciando login (intento 1)...
+2025-09-18 12:17:33,641 - INFO - Navegando a: https://www.siras.com.co/siras/Seguridad/Login?Modo=1 (intento 1)
+2025-09-18 12:17:49,248 - INFO - Login exitoso
+2025-09-18 12:17:49,248 - INFO - Configurando opciones (intento 1)...
+2025-09-18 12:18:00,974 - INFO - Opciones configuradas exitosamente
+2025-09-18 12:19:47,758 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 12:19:47,758 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 12:19:47,758 - INFO -  * Restarting with stat
+2025-09-18 12:19:49,072 - WARNING -  * Debugger is active!
+2025-09-18 12:19:49,072 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 12:19:50,869 - INFO - 127.0.0.1 - - [18/Sep/2025 12:19:50] "GET / HTTP/1.1" 200 -
+2025-09-18 12:19:58,518 - INFO - ====== WebDriver manager ======
+2025-09-18 12:20:00,661 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 12:20:01,538 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 12:20:02,205 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 12:20:04,708 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 12:20:04,708 - INFO - Datos procesados correctamente
+2025-09-18 12:20:04,708 - INFO - Email: keyv2412@gmail.com
+2025-09-18 12:20:04,708 - INFO - Fecha inicial: 2025-09-17
+2025-09-18 12:20:04,708 - INFO - Fecha final: 2025-09-18
+2025-09-18 12:20:04,708 - INFO - === INICIANDO AUTOMATIZACIÓN SIRAS ===
+2025-09-18 12:20:04,708 - INFO - Iniciando login (intento 1)...
+2025-09-18 12:20:04,708 - INFO - Navegando a: https://www.siras.com.co/siras/Seguridad/Login?Modo=1 (intento 1)
+2025-09-18 12:20:13,416 - WARNING - Error en human_typing: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x830c13+66051]
+	GetHandleVerifier [0x0x830c54+66116]
+	(No symbol) [0x0x60db33]
+	(No symbol) [0x0x5ec3bd]
+	(No symbol) [0x0x6807de]
+	(No symbol) [0x0x69b109]
+	(No symbol) [0x0x679d86]
+	(No symbol) [0x0x64b53e]
+	(No symbol) [0x0x64c414]
+	GetHandleVerifier [0x0xa78a13+2457603]
+	GetHandleVerifier [0x0xa739d2+2437058]
+	GetHandleVerifier [0x0x8597f2+232930]
+	GetHandleVerifier [0x0x849a18+167944]
+	GetHandleVerifier [0x0x85092d+196381]
+	GetHandleVerifier [0x0x838ee8+99544]
+	GetHandleVerifier [0x0x839082+99954]
+	GetHandleVerifier [0x0x82322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-18 12:20:13,422 - ERROR - Error durante login (intento 1): Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=140.0.7339.128)
+Stacktrace:
+	GetHandleVerifier [0x0x830c13+66051]
+	GetHandleVerifier [0x0x830c54+66116]
+	(No symbol) [0x0x60db33]
+	(No symbol) [0x0x5ec3bd]
+	(No symbol) [0x0x6807de]
+	(No symbol) [0x0x69b109]
+	(No symbol) [0x0x679d86]
+	(No symbol) [0x0x64b53e]
+	(No symbol) [0x0x64c414]
+	GetHandleVerifier [0x0xa78a13+2457603]
+	GetHandleVerifier [0x0xa739d2+2437058]
+	GetHandleVerifier [0x0x8597f2+232930]
+	GetHandleVerifier [0x0x849a18+167944]
+	GetHandleVerifier [0x0x85092d+196381]
+	GetHandleVerifier [0x0x838ee8+99544]
+	GetHandleVerifier [0x0x839082+99954]
+	GetHandleVerifier [0x0x82322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-18 12:20:38,950 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 12:20:38,951 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 12:20:38,953 - INFO -  * Restarting with stat
+2025-09-18 12:20:40,280 - WARNING -  * Debugger is active!
+2025-09-18 12:20:40,284 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 12:20:41,570 - INFO - 127.0.0.1 - - [18/Sep/2025 12:20:41] "GET / HTTP/1.1" 200 -
+2025-09-18 12:21:21,468 - INFO - ====== WebDriver manager ======
+2025-09-18 12:21:23,436 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 12:21:24,282 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 12:21:24,892 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 12:21:27,470 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 12:21:27,470 - INFO - Datos procesados correctamente
+2025-09-18 12:21:27,470 - INFO - Email: elkevindellolcito@gmail.com
+2025-09-18 12:21:27,470 - INFO - Fecha inicial: 2025-09-17
+2025-09-18 12:21:27,470 - INFO - Fecha final: 2025-09-18
+2025-09-18 12:21:27,470 - INFO - === INICIANDO AUTOMATIZACIÓN SIRAS ===
+2025-09-18 12:21:27,470 - INFO - Iniciando login (intento 1)...
+2025-09-18 12:21:27,470 - INFO - Navegando a: https://www.siras.com.co/siras/Seguridad/Login?Modo=1 (intento 1)
+2025-09-18 12:21:41,537 - WARNING - Error inesperado en clic: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0x830c13+66051]
+	GetHandleVerifier [0x0x830c54+66116]
+	(No symbol) [0x0x60db33]
+	(No symbol) [0x0x5fcfd0]
+	(No symbol) [0x0x61b6db]
+	(No symbol) [0x0x6809b5]
+	(No symbol) [0x0x69b109]
+	(No symbol) [0x0x679d86]
+	(No symbol) [0x0x64b53e]
+	(No symbol) [0x0x64c414]
+	GetHandleVerifier [0x0xa78a13+2457603]
+	GetHandleVerifier [0x0xa739d2+2437058]
+	GetHandleVerifier [0x0x8597f2+232930]
+	GetHandleVerifier [0x0x849a18+167944]
+	GetHandleVerifier [0x0x85092d+196381]
+	GetHandleVerifier [0x0x838ee8+99544]
+	GetHandleVerifier [0x0x839082+99954]
+	GetHandleVerifier [0x0x82322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-18 12:21:53,786 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-18 12:21:53,787 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-18 12:21:53,790 - INFO -  * Restarting with stat
+2025-09-18 12:21:56,104 - WARNING -  * Debugger is active!
+2025-09-18 12:21:56,113 - INFO -  * Debugger PIN: 133-900-433
+2025-09-18 12:21:56,266 - INFO - 127.0.0.1 - - [18/Sep/2025 12:21:56] "GET / HTTP/1.1" 200 -
+2025-09-18 12:22:02,055 - INFO - ====== WebDriver manager ======
+2025-09-18 12:22:04,639 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 12:22:05,638 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-18 12:22:06,593 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-18 12:22:09,385 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-18 12:22:09,386 - INFO - Datos procesados correctamente
+2025-09-18 12:22:09,386 - INFO - Email: keyv2412@gmail.com
+2025-09-18 12:22:09,387 - INFO - Fecha inicial: 2025-09-17
+2025-09-18 12:22:09,387 - INFO - Fecha final: 2025-09-18
+2025-09-18 12:22:09,388 - INFO - === INICIANDO AUTOMATIZACIÓN SIRAS ===
+2025-09-18 12:22:09,388 - INFO - Iniciando login (intento 1)...
+2025-09-18 12:22:09,389 - INFO - Navegando a: https://www.siras.com.co/siras/Seguridad/Login?Modo=1 (intento 1)

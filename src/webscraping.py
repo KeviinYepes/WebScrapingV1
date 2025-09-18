@@ -1,3 +1,4 @@
+#from selenium.webdriver import Chrome
 from selenium.webdriver import Chrome
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
@@ -41,15 +42,6 @@ logging.basicConfig(
 )
 logger = logging.getLogger(__name__)
 
-# Datos privados - considera usar variables de entorno en producción
-PRIVATE_DATA = {
-    "email": "dirimagenes@vallesaludips.com",
-    "password": "SE0uJ9dC",
-    "param": "760010732306",
-    "fecha": "1292025",
-    "fechaF": "1492025"
-}
-
 class SirasAutomation:
     
     def __init__(self, headless=True):
@@ -59,14 +51,14 @@ class SirasAutomation:
         self.archivos_procesados = {} 
         
     def setup_directories(self):
-        #Carpeta de descarga
+        """Carpeta de descarga"""
         self.descargas_dir = os.path.join(os.path.dirname(os.path.abspath(__file__)), "descargasPDF")
         if not os.path.exists(self.descargas_dir):
             os.makedirs(self.descargas_dir)
             print(f"Carpeta de descargas creada: {self.descargas_dir}")
     
     def setup_driver(self, headless=False):
-        #Configuración mejorada del driver de chrome con timeouts optimizados
+        """Configuración mejorada del driver de chrome con timeouts optimizados"""
         try:
             options = webdriver.ChromeOptions()
             
@@ -139,36 +131,88 @@ class SirasAutomation:
             logger.error(f"Error configurando driver: {str(e)}")
             raise
     
-    def procesar_datos(self, correo, password, codigo, fecha_inicial, fecha_final):
-        """Procesa los datos de entrada y los valida"""
+    def procesar_datos(self, correo, password, codigo, fecha_inicial, fecha_final, headless=True):
+        """
+        Función principal que procesa los datos y ejecuta toda la automatización.
+        
+        Args:
+            correo (str): Email para login
+            password (str): Contraseña para login
+            codigo (str): Código de habilitación
+            fecha_inicial (str): Fecha inicial para consulta
+            fecha_final (str): Fecha final para consulta
+            headless (bool): Ejecutar en modo headless
+        
+        Returns:
+            dict: Resultado del procesamiento
+        """
+        start_time = datetime.now()
+        
         try:
-            resultado = {
-                "correo": correo.strip() if correo else "",
+            # Validar y procesar datos de entrada
+            datos = {
+                "email": correo.strip() if correo else "",
                 "password": password.strip() if password else "",
-                "codigo": codigo.strip() if codigo else "",
-                "fecha_inicial": fecha_inicial.strip() if fecha_inicial else "",
-                "fecha_final": fecha_final.strip() if fecha_final else "",
+                "param": codigo.strip() if codigo else "",
+                "fecha": fecha_inicial.strip() if fecha_inicial else "",
+                "fechaF": fecha_final.strip() if fecha_final else "",
             }
             
             # Validar datos requeridos
-            if not resultado["correo"]:
+            if not datos["email"]:
                 raise ValueError("El correo es requerido")
-            if not resultado["password"]:
+            if not datos["password"]:
                 raise ValueError("La contraseña es requerida")
-            if not resultado["fecha_inicial"]:
+            if not datos["fecha"]:
                 raise ValueError("La fecha inicial es requerida")
-            if not resultado["fecha_final"]:
+            if not datos["fechaF"]:
                 raise ValueError("La fecha final es requerida")
             
             logger.info("Datos procesados correctamente")
+            logger.info(f"Email: {datos['email']}")
+            logger.info(f"Fecha inicial: {datos['fecha']}")
+            logger.info(f"Fecha final: {datos['fechaF']}")
+            
+            # Reinicializar el driver si es necesario
+            if not self.driver or headless != getattr(self, '_headless_mode', True):
+                if self.driver:
+                    self.cleanup_driver()
+                self.__init__(headless=headless)
+                self._headless_mode = headless
+            
+            # Ejecutar automatización completa
+            resultado = self.ejecutar_automatizacion(datos)
+            
+            # Calcular tiempo total
+            end_time = datetime.now()
+            duracion = end_time - start_time
+            
+            resultado.update({
+                "tiempo_total": str(duracion),
+                "fecha_procesamiento": end_time.strftime('%Y-%m-%d %H:%M:%S'),
+                "datos_entrada": datos
+            })
+            
             return resultado
             
         except Exception as e:
-            logger.error(f"Error procesando datos: {str(e)}")
-            raise
+            logger.error(f"Error en procesar_datos: {str(e)}")
+            error_result = {
+                "exito": False,
+                "error": str(e),
+                "archivos_procesados": 0,
+                "archivos_descargados": 0,
+                "tiempo_total": str(datetime.now() - start_time),
+                "fecha_procesamiento": datetime.now().strftime('%Y-%m-%d %H:%M:%S')
+            }
+            return error_result
         
+        finally:
+            # Limpiar recursos si es necesario
+            pass  # Mantenemos el driver activo para reutilización
+    
     def reiniciar_driver_si_necesario(self):
-        #Reinicia el driver si hay problemas de conexión
+        """Reinicia el driver si hay problemas de conexión"""
         try:
             if self.driver:
                 try:
@@ -178,7 +222,7 @@ class SirasAutomation:
                     logger.warning("Driver no responde, reiniciando...")
                     self.driver.quit()
                     time.sleep(5)
-                    self.setup_driver(headless=False)
+                    self.setup_driver(headless=getattr(self, '_headless_mode', True))
                     return True
             return False
         except Exception as e:
@@ -186,7 +230,7 @@ class SirasAutomation:
             return False
     
     def human_typing(self, element, text, delay_range=(0.05, 0.15)):
-        #Simula escritura humana letra por letra
+        """Simula escritura humana letra por letra"""
         try:
             element.clear()
             for char in text:
@@ -199,7 +243,7 @@ class SirasAutomation:
             element.send_keys(text)
     
     def wait_for_element(self, by, selector, timeout=30, clickable=True, retries=3):
-        #Esperar elemento con reintentos y manejo de errores mejorado
+        """Esperar elemento con reintentos y manejo de errores mejorado"""
         for intento in range(retries):
             try:
                 if clickable:
@@ -234,7 +278,7 @@ class SirasAutomation:
                     raise
     
     def safe_click(self, element, use_js=False, retries=5):
-        #Clic seguro con múltiples estrategias y reintentos
+        """Clic seguro con múltiples estrategias y reintentos"""
         for intento in range(retries):
             try:
                 if use_js:
@@ -271,7 +315,7 @@ class SirasAutomation:
         return False
     
     def safe_navigate(self, url, retries=3):
-        #Navegación segura con reintentos
+        """Navegación segura con reintentos"""
         for intento in range(retries):
             try:
                 logger.info(f"Navegando a: {url} (intento {intento + 1})")
@@ -290,7 +334,7 @@ class SirasAutomation:
         return False
     
     def verificar_descarga_completada(self, timeout=120):
-        #Verificar descarga con timeout más largo
+        """Verificar descarga con timeout más largo"""
         inicio = time.time()
         archivos_iniciales = set([f for f in os.listdir(self.descargas_dir) 
                                 if f.endswith('.pdf') and not f.endswith('.crdownload')])
@@ -329,7 +373,7 @@ class SirasAutomation:
         return None
     
     def generar_nombre_archivo(self, elemento):
-        #Genera nombre de archivo limpio y único
+        """Genera nombre de archivo limpio y único"""
         try:
             def limpiar_texto(texto):
                 if not texto:
@@ -341,24 +385,17 @@ class SirasAutomation:
                 return texto.strip()
             
             no_radicado = limpiar_texto(elemento.get('no_radicado', ''))
-            identificacion = limpiar_texto(elemento.get('identificacion', ''))
-            primer_nombre = limpiar_texto(elemento.get('primer_nombre', ''))
-            primer_apellido = limpiar_texto(elemento.get('primer_apellido', ''))
             
             # Formato principal
             if no_radicado:
-                nombre = f"{no_radicado}_{identificacion}_{primer_nombre}_{primer_apellido}.pdf"
+                nombre = f"{no_radicado}.pdf"
             else:
-                nombre = f"SinRadicado_{identificacion}_{primer_nombre}_{primer_apellido}.pdf"
+                timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+                nombre = f"SinRadicado_{timestamp}.pdf"
             
             # Limpiar espacios y caracteres especiales
             nombre = '_'.join(nombre.split())
             nombre = nombre.replace('__', '_')
-            
-            # Limitar longitud del nombre
-            if len(nombre) > 200:
-                timestamp = datetime.now().strftime("%H%M%S")
-                nombre = f"{identificacion}_{timestamp}.pdf"
             
             return nombre
             
@@ -368,7 +405,7 @@ class SirasAutomation:
             return f"archivo_{timestamp}.pdf"
     
     def renombrar_archivo_descargado(self, archivo_original, elemento):
-        #Renombrar archivo descargado
+        """Renombrar archivo descargado"""
         try:
             if not os.path.exists(archivo_original):
                 logger.error(f"Archivo original no existe: {archivo_original}")
@@ -398,7 +435,7 @@ class SirasAutomation:
             return archivo_original
     
     def login(self, credentials, retries=3):
-        #Login con manejo de errores mejorado
+        """Login con manejo de errores mejorado"""
         for intento in range(retries):
             try:
                 logger.info(f"Iniciando login (intento {intento + 1})...")
@@ -431,12 +468,12 @@ class SirasAutomation:
         return False
     
     def select_options(self, credentials, retries=3):
-        #Configurar opciones con manejo de errores mejorado
+        """Configurar opciones con manejo de errores mejorado"""
         for intento in range(retries):
             try:
                 logger.info(f"Configurando opciones (intento {intento + 1})...")
                 
-                if credentials["param"] is not None:
+                if credentials["param"]:
                     # Código de habilitación
                     codigo_input = self.wait_for_element(By.ID, "CodigoHabilitacion_I", timeout=30)
                     self.human_typing(codigo_input, credentials["param"])
@@ -486,7 +523,7 @@ class SirasAutomation:
         return False
     
     def obtener_info_paginacion(self):
-        #Obtener información de paginación con manejo de errores
+        """Obtener información de paginación con manejo de errores"""
         try:
             paginacion = self.wait_for_element(By.CLASS_NAME, "dxp-summary", timeout=20, clickable=False)
             texto = paginacion.text
@@ -505,7 +542,7 @@ class SirasAutomation:
             return 1, 1, 0
     
     def obtener_elementos_pagina(self):
-        #Obtener elementos de la página actual
+        """Obtener elementos de la página actual"""
         try:
             # Esperar tabla con timeout más largo
             self.wait_for_element(By.XPATH, "//table[contains(@id, 'gridResumidas')]", timeout=30, clickable=False)
@@ -546,11 +583,9 @@ class SirasAutomation:
             return []
     
     def hacer_clic_ver_reporte(self, elemento):
-        #Hacer clic en Ver Reporte con múltiples estrategias
+        """Hacer clic en Ver Reporte con múltiples estrategias"""
         estrategias = [
             (By.XPATH, f"//td[contains(text(), '{elemento['identificacion']}')]/..//span[contains(text(), 'Ver Reporte')]"),
-            # (By.XPATH, f"//tr[contains(@id, 'DXDataRow{elemento['indice_fila']}')]//span[contains(text(), 'Ver Reporte')]"),
-            # (By.XPATH, f"//tr[contains(@id, 'DXDataRow{elemento['indice_fila']}')]//a[contains(@class, 'dxbButton')]"),
         ]
         
         for by, selector in estrategias:
@@ -570,7 +605,7 @@ class SirasAutomation:
         return False
     
     def procesar_reporte(self, elemento):
-        #Procesar reporte individual con manejo mejorado de errores
+        """Procesar reporte individual con manejo mejorado de errores"""
         try:
             logger.info(f"Procesando reporte para {elemento['identificacion']} - Radicado: {elemento['no_radicado']}")
             
@@ -595,8 +630,6 @@ class SirasAutomation:
                     # Regresar a la lista
                     estrategias_volver = [
                         (By.XPATH, "//span[contains(text(), 'Volver a lista')]"),
-                        # (By.XPATH, "//div[contains(@class, 'dxbButton')]//span[contains(text(), 'Volver a lista')]"),
-                        # (By.XPATH, "//input[@value='Volver a lista']")
                     ]
                     
                     boton_encontrado = False
@@ -633,7 +666,7 @@ class SirasAutomation:
             return False
     
     def procesar_todas_paginas(self):
-        #Procesar todas las páginas con manejo robusto de errores
+        """Procesar todas las páginas con manejo robusto de errores"""
         try:
             pagina_actual, total_paginas, total_elementos = self.obtener_info_paginacion()
             logger.info(f"Iniciando procesamiento: {total_elementos} elementos en {total_paginas} páginas")
@@ -699,7 +732,7 @@ class SirasAutomation:
             raise
     
     def generar_reporte_archivos(self):
-        #Generar reporte de archivos procesados
+        """Generar reporte de archivos procesados"""
         try:
             reporte_path = os.path.join(self.descargas_dir, "reporte_archivos.txt")
             
@@ -728,7 +761,7 @@ class SirasAutomation:
             logger.error(f"Error generando reporte: {str(e)}")
     
     def cleanup_driver(self):
-        #Limpiar recursos del driver de forma segura
+        """Limpiar recursos del driver de forma segura"""
         try:
             if self.driver:
                 self.driver.quit()
@@ -736,18 +769,25 @@ class SirasAutomation:
         except Exception as e:
             logger.warning(f"Error cerrando driver: {str(e)}")
     
-    def ejecutar_automatizacion(self):
-        #Ejecutar el proceso completo con manejo robusto de errores
-        start_time = datetime.now()
+    def ejecutar_automatizacion(self, datos):
+        """
+        Ejecutar el proceso completo con manejo robusto de errores
+        
+        Args:
+            datos (dict): Diccionario con credenciales y parámetros
+            
+        Returns:
+            dict: Resultado del procesamiento
+        """
         try:
             logger.info("=== INICIANDO AUTOMATIZACIÓN SIRAS ===")
             
             # Login con reintentos
-            if not self.login(PRIVATE_DATA):
+            if not self.login(datos):
                 raise Exception("No se pudo completar el login")
             
             # Configurar opciones
-            if not self.select_options(PRIVATE_DATA):
+            if not self.select_options(datos):
                 raise Exception("No se pudieron configurar las opciones")
             
             time.sleep(10)
@@ -760,73 +800,151 @@ class SirasAutomation:
             
             # Mostrar resumen
             archivos_descargados = [f for f in os.listdir(self.descargas_dir) if f.endswith('.pdf')]
-            end_time = datetime.now()
-            duracion = end_time - start_time
             
             logger.info("=" * 50)
             logger.info("RESUMEN DE PROCESAMIENTO")
             logger.info("=" * 50)
-            logger.info(f"Tiempo total: {duracion}")
             logger.info(f"Archivos descargados: {len(archivos_descargados)}")
             logger.info(f"Archivos procesados exitosamente: {len(self.archivos_procesados)}")
             logger.info(f"Directorio de descargas: {self.descargas_dir}")
             logger.info("=" * 50)
             
             if self.archivos_procesados:
-                logger.info(" ARCHIVOS PROCESADOS:")
+                logger.info("ARCHIVOS PROCESADOS:")
                 for nombre_archivo, elemento in self.archivos_procesados.items():
                     logger.info(f"   ✓ {nombre_archivo} (ID: {elemento['identificacion']}, Radicado: {elemento['no_radicado']})")
             else:
-                logger.warning(" No se procesaron archivos exitosamente")
+                logger.warning("No se procesaron archivos exitosamente")
+            
+            return {
+                "exito": True,
+                "archivos_procesados": len(self.archivos_procesados),
+                "archivos_descargados": len(archivos_descargados),
+                "directorio_descargas": self.descargas_dir,
+                "archivos_detalle": list(self.archivos_procesados.keys()),
+                "mensaje": "Automatización completada exitosamente"
+            }
                 
         except Exception as e:
             logger.error(f"Error en automatización: {str(e)}")
             logger.error("Stack trace:", exc_info=True)
-            raise
-        finally:
-            self.cleanup_driver()
+            
+            return {
+                "exito": False,
+                "error": str(e),
+                "archivos_procesados": len(self.archivos_procesados),
+                "archivos_descargados": 0,
+                "directorio_descargas": self.descargas_dir,
+                "mensaje": f"Error en automatización: {str(e)}"
+            }
+
+
+# Funciones de utilidad para usar el bot
+def ejecutar_siras_bot(correo, password, codigo, fecha_inicial, fecha_final, headless=True):
+    """
+    Función principal para ejecutar el bot de SIRAS
+    
+    Args:
+        correo (str): Email para login
+        password (str): Contraseña para login
+        codigo (str): Código de habilitación
+        fecha_inicial (str): Fecha inicial (formato: ddmmyyyy)
+        fecha_final (str): Fecha final (formato: ddmmyyyy)
+        headless (bool): Ejecutar en modo headless
+    
+    Returns:
+        dict: Resultado del procesamiento
+    
+    Example:
+        resultado = ejecutar_siras_bot(
+            correo="usuario@ejemplo.com",
+            password="mi_password",
+            codigo="123456789",
+            fecha_inicial="01012025",
+            fecha_final="31012025",
+            headless=True
+        )
+        print(resultado)
+    """
+    automation = None
+    
+    try:
+        logger.info("Iniciando bot de SIRAS...")
+        automation = SirasAutomation(headless=headless)
+        
+        resultado = automation.procesar_datos(
+            correo=correo,
+            password=password,
+            codigo=codigo,
+            fecha_inicial=fecha_inicial,
+            fecha_final=fecha_final,
+            headless=headless
+        )
+        
+        return resultado
+        
+    except Exception as e:
+        logger.error(f"Error ejecutando bot: {str(e)}")
+        return {
+            "exito": False,
+            "error": str(e),
+            "mensaje": f"Error ejecutando bot: {str(e)}"
+        }
+        
+    finally:
+        if automation:
+            automation.cleanup_driver()
+
 
 def main():
-    #Función principal con manejo de argumentos y configuración
-    automation = None
+    """Función principal con datos de ejemplo"""
+    
+    # Datos de ejemplo - reemplazar con datos reales
+    datos_ejemplo = {
+        "correo": "dirimagenes@vallesaludips.com",
+        "password": "SE0uJ9dC", 
+        "codigo": "760010732306",
+        "fecha_inicial": "1792025",
+        "fecha_final": "1792025"
+    }
     
     try:
         # Verificar argumentos de línea de comandos para modo headless
         headless_mode = '--headless' in sys.argv or '-h' in sys.argv
         
-        logger.info(f"Iniciando automatización en modo {'headless' if headless_mode else 'con interfaz'}")
+        logger.info(f"Ejecutando con datos de ejemplo en modo {'headless' if headless_mode else 'con interfaz'}")
         
-        # Crear instancia de automatización
-        automation = SirasAutomation(headless=headless_mode)
+        # Ejecutar bot
+        resultado = ejecutar_siras_bot(
+            correo=datos_ejemplo["correo"],
+            password=datos_ejemplo["password"],
+            codigo=datos_ejemplo["codigo"],
+            fecha_inicial=datos_ejemplo["fecha_inicial"],
+            fecha_final=datos_ejemplo["fecha_final"],
+            headless=headless_mode
+        )
         
-        # Ejecutar automatización
-        automation.ejecutar_automatizacion()
+        # Mostrar resultado
+        print("\n" + "="*50)
+        print("RESULTADO FINAL")
+        print("="*50)
+        for key, value in resultado.items():
+            print(f"{key}: {value}")
+        print("="*50)
         
-        logger.info(" AUTOMATIZACIÓN COMPLETADA EXITOSAMENTE")
+        if resultado.get("exito"):
+            logger.info("AUTOMATIZACIÓN COMPLETADA EXITOSAMENTE")
+        else:
+            logger.error("AUTOMATIZACIÓN FALLÓ")
+            sys.exit(1)
         
     except KeyboardInterrupt:
         logger.warning("Proceso interrumpido por el usuario")
     except Exception as e:
-        logger.error(f" Error fatal en la automatización: {str(e)}")
+        logger.error(f"Error fatal en la automatización: {str(e)}")
         logger.error("Stack trace completo:", exc_info=True)
-        
-        # Información adicional para debugging
-        logger.error("=== INFORMACIÓN DE DEBUGGING ===")
-        logger.error(f"Python version: {sys.version}")
-        logger.error(f"Current working directory: {os.getcwd()}")
-        
-        if automation and automation.driver:
-            try:
-                logger.error(f"Current URL: {automation.driver.current_url}")
-                logger.error(f"Page title: {automation.driver.title}")
-            except:
-                pass
-            
         sys.exit(1)
-        
-    finally:
-        if automation:
-            automation.cleanup_driver()
+
 
 if __name__ == "__main__":
     main()
