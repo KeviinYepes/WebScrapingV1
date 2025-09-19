@@ -10,6 +10,9 @@ template_dir = os.path.join(current_dir, '..', 'views')
 
 application = Flask(__name__, template_folder=template_dir,  static_url_path='/static')
 
+def convertir_formato_fecha(fecha_str):
+    print("sapa")
+
 @application.route('/')
 def index():
     # Siempre mostrar el formulario vacío
@@ -27,15 +30,15 @@ def form_data():
     print(correo, password, codigo, fecha_inicial, fecha_final)
     
     # Validar campos
-    if not all([correo, password, codigo, fecha_inicial, fecha_final]):
+    if not all([correo, password, fecha_inicial, fecha_final]):
         return render_template("form.html", error="Todos los campos son obligatorios")
     else:
         try:
-            automation = SirasAutomation(headless=False) #Vista emulador
-            #Mandar datos a la función
+            automation = SirasAutomation(headless=False) # Vista emulador
+            # Mandar datos a la función (código puede ser None)
             automation.procesar_datos(correo, password, codigo, fecha_inicial, fecha_final)
             time.sleep(2)
-            return render_template("form.html")#Regresa al HTML / Hacer vista de cargue 
+            return render_template("form.html") # Regresa al HTML / Hacer vista de cargue 
         except Exception as e:
             error_msg = f"Error procesando los datos: {str(e)}"
             return render_template("form.html", error=error_msg)

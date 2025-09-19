@@ -466,8 +466,7 @@ class SirasAutomation:
                     codigo_input = self.wait_for_element(By.ID, "CodigoHabilitacion_I", timeout=30)
                     self.human_typing(codigo_input, credentials["param"])
                     
-                    #TODO CONDICIONAR SI NO TRAE CÓDIGO DE HABILITACIÓN PARA PODER ELEGIR LA OTRA OPCIÓN
-                    # Botón prestador
+                    # Botón prestador 
                     prestador_button = self.wait_for_element(
                         By.XPATH, "//span[contains(text(), 'Ingresar con el Prestador Encontrado')]", timeout=30
                     )

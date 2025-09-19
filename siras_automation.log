@@ -11998,3 +11998,1381 @@ Stacktrace:
 2025-09-18 16:48:23,820 - INFO - === INICIANDO AUTOMATIZACIÓN SIRAS ===
 2025-09-18 16:48:23,820 - INFO - Iniciando login (intento 1)...
 2025-09-18 16:48:23,820 - INFO - Navegando a: https://www.siras.com.co/siras/Seguridad/Login?Modo=1 (intento 1)
+2025-09-19 08:22:36,637 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-19 08:22:36,637 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-19 08:22:36,644 - INFO -  * Restarting with stat
+2025-09-19 08:22:37,784 - WARNING -  * Debugger is active!
+2025-09-19 08:22:37,794 - INFO -  * Debugger PIN: 133-900-433
+2025-09-19 08:22:54,408 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-19 08:22:54,455 - INFO -  * Restarting with stat
+2025-09-19 08:22:55,456 - WARNING -  * Debugger is active!
+2025-09-19 08:22:55,456 - INFO -  * Debugger PIN: 133-900-433
+2025-09-19 08:22:59,577 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-19 08:22:59,577 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-19 08:22:59,577 - INFO -  * Restarting with stat
+2025-09-19 08:23:00,625 - WARNING -  * Debugger is active!
+2025-09-19 08:23:00,632 - INFO -  * Debugger PIN: 133-900-433
+2025-09-19 08:23:15,135 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-19 08:23:15,178 - INFO -  * Restarting with stat
+2025-09-19 08:23:16,195 - WARNING -  * Debugger is active!
+2025-09-19 08:23:16,195 - INFO -  * Debugger PIN: 133-900-433
+2025-09-19 08:23:22,014 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-19 08:23:22,015 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-19 08:23:22,018 - INFO -  * Restarting with stat
+2025-09-19 08:23:23,185 - WARNING -  * Debugger is active!
+2025-09-19 08:23:23,185 - INFO -  * Debugger PIN: 133-900-433
+2025-09-19 08:23:25,094 - INFO - 127.0.0.1 - - [19/Sep/2025 08:23:25] "GET / HTTP/1.1" 200 -
+2025-09-19 08:30:39,559 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-19 08:30:39,613 - INFO -  * Restarting with stat
+2025-09-19 08:30:40,973 - WARNING -  * Debugger is active!
+2025-09-19 08:30:40,977 - INFO -  * Debugger PIN: 133-900-433
+2025-09-19 08:30:41,967 - INFO - 127.0.0.1 - - [19/Sep/2025 08:30:41] "GET / HTTP/1.1" 200 -
+2025-09-19 08:31:04,959 - INFO - ====== WebDriver manager ======
+2025-09-19 08:31:08,188 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-19 08:31:09,064 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-19 08:31:09,904 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-19 08:31:11,606 - INFO - WebDriver version 140.0.7339.185 selected
+2025-09-19 08:31:11,612 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.185/win32/chromedriver-win32.zip
+2025-09-19 08:31:11,612 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/140.0.7339.185/win32/chromedriver-win32.zip
+2025-09-19 08:31:12,879 - INFO - Driver downloading response is 200
+2025-09-19 08:31:13,333 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-19 08:31:14,477 - INFO - Driver has been saved in cache [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185]
+2025-09-19 08:31:18,740 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-19 08:31:18,741 - INFO - 127.0.0.1 - - [19/Sep/2025 08:31:18] "POST /data HTTP/1.1" 200 -
+2025-09-19 08:31:59,382 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-19 08:31:59,382 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-19 08:31:59,387 - INFO -  * Restarting with stat
+2025-09-19 08:32:00,826 - WARNING -  * Debugger is active!
+2025-09-19 08:32:00,830 - INFO -  * Debugger PIN: 133-900-433
+2025-09-19 08:32:05,379 - INFO - 127.0.0.1 - - [19/Sep/2025 08:32:05] "GET / HTTP/1.1" 200 -
+2025-09-19 08:32:14,663 - INFO - ====== WebDriver manager ======
+2025-09-19 08:32:16,893 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-19 08:32:17,772 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-19 08:32:18,417 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-19 08:32:21,241 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-19 08:32:21,242 - INFO - 127.0.0.1 - - [19/Sep/2025 08:32:21] "POST /data HTTP/1.1" 200 -
+2025-09-19 08:33:51,804 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-19 08:33:51,804 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-19 08:33:51,807 - INFO -  * Restarting with stat
+2025-09-19 08:33:53,010 - WARNING -  * Debugger is active!
+2025-09-19 08:33:53,014 - INFO -  * Debugger PIN: 133-900-433
+2025-09-19 08:33:55,585 - INFO - 127.0.0.1 - - [19/Sep/2025 08:33:55] "GET / HTTP/1.1" 200 -
+2025-09-19 08:34:12,878 - INFO - ====== WebDriver manager ======
+2025-09-19 08:34:15,489 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-19 08:34:16,411 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-19 08:34:17,075 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-19 08:34:19,931 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-19 08:34:19,933 - INFO - 127.0.0.1 - - [19/Sep/2025 08:34:19] "POST /data HTTP/1.1" 200 -
+2025-09-19 08:47:22,524 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-09-19 08:47:22,525 - INFO - [33mPress CTRL+C to quit[0m
+2025-09-19 08:47:22,529 - INFO -  * Restarting with stat
+2025-09-19 08:47:23,929 - WARNING -  * Debugger is active!
+2025-09-19 08:47:23,936 - INFO -  * Debugger PIN: 133-900-433
+2025-09-19 08:47:28,889 - INFO - 127.0.0.1 - - [19/Sep/2025 08:47:28] "GET / HTTP/1.1" 200 -
+2025-09-19 08:48:53,629 - INFO - ====== WebDriver manager ======
+2025-09-19 08:48:56,229 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-19 08:48:57,103 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-19 08:48:57,802 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-19 08:49:00,522 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-19 08:49:00,522 - INFO - Datos procesados correctamente
+2025-09-19 08:49:00,523 - INFO - Email: gerenciasur@vallesaludips.com
+2025-09-19 08:49:00,523 - INFO - Fecha inicial: 2025-09-17
+2025-09-19 08:49:00,524 - INFO - Fecha final: 2025-09-17
+2025-09-19 08:49:00,524 - INFO - === INICIANDO AUTOMATIZACIÓN SIRAS ===
+2025-09-19 08:49:00,524 - INFO - Iniciando login (intento 1)...
+2025-09-19 08:49:00,524 - INFO - Navegando a: https://www.siras.com.co/siras/Seguridad/Login?Modo=1 (intento 1)
+2025-09-19 08:49:16,731 - INFO - Login exitoso
+2025-09-19 08:49:16,731 - INFO - Configurando opciones (intento 1)...
+2025-09-19 08:49:17,051 - ERROR - Error inesperado esperando elemento: Message: invalid selector: Unable to locate an element with the xpath expression //span[coontains(text(), 'Ingresar con el Prestador Predeterminado')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[coontains(text(), 'Ingresar con el Prestador Predeterminado')]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5db33]
+	(No symbol) [0x0xc644f7]
+	(No symbol) [0x0xc668d4]
+	(No symbol) [0x0xc66968]
+	(No symbol) [0x0xca7134]
+	(No symbol) [0x0xca7c4b]
+	(No symbol) [0x0xcee0a2]
+	(No symbol) [0x0xcc9fd4]
+	(No symbol) [0x0xceb7f1]
+	(No symbol) [0x0xcc9d86]
+	(No symbol) [0x0xc9b53e]
+	(No symbol) [0x0xc9c414]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	GetHandleVerifier [0x0xe88ee8+99544]
+	GetHandleVerifier [0x0xe89082+99954]
+	GetHandleVerifier [0x0xe7322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:49:22,065 - ERROR - Error inesperado esperando elemento: Message: invalid selector: Unable to locate an element with the xpath expression //span[coontains(text(), 'Ingresar con el Prestador Predeterminado')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[coontains(text(), 'Ingresar con el Prestador Predeterminado')]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5db33]
+	(No symbol) [0x0xc644f7]
+	(No symbol) [0x0xc668d4]
+	(No symbol) [0x0xc66968]
+	(No symbol) [0x0xca7134]
+	(No symbol) [0x0xca7c4b]
+	(No symbol) [0x0xcee0a2]
+	(No symbol) [0x0xcc9fd4]
+	(No symbol) [0x0xceb7f1]
+	(No symbol) [0x0xcc9d86]
+	(No symbol) [0x0xc9b53e]
+	(No symbol) [0x0xc9c414]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	GetHandleVerifier [0x0xe88ee8+99544]
+	GetHandleVerifier [0x0xe89082+99954]
+	GetHandleVerifier [0x0xe7322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:49:27,075 - ERROR - Error inesperado esperando elemento: Message: invalid selector: Unable to locate an element with the xpath expression //span[coontains(text(), 'Ingresar con el Prestador Predeterminado')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[coontains(text(), 'Ingresar con el Prestador Predeterminado')]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5db33]
+	(No symbol) [0x0xc644f7]
+	(No symbol) [0x0xc668d4]
+	(No symbol) [0x0xc66968]
+	(No symbol) [0x0xca7134]
+	(No symbol) [0x0xca7c4b]
+	(No symbol) [0x0xcee0a2]
+	(No symbol) [0x0xcc9fd4]
+	(No symbol) [0x0xceb7f1]
+	(No symbol) [0x0xcc9d86]
+	(No symbol) [0x0xc9b53e]
+	(No symbol) [0x0xc9c414]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	GetHandleVerifier [0x0xe88ee8+99544]
+	GetHandleVerifier [0x0xe89082+99954]
+	GetHandleVerifier [0x0xe7322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:49:27,076 - ERROR - Error configurando opciones (intento 1): Message: invalid selector: Unable to locate an element with the xpath expression //span[coontains(text(), 'Ingresar con el Prestador Predeterminado')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[coontains(text(), 'Ingresar con el Prestador Predeterminado')]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5db33]
+	(No symbol) [0x0xc644f7]
+	(No symbol) [0x0xc668d4]
+	(No symbol) [0x0xc66968]
+	(No symbol) [0x0xca7134]
+	(No symbol) [0x0xca7c4b]
+	(No symbol) [0x0xcee0a2]
+	(No symbol) [0x0xcc9fd4]
+	(No symbol) [0x0xceb7f1]
+	(No symbol) [0x0xcc9d86]
+	(No symbol) [0x0xc9b53e]
+	(No symbol) [0x0xc9c414]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	GetHandleVerifier [0x0xe88ee8+99544]
+	GetHandleVerifier [0x0xe89082+99954]
+	GetHandleVerifier [0x0xe7322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:49:29,077 - INFO - Configurando opciones (intento 2)...
+2025-09-19 08:49:29,084 - ERROR - Error inesperado esperando elemento: Message: invalid selector: Unable to locate an element with the xpath expression //span[coontains(text(), 'Ingresar con el Prestador Predeterminado')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[coontains(text(), 'Ingresar con el Prestador Predeterminado')]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5db33]
+	(No symbol) [0x0xc644f7]
+	(No symbol) [0x0xc668d4]
+	(No symbol) [0x0xc66968]
+	(No symbol) [0x0xca7134]
+	(No symbol) [0x0xca7c4b]
+	(No symbol) [0x0xcee0a2]
+	(No symbol) [0x0xcc9fd4]
+	(No symbol) [0x0xceb7f1]
+	(No symbol) [0x0xcc9d86]
+	(No symbol) [0x0xc9b53e]
+	(No symbol) [0x0xc9c414]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	GetHandleVerifier [0x0xe88ee8+99544]
+	GetHandleVerifier [0x0xe89082+99954]
+	GetHandleVerifier [0x0xe7322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:49:34,098 - ERROR - Error inesperado esperando elemento: Message: invalid selector: Unable to locate an element with the xpath expression //span[coontains(text(), 'Ingresar con el Prestador Predeterminado')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[coontains(text(), 'Ingresar con el Prestador Predeterminado')]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5db33]
+	(No symbol) [0x0xc644f7]
+	(No symbol) [0x0xc668d4]
+	(No symbol) [0x0xc66968]
+	(No symbol) [0x0xca7134]
+	(No symbol) [0x0xca7c4b]
+	(No symbol) [0x0xcee0a2]
+	(No symbol) [0x0xcc9fd4]
+	(No symbol) [0x0xceb7f1]
+	(No symbol) [0x0xcc9d86]
+	(No symbol) [0x0xc9b53e]
+	(No symbol) [0x0xc9c414]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	GetHandleVerifier [0x0xe88ee8+99544]
+	GetHandleVerifier [0x0xe89082+99954]
+	GetHandleVerifier [0x0xe7322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:49:39,117 - ERROR - Error inesperado esperando elemento: Message: invalid selector: Unable to locate an element with the xpath expression //span[coontains(text(), 'Ingresar con el Prestador Predeterminado')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[coontains(text(), 'Ingresar con el Prestador Predeterminado')]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5db33]
+	(No symbol) [0x0xc644f7]
+	(No symbol) [0x0xc668d4]
+	(No symbol) [0x0xc66968]
+	(No symbol) [0x0xca7134]
+	(No symbol) [0x0xca7c4b]
+	(No symbol) [0x0xcee0a2]
+	(No symbol) [0x0xcc9fd4]
+	(No symbol) [0x0xceb7f1]
+	(No symbol) [0x0xcc9d86]
+	(No symbol) [0x0xc9b53e]
+	(No symbol) [0x0xc9c414]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	GetHandleVerifier [0x0xe88ee8+99544]
+	GetHandleVerifier [0x0xe89082+99954]
+	GetHandleVerifier [0x0xe7322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:49:39,119 - ERROR - Error configurando opciones (intento 2): Message: invalid selector: Unable to locate an element with the xpath expression //span[coontains(text(), 'Ingresar con el Prestador Predeterminado')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[coontains(text(), 'Ingresar con el Prestador Predeterminado')]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5db33]
+	(No symbol) [0x0xc644f7]
+	(No symbol) [0x0xc668d4]
+	(No symbol) [0x0xc66968]
+	(No symbol) [0x0xca7134]
+	(No symbol) [0x0xca7c4b]
+	(No symbol) [0x0xcee0a2]
+	(No symbol) [0x0xcc9fd4]
+	(No symbol) [0x0xceb7f1]
+	(No symbol) [0x0xcc9d86]
+	(No symbol) [0x0xc9b53e]
+	(No symbol) [0x0xc9c414]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	GetHandleVerifier [0x0xe88ee8+99544]
+	GetHandleVerifier [0x0xe89082+99954]
+	GetHandleVerifier [0x0xe7322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:49:41,122 - INFO - Configurando opciones (intento 3)...
+2025-09-19 08:49:41,137 - ERROR - Error inesperado esperando elemento: Message: invalid selector: Unable to locate an element with the xpath expression //span[coontains(text(), 'Ingresar con el Prestador Predeterminado')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[coontains(text(), 'Ingresar con el Prestador Predeterminado')]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5db33]
+	(No symbol) [0x0xc644f7]
+	(No symbol) [0x0xc668d4]
+	(No symbol) [0x0xc66968]
+	(No symbol) [0x0xca7134]
+	(No symbol) [0x0xca7c4b]
+	(No symbol) [0x0xcee0a2]
+	(No symbol) [0x0xcc9fd4]
+	(No symbol) [0x0xceb7f1]
+	(No symbol) [0x0xcc9d86]
+	(No symbol) [0x0xc9b53e]
+	(No symbol) [0x0xc9c414]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	GetHandleVerifier [0x0xe88ee8+99544]
+	GetHandleVerifier [0x0xe89082+99954]
+	GetHandleVerifier [0x0xe7322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:49:46,153 - ERROR - Error inesperado esperando elemento: Message: invalid selector: Unable to locate an element with the xpath expression //span[coontains(text(), 'Ingresar con el Prestador Predeterminado')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[coontains(text(), 'Ingresar con el Prestador Predeterminado')]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5db33]
+	(No symbol) [0x0xc644f7]
+	(No symbol) [0x0xc668d4]
+	(No symbol) [0x0xc66968]
+	(No symbol) [0x0xca7134]
+	(No symbol) [0x0xca7c4b]
+	(No symbol) [0x0xcee0a2]
+	(No symbol) [0x0xcc9fd4]
+	(No symbol) [0x0xceb7f1]
+	(No symbol) [0x0xcc9d86]
+	(No symbol) [0x0xc9b53e]
+	(No symbol) [0x0xc9c414]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	GetHandleVerifier [0x0xe88ee8+99544]
+	GetHandleVerifier [0x0xe89082+99954]
+	GetHandleVerifier [0x0xe7322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:49:51,167 - ERROR - Error inesperado esperando elemento: Message: invalid selector: Unable to locate an element with the xpath expression //span[coontains(text(), 'Ingresar con el Prestador Predeterminado')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[coontains(text(), 'Ingresar con el Prestador Predeterminado')]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5db33]
+	(No symbol) [0x0xc644f7]
+	(No symbol) [0x0xc668d4]
+	(No symbol) [0x0xc66968]
+	(No symbol) [0x0xca7134]
+	(No symbol) [0x0xca7c4b]
+	(No symbol) [0x0xcee0a2]
+	(No symbol) [0x0xcc9fd4]
+	(No symbol) [0x0xceb7f1]
+	(No symbol) [0x0xcc9d86]
+	(No symbol) [0x0xc9b53e]
+	(No symbol) [0x0xc9c414]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	GetHandleVerifier [0x0xe88ee8+99544]
+	GetHandleVerifier [0x0xe89082+99954]
+	GetHandleVerifier [0x0xe7322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:49:51,167 - ERROR - Error configurando opciones (intento 3): Message: invalid selector: Unable to locate an element with the xpath expression //span[coontains(text(), 'Ingresar con el Prestador Predeterminado')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[coontains(text(), 'Ingresar con el Prestador Predeterminado')]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5db33]
+	(No symbol) [0x0xc644f7]
+	(No symbol) [0x0xc668d4]
+	(No symbol) [0x0xc66968]
+	(No symbol) [0x0xca7134]
+	(No symbol) [0x0xca7c4b]
+	(No symbol) [0x0xcee0a2]
+	(No symbol) [0x0xcc9fd4]
+	(No symbol) [0x0xceb7f1]
+	(No symbol) [0x0xcc9d86]
+	(No symbol) [0x0xc9b53e]
+	(No symbol) [0x0xc9c414]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	GetHandleVerifier [0x0xe88ee8+99544]
+	GetHandleVerifier [0x0xe89082+99954]
+	GetHandleVerifier [0x0xe7322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:49:51,168 - ERROR - Error en automatización: Message: invalid selector: Unable to locate an element with the xpath expression //span[coontains(text(), 'Ingresar con el Prestador Predeterminado')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[coontains(text(), 'Ingresar con el Prestador Predeterminado')]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5db33]
+	(No symbol) [0x0xc644f7]
+	(No symbol) [0x0xc668d4]
+	(No symbol) [0x0xc66968]
+	(No symbol) [0x0xca7134]
+	(No symbol) [0x0xca7c4b]
+	(No symbol) [0x0xcee0a2]
+	(No symbol) [0x0xcc9fd4]
+	(No symbol) [0x0xceb7f1]
+	(No symbol) [0x0xcc9d86]
+	(No symbol) [0x0xc9b53e]
+	(No symbol) [0x0xc9c414]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	GetHandleVerifier [0x0xe88ee8+99544]
+	GetHandleVerifier [0x0xe89082+99954]
+	GetHandleVerifier [0x0xe7322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:49:51,169 - ERROR - Stack trace:
+Traceback (most recent call last):
+  File "c:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\src\webscraping.py", line 776, in ejecutar_automatizacion
+    if not self.select_options(datos):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\src\webscraping.py", line 477, in select_options
+    prestador_determinado = self.wait_for_element(By.XPATH, "//span[coontains(text(), 'Ingresar con el Prestador Predeterminado')]", timeout=30)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\src\webscraping.py", line 237, in wait_for_element
+    element = Wait(self.driver, timeout).until(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 129, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\env\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 624, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\env\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSelectorException: Message: invalid selector: Unable to locate an element with the xpath expression //span[coontains(text(), 'Ingresar con el Prestador Predeterminado')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[coontains(text(), 'Ingresar con el Prestador Predeterminado')]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5db33]
+	(No symbol) [0x0xc644f7]
+	(No symbol) [0x0xc668d4]
+	(No symbol) [0x0xc66968]
+	(No symbol) [0x0xca7134]
+	(No symbol) [0x0xca7c4b]
+	(No symbol) [0x0xcee0a2]
+	(No symbol) [0x0xcc9fd4]
+	(No symbol) [0x0xceb7f1]
+	(No symbol) [0x0xcc9d86]
+	(No symbol) [0x0xc9b53e]
+	(No symbol) [0x0xc9c414]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	GetHandleVerifier [0x0xe88ee8+99544]
+	GetHandleVerifier [0x0xe89082+99954]
+	GetHandleVerifier [0x0xe7322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:49:53,185 - INFO - 127.0.0.1 - - [19/Sep/2025 08:49:53] "POST /data HTTP/1.1" 200 -
+2025-09-19 08:50:02,252 - INFO - ====== WebDriver manager ======
+2025-09-19 08:50:04,447 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-19 08:50:07,369 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-19 08:50:07,948 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-19 08:50:09,872 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-19 08:50:09,873 - INFO - Datos procesados correctamente
+2025-09-19 08:50:09,874 - INFO - Email: gerenciasur@vallesaludips.com
+2025-09-19 08:50:09,875 - INFO - Fecha inicial: 2025-09-17
+2025-09-19 08:50:09,876 - INFO - Fecha final: 2025-09-17
+2025-09-19 08:50:09,876 - INFO - === INICIANDO AUTOMATIZACIÓN SIRAS ===
+2025-09-19 08:50:09,877 - INFO - Iniciando login (intento 1)...
+2025-09-19 08:50:09,877 - INFO - Navegando a: https://www.siras.com.co/siras/Seguridad/Login?Modo=1 (intento 1)
+2025-09-19 08:50:26,156 - INFO - Login exitoso
+2025-09-19 08:50:26,156 - INFO - Configurando opciones (intento 1)...
+2025-09-19 08:50:26,507 - ERROR - Error inesperado esperando elemento: Message: invalid selector: Unable to locate an element with the xpath expression //span[coontains(text(), 'Ingresar con el Prestador Predeterminado')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[coontains(text(), 'Ingresar con el Prestador Predeterminado')]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5db33]
+	(No symbol) [0x0xc644f7]
+	(No symbol) [0x0xc668d4]
+	(No symbol) [0x0xc66968]
+	(No symbol) [0x0xca7134]
+	(No symbol) [0x0xca7c4b]
+	(No symbol) [0x0xcee0a2]
+	(No symbol) [0x0xcc9fd4]
+	(No symbol) [0x0xceb7f1]
+	(No symbol) [0x0xcc9d86]
+	(No symbol) [0x0xc9b53e]
+	(No symbol) [0x0xc9c414]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	GetHandleVerifier [0x0xe88ee8+99544]
+	GetHandleVerifier [0x0xe89082+99954]
+	GetHandleVerifier [0x0xe7322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:50:31,522 - ERROR - Error inesperado esperando elemento: Message: invalid selector: Unable to locate an element with the xpath expression //span[coontains(text(), 'Ingresar con el Prestador Predeterminado')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[coontains(text(), 'Ingresar con el Prestador Predeterminado')]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5db33]
+	(No symbol) [0x0xc644f7]
+	(No symbol) [0x0xc668d4]
+	(No symbol) [0x0xc66968]
+	(No symbol) [0x0xca7134]
+	(No symbol) [0x0xca7c4b]
+	(No symbol) [0x0xcee0a2]
+	(No symbol) [0x0xcc9fd4]
+	(No symbol) [0x0xceb7f1]
+	(No symbol) [0x0xcc9d86]
+	(No symbol) [0x0xc9b53e]
+	(No symbol) [0x0xc9c414]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	GetHandleVerifier [0x0xe88ee8+99544]
+	GetHandleVerifier [0x0xe89082+99954]
+	GetHandleVerifier [0x0xe7322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:50:36,534 - ERROR - Error inesperado esperando elemento: Message: invalid selector: Unable to locate an element with the xpath expression //span[coontains(text(), 'Ingresar con el Prestador Predeterminado')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[coontains(text(), 'Ingresar con el Prestador Predeterminado')]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5db33]
+	(No symbol) [0x0xc644f7]
+	(No symbol) [0x0xc668d4]
+	(No symbol) [0x0xc66968]
+	(No symbol) [0x0xca7134]
+	(No symbol) [0x0xca7c4b]
+	(No symbol) [0x0xcee0a2]
+	(No symbol) [0x0xcc9fd4]
+	(No symbol) [0x0xceb7f1]
+	(No symbol) [0x0xcc9d86]
+	(No symbol) [0x0xc9b53e]
+	(No symbol) [0x0xc9c414]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	GetHandleVerifier [0x0xe88ee8+99544]
+	GetHandleVerifier [0x0xe89082+99954]
+	GetHandleVerifier [0x0xe7322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:50:36,535 - ERROR - Error configurando opciones (intento 1): Message: invalid selector: Unable to locate an element with the xpath expression //span[coontains(text(), 'Ingresar con el Prestador Predeterminado')] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[coontains(text(), 'Ingresar con el Prestador Predeterminado')]' is not a valid XPath expression.
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidselectorexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5db33]
+	(No symbol) [0x0xc644f7]
+	(No symbol) [0x0xc668d4]
+	(No symbol) [0x0xc66968]
+	(No symbol) [0x0xca7134]
+	(No symbol) [0x0xca7c4b]
+	(No symbol) [0x0xcee0a2]
+	(No symbol) [0x0xcc9fd4]
+	(No symbol) [0x0xceb7f1]
+	(No symbol) [0x0xcc9d86]
+	(No symbol) [0x0xc9b53e]
+	(No symbol) [0x0xc9c414]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	GetHandleVerifier [0x0xe88ee8+99544]
+	GetHandleVerifier [0x0xe89082+99954]
+	GetHandleVerifier [0x0xe7322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:50:38,536 - INFO - Configurando opciones (intento 2)...
+2025-09-19 08:50:38,569 - ERROR - Error inesperado esperando elemento: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5db33]
+	(No symbol) [0x0xc4cfd0]
+	(No symbol) [0x0xc6b6db]
+	(No symbol) [0x0xcd09b5]
+	(No symbol) [0x0xceb109]
+	(No symbol) [0x0xcc9d86]
+	(No symbol) [0x0xc9b53e]
+	(No symbol) [0x0xc9c414]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	GetHandleVerifier [0x0xe88ee8+99544]
+	GetHandleVerifier [0x0xe89082+99954]
+	GetHandleVerifier [0x0xe7322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:50:43,572 - ERROR - Error inesperado esperando elemento: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:50:48,574 - ERROR - Error inesperado esperando elemento: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:50:48,575 - ERROR - Error configurando opciones (intento 2): Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:50:50,576 - INFO - Configurando opciones (intento 3)...
+2025-09-19 08:50:50,577 - ERROR - Error inesperado esperando elemento: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:50:55,581 - ERROR - Error inesperado esperando elemento: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:51:00,583 - ERROR - Error inesperado esperando elemento: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:51:00,584 - ERROR - Error configurando opciones (intento 3): Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:51:00,585 - ERROR - Error en automatización: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:51:00,585 - ERROR - Stack trace:
+Traceback (most recent call last):
+  File "c:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\src\webscraping.py", line 776, in ejecutar_automatizacion
+    if not self.select_options(datos):
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\src\webscraping.py", line 477, in select_options
+    prestador_determinado = self.wait_for_element(By.XPATH, "//span[coontains(text(), 'Ingresar con el Prestador Predeterminado')]", timeout=30)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "c:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\src\webscraping.py", line 237, in wait_for_element
+    element = Wait(self.driver, timeout).until(
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\env\Lib\site-packages\selenium\webdriver\support\wait.py", line 129, in until
+    value = method(self._driver)
+            ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\env\Lib\site-packages\selenium\webdriver\support\expected_conditions.py", line 624, in _predicate
+    target = driver.find_element(*target)  # grab element at locator
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 926, in find_element
+    return self.execute(Command.FIND_ELEMENT, {"using": by, "value": value})["value"]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\env\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 458, in execute
+    self.error_handler.check_response(response)
+  File "C:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\env\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 08:51:02,589 - INFO - 127.0.0.1 - - [19/Sep/2025 08:51:02] "POST /data HTTP/1.1" 200 -
+2025-09-19 08:58:05,523 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\webscraping.py', reloading
+2025-09-19 08:58:07,596 - INFO -  * Restarting with stat
+2025-09-19 08:58:08,645 - WARNING -  * Debugger is active!
+2025-09-19 08:58:08,648 - INFO -  * Debugger PIN: 133-900-433
+2025-09-19 08:58:13,740 - INFO - 127.0.0.1 - - [19/Sep/2025 08:58:13] "GET / HTTP/1.1" 200 -
+2025-09-19 10:20:31,937 - INFO - 127.0.0.1 - - [19/Sep/2025 10:20:31] "GET / HTTP/1.1" 200 -
+2025-09-19 10:20:32,789 - INFO - 127.0.0.1 - - [19/Sep/2025 10:20:32] "GET / HTTP/1.1" 200 -
+2025-09-19 10:20:33,171 - INFO - 127.0.0.1 - - [19/Sep/2025 10:20:33] "GET / HTTP/1.1" 200 -
+2025-09-19 10:20:33,353 - INFO - 127.0.0.1 - - [19/Sep/2025 10:20:33] "GET / HTTP/1.1" 200 -
+2025-09-19 10:20:33,533 - INFO - 127.0.0.1 - - [19/Sep/2025 10:20:33] "GET / HTTP/1.1" 200 -
+2025-09-19 10:20:33,688 - INFO - 127.0.0.1 - - [19/Sep/2025 10:20:33] "GET / HTTP/1.1" 200 -
+2025-09-19 10:20:33,853 - INFO - 127.0.0.1 - - [19/Sep/2025 10:20:33] "GET / HTTP/1.1" 200 -
+2025-09-19 10:20:34,120 - INFO - 127.0.0.1 - - [19/Sep/2025 10:20:34] "GET / HTTP/1.1" 200 -
+2025-09-19 10:20:34,304 - INFO - 127.0.0.1 - - [19/Sep/2025 10:20:34] "GET / HTTP/1.1" 200 -
+2025-09-19 10:20:34,504 - INFO - 127.0.0.1 - - [19/Sep/2025 10:20:34] "GET / HTTP/1.1" 200 -
+2025-09-19 10:20:55,050 - INFO - ====== WebDriver manager ======
+2025-09-19 10:20:57,210 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-19 10:20:58,074 - INFO - Get LATEST chromedriver version for google-chrome
+2025-09-19 10:20:58,851 - INFO - Driver [C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\140.0.7339.185\chromedriver-win32/chromedriver.exe] found in cache
+2025-09-19 10:21:01,609 - INFO - Driver configurado exitosamente con timeouts mejorados
+2025-09-19 10:21:01,609 - INFO - Datos procesados correctamente
+2025-09-19 10:21:01,609 - INFO - Email: gerenciasur@vallesaludips.com
+2025-09-19 10:21:01,609 - INFO - Fecha inicial: 2025-09-18
+2025-09-19 10:21:01,609 - INFO - Fecha final: 2025-09-19
+2025-09-19 10:21:01,609 - INFO - === INICIANDO AUTOMATIZACIÓN SIRAS ===
+2025-09-19 10:21:01,609 - INFO - Iniciando login (intento 1)...
+2025-09-19 10:21:01,609 - INFO - Navegando a: https://www.siras.com.co/siras/Seguridad/Login?Modo=1 (intento 1)
+2025-09-19 10:21:17,805 - INFO - Login exitoso
+2025-09-19 10:21:17,806 - INFO - Configurando opciones (intento 1)...
+2025-09-19 10:21:24,820 - INFO - Opciones configuradas exitosamente
+2025-09-19 10:21:34,823 - ERROR - Error inesperado esperando elemento: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=140.0.7339.128); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5db33]
+	(No symbol) [0x0xc4cfd0]
+	(No symbol) [0x0xc6b6db]
+	(No symbol) [0x0xcd09b5]
+	(No symbol) [0x0xceb109]
+	(No symbol) [0x0xcc9d86]
+	(No symbol) [0x0xc9b53e]
+	(No symbol) [0x0xc9c414]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	GetHandleVerifier [0x0xe88ee8+99544]
+	GetHandleVerifier [0x0xe89082+99954]
+	GetHandleVerifier [0x0xe7322a+10266]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 10:21:39,827 - ERROR - Error inesperado esperando elemento: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 10:21:44,829 - ERROR - Error inesperado esperando elemento: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 10:21:44,829 - ERROR - Error obteniendo paginación: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 10:21:44,829 - INFO - Iniciando procesamiento: 0 elementos en 1 páginas
+2025-09-19 10:21:44,829 - INFO - === PROCESANDO PÁGINA 1 DE 1 ===
+2025-09-19 10:21:44,829 - ERROR - Error inesperado esperando elemento: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 10:21:49,838 - ERROR - Error inesperado esperando elemento: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 10:21:54,841 - ERROR - Error inesperado esperando elemento: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 10:21:54,841 - ERROR - Error obteniendo elementos: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 10:21:54,843 - WARNING - No se encontraron elementos, reintentando... (1/3)
+2025-09-19 10:21:56,845 - ERROR - Error inesperado esperando elemento: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 10:22:01,847 - ERROR - Error inesperado esperando elemento: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 10:22:06,849 - ERROR - Error inesperado esperando elemento: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 10:22:06,849 - ERROR - Error obteniendo elementos: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 10:22:06,849 - WARNING - No se encontraron elementos, reintentando... (2/3)
+2025-09-19 10:22:08,853 - ERROR - Error inesperado esperando elemento: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 10:22:13,856 - ERROR - Error inesperado esperando elemento: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 10:22:18,860 - ERROR - Error inesperado esperando elemento: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 10:22:18,860 - ERROR - Error obteniendo elementos: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	GetHandleVerifier [0x0xe80c13+66051]
+	GetHandleVerifier [0x0xe80c54+66116]
+	(No symbol) [0x0xc5d980]
+	(No symbol) [0x0xc9a813]
+	(No symbol) [0x0xcc9e46]
+	(No symbol) [0x0xcc5709]
+	(No symbol) [0x0xcc4c83]
+	(No symbol) [0x0xc2e93d]
+	(No symbol) [0x0xc2eebe]
+	(No symbol) [0x0xc2f35d]
+	GetHandleVerifier [0x0x10c8a13+2457603]
+	GetHandleVerifier [0x0x10c39d2+2437058]
+	GetHandleVerifier [0x0xea97f2+232930]
+	GetHandleVerifier [0x0xe99a18+167944]
+	GetHandleVerifier [0x0xea092d+196381]
+	(No symbol) [0x0xc2e5f2]
+	(No symbol) [0x0xc2de09]
+	GetHandleVerifier [0x0x11f450c+3685116]
+	BaseThreadInitThunk [0x0x76167ba9+25]
+	RtlInitializeExceptionChain [0x0x77b8c3ab+107]
+	RtlClearBits [0x0x77b8c32f+191]
+
+2025-09-19 10:22:18,861 - WARNING - No se encontraron elementos, reintentando... (3/3)
+2025-09-19 10:22:20,862 - WARNING - No se encontraron elementos en esta página, continuando...
+2025-09-19 10:22:20,862 - INFO - Procesamiento de todas las páginas completado
+2025-09-19 10:22:20,863 - INFO - Reporte generado: c:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\src\descargasPDF\reporte_archivos.txt
+2025-09-19 10:22:20,863 - INFO - ==================================================
+2025-09-19 10:22:20,863 - INFO - RESUMEN DE PROCESAMIENTO
+2025-09-19 10:22:20,863 - INFO - ==================================================
+2025-09-19 10:22:20,863 - INFO - Archivos descargados: 0
+2025-09-19 10:22:20,863 - INFO - Archivos procesados exitosamente: 0
+2025-09-19 10:22:20,866 - INFO - Directorio de descargas: c:\Users\kevin.yepes\Desktop\Web Scraping\siras_web_scraping\src\descargasPDF
+2025-09-19 10:22:20,866 - INFO - ==================================================
+2025-09-19 10:22:20,866 - WARNING - No se procesaron archivos exitosamente
+2025-09-19 10:22:22,867 - INFO - 127.0.0.1 - - [19/Sep/2025 10:22:22] "POST /data HTTP/1.1" 200 -
+2025-09-19 10:27:50,146 - INFO -  * Detected change in 'c:\\Users\\kevin.yepes\\Desktop\\Web Scraping\\siras_web_scraping\\src\\connection.py', reloading
+2025-09-19 10:27:52,302 - INFO -  * Restarting with stat
+2025-09-19 10:27:53,744 - WARNING -  * Debugger is active!
+2025-09-19 10:27:53,759 - INFO -  * Debugger PIN: 133-900-433
