@@ -4,14 +4,11 @@ from webscraping import SirasAutomation
 from webscraping import main
 import time
 from datetime import datetime
-
+    
 current_dir = os.path.dirname(os.path.abspath(__file__))
 template_dir = os.path.join(current_dir, '..', 'views')
 
 application = Flask(__name__, template_folder=template_dir,  static_url_path='/static')
-
-def convertir_formato_fecha(fecha_str):
-    print("sapa")
 
 @application.route('/')
 def index():
