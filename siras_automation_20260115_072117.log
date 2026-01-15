@@ -1,0 +1,23 @@
+2026-01-15 07:21:17,073 - INFO - 🚀 Ejecutando con datos de ejemplo (fechas calculadas automáticamente)
+2026-01-15 07:21:17,074 - INFO - 🤖 Iniciando bot de SIRAS...
+2026-01-15 07:21:17,075 - INFO - 🔧 Buscando ChromeDriver con múltiples estrategias...
+2026-01-15 07:21:17,076 - INFO -    🔄 Intentando estrategia 1...
+2026-01-15 07:21:17,325 - INFO - 🧪 Probando estrategia 1: webdriver-manager...
+2026-01-15 07:21:17,326 - INFO - ✅ Chrome versión detectada: 144.0.7559.60
+2026-01-15 07:21:38,769 - INFO - ✅ ChromeDriver instalado: C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe
+2026-01-15 07:21:38,770 - INFO - ✅ Usando ChromeDriver en: C:\Users\kevin.yepes\.wdm\drivers\chromedriver\win64\144.0.7559.31\chromedriver-win32/chromedriver.exe
+2026-01-15 07:21:42,459 - INFO - ✅ Driver configurado exitosamente
+2026-01-15 07:21:42,460 - INFO - 📅 Fecha calculada (2 días antes): 13/01/2026
+2026-01-15 07:21:42,460 - INFO - 📅 Formato para sistema: 13012026
+2026-01-15 07:21:42,461 - INFO - 📅 Fecha calculada (2 días antes): 11/01/2026
+2026-01-15 07:21:42,462 - INFO - 📅 Formato para sistema: 11012026
+2026-01-15 07:21:42,462 - INFO - 📋 Datos procesados correctamente
+2026-01-15 07:21:42,463 - INFO -    📧 Email: dirimagenes@vallesaludips.com
+2026-01-15 07:21:42,463 - INFO -    📅 Fecha inicial: 13012026 (formato: 13/01/2026)
+2026-01-15 07:21:42,464 - INFO -    📅 Fecha final: 11012026 (formato: 11/01/2026)
+2026-01-15 07:21:45,058 - INFO - ✅ Driver cerrado correctamente
+2026-01-15 07:21:45,059 - INFO - 🔧 Buscando ChromeDriver con múltiples estrategias...
+2026-01-15 07:21:45,060 - INFO -    🔄 Intentando estrategia 1...
+2026-01-15 07:21:45,060 - INFO - 🧪 Probando estrategia 1: webdriver-manager...
+2026-01-15 07:21:45,061 - INFO - ✅ Chrome versión detectada: 144.0.7559.60
+2026-01-15 07:21:45,331 - WARNING - ⚠️ Proceso interrumpido por el usuario
